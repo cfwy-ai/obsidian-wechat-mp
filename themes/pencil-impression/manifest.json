@@ -1,0 +1,518 @@
+{
+  "schema_version": 3,
+  "theme_id": "pencil-impression",
+  "name": "铅笔写意",
+  "order": 10,
+  "theme_palette": [
+    "黑白配色"
+  ],
+  "theme_elements": [
+    "铅笔写意"
+  ],
+  "theme_scenes": [
+    "人文随笔",
+    "艺术赏析",
+    "读书札记"
+  ],
+  "assets": [
+    {
+      "asset_id": "paper-grain",
+      "file": "透明装饰素材/paper-grain.png",
+      "alt": "近白纸纹",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKVEI3x0ibMrpRdrZ5ibLegsDSED1miaPTP6P4UGXiaxlJfD29mTl0qBjnd9ib4sgRPGC8Pv6ZhVmWUgJdiasQibxAPalYs32myPNEllE/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "header-lanting-v2",
+      "file": "透明装饰素材/header-lanting-v2.png",
+      "alt": "兰亭曲水：诗人俯身将接未接的瞬间",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKIJbwNKkcrWpCcVFEtnktAHVtJbTIEQnMUOiaLdy9vcLxRH5dbwHV6fNqE5S1CSFcfnbHw9AeVG2MIic5iaDXmjhEWelSl4jAKkI/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "header-qianli-v2",
+      "file": "透明装饰素材/header-qianli-v2.png",
+      "alt": "少年推开展卷，山河初现的艺术意象",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPISeV59WtXdicT0ibuuchOHCRK94wl93RL19hJe9AgVEj5ZlY84wRu5WZh6lBnqHeEPYR5M0MP26ahT7vtOzEfz15s5ic850Qw0SQ/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "header-yangming-v3",
+      "file": "透明装饰素材/header-yangming-v3.png",
+      "alt": "龙场悟道的艺术意象，岩洞与人物留白相对",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPL3icIyDQXQvf9MSt5kzkiatISiapfzJAso5oGibwmrRm4ynseMtTVSyywiaGYoqrANFfnjoAz3d15kK1YH6ic2AROKBtMU22j06gluQ/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "header-bodhi-v3",
+      "file": "透明装饰素材/header-bodhi-v3.png",
+      "alt": "菩提证道的艺术意象，树下静坐与疏落笔势",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPIK8PtU0WvfwoBtCdPj5M3Gs6iaYlK2kv5gM56xqlOBC24dNsibH7JyHzibz1wSoYF9zf4HbXBwTwMc2U6NIjE4I8MRoCJ6SXyVdg/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "header-xiake-v3",
+      "file": "透明装饰素材/header-xiake-v3.png",
+      "alt": "霞客观山的艺术意象，行旅者与山势相接",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPKeLZg3zc35B8zhAFKBgYbYk0a4ia3VqkQSTfVogEhr1NeIlErHUZs07g3Lu9oDnOjFGf8n3AAFKlRRPjRUib81CzD5QNwIEWNkc/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "header-dongpo-v3",
+      "file": "透明装饰素材/header-dongpo-v3.png",
+      "alt": "东坡夜游的艺术意象，人物与月下竹柏影相伴",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPLgjkHVLDTOic5w4UUYDPgmmvJ2dX9zGc47XKRVbQCUfQjUdgFXAN21zhxDuicIhhzUXfpBknXvBv7qQYpb3Lntft1GvPA4MibseI/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "underline-v4",
+      "file": "透明装饰素材/underline-v4.png",
+      "alt": "干铅笔触：行内下划线专用",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKjVTlCW6nZCqgrCfPEhCjKF2NTpjdr7Pc1Alic4hXRtx936Tibj6zU1MaBZHYI6A301LmiaLm374jYGQx8hQ16ETkuOvzRYtKNuA/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "river-divider-v4",
+      "file": "透明装饰素材/river-divider-v4.png",
+      "alt": "长河散锋：分割线专用",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJysbpfX3nREC4iaIeXdf3SoFdnaC1mQgBURZgMJNGNUNw86P8Q8v7OMoHiaUeLevOnWhWRIarBah94pYlTpDItS1mZOw1WtAgcc/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "task-open-v4",
+      "file": "透明装饰素材/task-open-v4.png",
+      "alt": "未完成：铅笔空框",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJOHLcAvWzKMoBAqx8P4U3x0yv5YTXJLEpXaF3A3zBFut225fNzU3lMMkrwm4H92CC0cQzfBicfjhOb9LeicN0gE7LcIYD56SjKE/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "task-done-v4",
+      "file": "透明装饰素材/task-done-v4.png",
+      "alt": "已完成：蓝铅勾记",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPLN2Nn3XSdqBwNWicX39HFgTibhxQpapicZAiaLiaGfFxkdR9Fh8ftic7m9It1TFsItbNCHFCtJCnEjia17BFDjsia8gdIJURd6UPu3MIw/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "scroll-top-v4",
+      "file": "透明装饰素材/scroll-top-v4.png",
+      "alt": "画卷上卷轴：代码专用",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPITFXddxaJbCtAZ1xoUEAaasMGsiaCvU7eUemzmrqXKa56PTg69tIaAz5XyvbMOicC0aPicibQyO2ib6VoQFRatfxl553yttNpn7RkQ/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "scroll-bottom-v4",
+      "file": "透明装饰素材/scroll-bottom-v4.png",
+      "alt": "画卷下卷轴：代码专用",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKl3rqQv7kXticIc67zic7Dj3voDV7xwaIPOMnib3T5iaN54Jx4P2WyhRSTeHoLxNiaVu6XgGKPo8HaDB16QdOQj6V0nmEygposZreU/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "scroll-sides-v4",
+      "file": "透明装饰素材/scroll-sides-v4.png",
+      "alt": "画卷侧缘：代码专用",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJSAwkLPUrMWgsMvkEaiaSicGm86ngTRgcsQtfmDss8o9ic7Uezb6ow12ibUesLzeGSCdkOFtQWWUiafhRpjib2eOfQUXfcs1rh5oXlY/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "scroll-top-strip-v13",
+      "file": "透明装饰素材/scroll-top-strip-v13.png",
+      "alt": "代码画卷上卷轴透明窄条"
+    },
+    {
+      "asset_id": "scroll-bottom-strip-v13",
+      "file": "透明装饰素材/scroll-bottom-strip-v13.png",
+      "alt": "代码画卷下卷轴透明窄条"
+    },
+    {
+      "asset_id": "number-1-v4",
+      "file": "透明装饰素材/number-1-v4.png",
+      "alt": "铅笔序号1",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPILnPia0YUyBlibnrycy6EkDq8iaGyQCKnibBxg3j13nI05GwdOdtDUeBSYU65qUvC9a7vhyeia4jxZzUbSwcc3pjn7y20YujEzIRwE/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "number-2-v4",
+      "file": "透明装饰素材/number-2-v4.png",
+      "alt": "铅笔序号2",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJ0HcqfKu7ibW1JBzk9oL7LSMSXnKD1cLKKYThv8yibs9ialguo1WicLl2MfoAvcXuCFViaqjFAc33Gck1PhC1nWlvpOAM1B7snvjM8/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "number-3-v4",
+      "file": "透明装饰素材/number-3-v4.png",
+      "alt": "铅笔序号3",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPLBtHtjs757sNAr9gdf0N9P8jcvPpBvv7tzlQqrsn8uAS0zZRIUKRTYicR0OqtPMTtgsazrN8V7SfJVCT39icsLDFicZLFaM52YiaA/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "number-4-v4",
+      "file": "透明装饰素材/number-4-v4.png",
+      "alt": "铅笔序号4",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPIG9ALTxH9pkAtjU64chiaUdzHZEEQQKM3woWthcsLkezvx4OX6ZbTp7tRickbUg8icicA301OzZYOxVClJibzj9MbJd6Mp6eE10IDw/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "number-5-v4",
+      "file": "透明装饰素材/number-5-v4.png",
+      "alt": "铅笔序号5",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPIkMuwTibDFOhjxoCe4N6rzkmBrNlfvDHEsyZAKhLVy2bFdXtkW3TNwBhahtm0efd1O5yyWUXIVDryNpwCeibTOel59Sr3iaARG9M/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "number-6-v4",
+      "file": "透明装饰素材/number-6-v4.png",
+      "alt": "铅笔序号6",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPIs5w5tQ4IgaXmxLWeJuicUHdZa5gRhdgEuld1urkyIictkDGvVS7M3arKSRDdX3hI9EHVZhwJibsxiahXy4qbe10EtczZROAgjVdo/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "number-7-v4",
+      "file": "透明装饰素材/number-7-v4.png",
+      "alt": "铅笔序号7",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPIehWiaFDpDNw63RJ3BBOpTos3uxFgmdx2Nibg2Evusu0CaJ8pIaKtjhpia53NUsOu6wotSCmsdvtMnAwuBkzrtnmLak8yaO4tGkY/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "number-8-v4",
+      "file": "透明装饰素材/number-8-v4.png",
+      "alt": "铅笔序号8",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPLn6qOiasFt6kXkoKzsSvicwxdeJBFjzU17jcZKdAAbib9GMSWibqFCxrsGYzC5YoKvKagwllKs9TcyunbaV6mlIWQLxibboJiab6WRo/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "number-9-v4",
+      "file": "透明装饰素材/number-9-v4.png",
+      "alt": "铅笔序号9",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPIwfIjbw8vDnqqhpklcicXnJHnOejuemmEZu3bvGxVCicNw7r3CnG3pQkKAtgAOibWkueWgTHYCAsWwxDcXUvj8QupoUTYBic7rHos/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "number-10-v4",
+      "file": "透明装饰素材/number-10-v4.png",
+      "alt": "铅笔序号10",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJwGIPnC5dichHD2icXkAwmSwuhDZiboOQA7rUGgDYVuE1oJZia4hFXCIJKiaibvGVBJAjh8jw00RUDLUgFquJTDGlrOscFWPeC15jcQ/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "code-trio-v5",
+      "file": "透明装饰素材/code-trio-v5.png",
+      "alt": "案头笔、墨、卷",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPIGWADshIgwRuO3VEy87dLYF4JImzVUs1WIggSvicbRAicsBOTjgavR2AibqbvCAZ57kekPquNLfnuoegrzah58hia2vfAiaer8Ms88/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "bullet-double-v5",
+      "file": "透明装饰素材/bullet-double-v5.png",
+      "alt": "无序列表双叶",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPL9qW2SicF4MITvrQoDojTGBfsHXs2rAmWIkdKS5B9XJDuAiaKOtarKiaVvAZZQYDaC906gK42VuYrdL0FpzHYKjiaffiboxDfywY8o/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "bullet-single-v5",
+      "file": "透明装饰素材/bullet-single-v5.png",
+      "alt": "无序列表单叶",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPK7KDW4jicrKM4ctasOTrI0eBlbkrKHLT4cIx4au0yyBgBjSboHIiagqTLiaUSBFkbaoyWicQyqLEPE5uj5GgEulbZyv8vcFj9R9MA/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "highlight-wash-v5",
+      "file": "透明装饰素材/highlight-wash-v5.png",
+      "alt": "普通高亮的蓝灰铅笔涂抹",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPL49Xjn8EtkLKZUWeoguOI7vWO5Nic2ibfORHqAccVicmSsZ97lISh1MpptZr1vqhpdznY158z95JAEL0UG1vgYU8TsVbL1JoaO0E/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "tag-frame-v5",
+      "file": "透明装饰素材/tag-frame-v5.png",
+      "alt": "标签高亮的铅笔圈注",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJBoeuiay6k9ud6LKdHh11c1bUY2iaWLjsiaVLyeMAiaZM28OFQFZYHflCYmVubzaHdN3fL1lXRzEtaBWj21va4lWLeZTgcjrFxGGI/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "strike-stroke-v5",
+      "file": "透明装饰素材/strike-stroke-v5.png",
+      "alt": "铅笔删除线",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJWt5f8icoqNgr3KszCkhR7SjVEHsBfbnIibe1A5Gab9PNKol3A0cNwHt0tb1CEOX4aksQ7IiaE44APiciaicD8NiaL1Uw78JeD735iaX0/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "table-head-rub-v5",
+      "file": "透明装饰素材/table-head-rub-v5.png",
+      "alt": "表头干铅擦痕",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPI8KQbNkfVoJ4dibibIviaMau5vfEda1nbiaZJ1w8zpTZRibWtiaPztSbkV52LKn2GZkGL3iaspqseqg9m1bAibJkNI2DmFd9hsibljZsxU/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "table-row-dashes-v5",
+      "file": "透明装饰素材/table-row-dashes-v5.png",
+      "alt": "表格行间浅铅断笔",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJcanMcjeLWcW2JXBcibu505bvOw7VicPiaHbnNvPjq6fDN25ictX3nCk4y04c9oAjTZQvfPrrJjAvuOGt8X3OuadRYJLVOzAUnoGw/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "h1-number-01-v6",
+      "file": "透明装饰素材/h1-number-01-v6.png",
+      "alt": "一级标题章节水印01",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPIDt6ic9xDa6cshCsYqOhNOX5kKFibSEo4UFia5C7TQDUPSRAKQso3bmLcjn8dzHn6TVFTIvticFMQ6UibdwkH7iau8icicbsCYMCIQhoo/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "h1-number-02-v6",
+      "file": "透明装饰素材/h1-number-02-v6.png",
+      "alt": "一级标题章节水印02",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPIX5ibOBibUwNKvBo4BzVj2rsiciarAM28DV742iafGqe60Oic29uRdB0iaAfb8sTsuo8WUpJJTQJwGfuKu8Jfnv2m2NeQo4qkEDicIibbM/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "h1-number-03-v6",
+      "file": "透明装饰素材/h1-number-03-v6.png",
+      "alt": "一级标题章节水印03",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPLnfmgvGZIqUxiaLG3vM6RhRmq7UOAU493U6jF1osW9Sd1ckmGFRXatCIAYVGgNib2dbPVRS54sJdrph1KUlxG1OzMhKliaxkkKtY/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "h1-number-04-v6",
+      "file": "透明装饰素材/h1-number-04-v6.png",
+      "alt": "一级标题章节水印04",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPLSejibgTsUJ8Ce9kU2SiczQic2FMFicZ4WBSYeQw17DSWJib2O6zSibiaic3ab9g11JEfZl9WwoULfaczrtI6icXT6BItfkcJ3WThTHzfs/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "h1-watermark-01-v13",
+      "file": "透明装饰素材/h1-watermark-01-v13.png",
+      "alt": "一级标题合成水印01"
+    },
+    {
+      "asset_id": "h1-watermark-02-v13",
+      "file": "透明装饰素材/h1-watermark-02-v13.png",
+      "alt": "一级标题合成水印02"
+    },
+    {
+      "asset_id": "h1-watermark-03-v13",
+      "file": "透明装饰素材/h1-watermark-03-v13.png",
+      "alt": "一级标题合成水印03"
+    },
+    {
+      "asset_id": "h1-watermark-04-v13",
+      "file": "透明装饰素材/h1-watermark-04-v13.png",
+      "alt": "一级标题合成水印04"
+    },
+    {
+      "asset_id": "h2-mountain-v6",
+      "file": "透明装饰素材/h2-mountain-v6.png",
+      "alt": "二级标题前的淡铅山势",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPKqEVkibmydpz9VJZNHVysBJALvCm0Om2oF92PJmX75dtwAY5vzq8ZnzuY3I4GsiaookTLxwuu4z5mtf4HiaJetqAlBn62kicNB7lY/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "h2-mountain-mark-v13",
+      "file": "透明装饰素材/h2-mountain-mark-v13.png",
+      "alt": "二级标题合成用淡铅山势"
+    },
+    {
+      "asset_id": "quote-selected-v10",
+      "file": "透明装饰素材/quote-selected-v10.png",
+      "alt": "执笔人物与笔下生出的山水竖卷",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPI0fyK2ubXicUPkmm9wIjhVic517FAgodm3Bgu89kTNZGF6gy8lvsh6R03iawv5yd6cCicSveRdpLx17ibSDXKTKoN2AJ6ZWdYb1Anw/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "code-lanting-v8",
+      "file": "透明装饰素材/code-lanting-v8.png",
+      "alt": "代码块兰亭书写极淡水印",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJpP5eic8OLwC7BIibdfNhia80jEJ0cFUszwMLmkbBlmA2XVduBEPKUBtFr5GG1YoTlTPEKuKY5LicDkvh9rgtHrwMsTUxic9WdksOE/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "code-lanting-mark-v13",
+      "file": "透明装饰素材/code-lanting-mark-v13.png",
+      "alt": "代码画卷尾部的兰亭淡铅水印"
+    },
+    {
+      "asset_id": "article-image-frame-v6",
+      "file": "透明装饰素材/article-image-frame-v6.png",
+      "alt": "正文图片粗铅笔边框",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPIgTvSGKBusxPKrXyS6fibiakZAGLmVXng8XpzHVfROFHQeziaK02MYMdBribjvVIxvC3yqJBrxN7K1zm8icicPVfR5rah6lAUbHIUGk/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "ending-selected-v12",
+      "file": "透明装饰素材/ending-selected-v12.png",
+      "alt": "弘忍授经、惠能闻句，下方两行小篆写金刚经偈语",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJBmaSJsXQHzTF9ZERVA1z6T0KJPUmhibzhibYkSMa0nDRd9yQGygw59usB77g6NvDhNUC1xrr0XoYpBqpDiaJF0ic2mD1MiclbfXaE/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "table-head-rule-v14",
+      "file": "透明装饰素材/table-head-rule-v14.png",
+      "alt": "表头干铅擦痕"
+    },
+    {
+      "asset_id": "table-row-rule-v14",
+      "file": "透明装饰素材/table-row-rule-v14.png",
+      "alt": "表格浅铅断笔"
+    },
+    {
+      "asset_id": "scroll-top-joined-v14",
+      "file": "透明装饰素材/scroll-top-joined-v14.png",
+      "alt": "衔接画卷上轴"
+    },
+    {
+      "asset_id": "scroll-bottom-joined-v14",
+      "file": "透明装饰素材/scroll-bottom-joined-v14.png",
+      "alt": "衔接画卷下轴"
+    }
+  ],
+  "components": [
+    {
+      "component_id": "pencil-opening",
+      "file": "正文组件结构/opening.html",
+      "slot": "before_article",
+      "asset_ids": [
+        "header-lanting-v2"
+      ]
+    },
+    {
+      "component_id": "pencil-ending",
+      "file": "正文组件结构/ending.html",
+      "slot": "after_article",
+      "asset_ids": [
+        "ending-selected-v12"
+      ]
+    },
+    {
+      "component_id": "pencil-code-desk",
+      "file": "正文组件结构/code-desk.html",
+      "slot": "before_codeblock",
+      "asset_ids": [
+        "scroll-top-joined-v14",
+        "code-trio-v5"
+      ]
+    },
+    {
+      "component_id": "pencil-code-tail",
+      "file": "正文组件结构/code-tail.html",
+      "slot": "after_codeblock",
+      "asset_ids": [
+        "scroll-bottom-joined-v14"
+      ]
+    }
+  ],
+  "article_header": {
+    "component_id": "pencil-opening",
+    "default_asset_id": "header-lanting-v2",
+    "presets": [
+      {
+        "asset_id": "header-lanting-v2",
+        "label": "兰亭雅集"
+      },
+      {
+        "asset_id": "header-qianli-v2",
+        "label": "千里江山"
+      },
+      {
+        "asset_id": "header-yangming-v3",
+        "label": "龙场悟道"
+      },
+      {
+        "asset_id": "header-bodhi-v3",
+        "label": "菩提证道"
+      },
+      {
+        "asset_id": "header-xiake-v3",
+        "label": "霞客观山"
+      },
+      {
+        "asset_id": "header-dongpo-v3",
+        "label": "东坡夜游"
+      }
+    ]
+  },
+  "fonts": [
+    {
+      "font_id": "jyunsai-kaai",
+      "file": "配套字体资源/JyunsaiKaai-Regular.woff2",
+      "family": "JyunsaiKaai",
+      "sha256": "a9232340e05e9d32d9ed9f57b0446a6e94dd292a0ccaf116fb7681dc09fd447d",
+      "weight": 400,
+      "style": "normal",
+      "coverage_file": "配套字体资源/JyunsaiKaai.coverage.json"
+    },
+    {
+      "font_id": "huiwen-mincho",
+      "file": "配套字体资源/HuiwenMincho.woff2",
+      "family": "Huiwen-mincho",
+      "sha256": "f190d33a26eb0ea9bfa841d82806135f49580e6637439c01279769bbd5c6b832",
+      "weight": 400,
+      "style": "normal",
+      "coverage_file": "配套字体资源/HuiwenMincho.coverage.json"
+    },
+    {
+      "font_id": "zhuque-fangsong",
+      "file": "配套字体资源/ZhuqueFangsong.ttf",
+      "family": "Zhuque Fangsong (technical preview)",
+      "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53",
+      "weight": 400,
+      "style": "normal",
+      "coverage_file": "配套字体资源/ZhuqueFangsong.coverage.json"
+    }
+  ],
+  "heading_images": [
+    {
+      "heading_image_id": "pencil-h1-mincho-v6",
+      "heading_levels": [
+        1
+      ],
+      "font_id": "huiwen-mincho",
+      "fallback_font_ids": [
+        "zhuque-fangsong",
+        "jyunsai-kaai"
+      ],
+      "font_size": 27,
+      "line_height": 1.5,
+      "letter_spacing": 0.8,
+      "color": "#272724",
+      "max_width": 352,
+      "min_display_width": 240,
+      "min_effective_font_size": 20,
+      "scale": 3,
+      "padding_x": 4,
+      "padding_y": 6,
+      "max_lines": 4,
+      "max_equivalent_characters": 40,
+      "latin_font_family": "Huiwen-mincho",
+      "align": "center",
+      "width_mode": "container",
+      "watermark_assets": [
+        "h1-watermark-01-v13",
+        "h1-watermark-02-v13",
+        "h1-watermark-03-v13",
+        "h1-watermark-04-v13"
+      ],
+      "watermark": {
+        "width": 80,
+        "height": 54,
+        "opacity": 0.82,
+        "offset_x": 0,
+        "offset_y": 0
+      }
+    },
+    {
+      "heading_image_id": "pencil-h2-fangsong-v4",
+      "heading_levels": [
+        2
+      ],
+      "font_id": "zhuque-fangsong",
+      "fallback_font_ids": [
+        "jyunsai-kaai",
+        "huiwen-mincho"
+      ],
+      "font_size": 22,
+      "line_height": 1.55,
+      "letter_spacing": 0.6,
+      "color": "#272724",
+      "max_width": 352,
+      "min_display_width": 240,
+      "min_effective_font_size": 18,
+      "scale": 3,
+      "padding_x": 4,
+      "padding_y": 6,
+      "max_lines": 3,
+      "max_equivalent_characters": 40,
+      "latin_font_family": "Zhuque Fangsong (technical preview)",
+      "align": "left",
+      "width_mode": "container",
+      "side_assets": {
+        "left_asset_id": "h2-mountain-mark-v13",
+        "size": 32,
+        "gap": 9
+      }
+    }
+  ],
+  "quote_images": {
+    "font_id": "jyunsai-kaai",
+    "fallback_font_ids": [
+      "zhuque-fangsong",
+      "huiwen-mincho"
+    ],
+    "font_size": 22,
+    "line_height": 1.72,
+    "letter_spacing": 0.5,
+    "color": "#353530",
+    "max_width": 640,
+    "fallback_width": 260,
+    "scale": 3,
+    "illustration": {
+      "asset_id": "quote-selected-v10",
+      "width_percent": 31,
+      "gap_percent": 5,
+      "layout": "image"
+    },
+    "replace_native_container": true
+  },
+  "wechat_dark_mode": {
+    "strategy": "preserve-illustrated-surfaces",
+    "materialize_decorations": true,
+    "rasterize_inline_paint": true,
+    "table_rule_images": true
+  }
+}

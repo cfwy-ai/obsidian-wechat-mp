@@ -1,0 +1,9 @@
+文心喜乐体 / Wenxin Xile Font
+作者：夏商周
+原始作品页：https://www.gtn9.com/work_show.aspx?id=50ABD0AA0994C71E
+原始文件来自：https://www.zfont.cn/cn/font_707.html
+本文件用于用户指定的本地排版。
+WOFF2仅为容器无损压缩，全部字形坐标、复合字形引用、字宽及字符映射均与原TTF一致。
+原始SHA-256：81717ce0f7e6fdd00dd1b14632940f7ed1e2969c704acd6dab0ddf5a74c4ff5f
+WOFF2 SHA-256：977dede6dd36112d941f9823d120f77a0481f309045422ee0393ec710a58a3b2
+不在本轮对外再分发字体软件或宣称已获得再分发授权。

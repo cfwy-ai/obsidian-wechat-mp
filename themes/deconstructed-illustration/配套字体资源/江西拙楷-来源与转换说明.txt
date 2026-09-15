@@ -1,0 +1,9 @@
+字体：江西拙楷
+作者：黄煜臣
+原文件：江西拙楷.ttf，name表Version 1.000，来自本机已安装字体。
+作者发布说明镜像：https://www.zhaozi.cn/html/fonts/china/qita/2020-03-03/25868.html
+原发布作品：https://www.zcool.com.cn/work/ZNDE4MzY4Mjg=.html
+发布说明表述：本字体免费商用，欢迎使用。
+授权方式为作者声明，未将本字体标为OFL或公有领域。
+本包只转换为WOFF2容器，未改字形、名称、字符覆盖或字宽。字符映射、字宽和glyph顺序经回读对照一致。
+保留作者信息，不单独出售字体文件。

@@ -1,0 +1,98 @@
+/* 手绘卡通 · 本地 Alpha 6：引用探头猫与留有边距的表格爪印。 */
+#nice {
+  padding: 26px 16px 40px;
+  color: #303030;
+  background-color: #CECECE;
+  background-image: url("theme-asset://paper-gray-v2");
+  background-repeat: repeat;
+  background-size: 320px 320px;
+  background-position: left top;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.85;
+  letter-spacing: 0.2px;
+  word-break: break-word;
+}
+#nice p { margin: 0 0 22px; font-size: 16px; line-height: 1.85; color: #303030; }
+#nice h1 {
+  margin: 44px 0 26px;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 0;
+  line-height: 1.45;
+  text-align: center;
+}
+#nice h1 .content { color: #202020; font-family: "MaokenAssortedSans-Lite", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 27px; font-weight: 400; line-height: 1.45; }
+#nice h2 { margin: 36px 0 16px; padding: 0 0 0 35px; font-size: 0; line-height: 1.5; text-align: left; background-image: url("theme-asset://cat-wink-v2"); background-repeat: no-repeat; background-position: left 2px; background-size: 27px auto; }
+#nice h2 .content { color: #A96808; font-size: 21px; font-weight: 700; line-height: 1.5; }
+#nice h3 { margin: 28px 0 12px; padding: 0; font-size: 0; line-height: 1.6; }
+#nice h3 .content { color: #303030; font-size: 18px; font-weight: 700; line-height: 1.6; }
+#nice h4 { margin: 24px 0 10px; color: #202020; font-size: 16px; font-weight: 700; line-height: 1.65; }
+#nice h5 { margin: 22px 0 10px; color: #555555; font-size: 15px; font-weight: 700; line-height: 1.65; }
+#nice h6 { margin: 20px 0 10px; color: #707070; font-size: 14px; font-weight: 700; line-height: 1.6; }
+#nice strong { color: #A96808; font-weight: 700; }
+#nice em { color: #555555; font-style: italic; }
+#nice mark { color: #202020; background-color: #F2D16D; padding: 1px 3px; }
+#nice mark strong { color: #202020; }
+#nice th strong, #nice h3 strong, #nice h4 strong { color: #303030; }
+#nice u { color: #303030; text-decoration: none; border: none; padding-bottom: 6px; background-image: url("theme-asset://warm-fade-underline-v3"); background-repeat: no-repeat; background-position: left bottom; background-size: 100% 4px; }
+#nice del { color: #888888; }
+#nice blockquote { margin: 32px 0; padding: 22px 16px 18px 64px; border: 3px solid #DBAC36; border-radius: 22px 22px 22px 7px; color: #303030; background-color: #E9E9E6; font-size: 20px; line-height: 1.7; }
+#nice blockquote p { margin: 0 0 14px; color: #303030; font-size: 20px; font-weight: 500; line-height: 1.7; }
+#nice blockquote p:last-child { margin-bottom: 0; }
+#nice .ct-quote-peek { height: 111px; margin: 32px 0 0; padding: 0; border: none; font-size: 0; line-height: 0; }
+#nice .ct-quote-cap { margin: 0; padding: 0; border: none; font-size: 0; line-height: 0; background-color: transparent; background-image: url("theme-asset://quote-peek-corner-v1"); background-repeat: no-repeat; background-position: left top; background-size: 148px 112px; }
+#nice .ct-quote-clearance { margin: 0; padding: 88px 0 0; border: none; font-size: 0; line-height: 0; }
+#nice .ct-quote-rail { margin: 0 0 0 148px; padding: 21px 0 0; border: none; border-top: 3px solid #DBAC36; border-right: 3px solid #DBAC36; border-top-right-radius: 22px; background-color: #E9E9E6; font-size: 0; line-height: 0; }
+#nice .ct-quote-peek + blockquote { margin-top: 0; padding: 12px 20px 18px; border-top: none; border-radius: 0 0 22px 7px; }
+#nice > blockquote:has(> p:last-child) { background-image: url("theme-asset://paw-quote-corner-v3"); background-repeat: no-repeat; background-position: right bottom; background-size: 36px 36px; }
+#nice > blockquote > p:last-child { padding-bottom: 24px; }
+#nice blockquote blockquote { margin: 18px 0; padding: 8px 0 8px 12px; border: none; border-left: 2px solid #A0A0A0; border-radius: 0; background-color: transparent; }
+#nice ul, #nice ol { margin: 18px 0 24px; padding-left: 24px; }
+#nice li { margin: 9px 0; line-height: 1.85; color: #303030; }
+#nice li p { margin: 0 0 10px; }
+#nice li ul, #nice li ol { margin: 6px 0; padding-left: 22px; }
+#nice ul { list-style-type: none; padding-left: 0; }
+#nice ul > li:not(.wechat-task-item) { list-style-type: none; padding-left: 23px; background-image: url("theme-asset://paw-marker-v1"); background-repeat: no-repeat; background-position: left 9px; background-size: 12px 12px; }
+#nice ul ul { list-style-type: none; padding-left: 16px; }
+#nice ul ul > li:not(.wechat-task-item) { background-image: url("theme-asset://fish-marker-v1"); background-position: left 10px; background-size: 16px 10px; }
+#nice ol { list-style-type: decimal; }
+#nice li.wechat-task-item { list-style-type: none; padding-left: 0; }
+#nice .wechat-task-marker { display: inline; color: transparent; font-size: 0; padding: 10px; margin-right: 8px; background-image: url("theme-asset://task-cat-open-v1"); background-repeat: no-repeat; background-position: center; background-size: 20px 20px; vertical-align: middle; }
+#nice .wechat-task-marker.is-checked { color: transparent; background-image: url("theme-asset://task-cat-done-v1"); }
+#nice code { color: #303030; background-color: transparent; padding: 2px 5px; border: 3px solid #DBAC36; border-radius: 5px; font-family: Menlo, Consolas, monospace; font-size: 14px; }
+#nice pre { margin: 26px 0; padding: 16px 16px 24px; border: 2px solid #DBAC36; border-radius: 12px; background-color: #E9E9E6; background-image: url("theme-asset://code-paper-v2"); background-repeat: repeat; background-size: 160px 160px; }
+#nice pre code { display: block; color: #303030; background-color: transparent; padding: 0; border: none; font-size: 13px; line-height: 1.75; white-space: pre-wrap; word-break: break-all; }
+#nice pre code { padding-bottom: 36px; background-image: url("theme-asset://treats-trio-v2"); background-repeat: no-repeat; background-position: right bottom; background-size: 104px auto; }
+#nice .hljs-comment { color: #888888; }
+#nice .hljs-keyword, #nice .hljs-title { color: #202020; font-weight: 700; }
+#nice .hljs-string { color: #555555; }
+#nice .hljs-number { color: #747474; }
+#nice table { width: 100%; margin: 30px 0; border: 2px solid #B8B8B6; border-radius: 12px; background-color: #E7E7E5; font-size: 14px; }
+#nice th { padding: 12px; color: #202020; background-color: #F2D16D; border-bottom: 1px solid #D1D1CE; font-size: 14px; font-weight: 700; line-height: 1.7; text-align: left; }
+#nice td { padding: 12px; color: #303030; background-color: #E7E7E5; border-bottom: 1px solid #C8C8C6; font-size: 14px; line-height: 1.75; }
+#nice thead tr:first-child th:first-child { border-top-left-radius: 8px; }
+#nice thead tr:first-child th:last-child { border-top-right-radius: 8px; background-image: url("theme-asset://paw-table-inset-v3"); background-repeat: no-repeat; background-position: right top; background-size: 44px 42px; }
+#nice tbody tr:last-child td:first-child { border-bottom-left-radius: 8px; }
+#nice tbody tr:last-child td:last-child { border-bottom-right-radius: 8px; }
+#nice th p, #nice td p { margin: 0; font-size: 14px; }
+#nice th:first-child:nth-last-child(2) { width: 34%; }
+#nice th:first-child:nth-last-child(3) { width: 24%; }
+#nice img { display: block; max-width: 100%; height: auto; margin: 24px auto; }
+#nice figure { margin: 28px 0; }
+#nice figcaption { margin: 8px 0 20px; color: #707070; font-size: 13px; text-align: center; line-height: 1.6; }
+#nice hr { display: block; width: 92%; height: 46px; margin: 32px auto; border: none; background-image: url("theme-asset://yarn-divider-v1"); background-repeat: no-repeat; background-position: center; background-size: contain; }
+#nice a { color: #303030; text-decoration: none; border-bottom: 2px solid #DBAC36; }
+#nice .footnotes { margin: 32px 0 0; color: #707070; font-size: 13px; }
+#nice kbd { padding: 2px 5px; border: 2px solid #DBAC36; border-radius: 6px; background-color: transparent; font-size: 12px; }
+#nice .ct-opening { margin: 0 auto 28px; max-width: 520px; border: none; border-radius: 0; background-color: transparent; text-align: center; }
+#nice .ct-opening img { display: block; width: 100%; height: auto; margin: 0 auto; border: none; border-radius: 0; }
+
+/* Structural decorations use normal document flow; no positioning or negative margins. */
+#nice .ct-code-head { margin: 26px 0 0; padding: 13px 16px 6px; background-color: #E9E9E6; background-image: url("theme-asset://code-paper-v2"); background-repeat: repeat; background-size: 160px 160px; border: 2px solid #DBAC36; border-bottom: none; border-radius: 12px 12px 0 0; font-size: 0; line-height: 1; }
+#nice .ct-code-head img { display: inline-block; width: 44px; height: auto; margin: 0 10px 0 0; vertical-align: middle; }
+#nice .ct-code-head + pre { margin-top: 0; padding-top: 10px; border-top: none; border-radius: 0 0 12px 12px; }
+#nice .ct-footer { margin: 42px 0 0; padding: 0; text-align: center; }
+#nice .ct-footer img { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; }

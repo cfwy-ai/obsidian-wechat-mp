@@ -1,0 +1,78 @@
+/* 纪念碑谷 V5：宽柔雾过渡、左右金句、圆角刻边与阶梯回廊。 */
+#nice {padding:22px 26px 34px;color:#344C41;background-color:#E1E6E1;background-image:url("theme-asset://mv2-fog");background-size:640px 640px;background-repeat:repeat;background-position:center top;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;font-size:16px;line-height:1.95;letter-spacing:.4px;word-break:break-word;overflow-wrap:break-word;}
+#nice p {margin:20px 0;color:#344C41;font-size:16px;line-height:1.95;}
+#nice strong {color:#173E2C;font-weight:750;}
+#nice em {color:#627569;}
+#nice mark {color:#173D29;background-color:#DDF7C5;padding:1px 3px;}
+#nice u {display:inline-block;max-width:100%;color:#2C513C;text-decoration:none;padding-bottom:5px;background-image:url("theme-asset://mv3-underline");background-size:100% 7px;background-position:center bottom;background-repeat:no-repeat;}
+#nice .mv-opening {margin:0 0 15px;padding:0;line-height:0;}
+#nice .mv-opening img {display:block;width:100%;max-width:100%;height:auto;margin:0;padding:0;border:none;border-radius:0;background-color:transparent;}
+/* 上下纹路采用相同画布与有效边线，不再混排两侧徽章。 */
+#nice .mv-h1-top,#nice .mv-h1-bottom {width:100%;max-width:320px;padding:0;line-height:0;text-align:center;}
+#nice .mv-h1-top {margin:36px auto 0;}
+#nice .mv-opening + .mv-h1-top {margin-top:4px;}
+#nice .mv-h1-bottom {margin:0 auto 26px;}
+#nice .mv-h1-top img,#nice .mv-h1-bottom img {display:block;width:100%;max-width:100%;height:auto;margin:0;border:none;border-radius:0;}
+#nice h1 {margin:0;padding:0;color:#29483B;font-family:"Zhuque Fangsong (technical preview)","PingFang SC",sans-serif;font-size:30px;font-weight:400;line-height:1.3;letter-spacing:1.7px;text-align:center;border:none;background-color:transparent;}
+#nice h1 .content,#nice h1 strong,#nice h1 em {color:#29483B;font-weight:400;}
+#nice h2 {margin:36px 0 18px;padding:2px 0 2px 38px;color:#2E5141;font-size:20px;font-weight:600;line-height:1.65;letter-spacing:.6px;background-image:url("theme-asset://mv2-seal");background-size:28px 28px;background-position:left 5px;background-repeat:no-repeat;}
+#nice h2 .content {color:#2E5141;}
+#nice h3 {margin:29px 0 14px;padding:0;color:#244B39;font-size:17px;font-weight:600;line-height:1.7;letter-spacing:.5px;}
+#nice h3 .content {color:#244B39;}
+#nice h4,#nice h5,#nice h6 {margin:24px 0 12px;color:#3F564A;font-size:16px;font-weight:600;line-height:1.7;}
+/* 金句文字与石门左右分栏，图案稍低；长文字保持独立安全区域。 */
+#nice blockquote {margin:30px 0;min-height:90px;padding:6px 88px 12px 8px;border:none;background-color:transparent;background-image:url("theme-asset://mv4-quote");background-size:76px 38px;background-position:right 64%;background-repeat:no-repeat;color:#405C49;text-align:left;}
+#nice blockquote p {margin:8px 0;color:#405C49;font-family:"Zhuque Fangsong (technical preview)","STFangsong",serif;font-size:18px;line-height:1.9;letter-spacing:.5px;text-align:left;}
+#nice blockquote strong {color:#204830;font-weight:650;}
+#nice blockquote blockquote {margin:12px 0;min-height:0;padding:0 10px;border:none;border-left:1px solid #BDCCB8;background-color:transparent;background-size:0px 0px;}
+#nice blockquote blockquote p {font-size:16px;line-height:1.9;}
+#nice ul,#nice ol {margin:22px 0;padding-left:0;}
+#nice ul {list-style-type:none;}
+#nice ol {padding-left:1.35em;}
+#nice li {margin:10px 0;padding-left:3px;color:#344C41;font-size:16px;line-height:1.9;}
+#nice ul > li:not(.wechat-task-item) {list-style-type:none;padding-left:23px;background-image:url("theme-asset://mv3-list-one");background-size:16px 16px;background-position:left 8px;background-repeat:no-repeat;}
+#nice li p {margin:8px 0;}
+#nice li ul,#nice li ol {margin:8px 0 9px;}
+#nice ul ul > li:not(.wechat-task-item) {padding-left:22px;background-image:url("theme-asset://mv3-list-two");background-size:14px 14px;background-position:left 9px;}
+#nice ul > li.wechat-task-item {padding-left:0;list-style-type:none;}
+#nice li.wechat-task-item > p.wechat-task-line {margin:0;padding:0;}
+#nice .wechat-task-marker {display:inline-block;width:18px;height:18px;margin-right:8px;vertical-align:middle;font-size:0;line-height:0;background-image:url("theme-asset://mv3-task-open");background-size:18px 18px;background-repeat:no-repeat;background-position:center center;}
+#nice .wechat-task-marker.is-checked {background-image:url("theme-asset://mv3-task-done");}
+/* 阶梯、桥面与三道拱廊构成连续分隔；图形保持比例，按版心居中。 */
+#nice hr {width:100%;max-width:480px;height:54px;margin:34px auto 30px;padding:0;border:none;background-color:transparent;background-image:url("theme-asset://mv5-corridor-divider");background-size:100% auto;background-position:center center;background-repeat:no-repeat;}
+#nice hr:has(+ .mv-h1-top),#nice hr:has(+ h2) {display:none;}
+#nice pre {margin:28px 0;padding:36px 16px 14px;color:#34503E;background-color:transparent;border:1px solid #A7B99D;border-top-color:#91A884;border-right-color:#B9C7AF;border-bottom-color:#91A884;border-left-color:#B9C7AF;border-radius:11px;background-image:url("theme-asset://mv4-code-controls");background-size:56px 14px;background-position:16px 11px;background-repeat:no-repeat;}
+#nice code,#nice kbd {font-family:Menlo,"SFMono-Regular",Consolas,monospace;}
+#nice code {color:#2D523B;background-color:#D9E6D1;font-size:.88em;padding:1px 4px;border:none;border-radius:0;}
+#nice pre code {display:block;margin:0;padding:0 0 30px;color:#34503E;font-size:13px;line-height:1.9;letter-spacing:0;white-space:pre-wrap;word-break:break-all;background-color:transparent;background-image:url("theme-asset://mv4-code-relic");background-size:12px 24px;background-position:right bottom;background-repeat:no-repeat;}
+#nice .hljs-comment,#nice .hljs-quote {color:#405943;font-style:italic;}
+#nice .hljs-keyword,#nice .hljs-selector-tag,#nice .hljs-literal {color:#244B35;font-weight:650;}
+#nice .hljs-string,#nice .hljs-attr {color:#506D4E;}
+#nice .hljs-number,#nice .hljs-built_in,#nice .hljs-title {color:#466754;}
+/* 表头用原生圆角细边包围整行；表体使用原生细横线，不在表格节点挂背景图片。 */
+#nice table {width:100%;margin:28px 0;color:#405747;font-size:14px;line-height:1.75;border:none;}
+#nice thead {background-color:transparent;}
+#nice th {padding:13px 10px;color:#2F513B;background-color:transparent;border:none;border-top:1px solid #A7B99D;border-bottom:1px solid #A7B99D;text-align:left;font-size:15px;font-weight:650;line-height:1.75;word-break:break-word;}
+#nice td {padding:12px 10px;color:#405747;background-color:transparent;border:none;border-bottom:1px solid #AEC0A4;vertical-align:top;font-size:14px;font-weight:400;line-height:1.8;word-break:break-word;}
+#nice th:first-child,#nice td:first-child {padding-left:12px;}
+#nice th:last-child,#nice td:last-child {padding-right:12px;}
+#nice th strong,#nice th em,#nice th code {color:#2F513B;background-color:transparent;}
+#nice td p {margin:0;font-size:14px;line-height:1.8;}
+#nice img {display:block;max-width:100%;height:auto;margin:24px auto 12px;border:none;border-radius:0;}
+#nice [data-wechat-gallery-row] {margin:26px 0 12px;padding:0;}
+#nice figure {margin:24px 0;padding:0;}
+#nice figure img {margin:0 auto 10px;}
+#nice p:has(> em:only-child),#nice figcaption {font-size:12px;color:#697D64;line-height:1.8;text-align:center;margin:10px 0 25px;}
+#nice a {color:#3D6547;border-bottom:1px solid #A5BA9D;text-decoration:none;padding-bottom:2px;}
+#nice sup {font-size:11px;color:#73866F;}
+#nice kbd {font-size:12px;padding:2px 4px;color:#476444;background-color:#E9EFDE;border:1px solid #B4C4AA;}
+/* 三组均分宽度；图标30px、文字9px，不随整页宽度放大。 */
+#nice .mv-ending {margin:42px 0 0;padding:0;border:none;line-height:0;font-size:0;text-align:center;}
+#nice .mv-ending .mv-end-group {display:inline-block;width:33.333%;margin:0;padding:0;vertical-align:top;}
+#nice .mv-ending img {display:block;width:70px;max-width:100%;height:auto;margin:0 auto;border:none;border-radius:0;}
+
+#nice tbody tr {background-color:transparent;}
+
+/* 表头用原生边框，避免 thead 背景被微信丢弃；表格间隙由启用的兼容策略归零。 */
+#nice th:first-child {border-left:1px solid #A7B99D;border-top-left-radius:10px;border-bottom-left-radius:10px;}
+#nice th:last-child {border-right:1px solid #A7B99D;border-top-right-radius:10px;border-bottom-right-radius:10px;}

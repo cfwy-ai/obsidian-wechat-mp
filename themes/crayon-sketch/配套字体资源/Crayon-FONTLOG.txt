@@ -1,0 +1,35 @@
+Changfeng Crayon Stroke 1.000 — 2026-09-07
+
+Based on ZCOOL KuaiLe Regular from Google Fonts.
+Source: https://github.com/google/fonts/blob/main/ofl/zcoolkuaile/ZCOOLKuaiLe-Regular.ttf
+Source SHA-256: 812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d
+License source: https://github.com/google/fonts/blob/main/ofl/zcoolkuaile/OFL.txt
+
+The original copyright statement does not specify any Reserved Font Names.
+This derivative nevertheless uses a distinct family and PostScript name.
+The original copyright notice and complete SIL Open Font License 1.1 are
+preserved in the accompanying OFL.txt. Distribute OFL.txt with the TTF.
+
+Modification author: 长风无月 (Changfeng Wuyue)
+
+The font adds sparse, tapered paper-colored openings inside existing glyph
+outlines. The direction of each opening follows the local glyph stroke.
+The exterior outline, Unicode character mapping, glyph order, horizontal
+advances, and side bearings are preserved. Individual glyph components are
+drawn from an immutable source before processing, avoiding double texture.
+
+Coverage: all 7,053 original Unicode mappings; 7,055 glyphs.
+Modified glyphs: 7,031.
+Mean ink removed: 9.98 percent among modified glyphs.
+Mean openings: 16.88 among modified glyphs.
+No new system font installation is required: load the bundled font locally.
+
+Recommended heading use: 28 px, Regular 400, orange #D97823.
+Keep text paint disabled. Do not apply synthetic bold; it fills small gaps.
+This is a monochrome outline font: the openings are truly transparent, so
+they automatically reveal the paper background. It does not add color
+variation or reproduce a particular image's lettering pixel for pixel.
+
+Validation: all glyphs fully decompiled; source cmap, glyph order, and hmtx
+match; representative Chinese headings render without missing glyphs.
+A Chromium specimen was verified with computed 28 px size and loaded font.

@@ -1,0 +1,74 @@
+/* 暖瓷像素：暖白手压纸纹、开放标题与细小马赛克。 */
+#nice { padding: 20px 18px 34px; background-color: #F1EEE7; background-image: url("theme-asset://nc-paper"); background-size: 512px 512px; background-repeat: repeat; color: #424E51; font-family: -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif; font-size: 16.5px; line-height: 1.88; letter-spacing: .25px; text-align: left; word-break: break-word; overflow-wrap: break-word; }
+#nice p { margin: 0 0 22px; padding: 0; color: #424E51; font-size: 16.5px; line-height: 1.88; }
+#nice .fgsy-opening { margin: 0 0 16px; padding: 0; width: 100%; line-height: 0; }
+#nice .fgsy-opening-art { display: block; width: 100%; height: auto; max-width: 100%; margin: 0; padding: 0; border: none; background-color: transparent; }
+#nice h1 { margin: 24px 0 14px; padding: 0; border: none; background-color: transparent; color: #284F68; font-size: 0; font-weight: 400; line-height: 1.35; text-align: center; }
+#nice .fgsy-opening + h1 { margin-top: 0; }
+#nice h1 .content { display: inline-block; max-width: 100%; color: #284F68; font-family: "Fusion Pixel 12px Prop zh_hans","PingFang SC",sans-serif; font-size: 26px; font-weight: 400; line-height: 1.35; letter-spacing: .5px; }
+#nice h1 img { display: block; max-width: 100%; height: auto; padding: 0; margin: 0; border: none; background-color: transparent; }
+#nice h2 { margin: 23px 0 12px; padding: 0; color: #568DAA; font-size: 0; line-height: 1.65; }
+#nice h2 .content { display: block; padding: 0; color: #568DAA; font-size: 21px; font-weight: 600; line-height: 1.65; }
+#nice h3 { margin: 23px 0 11px; padding: 0; color: #337F7D; font-size: 18px; font-weight: 600; line-height: 1.65; }
+#nice h3 .content { color: #337F7D; font-size: 18px; font-weight: 600; }
+#nice h4 { margin: 24px 0 12px; color: #4B6870; font-size: 16.5px; font-weight: 600; line-height: 1.7; }
+#nice h5 { margin: 22px 0 12px; color: #6E726B; font-size: 15px; font-weight: 600; line-height: 1.7; }
+#nice h6 { margin: 20px 0 10px; color: #838278; font-size: 13px; font-weight: 600; line-height: 1.6; }
+#nice strong { color: #9A4E3B; font-weight: 700; }
+#nice em { color: #9A4E3B; font-style: normal; }
+#nice mark { padding: 1px 3px; background-color: #EADACB; color: #8E4234; }
+#nice mark strong, #nice mark em { color: #8E4234; }
+#nice u { padding-bottom: 5px; text-decoration: none; border: none; background-image: url("theme-asset://nc-underline"); background-position: left bottom; background-repeat: repeat-x; background-size: 42px 4px; }
+#nice del { color: #8B857B; text-decoration: line-through; }
+#nice a { color: #9A4E3B; border-bottom: 1px solid #BE9C89; text-decoration: none; }
+
+/* 电脑在左、引文在右，透明屏幕与整篇纸面连续。 */
+#nice blockquote { margin: 24px 0; padding: 12px 0 12px 112px; border: none; background-color: transparent; background-image: url("theme-asset://nc-quote-computer"); background-repeat: no-repeat; background-size: 92px 92px; background-position: left 10px; color: #466573; }
+#nice blockquote p { margin: 0 0 14px; padding: 0; background-color: transparent; color: #466573; font-size: 20px; line-height: 1.75; }
+#nice blockquote p:last-child { margin-bottom: 0; }
+#nice blockquote blockquote { margin: 12px 0; padding: 0 0 0 10px; border-left: 2px solid #BDD0D4; background: transparent; }
+
+/* 背景标记先内联，再交给现有列表层级引擎保留缩进。 */
+#nice ul, #nice ol { margin: 0 0 22px; padding-left: 0; }
+#nice ul, #nice ul li, #nice ul li p { background-color: transparent; }
+#nice ul { list-style-type: none; }
+#nice ul > li { margin: 9px 0; padding-left: 34px; list-style-type: none; background-color: transparent; background-image: url("theme-asset://nc-list-plane-v2"); background-repeat: no-repeat; background-position: left 4px; background-size: 24px 24px; color: #424E51; font-size: 16.5px; line-height: 1.88; }
+#nice ul ul > li { padding-left: 34px; background-color: transparent; background-image: url("theme-asset://nc-car"); background-size: 24px 24px; background-position: left 3px; }
+#nice ul ul ul > li { background-size: 22px 22px; }
+#nice ol { padding-left: 1.45em; list-style-type: decimal; }
+#nice ol > li { margin: 8px 0; padding-left: 3px; background: transparent; color: #424E51; font-size: 16.5px; line-height: 1.88; }
+#nice li p { margin: 0 0 10px; background-color: transparent; }
+#nice ul ul, #nice ol ul, #nice ul ol, #nice ol ol { margin: 8px 0 6px; }
+#nice ul li.wechat-task-item { padding-left: 0; background: transparent; list-style-type: none; }
+#nice .wechat-task-marker { display: inline-block; width: 22px; height: 22px; margin-right: 8px; font-size: 0; line-height: 1; vertical-align: middle; background-size: 100% 100%; background-repeat: no-repeat; }
+#nice .wechat-task-marker.is-unchecked { background-image: url("theme-asset://nc-task-empty"); }
+#nice .wechat-task-marker.is-checked { background-image: url("theme-asset://nc-task-done"); }
+
+#nice code { padding: 2px 4px; border: none; background-color: #E9E4D9; color: #8E503F; font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size: 13.5px; white-space: normal; word-break: break-all; }
+#nice pre { margin: 22px 0; padding: 0; border: none; background-color: transparent; background-image: url("theme-asset://nc-code-sides"); background-repeat: repeat-y; background-size: 100% 30px; background-position: center top; color: #315B70; font-size: 13px; line-height: 1.8; white-space: pre-wrap; word-break: break-all; overflow-wrap: break-word; }
+#nice pre::before, #nice pre::after { content: ""; display: block; width: 100%; height: 5px; margin: 0; padding: 0; line-height: 0; background-repeat: no-repeat; background-size: 100% 5px; background-position: center center; }
+#nice pre::before { background-image: url("theme-asset://nc-code-top"); }
+#nice pre::after { background-image: url("theme-asset://nc-code-bottom"); }
+#nice pre code { display: block; padding: 38px 18px 8px; margin: 0; border: none; background-color: transparent; background-image: url("theme-asset://nc-code-controls"); background-repeat: no-repeat; background-size: 72px 14px; background-position: 18px 12px; color: #315B70; font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size: 13px; line-height: 1.8; white-space: pre-wrap; word-break: break-all; }
+#nice pre code::after { content: ""; display: block; width: 32px; height: 19px; margin: 8px 0 0 auto; background-image: url("theme-asset://nc-terminal"); background-repeat: no-repeat; background-size: 100% 100%; }
+#nice .hljs-comment, #nice .hljs-quote { color: #889188; }
+#nice .hljs-keyword, #nice .hljs-selector-tag, #nice .hljs-literal { color: #315F79; }
+#nice .hljs-string, #nice .hljs-attr { color: #8C6958; }
+#nice .hljs-number, #nice .hljs-property { color: #3C8583; }
+
+#nice table { width: 100%; max-width: 100%; margin: 27px 0; border: 2px solid #9CAFB0; background-color: transparent; background-image: none; color: #424E51; font-size: 14px; line-height: 1.75; word-break: break-word; }
+#nice th, #nice td { padding: 10px 8px; border: none; border-right: 1px solid #D6D8D0; border-bottom: 1px solid #D6D8D0; background-color: #F8F5EE; color: #424E51; font-size: 14px; line-height: 1.75; text-align: left; vertical-align: top; word-break: break-all; overflow-wrap: break-word; }
+#nice th { background-color: #E5EAE5; color: #436777; font-weight: 600; }
+#nice th:last-child, #nice td:last-child { border-right: none; }
+#nice tbody tr:last-child td { border-bottom: none; }
+#nice tr > th:first-child:nth-last-child(3), #nice tr > td:first-child:nth-last-child(3) { width: 20%; }
+#nice table p { margin: 0; font-size: 14px; line-height: 1.75; }
+#nice hr { width: 88%; max-width: 300px; height: 48px; margin: 20px auto; border: none; background-color: transparent; background-image: url("theme-asset://fgsy-divider"); background-repeat: no-repeat; background-position: center center; background-size: 100% auto; }
+#nice img { display: block; max-width: 100%; width: auto; height: auto; margin: 24px auto; border: none; border-radius: 0; }
+#nice figcaption { margin: 10px 0 24px; color: #7D827A; font-size: 12.5px; line-height: 1.65; text-align: center; }
+
+#nice .nc-footer { margin: 38px 0 0; padding: 0 8px 10px; border: none; background-color: transparent; text-align: center; font-size: 0; line-height: 1; }
+#nice .nc-footer-rule { display: block; width: 100%; height: 4px; margin: 0 0 18px; padding: 0; border: none; background-color: transparent; }
+#nice .nc-footer-item { display: inline-block; width: 33%; vertical-align: top; text-align: center; font-size: 14px; line-height: 1.5; }
+#nice .nc-footer-icon { display: block; width: 52px; height: 52px; margin: 0 auto 8px; padding: 0; border: none; background-color: transparent; }
+#nice .nc-footer-label { display: block; margin: 0 auto; padding: 0; border: none; background-color: transparent; color: #527481; font-size: 14px; font-weight: 600; line-height: 1.5; letter-spacing: 2px; }

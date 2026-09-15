@@ -1,0 +1,165 @@
+/* 铅笔写意 V13：手机端装饰改用真实透明图片，移除会形成白块的容器背景。 */
+#nice { padding: 22px 24px 32px; background-color: #FFFFFF; background-image: url("theme-asset://paper-grain"); background-repeat: repeat; background-position: left top; background-size: 340px 340px; color: #282824; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 16px; line-height: 1.95; letter-spacing: 0.3px; word-break: break-word; }
+#nice p { margin: 0 0 21px; color: #282824; font-size: 16px; line-height: 1.95; }
+#nice h1 { margin: 25px 0 13px; padding: 4px 0 3px; border: none; font-size: 0; line-height: 1.6; text-align: center; color: #22221F; background-color: transparent; background-image: none; }
+#nice h1 .content { font-family: "Songti SC", SimSun, serif; font-size: 27px; font-weight: 600; line-height: 1.6; letter-spacing: 0.8px; color: #22221F; }
+#nice h2 { margin: 26px 0 14px; padding: 0; border: none; font-size: 0; line-height: 1.6; text-align: left; color: #282824; }
+#nice h2 .content { font-family: "Kaiti SC", KaiTi, STKaiti, serif; font-size: 22px; font-weight: 400; line-height: 1.6; letter-spacing: 0.7px; color: #282824; }
+#nice h3 { margin: 32px 0 17px; padding: 0; border: none; font-size: 0; text-align: left; line-height: 1.7; }
+#nice h3 .content { font-size: 17px; font-weight: 650; color: #383832; line-height: 1.7; }
+#nice h4 { margin: 28px 0 14px; font-size: 16px; font-weight: 650; color: #383832; }
+#nice h5 { margin: 25px 0 12px; font-size: 15px; font-weight: 600; background-color: transparent; color: #464640; }
+#nice h6 { margin: 24px 0 12px; font-size: 12px; font-weight: 500; letter-spacing: 1.5px; color: #74746D; }
+#nice strong { font-weight: 700; color: #20201E; }
+#nice em { font-style: normal; color: #4C4C43; }
+#nice mark { display: inline-block; max-width: 94%; vertical-align: baseline; color: #282824; background-color: transparent; padding: 2px 7px; border: none; background-image: url("theme-asset://tag-frame-v5"); background-repeat: no-repeat; background-position: center; background-size: 100% 100%; }
+#nice mark.wechat-inline-highlight { display: inline; padding: 1px 1px 2px; background-image: url("theme-asset://highlight-wash-v5"); background-repeat: repeat-x; background-position: left bottom; background-size: 160px 28px; }
+#nice u { padding-bottom: 2px; text-decoration: none; border-bottom: 1px solid #45453C; }
+#nice a { color: #302D7B; text-decoration: none; border-bottom: 1px solid #302D7B; word-break: break-all; }
+#nice del, #nice s { color: #77776F; text-decoration: none; background-color: transparent; background-image: url("theme-asset://strike-stroke-v5"); background-repeat: repeat-x; background-position: left center; background-size: 180px 40px; }
+
+/* 左列是由书写动作向下生长成山水的竖幅，右列保留金句阅读宽度。 */
+#nice > blockquote { margin: 27px 0 29px; padding: 4px 0; border: none; background-color: transparent; border-radius: 0; background-image: none; }
+#nice blockquote p { margin: 0 0 13px; color: #353530; font-family: "Kaiti SC", KaiTi, serif; font-size: 22px; font-weight: 400; line-height: 1.72; letter-spacing: 0.5px; }
+#nice blockquote p:last-child { margin-bottom: 0; }
+#nice blockquote strong { color: #272723; font-weight: 700; }
+#nice blockquote blockquote { margin: 13px 0 0; padding: 0 0 0 12px; border: none; border-left: 1px solid #C4C4BB; background-color: transparent; background-image: none; }
+#nice blockquote blockquote p { font-size: 16px; line-height: 1.8; }
+#nice ul, #nice ol { margin: 0 0 22px; padding-left: 0; }
+#nice ul { list-style-type: none; }
+#nice ol { list-style-type: decimal; }
+#nice li { margin: 8px 0; color: #282824; font-size: 16px; line-height: 1.9; }
+#nice li p { margin: 0 0 7px; }
+#nice ul > li:not(.wechat-task-item) { list-style-type: none; padding-left: 25px; background-image: url("theme-asset://bullet-double-v5"); background-repeat: no-repeat; background-position: 1px 7px; background-size: 18px 18px; }
+#nice ul ul { margin: 6px 0 4px; padding-left: 4px; }
+#nice ul ul > li:not(.wechat-task-item) { padding-left: 23px; background-image: url("theme-asset://bullet-single-v5"); background-position: 3px 8px; background-size: 13px 13px; }
+#nice ol ol { margin: 6px 0 4px; padding-left: 4px; }
+#nice ol > li { margin-left: 34px; padding-left: 10px; }
+#nice li.wechat-task-item { list-style-type: none; padding-left: 0; margin-left: 0; background-image: none; }
+#nice .wechat-task-marker { display: inline; color: transparent; font-size: 0; padding: 10px; margin-right: 8px; background-image: url("theme-asset://task-open-v4"); background-repeat: no-repeat; background-position: center; background-size: 22px 22px; vertical-align: middle; }
+#nice .wechat-task-marker.is-checked { color: transparent; background-image: url("theme-asset://task-done-v4"); }
+#nice li.wechat-task-item > p.wechat-task-line { margin: 0; padding: 0; }
+#nice hr { width: 100%; height: 0; padding: 10% 0 0; margin: 27px 0; border: none; background-color: transparent; background-image: url("theme-asset://river-divider-v4"); background-repeat: no-repeat; background-position: center 52%; background-size: 100% auto; }
+#nice hr + h1 { margin-top: 20px; }
+#nice hr + h2 { margin-top: 18px; }
+/* 代码画卷：上下卷轴和案头图改为真实透明图片，代码容器只保留细侧线。 */
+#nice .pencil-code-desk { width: 100%; max-width: 100%; margin: 26px 0 0; padding: 0; border: none; background-color: transparent; background-image: none; }
+#nice .pencil-code-desk .pencil-scroll-top { display: block; width: 100%; max-width: 100%; height: auto; margin: 0; padding: 0; border: none; background-color: transparent; }
+#nice .pencil-code-desk + pre { margin-top: 0; }
+#nice .pencil-code-tail .pencil-scroll-bottom { display: block; width: 100%; max-width: 100%; height: auto; margin: 0; padding: 0; border: none; background-color: transparent; }
+#nice pre code span { color: #43433B; }
+#nice code:not(pre > code) { display: inline-block; max-width: 94%; vertical-align: baseline; line-height: 1.5; padding: 1px 5px; color: #414139; background-color: transparent; background-image: none; border: 1px solid #B9B9AF; border-radius: 5px; font-family: Menlo, Consolas, monospace; font-size: 0.88em; white-space: normal; word-break: break-all; }
+#nice kbd { display: inline-block; padding: 1px 5px; border: 1px solid #BDBDB2; border-radius: 3px; color: #414139; background-color: transparent; font-family: Menlo, monospace; font-size: 0.86em; }
+/* 表格以边线和留白建立行列关系，不在原生行上放背景图。 */
+#nice table { width: 100%; margin: 25px 0; border: none; color: #414139; background-color: transparent; background-image: none; font-size: 14px; line-height: 1.8; }
+#nice table thead, #nice table tbody, #nice table tr { background-color: transparent; }
+#nice table th:last-child, #nice table td:last-child { background-image: none; }
+#nice table th { color: #252522; font-family: "Songti SC", SimSun, serif; font-size: 14.5px; font-weight: 650; }
+#nice table td { color: #414139; font-size: 14px; line-height: 1.8; }
+#nice table td:first-child { font-family: "Songti SC", SimSun, serif; font-weight: 500; }
+#nice table th:first-child, #nice table td:first-child { padding-left: 18px; }
+#nice table:has(> thead > tr:first-child > th:first-child:nth-last-child(3)) th:first-child { width: 25%; }
+#nice table:has(> thead > tr:first-child > th:first-child:nth-last-child(3)) th:nth-child(2) { width: 30%; }
+#nice table:has(> thead > tr:first-child > th:first-child:nth-last-child(3)) th:nth-child(3) { width: 45%; }
+#nice table p { margin: 0; color: #414139; font-size: 14px; line-height: 1.8; }
+#nice img { display: block; max-width: 100%; height: auto; margin: 30px auto; border: none; border-radius: 0; background-color: transparent; }
+#nice figure { margin: 30px 0; padding: 0; }
+#nice figure img { margin: 0 auto 10px; }
+#nice figcaption { margin: 0; color: #74746A; font-size: 12px; line-height: 1.75; text-align: center; }
+#nice p img:first-child:nth-last-child(2), #nice p img:first-child:nth-last-child(2) ~ img { display: inline-block; width: 47%; max-width: 47%; margin: 24px 0; vertical-align: middle; }
+#nice p img:first-child:nth-last-child(2) { margin-right: 4%; }
+#nice > img, #nice > p > img, #nice > figure > img { width: 96%; max-width: 96%; padding: 5px; border-top: 2px solid #8B8B83; border-right: 1px solid #A0A098; border-bottom: 2px solid #77776F; border-left: 1px solid #989890; border-radius: 3px 2px 4px 1px; background-color: transparent; background-image: url("theme-asset://article-image-frame-v6"); background-repeat: no-repeat; background-position: center; background-size: 104% 104%; }
+#nice > p > img:first-child:nth-last-child(2), #nice > p > img:first-child:nth-last-child(2) ~ img { width: 44%; max-width: 44%; padding: 4px; }
+#nice .footnote-word, #nice .footnote-ref { color: #302D7B; font-size: 12px; }
+#nice hr.footnotes-sep { width: 100%; height: 1px; padding: 0; margin-top: 36px; background-image: none; background-color: #D3D3C9; }
+#nice .footnote-item p { color: #74746A; font-size: 12px; line-height: 1.8; }
+
+/* 预设头图只保留一个真实图片节点，避免公众号恢复隐藏副本。 */
+#nice .pencil-opening { width: 100%; height: auto; padding: 0; margin: 3px 0 16px; border: none; background-color: transparent; background-image: none; }
+#nice .pencil-opening img { display: block; width: 100%; max-width: 100%; height: auto; margin: 0; padding: 0; }
+#nice .pencil-ending { width: 100%; margin: 35px 0 0; padding: 0; border: none; background-color: transparent; background-image: none; }
+#nice .pencil-ending img { display: block; width: 100%; max-width: 100%; height: auto; margin: 0; padding: 0; border: none; background-color: transparent; }
+
+#nice h1 .content, #nice h2 .content { display: block; }
+#nice .pencil-opening + h1 { margin-top: 10px; }
+#nice h1 + h2 { margin-top: 12px; }
+#nice h2 { padding: 0; background-color: transparent; background-image: none; }
+#nice h2 .content { font-family: "FangSong", "Songti SC", serif; line-height: 1.55; letter-spacing: 0.6px; }
+#nice u { text-decoration: none; border: none; padding-bottom: 4px; background-color: transparent; background-image: url("theme-asset://underline-v4"); background-repeat: repeat-x; background-position: left bottom; background-size: 120px 40px; }
+#nice ol:not([start]) > li:nth-child(1):not(.wechat-task-item),
+#nice ol[start="1"] > li:nth-child(1):not(.wechat-task-item) { list-style-type: none; margin-left: 0; padding-left: 29px; background-image: url("theme-asset://number-1-v4"); background-repeat: no-repeat; background-position: left 4px; background-size: 23px 23px; }
+#nice ol:not([start]) > li:nth-child(2):not(.wechat-task-item),
+#nice ol[start="1"] > li:nth-child(2):not(.wechat-task-item),
+#nice ol[start="2"] > li:nth-child(1):not(.wechat-task-item) { list-style-type: none; margin-left: 0; padding-left: 29px; background-image: url("theme-asset://number-2-v4"); background-repeat: no-repeat; background-position: left 4px; background-size: 23px 23px; }
+#nice ol:not([start]) > li:nth-child(3):not(.wechat-task-item),
+#nice ol[start="1"] > li:nth-child(3):not(.wechat-task-item),
+#nice ol[start="2"] > li:nth-child(2):not(.wechat-task-item),
+#nice ol[start="3"] > li:nth-child(1):not(.wechat-task-item) { list-style-type: none; margin-left: 0; padding-left: 29px; background-image: url("theme-asset://number-3-v4"); background-repeat: no-repeat; background-position: left 4px; background-size: 23px 23px; }
+#nice ol:not([start]) > li:nth-child(4):not(.wechat-task-item),
+#nice ol[start="1"] > li:nth-child(4):not(.wechat-task-item),
+#nice ol[start="2"] > li:nth-child(3):not(.wechat-task-item),
+#nice ol[start="3"] > li:nth-child(2):not(.wechat-task-item),
+#nice ol[start="4"] > li:nth-child(1):not(.wechat-task-item) { list-style-type: none; margin-left: 0; padding-left: 29px; background-image: url("theme-asset://number-4-v4"); background-repeat: no-repeat; background-position: left 4px; background-size: 23px 23px; }
+#nice ol:not([start]) > li:nth-child(5):not(.wechat-task-item),
+#nice ol[start="1"] > li:nth-child(5):not(.wechat-task-item),
+#nice ol[start="2"] > li:nth-child(4):not(.wechat-task-item),
+#nice ol[start="3"] > li:nth-child(3):not(.wechat-task-item),
+#nice ol[start="4"] > li:nth-child(2):not(.wechat-task-item),
+#nice ol[start="5"] > li:nth-child(1):not(.wechat-task-item) { list-style-type: none; margin-left: 0; padding-left: 29px; background-image: url("theme-asset://number-5-v4"); background-repeat: no-repeat; background-position: left 4px; background-size: 23px 23px; }
+#nice ol:not([start]) > li:nth-child(6):not(.wechat-task-item),
+#nice ol[start="1"] > li:nth-child(6):not(.wechat-task-item),
+#nice ol[start="2"] > li:nth-child(5):not(.wechat-task-item),
+#nice ol[start="3"] > li:nth-child(4):not(.wechat-task-item),
+#nice ol[start="4"] > li:nth-child(3):not(.wechat-task-item),
+#nice ol[start="5"] > li:nth-child(2):not(.wechat-task-item),
+#nice ol[start="6"] > li:nth-child(1):not(.wechat-task-item) { list-style-type: none; margin-left: 0; padding-left: 29px; background-image: url("theme-asset://number-6-v4"); background-repeat: no-repeat; background-position: left 4px; background-size: 23px 23px; }
+#nice ol:not([start]) > li:nth-child(7):not(.wechat-task-item),
+#nice ol[start="1"] > li:nth-child(7):not(.wechat-task-item),
+#nice ol[start="2"] > li:nth-child(6):not(.wechat-task-item),
+#nice ol[start="3"] > li:nth-child(5):not(.wechat-task-item),
+#nice ol[start="4"] > li:nth-child(4):not(.wechat-task-item),
+#nice ol[start="5"] > li:nth-child(3):not(.wechat-task-item),
+#nice ol[start="6"] > li:nth-child(2):not(.wechat-task-item),
+#nice ol[start="7"] > li:nth-child(1):not(.wechat-task-item) { list-style-type: none; margin-left: 0; padding-left: 29px; background-image: url("theme-asset://number-7-v4"); background-repeat: no-repeat; background-position: left 4px; background-size: 23px 23px; }
+#nice ol:not([start]) > li:nth-child(8):not(.wechat-task-item),
+#nice ol[start="1"] > li:nth-child(8):not(.wechat-task-item),
+#nice ol[start="2"] > li:nth-child(7):not(.wechat-task-item),
+#nice ol[start="3"] > li:nth-child(6):not(.wechat-task-item),
+#nice ol[start="4"] > li:nth-child(5):not(.wechat-task-item),
+#nice ol[start="5"] > li:nth-child(4):not(.wechat-task-item),
+#nice ol[start="6"] > li:nth-child(3):not(.wechat-task-item),
+#nice ol[start="7"] > li:nth-child(2):not(.wechat-task-item),
+#nice ol[start="8"] > li:nth-child(1):not(.wechat-task-item) { list-style-type: none; margin-left: 0; padding-left: 29px; background-image: url("theme-asset://number-8-v4"); background-repeat: no-repeat; background-position: left 4px; background-size: 23px 23px; }
+#nice ol:not([start]) > li:nth-child(9):not(.wechat-task-item),
+#nice ol[start="1"] > li:nth-child(9):not(.wechat-task-item),
+#nice ol[start="2"] > li:nth-child(8):not(.wechat-task-item),
+#nice ol[start="3"] > li:nth-child(7):not(.wechat-task-item),
+#nice ol[start="4"] > li:nth-child(6):not(.wechat-task-item),
+#nice ol[start="5"] > li:nth-child(5):not(.wechat-task-item),
+#nice ol[start="6"] > li:nth-child(4):not(.wechat-task-item),
+#nice ol[start="7"] > li:nth-child(3):not(.wechat-task-item),
+#nice ol[start="8"] > li:nth-child(2):not(.wechat-task-item),
+#nice ol[start="9"] > li:nth-child(1):not(.wechat-task-item) { list-style-type: none; margin-left: 0; padding-left: 29px; background-image: url("theme-asset://number-9-v4"); background-repeat: no-repeat; background-position: left 4px; background-size: 23px 23px; }
+#nice ol:not([start]) > li:nth-child(10):not(.wechat-task-item),
+#nice ol[start="1"] > li:nth-child(10):not(.wechat-task-item),
+#nice ol[start="2"] > li:nth-child(9):not(.wechat-task-item),
+#nice ol[start="3"] > li:nth-child(8):not(.wechat-task-item),
+#nice ol[start="4"] > li:nth-child(7):not(.wechat-task-item),
+#nice ol[start="5"] > li:nth-child(6):not(.wechat-task-item),
+#nice ol[start="6"] > li:nth-child(5):not(.wechat-task-item),
+#nice ol[start="7"] > li:nth-child(4):not(.wechat-task-item),
+#nice ol[start="8"] > li:nth-child(3):not(.wechat-task-item),
+#nice ol[start="9"] > li:nth-child(2):not(.wechat-task-item),
+#nice ol[start="10"] > li:nth-child(1):not(.wechat-task-item) { list-style-type: none; margin-left: 0; padding-left: 29px; background-image: url("theme-asset://number-10-v4"); background-repeat: no-repeat; background-position: left 4px; background-size: 23px 23px; }
+/* V14：原有笔触与实时正文共存。画轴用真图片，代码纸边与水印在受保护的透明层。 */
+#nice .pencil-desk-body { margin:0; padding:0; background-color:transparent; background-image:url("theme-asset://scroll-sides-v4"); background-size:100% 160px; background-repeat:repeat-y; }
+#nice .pencil-code-desk .pencil-desk-trio { display:block; width:76px; max-width:76px; height:auto; margin:0 0 0 25px; padding:2px 0 0; border:none; background:transparent; }
+#nice pre { width:100%; max-width:100%; margin:0; padding:0; border:none; border-radius:0; color:#43433B; background-color:transparent; background-image:url("theme-asset://scroll-sides-v4"); background-size:100% 160px; background-repeat:repeat-y; }
+#nice pre code { display:block; padding:5px 25px 14px; border:none; border-radius:0; color:#43433B; background-color:transparent; background-image:url("theme-asset://code-lanting-v8"); background-size:85% auto; background-repeat:no-repeat; background-position:center bottom; font-family:"SFMono-Regular",Menlo,Consolas,monospace; font-size:13px; line-height:1.8; white-space:pre-wrap; word-break:break-all; }
+#nice .pencil-code-tail { width:100%; max-width:100%; margin:0 0 26px; padding:0; border:none; background:transparent; }
+#nice table tr { background-color:transparent; background-image:url("theme-asset://table-row-rule-v14"); background-repeat:no-repeat; background-position:left bottom; background-size:100% 1px; }
+#nice table thead tr { background-image:url("theme-asset://table-head-rule-v14"); background-size:100% 2px; }
+#nice table th, #nice table td { padding:12px 8px 15px 18px; border:none; background-color:transparent; background-image:none; text-align:left; vertical-align:top; word-break:break-all; overflow-wrap:anywhere; }
+#nice table tbody tr:last-child { background-image:none; }
+#nice table tbody tr:last-child td { padding-bottom:15px; border:none; }
+

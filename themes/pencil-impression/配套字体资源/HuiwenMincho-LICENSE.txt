@@ -1,0 +1,8 @@
+Public Domain
+
+作者：特里王（Terry Wang）。
+原始字体 name 表版权声明为 Public Domain。
+本文件从已使用的主题包原样复制，不修改字体。
+作者发布页：https://zhuanlan.zhihu.com/p/344103391
+获取镜像：https://github.com/cntrump/imitation_typeface_fonts
+许可说明来源：原主题包「字体来源.txt」。

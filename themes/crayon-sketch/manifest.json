@@ -1,0 +1,299 @@
+{
+  "schema_version": 3,
+  "theme_id": "crayon-sketch",
+  "name": "蜡笔手绘",
+  "order": 5,
+  "theme_palette": [
+    "黄橙配色｜温馨蜡笔涂鸦"
+  ],
+  "theme_scenes": [
+    "生活随笔",
+    "成长故事",
+    "轻知识"
+  ],
+  "assets": [
+    {
+      "asset_id": "paper-grain-v2",
+      "file": "透明装饰素材/paper-grain-v2.png",
+      "alt": "淡黄色蜡笔擦痕纸纹",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPK8eWT8zbwrIybrYy6C1TUYF7hLic2HLSngbFUVbiaicaONX0FMLcAxS5nI6pb1X1rM3IHWtpazDgpzeSpe5GeXWX4EOzicweYxNgQ/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "header-orchard-v1",
+      "file": "透明装饰素材/header-orchard-v1.png",
+      "alt": "杏子橙子与人参果枝叶头图"
+    },
+    {
+      "asset_id": "footer-orchard-v1",
+      "file": "透明装饰素材/footer-orchard-v1.png",
+      "alt": "把日子过成喜欢的样子，小孩接住树上落杏"
+    },
+    {
+      "asset_id": "apricot-marker-v1",
+      "file": "透明装饰素材/apricot-marker-v1.png",
+      "alt": "二级标题前的小杏子",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPKx8WSRHEUZOO95eibQ2Bqs6wQO5f5SToLwa3zC1iaUm4TheJhibzLhcUzeDXc8jn96lH0PusoYINzgesSQDIaZ0MMibR4vr06FJmE/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "quote-crayon-v1",
+      "file": "透明装饰素材/quote-crayon-v1.png",
+      "alt": "金句前的橙色蜡笔引号",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJEw0mWzMZQMc8X29MGhp3KXHtte5F7ibEEP4t0geFQTBKKd3tOnaEv0ibXjdghp2BgxUibkfSsYHAImEaXrmldgPicRibDrnqzZ9BY/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "underline-crayon-v3",
+      "file": "透明装饰素材/underline-crayon-v3.png",
+      "alt": "橙色蜡笔下划线",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJraazOmwLxBI62WYCoENCHyndqxqUI275hg9cnW3NpO2fX84zpKpAWdiaGMyKwyF2lKwLC0iaz8Z1epB46wibU26xSZQVLN8HKWw/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "frame-crayon-v3",
+      "file": "透明装饰素材/frame-crayon-v3.png",
+      "alt": "透明蜡笔表格边框",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPKIcbbRIN6Wp3Dj3Cd3A6vowpa96Gib9EUQR7CvCaP955D61QBvE1myz9bxcF7gKhULcFqotLoRzic5Izlm0GkC2eaDdSQUSqNg4/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "code-frame-top-v3",
+      "file": "透明装饰素材/code-frame-top-v3.png",
+      "alt": "蜡笔代码框上沿",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPKly3T4L0zezXmpE2AnygjuMOZicBZuDqrVWBerXgwokkquNzFQ4pgaCydicxibLxY4q5QAQZKg9a0h1wvQLuBzGGfux6MxayYNtQ/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "code-frame-sides-v3",
+      "file": "透明装饰素材/code-frame-sides-v3.png",
+      "alt": "蜡笔代码框两侧",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPIjLxVYKgAUjevuFAIyp096guwCV6IA61qqeemvBrXeqjGnzeTPUZViaNCzQcDFyoyuBXfGomsS1otm32XBc4j0jwgBgDDzfeMk/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "code-frame-bottom-v3",
+      "file": "透明装饰素材/code-frame-bottom-v3.png",
+      "alt": "蜡笔代码框下沿",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJEkapKib0yyzVcNKXlovlbccw2SIvEVwic6h0p1TiciaPXmJ5mQdPwiaUjAM0uRCBDBuPT94wje1N1QesKKIyicyXF3lpmDyZWOv1JA/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "fruit-trio-v3",
+      "file": "透明装饰素材/fruit-trio-v3.png",
+      "alt": "杏子橙子人参果三枚标记",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJxHK34chZiajRXQcs2oC2COx8IMvZSTFZh7vkibxEDxlHrL3kszjJMLxm2AAuCic0LEotiaZaOoJhbedGzaog7y99cmwKibWYFRY3s/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "title-apricot-v3",
+      "file": "透明装饰素材/title-apricot-v3.png",
+      "alt": "标题左侧杏子"
+    },
+    {
+      "asset_id": "title-pepino-v3",
+      "file": "透明装饰素材/title-pepino-v3.png",
+      "alt": "标题右侧人参果"
+    },
+    {
+      "asset_id": "quote-tree-v3",
+      "file": "透明装饰素材/quote-tree-v3.png",
+      "alt": "金句左侧小果树",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPLPsThhCtKwmlrc4KrDgDMdlXpt7ykMicauriaGrtEHCvMGWdbtlKZUyrvrecDtubia0KWb7iaSN8YlEnraEHbEgiaiag708vCve6Hyg/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "table-watermark-v3",
+      "file": "透明装饰素材/table-watermark-v3.png",
+      "alt": "表格淡杏子水印",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPLJqMCSUzQP9icKyDPCBGzsEY7pYIcu1Ez3RNicI0aanjTjniczo5dSzWb71UvCoGSFsTzRRJPWF5vIDhtWXd85kdeupJSWzKvhzc/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "bullet-flower-v4",
+      "file": "透明装饰素材/bullet-flower-v4.png",
+      "alt": "一级无序列表的小花",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPLMPicibPCUrodvpA1UV7ianEbtzP2x5XvGiasonbVuuCichw7iaicedx4Fkt7al2QA15aXueWwCia44UdvKiaWziaapJ5xsKJYGwQkHe8no/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "bullet-leaf-v4",
+      "file": "透明装饰素材/bullet-leaf-v4.png",
+      "alt": "二级无序列表的叶片",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPIchjyR8DAWsF1h4GkVc4ax9QZFFclXIkjGciaYF71DAb9icbaF8iaDIjIzEpvCibthgoU0xk23kPWYdR7gocEWzmyxc5KIDoAMetQ/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "task-open-v4",
+      "file": "透明装饰素材/task-open-v4.png",
+      "alt": "蜡笔空框表示未完成",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPLIxaj0M6K8JlYy58tmibNibtLVNTjj2Z3VVnaAxGSRU6De1vJT1icWJZvjktsicpx3QqsnhUGJLKb5Eibg3IsNRZuhpj6lTlKxjH94/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "task-done-v4",
+      "file": "透明装饰素材/task-done-v4.png",
+      "alt": "蜡笔勾框表示已完成",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJZNgOca4icuEymgMKXdr6exuEn4dhVzSZ5icFnKRb7cNXvMRTS1T3xJgkIGV9WLSP4AUR5gZ1qvpVSjNibaort77N7cnc1fGMr14/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "divider-double-v4",
+      "file": "透明装饰素材/divider-double-v4.png",
+      "alt": "两笔来回的蜡笔分割线",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPIKBFdoajKSvK9SfSeZn8Cia0zibyiaWibCOwL25sJQVUJoecOFdTdxCch0V9RFIpITnBWsic01WeBSbkN0skUImL4k238XK08Sb6pc/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "table-rowline-v4",
+      "file": "透明装饰素材/table-rowline-v4.png",
+      "alt": "表格行间蜡笔横线",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPKKhz9ocKMjd2paduyITSo3kxgVkxicxiby52jlErwOviaiauSINhBuxsfICL1tUdrOnOiaIUw55gZeEdCEgUqk5rAKaicwiaQGPOcavc/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "header-push-v4",
+      "file": "透明装饰素材/header-push-v4.png",
+      "alt": "小孩推着杏子向前"
+    },
+    {
+      "asset_id": "header-picnic-v4",
+      "file": "透明装饰素材/header-picnic-v4.png",
+      "alt": "果香野餐"
+    },
+    {
+      "asset_id": "header-reading-v4",
+      "file": "透明装饰素材/header-reading-v4.png",
+      "alt": "树下读书"
+    },
+    {
+      "asset_id": "code-girl-basket-v6",
+      "file": "透明装饰素材/code-girl-basket-v6.png",
+      "alt": "橙裙女孩抱着装有杏子橙子和人参果的篮子，望向左上方",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPLRzZOJGZNsp03LyAdCPMaYStgr0kMukDwzIvbM2yDN2wZiaVmyBciaxznXjgpMvOObgxL55D5ZC6jLRH2hLKnF3dbOjqC9TnUEs/640?wx_fmt=png&from=appmsg"
+    }
+  ],
+  "components": [
+    {
+      "component_id": "crayon-opening",
+      "file": "正文组件结构/opening-orchard.html",
+      "slot": "before_article",
+      "asset_ids": [
+        "header-orchard-v1"
+      ]
+    },
+    {
+      "component_id": "crayon-ending",
+      "file": "正文组件结构/ending-follow.html",
+      "slot": "after_article",
+      "asset_ids": [
+        "footer-orchard-v1"
+      ]
+    }
+  ],
+  "article_header": {
+    "component_id": "crayon-opening",
+    "default_asset_id": "header-orchard-v1",
+    "presets": [
+      {
+        "asset_id": "header-orchard-v1",
+        "label": "枝头果香"
+      },
+      {
+        "asset_id": "header-push-v4",
+        "label": "推着杏子向前"
+      },
+      {
+        "asset_id": "header-picnic-v4",
+        "label": "果香野餐"
+      },
+      {
+        "asset_id": "header-reading-v4",
+        "label": "树下读书"
+      }
+    ]
+  },
+  "fonts": [
+    {
+      "font_id": "zcool-kuaile",
+      "file": "配套字体资源/ZCOOLKuaiLe-Regular.ttf",
+      "family": "ZCOOL KuaiLe",
+      "sha256": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d",
+      "weight": 400,
+      "style": "normal",
+      "coverage_file": "配套字体资源/ZCOOLKuaiLe.coverage.json"
+    },
+    {
+      "font_id": "crayon-stroke",
+      "file": "配套字体资源/ChangfengCrayonStroke-Regular.ttf",
+      "family": "Changfeng Crayon Stroke",
+      "sha256": "0ea6833cc808f046de78a1017e743ddc4a3453ad9096929241c0c65f90aec45d",
+      "weight": 400,
+      "style": "normal"
+    },
+    {
+      "font_id": "wenxin-xile",
+      "file": "配套字体资源/WenxinXileFont.woff2",
+      "family": "Wenxin Xile Font",
+      "sha256": "977dede6dd36112d941f9823d120f77a0481f309045422ee0393ec710a58a3b2",
+      "weight": 400,
+      "style": "normal",
+      "coverage_file": "配套字体资源/WenxinXileFont.coverage.json"
+    }
+  ],
+  "heading_images": [
+    {
+      "heading_image_id": "crayon-h1-wenxin-v5",
+      "heading_levels": [
+        1
+      ],
+      "font_id": "wenxin-xile",
+      "font_size": 30,
+      "line_height": 1.5,
+      "letter_spacing": 0.5,
+      "color": "#C96316",
+      "max_width": 350,
+      "min_display_width": 240,
+      "min_effective_font_size": 18,
+      "scale": 3,
+      "padding_x": 4,
+      "padding_y": 6,
+      "max_lines": 3,
+      "max_equivalent_characters": 40,
+      "latin_font_family": "Wenxin Xile Font",
+      "align": "center",
+      "side_assets": {
+        "left_asset_id": "title-apricot-v3",
+        "right_asset_id": "title-pepino-v3",
+        "size": 26,
+        "gap": 7
+      },
+      "fallback_font_ids": [
+        "zcool-kuaile"
+      ]
+    },
+    {
+      "heading_image_id": "crayon-h2-wenxin-v5",
+      "heading_levels": [
+        2
+      ],
+      "font_id": "wenxin-xile",
+      "font_size": 21,
+      "line_height": 1.5,
+      "letter_spacing": 0.5,
+      "color": "#C96316",
+      "max_width": 280,
+      "min_display_width": 240,
+      "min_effective_font_size": 18,
+      "scale": 3,
+      "padding_x": 4,
+      "padding_y": 6,
+      "max_lines": 3,
+      "max_equivalent_characters": 40,
+      "latin_font_family": "Wenxin Xile Font",
+      "align": "left",
+      "fallback_font_ids": [
+        "zcool-kuaile"
+      ]
+    }
+  ],
+  "quote_images": {
+    "font_id": "wenxin-xile",
+    "fallback_font_ids": [
+      "zcool-kuaile"
+    ],
+    "font_size": 18,
+    "line_height": 1.85,
+    "letter_spacing": 0,
+    "color": "#59432C",
+    "max_width": 640,
+    "fallback_width": 185,
+    "scale": 3
+  },
+  "wechat_dark_mode": {
+    "strategy": "preserve-illustrated-surfaces"
+  }
+}

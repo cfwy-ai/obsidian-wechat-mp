@@ -1,0 +1,16 @@
+崇羲篆體（Chongxi Small Seal）1.00
+
+字形书写：王心怡
+项目参与：谢清俊、庄德明、季旭昇
+官方介绍：https://xiaoxue.iis.sinica.edu.tw/chongxi/
+官方下载：https://xiaoxue.iis.sinica.edu.tw/chongxi/download.htm
+官方授权：https://xiaoxue.iis.sinica.edu.tw/chongxi/copyright.htm
+
+授权方式：
+Creative Commons Attribution-NoDerivatives 3.0 Taiwan or later
+CC-BY-ND-3.0-TW-or-later
+
+本模板库保存的 chongxi_seal.otf 来自上述官方下载地址，文件未经修改。
+SHA-256：b5f52fe62e84b2b18ff4b586d9838d157e05925eca847ecd48c915ba4dcd735a
+
+该字体只作为尾图点阵字形的制作资源保存，不属于插件运行时字体。

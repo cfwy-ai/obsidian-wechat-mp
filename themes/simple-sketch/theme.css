@@ -1,0 +1,509 @@
+/* 简笔手绘 · 纸白、Notion 灰阶与荧光黄 */
+
+#nice {
+  padding: 22px 16px 44px;
+  color: #37352F;
+  background-color: #FFFFFF;
+  background-image: url("theme-asset://page-bg");
+  background-repeat: repeat;
+  background-position: left top;
+  background-size: 128px 128px;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+#nice p {
+  margin: 0 0 20px;
+  color: #37352F;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+#nice h1 {
+  margin: 56px 0 22px;
+  padding: 0;
+  color: #1A1A19;
+  font-size: 0;
+  line-height: 1.4;
+  text-align: left;
+}
+
+#nice h1 .content {
+  color: #1A1A19;
+  font-family: "HarmonyOS Sans SC", "HarmonyOS Sans", -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+  font-size: 27px;
+  font-weight: 800;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+}
+
+#nice h2 {
+  margin: 44px 0 16px;
+  padding: 0 0 0 30px;
+  border: none;
+  background-image: url("theme-asset://h2-prefix-v2");
+  background-repeat: no-repeat;
+  background-position: 0 6px;
+  background-size: 20px 20px;
+  color: #1A1A19;
+  font-size: 0;
+  line-height: 1.5;
+  text-align: left;
+}
+
+#nice h2 .content {
+  color: #1A1A19;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+
+#nice h3 {
+  margin: 32px 0 12px;
+  padding: 0;
+  color: #1A1A19;
+  font-size: 0;
+  line-height: 1.5;
+  text-align: left;
+}
+
+#nice h3 .content {
+  color: #1A1A19;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+
+#nice h4 {
+  margin: 26px 0 10px;
+  padding: 0;
+  color: #37352F;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+#nice h5 {
+  margin: 26px 0;
+  padding: 15px 16px;
+  border: none;
+  border-radius: 4px;
+  color: #37352F;
+  background-color: #F7F6F3;
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 1.7;
+  text-align: left;
+}
+
+#nice h6 {
+  margin: 30px 0 8px;
+  padding: 0;
+  color: #787774;
+  font-size: 12.5px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+}
+
+#nice strong {
+  color: #FFCE2E;
+  font-weight: 700;
+}
+
+#nice em {
+  color: #1A1A19;
+  font-style: normal;
+  font-weight: 600;
+}
+
+#nice u {
+  border-bottom: 2px solid #FFCE2E;
+  color: #1A1A19;
+  text-decoration: none;
+}
+
+#nice mark {
+  padding: 1px 4px;
+  color: #1A1A19;
+  background-color: #FFCE2E;
+  font-weight: 600;
+}
+
+#nice mark strong,
+#nice mark em {
+  color: #1A1A19;
+}
+
+#nice blockquote {
+  margin: 32px 0;
+  padding: 6px 0 0 46px;
+  border: none;
+  border-radius: 0;
+  color: #1A1A19;
+  background-color: transparent;
+  background-image: url("theme-asset://quote-mark");
+  background-repeat: no-repeat;
+  background-position: 2px 0;
+  background-size: 34px 31px;
+}
+
+#nice blockquote p {
+  margin: 0 0 12px;
+  color: #1A1A19;
+  font-size: 18.5px;
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+#nice ul,
+#nice ol {
+  margin: 0 0 20px;
+  text-indent: 0;
+}
+
+#nice ul {
+  padding-left: 2px;
+  list-style-type: none;
+}
+
+#nice ol {
+  padding-left: 1.35em;
+  list-style-type: decimal;
+}
+
+#nice ul ul {
+  margin: 7px 0 2px;
+  padding-left: 12px;
+  border-left: 1px dotted #E9E9E7;
+}
+
+#nice li {
+  margin: 7px 0;
+  padding-left: 3px;
+  color: #37352F;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+#nice ul > li:not(.wechat-task-item) {
+  padding-left: 18px;
+  background-image: url("theme-asset://bullet-v2");
+  background-repeat: no-repeat;
+  background-position: 0 10px;
+  background-size: 11px 11px;
+}
+
+#nice li strong {
+  color: #FFCE2E;
+}
+
+/* 待办状态：未完成为空手绘框，完成为黄色笔刷底上的黑勾 */
+#nice li.wechat-task-item {
+  padding-left: 24px;
+  list-style-type: none;
+  text-indent: -24px;
+}
+
+#nice li.wechat-task-item > p {
+  text-indent: 0;
+}
+
+#nice li.wechat-task-item > p:first-child {
+  text-indent: -24px;
+}
+
+#nice li.wechat-task-item > .wechat-task-marker,
+#nice li.wechat-task-item > p > .wechat-task-marker {
+  display: inline;
+  padding: 0 1.5px;
+  margin: 0 8px 0 0;
+  border: 1.5px solid #1A1A19;
+  border-radius: 3px 2px 4px 1px;
+  color: #1A1A19;
+  background-color: transparent;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: center;
+  text-indent: 0;
+  vertical-align: baseline;
+}
+
+#nice li.wechat-task-item.is-unchecked > .wechat-task-marker,
+#nice li.wechat-task-item.is-unchecked > p > .wechat-task-marker {
+  color: transparent;
+}
+
+#nice li.wechat-task-item.is-checked > .wechat-task-marker,
+#nice li.wechat-task-item.is-checked > p > .wechat-task-marker {
+  background-image: url("theme-asset://table-header-v5");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+#nice h1 strong,
+#nice h2 strong,
+#nice h3 strong,
+#nice h4 strong,
+#nice h5 strong,
+#nice h6 strong,
+#nice table strong {
+  color: #1A1A19;
+}
+
+#nice hr {
+  width: 88%;
+  height: 30px;
+  margin: 44px auto;
+  border: none;
+  background-color: transparent;
+  background-image: url("theme-asset://divider-v4");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+}
+
+#nice pre {
+  margin: 22px 0;
+  padding: 38px 18px 16px;
+  border: none;
+  border-radius: 4px;
+  color: #1A1A19;
+  background-color: #F7F6F3;
+  background-image: url("theme-asset://code-dots");
+  background-repeat: no-repeat;
+  background-position: 16px 15px;
+  background-size: 42px 10px;
+}
+
+#nice pre code {
+  display: block;
+  color: #1A1A19;
+  background-color: transparent;
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 13.5px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+#nice p code,
+#nice li code {
+  display: inline-block;
+  max-width: 100%;
+  padding: 1px 5px;
+  border: 2px solid #FFCE2E;
+  border-radius: 3px;
+  color: #1A1A19;
+  background-color: #F7F6F3;
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+#nice kbd {
+  display: inline-block;
+  padding: 1px 6px;
+  border: 1px solid #E9E9E7;
+  border-radius: 3px;
+  color: #37352F;
+  background-color: #F7F6F3;
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.86em;
+}
+
+#nice img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 24px auto 26px;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+/* 两图并排。数量查询在内联阶段计算，最终落成行内 style
+   第一组：写在同一行的两张图，被 marked 包进同一个 <p>
+   第二组：gallery callout 展开后的两行两图，marked 按 HTML 块处理，没有 <p> 包裹 */
+#nice p img:first-child:nth-last-child(2),
+#nice p img:first-child:nth-last-child(2) ~ img,
+#nice img:has(+ img):not(:has(+ img + img)),
+#nice img + img:not(:has(+ img)) {
+  display: inline-block;
+  width: 48%;
+  max-width: 48%;
+  margin: 24px 0 26px;
+  vertical-align: middle;
+}
+
+#nice p img:first-child:nth-last-child(2),
+#nice img:has(+ img):not(:has(+ img + img)) {
+  margin-right: 12px;
+}
+
+#nice figure {
+  margin: 24px 0 26px;
+  padding: 0;
+}
+
+#nice figure img {
+  margin: 0 auto 8px;
+}
+
+#nice figcaption {
+  margin: 0;
+  color: #787774;
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+#nice table {
+  width: 100%;
+  margin: 26px 0 30px;
+  border: none;
+  color: #37352F;
+  font-size: 13.5px;
+  line-height: 1.65;
+}
+
+#nice table th,
+#nice table td {
+  vertical-align: top;
+  text-align: left;
+  word-break: break-all;
+}
+
+#nice table th {
+  padding: 16px 6px 16px 14px;
+  border: none;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  color: #1A1A19;
+  background-color: transparent;
+  background-image: url("theme-asset://table-header-v5");
+  background-repeat: no-repeat;
+  background-position: 50% center;
+  background-size: 105.6338% 100%;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+#nice table td {
+  /* 文字与墨线都从 18px 开始；放大补偿源图左右透明边，不随列宽漂移。 */
+  padding: 13px 0 16px;
+  border: none;
+  border-left: 18px solid transparent;
+  border-right: 10px solid transparent;
+  color: #37352F;
+  background-color: transparent;
+  background-image: url("theme-asset://divider-v4");
+  background-repeat: no-repeat;
+  background-position: 50.4065% bottom;
+  background-size: 111.4206% 4px;
+}
+
+#nice table tbody tr:last-child td {
+  background-size: 111.4206% 7px;
+}
+
+#nice table code {
+  display: inline-block;
+  max-width: 100%;
+  padding: 1px 3px;
+  border: none;
+  border-bottom: 2px solid #FFCE2E;
+  border-radius: 2px;
+  color: #1A1A19;
+  background-color: #F7F6F3;
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.84em;
+  line-height: 1.55;
+  vertical-align: bottom;
+  white-space: normal;
+  word-break: break-all;
+}
+
+#nice a {
+  border-bottom: 2px solid #FFCE2E;
+  color: #1A1A19;
+  font-weight: 600;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+#nice s,
+#nice del {
+  color: #9B9A97;
+}
+
+#nice .footnote-word,
+#nice .footnote-ref {
+  color: #1A1A19;
+  font-weight: 700;
+}
+
+#nice .footnotes-sep {
+  margin-top: 36px;
+  border-top: 1px solid #E9E9E7;
+}
+
+#nice .footnote-item p {
+  color: #787774;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+/* 版首：创作者借助电脑梳理想法，落笔标注文章草稿 */
+#nice .simple-sketch-opening {
+  margin: 0 0 14px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+#nice .simple-sketch-opening + h1 {
+  margin-top: 16px;
+}
+
+#nice .simple-sketch-opening img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+/* 文章收束：文字与三连图标烘焙为同一张稳定图片 */
+#nice .simple-sketch-footer {
+  margin: 58px 0 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+#nice .simple-sketch-footer img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: none;
+  border-radius: 0;
+  background-color: #FFFFFF;
+}

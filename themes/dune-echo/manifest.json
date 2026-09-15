@@ -1,0 +1,265 @@
+{
+  "schema_version": 3,
+  "theme_id": "dune-echo",
+  "name": "沙丘版画",
+  "order": 9,
+  "theme_palette": [
+    "橙黑配色"
+  ],
+  "theme_style": [
+    "颗粒版画"
+  ],
+  "theme_elements": [
+    "沙丘",
+    "沙虫",
+    "人物剪影",
+    "风蚀印记"
+  ],
+  "theme_scenes": [
+    "电影人文",
+    "艺术随笔",
+    "知识长文"
+  ],
+  "wechat_dark_mode": {
+    "strategy": "preserve-illustrated-surfaces"
+  },
+  "assets": [
+    {
+      "asset_id": "ref-sand",
+      "file": "透明装饰素材/reference-sand.png",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJYFp4hgbEMEqcoABygQNXRm9cH6U3UMNJYqGbcibUUkccUNnmfMlGMmiauaWHI9maHdricCBVhaJ6tgia7vWY6TdTXvWsdZLYhicsc/640?wx_fmt=png&from=appmsg",
+      "alt": "已认可的连续砂面底纹"
+    },
+    {
+      "asset_id": "ul-primary",
+      "file": "透明装饰素材/ul-level-1-crysknife.png",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJnqicEDM1wzMvrh8Uiao9t6fZfaR2ASns4pRZ0cic1dMkCP35oXAtVG1KoSZZZTUic9RIDuP9ibtlMNbP0cqcMRPHGu6RcWVYYbppI/640?wx_fmt=png&from=appmsg",
+      "alt": "晶牙匕版画标记"
+    },
+    {
+      "asset_id": "ul-secondary",
+      "file": "透明装饰素材/ul-level-2-spice.png",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKlTbXPdzQEDobRibJS7yB5HA2KAmAyBD3mIJQfSMQicGOWUKPRr9Hic25dia5VHSbaVs81BzlWcSbPhsL03dJ5pNmc1YVCDKER6to/640?wx_fmt=png&from=appmsg",
+      "alt": "香料晶体版画标记"
+    },
+    {
+      "asset_id": "divider-thopter",
+      "file": "透明装饰素材/divider-thopter.png",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPI6Q3JyUYEDibQURQRXGQS1WiaWjIpJnM4Eks02XS7mK1ZTDCLGDjP1Kfx6dqnCbwlibdYxwqyhUqJe6NDthCBpJkhCP0hia3ncZYQ/640?wx_fmt=png&from=appmsg",
+      "alt": "扑翼机飞行尾迹版画分隔"
+    },
+    {
+      "asset_id": "header-rescue",
+      "file": "透明装饰素材/header-rescue.png",
+      "alt": "采收机救援"
+    },
+    {
+      "asset_id": "header-ride",
+      "file": "透明装饰素材/header-ride.png",
+      "alt": "首次击杀沙虫"
+    },
+    {
+      "asset_id": "header-exile",
+      "file": "透明装饰素材/header-exile.png",
+      "alt": "穿越沙海"
+    },
+    {
+      "asset_id": "header-storm",
+      "file": "透明装饰素材/header-storm.png",
+      "alt": "风暴中的沙虫"
+    },
+    {
+      "asset_id": "quote-gom-jabbar",
+      "file": "透明装饰素材/quote-gom-jabbar.png",
+      "alt": "戈姆刺与痛苦盒试炼"
+    },
+    {
+      "asset_id": "footer-caladan",
+      "file": "透明装饰素材/footer-caladan.png",
+      "alt": "卡拉丹尾景与两行英文誓言"
+    },
+    {
+      "asset_id": "h1-hawk",
+      "file": "透明装饰素材/h1-hawk.png",
+      "alt": "双日与沙脊"
+    },
+    {
+      "asset_id": "h1-signet",
+      "file": "透明装饰素材/h1-signet.png",
+      "alt": "沙虫回响弧线"
+    },
+    {
+      "asset_id": "h2-crysknife",
+      "file": "透明装饰素材/h2-crysknife.png",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPLwv64agMV6bkHyLMy2JLl4ibMktJLeFytWWoqibVtibrBEoBEbJmibwHBx80cLx9sqZSVO8oVeyw07tl4FRZBP3UK4II6YDFrOXbQ/640?wx_fmt=png&from=appmsg",
+      "alt": "沙锤与振动波"
+    },
+    {
+      "asset_id": "code-emblems",
+      "file": "透明装饰素材/code-emblems.png",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPLAw2DT0kdvXcF37uLpUAaXx5egluCTheUW45KbZFr8VIJicFKKcP3zq2cmH8KVHahJOdjqm0FgnRrfEY1YgeuHQxYtIslwJO7Y/640?wx_fmt=png&from=appmsg",
+      "alt": "鹰徽、晶牙匕与印戒"
+    },
+    {
+      "asset_id": "underline-sand-trace",
+      "file": "透明装饰素材/underline-sand-trace.png",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJqoURMbR3apqiaibIXXBeVl5fJ1DPRF1oE9oV918smc9rOzMJ0WlC6ykuCWjjfMa87K8at0UvXxktKyqHoRLBjicanYjyQxAnsfo/640?wx_fmt=png&from=appmsg",
+      "alt": "风蚀砂线下划线"
+    },
+    {
+      "asset_id": "code-stilltent-watermark",
+      "file": "透明装饰素材/code-stilltent-watermark.png",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPLhH4XBCLmUtSCYnzhVQP7bTzGfcuE5Blp7iaXu4UzOkFLrsdCN6rNIlJhPtCJXY8277Nxicfz4AshkvqBREZ4Mic6t5UsjBXwXpo/640?wx_fmt=png&from=appmsg",
+      "alt": "镜像淡化的求生帐篷水印"
+    },
+    {
+      "asset_id": "table-reservoir-watermark",
+      "file": "透明装饰素材/table-reservoir-watermark.png",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKGPcwa6B65D8Hib074ibtbfDh61r5K3VVUtTVUvic6NIZUWQv8zYlEARWrRaic5VZibhHUwr7vgDNx5icAFVwDy4n8TDK6eyZEa2xQY/640?wx_fmt=png&from=appmsg",
+      "alt": "镜像淡化的蓄水池水印"
+    }
+  ],
+  "components": [
+    {
+      "component_id": "dune-opening",
+      "file": "正文组件结构/dune-opening.html",
+      "slot": "before_article",
+      "asset_ids": [
+        "header-rescue"
+      ]
+    },
+    {
+      "component_id": "dune-footer",
+      "file": "正文组件结构/dune-footer.html",
+      "slot": "after_article",
+      "asset_ids": [
+        "footer-caladan"
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "font_id": "chill-duan-song",
+      "file": "配套字体资源/chill-duan-hei-song/ChillDuanHeiSongRegular.woff2",
+      "family": "ChillDuanHeiSong",
+      "sha256": "76b24273587547357f021d277c3ac2671f3ad03fe12d1b6883a4df8fa9787363",
+      "weight": 400,
+      "style": "normal",
+      "coverage_file": "配套字体资源/chill-duan-hei-song/ChillDuanHeiSongRegular.coverage.json"
+    },
+    {
+      "font_id": "quote-zhuque-fangsong",
+      "file": "配套字体资源/zhuque/ZhuqueFangsong-Regular.woff2",
+      "family": "Zhuque Fangsong",
+      "sha256": "13dc234bf8769033f7c8350ea07a98dfb80a9b1bc28a854d6611c3f8ba5cc38b",
+      "weight": 400,
+      "style": "normal",
+      "coverage_file": "配套字体资源/zhuque/ZhuqueFangsong-Regular.coverage.json"
+    }
+  ],
+  "heading_images": [
+    {
+      "heading_image_id": "dune-print-h1",
+      "heading_levels": [
+        1
+      ],
+      "font_id": "chill-duan-song",
+      "fallback_font_ids": [
+        "quote-zhuque-fangsong"
+      ],
+      "font_size": 32,
+      "line_height": 1.5,
+      "letter_spacing": 1.6,
+      "color": "#251D21",
+      "max_width": 354,
+      "min_display_width": 240,
+      "min_effective_font_size": 32,
+      "width_mode": "container",
+      "scale": 3,
+      "padding_x": 4,
+      "padding_y": 6,
+      "max_lines": 6,
+      "max_equivalent_characters": 40,
+      "latin_font_family": "ChillDuanHeiSong",
+      "align": "center",
+      "side_assets": {
+        "left_asset_id": "h1-hawk",
+        "right_asset_id": "h1-signet",
+        "size": 26,
+        "gap": 10
+      }
+    },
+    {
+      "heading_image_id": "dune-print-h2",
+      "heading_levels": [
+        2
+      ],
+      "font_id": "chill-duan-song",
+      "fallback_font_ids": [
+        "quote-zhuque-fangsong"
+      ],
+      "font_size": 22,
+      "line_height": 1.5,
+      "letter_spacing": 0.4,
+      "color": "#251D21",
+      "max_width": 354,
+      "min_display_width": 240,
+      "min_effective_font_size": 22,
+      "width_mode": "container",
+      "scale": 3,
+      "padding_x": 4,
+      "padding_y": 6,
+      "max_lines": 6,
+      "max_equivalent_characters": 40,
+      "latin_font_family": "ChillDuanHeiSong",
+      "align": "left"
+    }
+  ],
+  "quote_images": {
+    "font_id": "quote-zhuque-fangsong",
+    "fallback_font_ids": [
+      "chill-duan-song"
+    ],
+    "font_size": 20,
+    "line_height": 1.8,
+    "letter_spacing": 0.3,
+    "color": "#251D21",
+    "max_width": 640,
+    "fallback_width": 220,
+    "scale": 3,
+    "inline_code_font": "quote",
+    "replace_native_container": true,
+    "illustration": {
+      "asset_id": "quote-gom-jabbar",
+      "layout": "image",
+      "width_percent": 28,
+      "gap_percent": 4
+    }
+  },
+  "reference_composition": {
+    "strategy": "document-flow",
+    "design_width": 390
+  },
+  "article_header": {
+    "component_id": "dune-opening",
+    "default_asset_id": "header-rescue",
+    "presets": [
+      {
+        "asset_id": "header-rescue",
+        "label": "采香救援"
+      },
+      {
+        "asset_id": "header-ride",
+        "label": "首次击杀沙虫"
+      },
+      {
+        "asset_id": "header-exile",
+        "label": "母子穿越"
+      },
+      {
+        "asset_id": "header-storm",
+        "label": "沙暴突围"
+      }
+    ]
+  }
+}

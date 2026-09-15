@@ -1,0 +1,206 @@
+{
+  "schema_version": 3,
+  "theme_id": "cobalt-orbit",
+  "name": "星尘手记",
+  "order": 2,
+  "wechat_dark_mode": {
+    "strategy": "preserve-table-surfaces"
+  },
+  "theme_palette": [
+    "黑白配色｜颗粒版画"
+  ],
+  "theme_scenes": [
+    "人文",
+    "随笔",
+    "思考"
+  ],
+  "assets": [
+    {
+      "asset_id": "mono-film-v2",
+      "file": "透明装饰素材/mono-film-v2.png",
+      "alt": "中性灰白菲林颗粒底纹",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPI5IBJNPZnB0LC7iadbtKk9NibtDs7rZMA9ESfKHDb5LtexpzKN9v8AqcUfleOibLYV8vAZaWUdPcdm0dngrdAWahQicL3dRNq2ibyM/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mono-orbit-mark-v2",
+      "file": "透明装饰素材/mono-orbit-mark-v2.png",
+      "alt": "细轨迹与颗粒圆形标识",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJDxwyh8Kic32yDGu3egpp5Uv9VR2mS1SsjiaTh3GhDg4COwVUf5egyg2KyT7dXbTy6GpPXXr5ibczLViaf3DW9WSkqXxGH0UPqvia4/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mono-diamond-v2",
+      "file": "透明装饰素材/mono-diamond-v2.png",
+      "alt": "几何钻石线标",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJTPskg0vPdAQ3iaNwQEOiaqhPrWjRg2M2cAPiaeXFdjdKsOB5UXFrj1MSryV1aPoKs9wjGhB3Fd9Bt7jWjiaickMZ4jR8fe443Alxk/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mono-shimmer-underline-v3",
+      "file": "透明装饰素材/mono-shimmer-underline-v3.png",
+      "alt": "黑灰微光下划线",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPI1HxcqaYX3BqTDyDnKD8z4L7sQVj5icrvKGdibYdn0DQo8SiaNfibJf0D2L61G10UT6RmOKIYn5NkyhpqpH03t7Wjtf3f86qhXxu4/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mono-nebula-bullet-v3",
+      "file": "透明装饰素材/mono-nebula-bullet-v3.png",
+      "alt": "星云短簇列表标记",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPLS2eiaa9WpRzMU7jF2mHrjNs74kuwjHeuic9VibLK1Rq1KibJ2tlalWqeYzOFWhnmibcEc6kUkw6Lpr4OowslbAEDQsQU2zOqvRZqY/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mono-quote-mark-v3",
+      "file": "透明装饰素材/mono-quote-mark-v3.png",
+      "alt": "颗粒引号标记",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKzy4GogIeQMf9RGvmmALD4liapUibnkOW3mcb5b9P7U49uSGUQGJAHB4a44fvs4lGowKtVIHw5lh7lAtD9fMBCnibnLiafLLVCt0E/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mono-code-controls-v3",
+      "file": "透明装饰素材/mono-code-controls-v3.png",
+      "alt": "圆、圆角块与菱形三枚代码标",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJicbvpqF1IFmTFKFDibDm8t2x28JDKySFaFxXFWkE0NCxgicUsibc02klicYPdbnwibhPlvIENicAcFJEAwJPALYOnamltJ39UWqkJcU/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "header-gravity-v3",
+      "file": "透明装饰素材/header-gravity-v3.png",
+      "alt": "引力场：颗粒圆环与环绕星轨"
+    },
+    {
+      "asset_id": "header-nebula-v3",
+      "file": "透明装饰素材/header-nebula-v3.png",
+      "alt": "星云：消散颗粒与交叠轨迹"
+    },
+    {
+      "asset_id": "header-phases-v3",
+      "file": "透明装饰素材/header-phases-v3.png",
+      "alt": "月相：四枚灰阶月相与轨迹"
+    },
+    {
+      "asset_id": "header-echo-v3",
+      "file": "透明装饰素材/header-echo-v3.png",
+      "alt": "回声：指纹线条与灰色涟漪"
+    },
+    {
+      "asset_id": "header-galaxy-mist-v6",
+      "file": "透明装饰素材/header-galaxy-mist-v6.png",
+      "alt": "星河流岚：写意墨色银河与星尘"
+    },
+    {
+      "asset_id": "mono-chapter-seal-v4",
+      "file": "透明装饰素材/mono-chapter-seal-v4.png",
+      "alt": "黑灰印刷星象章"
+    },
+    {
+      "asset_id": "mono-code-phases-v4",
+      "file": "透明装饰素材/mono-code-phases-v4.png",
+      "alt": "横向月牙、半月、圆月渐进水印",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJqW1EQI1DwnKPDDx7y9OBl7oGMoicPHfKPlZP0ibdFs1gKg8h4glSJ5cXTBe8jZAt9qSwicMmib2fSzbxIYyIhzLVLoX77ic22FGzE/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mono-footer-v4",
+      "file": "透明装饰素材/mono-footer-v4.png",
+      "alt": "对齐的 THANKS FOR READING 与三圆、新生图中文标签"
+    },
+    {
+      "asset_id": "header-flight-v5",
+      "file": "透明装饰素材/header-flight-v5.png",
+      "alt": "星群前行：立体行星与环绕轨迹"
+    },
+    {
+      "asset_id": "mono-divider-nebula-v5",
+      "file": "透明装饰素材/mono-divider-nebula-v5.png",
+      "alt": "细线星芒与流动的颗粒星云轨迹",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJDib9COzHwSLwGVU64syoPJGhkrictiaJxtYj8hjXQluVGdsKBnxCQFI95jgsWhfgFrtgSAicAr0Vw4icfMYia50RrrdBjsibEjlMvr0/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mono-table-orbit-v5",
+      "file": "透明装饰素材/mono-table-orbit-v5.png",
+      "alt": "淡灰透明月轨表头水印",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKWgRXNicZrWLyQ7KYfuBv01fIHsUe0GHLu9Vc1LfolvMtywzP4TXcgMFd1tnIeAPLGWCuagoLymXxtzRPMOnbPX9jywAtDy7O0/640?wx_fmt=png&from=appmsg"
+    }
+  ],
+  "fonts": [
+    {
+      "font_id": "h1-display",
+      "file": "配套字体资源/方正清刻本悦宋简体.TTF",
+      "family": "方正清刻本悦宋简体",
+      "sha256": "80e23be5802f9283f34db0b9fcfb785a2c70666d0a398a62889561cfac4a470c",
+      "weight": 400,
+      "style": "normal"
+    }
+  ],
+  "heading_images": [
+    {
+      "heading_image_id": "h1-qingke-mono-v3",
+      "heading_levels": [
+        1
+      ],
+      "font_id": "h1-display",
+      "font_size": 28,
+      "line_height": 1.5,
+      "letter_spacing": 1,
+      "color": "#202020",
+      "max_width": 331,
+      "min_display_width": 284,
+      "min_effective_font_size": 24,
+      "scale": 3,
+      "padding_x": 6,
+      "padding_y": 8,
+      "max_lines": 3,
+      "max_equivalent_characters": 40,
+      "latin_font_family": "Courier New",
+      "align": "center",
+      "side_assets": {
+        "left_asset_id": "mono-chapter-seal-v4",
+        "right_asset_id": "mono-chapter-seal-v4",
+        "size": 18,
+        "gap": 8
+      }
+    }
+  ],
+  "components": [
+    {
+      "component_id": "mono-opening-v3",
+      "file": "正文组件结构/mono-opening-v3.html",
+      "slot": "before_article",
+      "asset_ids": [
+        "header-gravity-v3"
+      ]
+    },
+    {
+      "component_id": "mono-ending-v4",
+      "file": "正文组件结构/mono-ending-v4.html",
+      "slot": "after_article",
+      "asset_ids": [
+        "mono-footer-v4"
+      ]
+    }
+  ],
+  "article_header": {
+    "component_id": "mono-opening-v3",
+    "default_asset_id": "header-gravity-v3",
+    "presets": [
+      {
+        "asset_id": "header-gravity-v3",
+        "label": "引力场"
+      },
+      {
+        "asset_id": "header-nebula-v3",
+        "label": "星云"
+      },
+      {
+        "asset_id": "header-phases-v3",
+        "label": "月相"
+      },
+      {
+        "asset_id": "header-echo-v3",
+        "label": "回声"
+      },
+      {
+        "asset_id": "header-flight-v5",
+        "label": "星群前行"
+      },
+      {
+        "asset_id": "header-galaxy-mist-v6",
+        "label": "星河流岚"
+      }
+    ]
+  }
+}

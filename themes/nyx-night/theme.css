@@ -1,0 +1,540 @@
+/* 黑夜女神 V8 · 淡金引语与鎏金细框 */
+
+#nice {
+  padding: 26px 16px 50px;
+  color: #EAE5DA;
+  background-color: #07080C;
+  background-image: url("theme-asset://night-sky-texture");
+  background-repeat: repeat;
+  background-position: left top;
+  background-size: 627px 627px;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.3px;
+  word-break: break-word;
+}
+
+#nice p {
+  margin: 0 0 23px;
+  color: #D8D3C9;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+#nice h1 {
+  margin: 30px 0 20px;
+  padding: 8% 7%;
+  color: #E6CF91;
+  background-color: transparent;
+  background-image: url("theme-asset://h1-lunar-phases");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+  font-size: 0;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#nice h1 .content {
+  display: inline-block;
+  max-width: 100%;
+  color: #E6CF91;
+  font-family: "朱雀仿宋", "Songti SC", STSong, SimSun, serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+#nice h1 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+#nice h2 {
+  margin: 36px 0 18px;
+  padding: 0;
+  border: none;
+  color: #F0ECE3;
+  background-color: transparent;
+  background-image: url("theme-asset://h2-crescent");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 36px 36px;
+  font-size: 0;
+  line-height: 1.55;
+  text-align: left;
+}
+
+#nice h2 .content {
+  display: block;
+  max-width: 100%;
+  padding: 0 0 16px 43px;
+  border: none;
+  background-image: url("theme-asset://luminous-underline");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 76% 22px;
+  color: #F0ECE3;
+  font-family: "Songti SC", STSong, SimSun, serif;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.55;
+  letter-spacing: 0.8px;
+}
+
+#nice h3 {
+  margin: 34px 0 15px;
+  padding: 0;
+  color: #EAE5DA;
+  font-size: 0;
+  line-height: 1.55;
+  text-align: left;
+}
+
+#nice h3 .content {
+  color: #D9CDAF;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.55;
+  letter-spacing: 0.35px;
+}
+
+#nice h4 {
+  margin: 28px 0 13px;
+  padding: 0;
+  color: #EAE5DA;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+#nice h5 {
+  margin: 30px 0;
+  padding: 15px 17px;
+  border: 1px solid #34384A;
+  border-radius: 2px;
+  color: #F3E2AE;
+  background-color: #11172A;
+  font-size: 15.5px;
+  font-weight: 700;
+  line-height: 1.75;
+  text-align: left;
+}
+
+#nice h6 {
+  margin: 28px 0 10px;
+  padding: 0;
+  color: #BCA66F;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+#nice strong {
+  color: #EFD078;
+  font-weight: 700;
+}
+
+#nice em {
+  color: #D7B96F;
+  font-style: normal;
+}
+
+#nice u {
+  border: none;
+  padding-bottom: 23px;
+  background-image: url("theme-asset://luminous-underline");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% 40px;
+  color: #F0ECE3;
+  text-decoration: none;
+}
+
+#nice mark {
+  padding: 1px 4px;
+  border-radius: 3px;
+  color: #07080C;
+  background-color: #FFE06B;
+}
+
+#nice > blockquote {
+  margin: 38px 0;
+  min-height: 114px;
+  padding: 20px 12px 20px 90px;
+  border: 1px solid #66532E;
+  border-radius: 6px;
+  color: #F2E7D0;
+  background-color: transparent;
+  background-image: url("theme-asset://quote-lunar-emblem");
+  background-size: 72px 72px;
+  background-repeat: no-repeat;
+  background-position: 10px 20px;
+  text-align: left;
+}
+
+#nice blockquote p {
+  margin: 0 0 14px;
+  color: #F2E7D0;
+  font-family: "Songti SC", STSong, SimSun, serif;
+  font-size: 19px;
+  line-height: 1.8;
+  letter-spacing: 0.3px;
+}
+
+#nice blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+#nice blockquote p code {
+  display: inline;
+  padding: 2px 2px;
+  font-size: 0.84em;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+
+#nice blockquote blockquote {
+  margin: 14px 0 0;
+  padding: 14px 16px;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+}
+
+#nice blockquote blockquote p {
+  font-size: 16px;
+}
+
+#nice ul,
+#nice ol {
+  margin: 0 0 24px;
+  padding-left: 1.45em;
+}
+
+#nice ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#nice ul > li:not(.wechat-task-item) {
+  padding-left: 25px;
+  background-image: url("theme-asset://bullet-crescent");
+  background-size: 19px 19px;
+  background-repeat: no-repeat;
+  background-position: left 5px;
+}
+
+#nice ul ul {
+  padding-left: 8px;
+  margin-bottom: 12px;
+}
+
+#nice ul ul > li:not(.wechat-task-item) {
+  background-image: url("theme-asset://bullet-gibbous");
+  background-size: 16px 16px;
+  background-position: left 7px;
+}
+
+#nice li.wechat-task-item {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#nice .wechat-task-marker {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  margin: 0 7px 0 0;
+  padding: 0;
+  border: none;
+  font-size: 0;
+  line-height: 0;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+#nice .wechat-task-marker.is-unchecked {
+  background-image: url("theme-asset://todo-empty");
+}
+
+#nice .wechat-task-marker.is-checked {
+  background-image: url("theme-asset://todo-done");
+}
+
+#nice ol {
+  list-style-type: decimal;
+}
+
+#nice li {
+  margin: 8px 0;
+  padding-left: 4px;
+  color: #D8D3C9;
+  font-size: 16px;
+  line-height: 1.85;
+}
+
+#nice li strong {
+  color: #EFD078;
+}
+
+#nice h1 strong {
+  color: #E6CF91;
+}
+
+#nice h2 strong,
+#nice h5 strong,
+#nice table strong {
+  color: #EFD078;
+}
+
+#nice h3 strong {
+  color: #D9CDAF;
+}
+
+#nice h4 strong {
+  color: #EAE5DA;
+}
+
+#nice h6 strong {
+  color: #BCA66F;
+}
+
+#nice hr {
+  width: 100%;
+  max-width: 560px;
+  height: 78px;
+  margin: 8px auto;
+  border: none;
+  background-color: transparent;
+  background-image: url("theme-asset://moon-phase-divider");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% auto;
+}
+
+#nice pre {
+  margin: 28px 0;
+  padding: 2px;
+  border: 1px solid #8E6A29;
+  border-radius: 6px;
+  color: #EAE5DA;
+  background-color: transparent;
+  background-image: url("theme-asset://gilded-metal");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+#nice pre code {
+  display: block;
+  padding: 16px 18px 20px;
+  border-radius: 3px;
+  color: #EAE5DA;
+  background-color: #0A0D14;
+  background-image: url("theme-asset://code-star-watermark");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 116px 116px;
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 13.5px;
+  line-height: 1.75;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+#nice pre code::before {
+  content: "";
+  display: block;
+  width: 49.2px;
+  height: 18px;
+  margin: 0 0 8px;
+  padding: 0;
+  background-image: url("theme-asset://code-astral-dots");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 54px 18px;
+}
+
+#nice p code,
+#nice li code {
+  display: inline-block;
+  max-width: 100%;
+  padding: 2px 6px;
+  border: 1px solid #685839;
+  border-radius: 4px;
+  color: #F3E2AE;
+  background-color: #11172A;
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  white-space: normal;
+  word-break: break-all;
+}
+
+#nice kbd {
+  display: inline-block;
+  padding: 1px 6px;
+  border: 1px solid #4A4F60;
+  border-radius: 4px;
+  color: #EAE5DA;
+  background-color: #11172A;
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 0.86em;
+}
+
+#nice img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 28px auto 32px;
+  border: 1px solid #3A3428;
+  border-radius: 2px;
+  background-color: #11172A;
+}
+
+#nice figure {
+  margin: 28px 0 32px;
+  padding: 0;
+}
+
+#nice figure img {
+  margin: 0 auto 10px;
+}
+
+#nice figcaption {
+  margin: 0;
+  color: #948F85;
+  font-size: 12px;
+  line-height: 1.65;
+  text-align: center;
+}
+
+#nice table {
+  width: 100%;
+  margin: 24px 0 12px;
+  border: none;
+  background-color: transparent;
+  color: #E2DCCD;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+#nice table th,
+#nice table td {
+  vertical-align: top;
+}
+
+#nice table th {
+  padding: 16px 6px 14px;
+  border: none;
+  border-bottom: 1px solid #B69A57;
+  color: #F0CD70;
+  background-color: transparent;
+  font-family: "Songti SC", STSong, SimSun, serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+  text-shadow: 0 1px 0 #49391C;
+  text-align: left;
+}
+
+#nice table td {
+  padding: 12px 6px 14px;
+  border: none;
+  border-bottom: 1px solid #5D4C2D;
+  color: #D8D3C9;
+  background-color: transparent;
+}
+
+#nice table th strong,
+#nice table th em,
+#nice table th a {
+  color: #F0CD70;
+}
+
+#nice table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+#nice tbody tr:nth-child(even) td {
+  background-color: transparent;
+}
+
+#nice a {
+  border-bottom: 1px solid #C5A15A;
+  color: #F3E2AE;
+  font-weight: 600;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+#nice s,
+#nice del {
+  color: #89857E;
+}
+
+#nice .footnote-word,
+#nice .footnote-ref {
+  color: #DFC477;
+  font-weight: 700;
+}
+
+#nice .footnotes-sep {
+  margin-top: 38px;
+  border-top: 1px solid #4A402D;
+}
+
+#nice .footnote-item p {
+  color: #9C978D;
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+#nice .nyx-opening {
+  display: block;
+  margin: 0 0 18px;
+  padding: 0;
+  text-align: center;
+}
+
+#nice .nyx-opening-art {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+#nice .nyx-ending {
+  display: block;
+  margin: 44px 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+#nice .nyx-ending-symbols {
+  display: block;
+  width: 92%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+}

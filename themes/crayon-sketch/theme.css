@@ -1,0 +1,238 @@
+/* 蜡笔手绘 V6 · 透明蜡笔、果园与纸面。背景 CDN 另行验收。 */
+#nice {
+  padding: 22px 20px 34px;
+  color: #59432C;
+  background-color: #FFF1C4;
+  background-image: url("theme-asset://paper-grain-v2");
+  background-repeat: repeat;
+  background-position: left top;
+  background-size: 360px 360px;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.35px;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+#nice p { margin: 0 0 22px; color: #59432C; font-size: 16px; line-height: 1.9; }
+#nice h1 { margin: 50px 0 24px; padding: 0; border: none; color: #C96316; font-size: 0; line-height: 1.5; text-align: center; }
+#nice h1 .content { color: #C96316; font-size: 30px; font-weight: 700; line-height: 1.5; letter-spacing: 0.5px; }
+#nice h2 {
+  margin: 38px 0 17px;
+  padding: 2px 0 2px 38px;
+  border: none;
+  color: #C96316;
+  background-image: url("theme-asset://apricot-marker-v1");
+  background-repeat: no-repeat;
+  background-position: left 3px;
+  background-size: 30px 30px;
+  font-size: 0;
+  line-height: 1.5;
+  text-align: left;
+}
+#nice h2 .content { color: #C96316; font-size: 21px; font-weight: 700; line-height: 1.5; letter-spacing: 0.3px; }
+#nice h3 { margin: 30px 0 12px; padding: 0; border: none; color: #59432C; font-size: 0; line-height: 1.65; text-align: left; }
+#nice h3 .content { color: #59432C; font-size: 17px; font-weight: 700; line-height: 1.65; }
+#nice h4 { margin: 26px 0 10px; padding: 0; border: none; color: #59432C; font-size: 16px; font-weight: 700; line-height: 1.7; }
+#nice h5 { margin: 24px 0 10px; padding: 0; border: none; color: #59432C; background-color: transparent; font-size: 15px; font-weight: 700; line-height: 1.75; }
+#nice h6 { margin: 22px 0 9px; padding: 0; border: none; color: #886E45; font-size: 12.5px; font-weight: 600; line-height: 1.6; letter-spacing: 1px; }
+#nice strong { color: #A74C13; font-weight: 700; }
+#nice em { color: #59432C; font-style: normal; font-weight: 600; }
+#nice u {
+  padding: 0 1px 5px;
+  border: none;
+  color: #59432C;
+  text-decoration: none;
+  background-image: url("theme-asset://underline-crayon-v3");
+  background-repeat: repeat-x;
+  background-position: left bottom;
+  background-size: 100% 5px;
+}
+#nice mark { padding: 1px 3px; color: #59432C; background-color: #FFD777; font-weight: 600; }
+#nice s, #nice del { color: #978565; }
+#nice h1 strong, #nice h2 strong { color: #C96316; }
+#nice h3 strong, #nice h4 strong, #nice h5 strong, #nice h6 strong, #nice table strong { color: #59432C; }
+
+/* 左侧果树，右侧金句；仅保留小引号，移除右下枝叶。 */
+#nice > blockquote {
+  margin: 32px 0 34px;
+  min-height: 118px;
+  padding: 10px 5px 12px 90px;
+  border: none;
+  border-radius: 0;
+  color: #59432C;
+  background-color: transparent;
+  background-image: url("theme-asset://quote-tree-v3");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 76px auto;
+}
+#nice > blockquote::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 18px;
+  margin: 0 0 6px;
+  background-image: url("theme-asset://quote-crayon-v1");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 20px 20px;
+}
+#nice blockquote p { margin: 0 0 12px; color: #59432C; font-size: 18px; font-weight: 500; line-height: 1.85; }
+#nice blockquote p:last-child { margin-bottom: 0; }
+#nice blockquote blockquote { margin: 16px 0 0; padding: 0 0 0 10px; border: none; background-color: transparent; }
+#nice blockquote blockquote p { font-size: 16px; font-weight: 400; }
+
+#nice ul, #nice ol { margin: 0 0 22px; }
+#nice ul { padding-left: 0; list-style-type: none; }
+#nice ol { padding-left: 1.45em; list-style-type: decimal; }
+#nice li { margin: 8px 0; padding-left: 3px; color: #59432C; font-size: 16px; line-height: 1.85; }
+#nice li p { margin: 0 0 8px; }
+#nice ul > li:not(.wechat-task-item) {
+  list-style-type: none; padding-left: 24px;
+  background-image: url("theme-asset://bullet-flower-v4");
+  background-repeat: no-repeat; background-position: 2px 8px;
+  background-size: 14px 14px;
+}
+#nice ul ul { margin: 6px 0 4px; padding-left: 4px; list-style-type: none; }
+#nice ul ul > li:not(.wechat-task-item) {
+  padding-left: 23px;
+  background-image: url("theme-asset://bullet-leaf-v4");
+  background-position: 2px 9px; background-size: 15px 12px;
+}
+#nice ol ol { margin: 7px 0 4px; padding-left: 1.35em; list-style-type: lower-alpha; }
+#nice li.wechat-task-item { list-style-type: none; padding-left: 0;  }
+#nice .wechat-task-marker {
+  display: inline; color: transparent; font-size: 0;
+  padding: 10px; margin-right: 9px;
+  background-image: url("theme-asset://task-open-v4");
+  background-repeat: no-repeat; background-position: center;
+  background-size: 20px 20px; vertical-align: middle;
+}
+#nice .wechat-task-marker.is-checked { color: transparent; background-image: url("theme-asset://task-done-v4"); }
+#nice li.wechat-task-item > p.wechat-task-line { margin: 0; padding: 0; }
+#nice hr {
+  width: 66%; height: 12px; margin: 18px auto;
+  border: none; background-color: transparent;
+  background-image: url("theme-asset://divider-double-v4");
+  background-repeat: no-repeat; background-position: center center;
+  background-size: 100% 10px;
+}
+
+/* 蜡笔代码框：上下短片与两侧重复片分开，长代码不拉粗横线。 */
+#nice pre {
+  margin: 26px 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  color: #59432C;
+  background-color: transparent;
+  background-image: url("theme-asset://code-frame-sides-v3");
+  background-repeat: repeat-y;
+  background-position: center top;
+  background-size: 100% 24px;
+}
+#nice pre::before, #nice pre::after {
+  content: "";
+  display: block;
+  height: 10px;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 10px;
+}
+#nice pre::before { background-image: url("theme-asset://code-frame-top-v3"); }
+#nice pre::after { background-image: url("theme-asset://code-frame-bottom-v3"); }
+#nice pre code {
+  display: block;
+  padding: 48px 24px 4px 36px;
+  border: none;
+  color: #59432C;
+  background-color: transparent;
+  background-image: url("theme-asset://fruit-trio-v3");
+  background-repeat: no-repeat;
+  background-position: 33px 6px;
+  background-size: 79px 25px;
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: 13px;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+#nice code:not(pre > code) { padding: 1px 4px; border: 2px solid #E59A32; border-radius: 2px; color: #A74C13; background-color: #FFE5A4; font-family: "SFMono-Regular", Menlo, Consolas, monospace; font-size: 0.88em; white-space: normal; word-break: break-all; overflow-wrap: anywhere; }
+#nice kbd { display: inline-block; padding: 1px 5px; border: 1px solid #DDBF80; border-bottom-width: 2px; border-radius: 2px; color: #59432C; background-color: #FFF9EA; font-family: Menlo, Consolas, monospace; font-size: 0.86em; }
+
+#nice img { display: block; max-width: 100%; height: auto; margin: 26px auto; border: none; border-radius: 0; background-color: transparent; }
+#nice p img:first-child:nth-last-child(2), #nice p img:first-child:nth-last-child(2) ~ img,
+#nice img:has(+ img):not(:has(+ img + img)), #nice img + img:not(:has(+ img)) { display: inline-block; width: 47%; max-width: 47%; margin: 24px 0; vertical-align: middle; }
+#nice p img:first-child:nth-last-child(2), #nice img:has(+ img):not(:has(+ img + img)) { margin-right: 4%; }
+#nice figure { margin: 26px 0; padding: 0; }
+#nice figure img { margin: 0 auto 8px; }
+#nice figcaption { margin: 0; color: #886E45; font-size: 12px; line-height: 1.7; text-align: center; }
+
+/* 透明表格：保留原外框与水印，行间线使用真实蜡笔图。 */
+#nice table {
+  width: 100%; margin: 26px 0; border: none;
+  color: #59432C; background-color: transparent;
+  background-image: url("theme-asset://frame-crayon-v3");
+  background-repeat: no-repeat; background-position: center center;
+  background-size: 100% 100%;
+  font-size: 14px; line-height: 1.7;
+}
+#nice table thead { background-color: transparent; }
+#nice table tbody {
+  background-color: transparent;
+  background-image: url("theme-asset://table-watermark-v3");
+  background-repeat: no-repeat; background-position: right bottom;
+  background-size: 112px 112px;
+}
+#nice table thead tr, #nice table tbody tr:not(:last-child) {
+  background-color: transparent;
+  background-image: url("theme-asset://table-rowline-v4");
+  background-repeat: no-repeat; background-position: center bottom;
+  background-size: 100% 2px;
+}
+#nice table tbody tr:last-child {  }
+#nice table th {
+  padding: 18px 12px 14px 24px; border: none;
+  color: #754614; background-color: transparent;
+  font-size: 14px; font-weight: 700; text-align: left; vertical-align: top;
+}
+#nice table td {
+  padding: 13px 12px 14px 24px; border: none;
+  color: #59432C; background-color: transparent;
+  vertical-align: top; overflow-wrap: break-word;
+}
+#nice table th:first-child, #nice table td:first-child { padding-left: 34px; }
+#nice table tbody tr:last-child td { border-bottom: none; padding-bottom: 24px; }
+#nice a { border-bottom: 1px solid #D39742; color: #A74C13; font-weight: 500; text-decoration: none; word-break: break-all; }
+#nice .footnote-word, #nice .footnote-ref { color: #A74C13; font-weight: 700; }
+#nice .footnotes-sep { width: 100%; margin-top: 34px; border-top: 1px solid #DDC48E; }
+#nice .footnote-item p { color: #886E45; font-size: 13px; line-height: 1.8; }
+
+/* 首尾画面直接落在纸上，没有卡片外框。 */
+#nice .crayon-opening { margin: 0 0 26px; padding: 0; }
+#nice .crayon-opening img { display: block; width: 100%; max-width: 100%; height: auto; margin: 0; border: none; border-radius: 0; }
+#nice .crayon-ending { margin: 48px 0 0; padding: 0; border: none; border-radius: 0; background-color: transparent; }
+#nice .crayon-ending img { display: block; width: 100%; max-width: 100%; height: auto; margin: 0; border: none; border-radius: 0; }
+
+/* 分割线附近缩短转场，不影响无分割线的正常章节留白。 */
+#nice hr + h1 { margin-top: 28px; }
+#nice hr + h2 { margin-top: 24px; }
+#nice hr.footnotes-sep { height: 0;  }
+
+/* 女孩位于代码文字之后，独占右下角留白，不遮挡代码行。 */
+#nice pre code::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 30px;
+  margin: 2px 0 0 auto;
+  padding: 0;
+  background-image: url("theme-asset://code-girl-basket-v6");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 30px;
+}

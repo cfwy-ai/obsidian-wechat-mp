@@ -1,0 +1,29 @@
+{
+  "name": "wechat-mp",
+  "version": "0.9.63",
+  "private": true,
+  "type": "module",
+  "description": "Obsidian 文章 → 微信公众号排版与推送",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "audit:themes": "node tools/audit-live-themes.mjs",
+    "check": "npm test && npm run audit:themes && npm run build",
+    "deploy": "npm run build && node scripts/install.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "highlight.js": "^11.12.0",
+    "html2canvas": "1.4.1",
+    "htmlparser2": "10.1.0",
+    "juice": "^12.1.2",
+    "marked": "^18.0.11",
+    "pngjs": "^7.0.0",
+    "postcss": "^8.5.26",
+    "sanitize-html": "^2.17.7"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.13.1"
+  }
+}

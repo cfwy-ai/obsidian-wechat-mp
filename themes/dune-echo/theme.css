@@ -1,0 +1,84 @@
+/* 沙丘版画：每个 Markdown 块只按自身角色排版，390px 为统一设计宽度。 */
+#nice { margin:0; padding:0; color:#251D21; background-color:#E8D4B8; background-image:url("theme-asset://ref-sand"); background-repeat:repeat; background-position:left top; background-size:225px 225px; font-family:"PingFang SC","Microsoft YaHei",sans-serif; font-size:16px; font-weight:400; line-height:1.85; letter-spacing:0.2px; word-break:break-word; }
+#nice p { margin:0 8% 18px; padding:0; color:#251D21; font-size:16px; font-weight:400; line-height:1.85; letter-spacing:0.2px; }
+#nice h1 { margin:30px 8% 22px; padding:0; border:none; color:#251D21; background-color:transparent; font-size:0; line-height:1.5; text-align:center; }
+#nice h1 > .content { display:block; margin:0; padding:0; color:#251D21; font-family:"ChillDuanHeiSong","Songti SC",serif; font-size:32px; font-weight:400; line-height:1.5; letter-spacing:1.6px; text-align:center; }
+#nice h2 { margin:28px 8% 16px; padding:0 0 0 36px; border:none; color:#251D21; background-color:transparent; background-image:url("theme-asset://h2-crysknife"); background-repeat:no-repeat; background-position:left 8px; background-size:28px 28px; font-size:0; line-height:1.5; text-align:left; }
+#nice h2 > .content { display:block; margin:0; padding:0; color:#251D21; font-family:"ChillDuanHeiSong","Songti SC",serif; font-size:22px; font-weight:400; line-height:1.5; letter-spacing:0.4px; text-align:left; }
+#nice h3 { margin:26px 8% 12px; padding:0; border:none; color:#251D21; font-size:0; line-height:1.6; }
+#nice h3 > .content { font-size:19px; font-weight:600; line-height:1.6; letter-spacing:0.3px; }
+#nice h4, #nice h5, #nice h6 { margin:22px 8% 10px; padding:0; border:none; color:#66513D; font-size:17px; font-weight:600; line-height:1.6; }
+#nice strong { color:#251D21; font-weight:600; }
+#nice em { color:#8A4D21; font-style:italic; }
+#nice mark { padding:0 2px; color:#251D21; background-color:#EDBE87; }
+#nice u { padding-bottom:4px; color:#251D21; text-decoration:none; border:none; background-image:url("theme-asset://underline-sand-trace"); background-repeat:repeat-x; background-position:left bottom; background-size:128px 4px; }
+#nice del { color:#8A7B68; }
+#nice sup, #nice sub { font-size:12px; line-height:1; }
+
+/* 四幅头图共享这个组件，完整显示，不吸入文章标题或段落。 */
+#nice .dune-opening { display:block; width:100%; margin:0 0 2px; padding:0; border:none; background-color:transparent; font-size:0; line-height:0; }
+#nice .dune-opening img { display:block; width:100%; max-width:100%; height:auto; margin:0; padding:0; border:none; border-radius:0; }
+
+#nice .dune-opening + h1 { margin-top:5px; }
+
+/* 戈姆刺插画由 quote_images.illustration 合成在左侧；引用字区占组件68%。 */
+#nice blockquote { display:block; width:auto; margin:28px 8%; padding:8px 0; border:none; border-radius:0; color:#251D21; background-color:transparent; }
+#nice blockquote p { margin:0 0 14px; padding:0; color:#251D21; font-family:"Zhuque Fangsong","FangSong","Songti SC",serif; font-size:20px; font-weight:400; line-height:1.8; letter-spacing:0.3px; text-align:left; }
+#nice blockquote p:last-child { margin-bottom:0; }
+#nice blockquote strong { font-weight:600; }
+#nice blockquote blockquote { width:auto; margin:18px 0; padding:0 0 0 16px; border:none; background-color:transparent; }
+#nice blockquote h1, #nice blockquote h2, #nice blockquote h3, #nice blockquote h4, #nice li h1, #nice li h2, #nice li h3, #nice li h4 { margin-left:0; margin-right:0; }
+#nice blockquote ul, #nice blockquote ol { margin-left:0; margin-right:0; }
+
+/* 代码文字保持原生；版画物件与淡化帐篷由独立装饰层承载。 */
+#nice code { padding:0 2px; color:#684C33; background-color:transparent; border:none; border-radius:0; font-family:"Courier New",Courier,Menlo,monospace; font-size:0.95em; }
+#nice pre { display:block; width:auto; margin:28px 8%; padding:0; color:#251D21; background-color:transparent; background-image:url("theme-asset://code-stilltent-watermark"); background-repeat:no-repeat; background-position:right bottom; background-size:170px auto; border:1.5px solid #AA906E; border-radius:12px; }
+#nice pre::before { content:""; display:block; width:96px; height:32px; margin:8px auto 0 14px; background-image:url("theme-asset://code-emblems"); background-repeat:no-repeat; background-size:96px 32px; }
+#nice pre code { display:block; margin:0; padding:8px 14px 30px; color:#251D21; background-color:transparent; border:none; border-radius:0; font-family:"Courier New",Courier,Menlo,monospace; font-size:15px; font-weight:400; line-height:1.7; letter-spacing:0; white-space:pre-wrap; word-break:break-all; }
+#nice .hljs-comment, #nice .hljs-quote { color:#93836B; }
+#nice .hljs-keyword, #nice .hljs-selector-tag, #nice .hljs-title { color:#A45623; font-weight:500; }
+#nice .hljs-string, #nice .hljs-regexp, #nice .hljs-attribute { color:#766440; }
+#nice .hljs-number, #nice .hljs-literal, #nice .hljs-symbol, #nice .hljs-built_in, #nice .hljs-type, #nice .hljs-meta { color:#513F32; }
+
+/* 表格只保留行间细线，镜像蓄水池融入右下角。 */
+#nice table { width:80%; margin:34px 10% 30px; padding:0; border:none; border-radius:0; background-color:transparent; background-image:url("theme-asset://table-reservoir-watermark"); background-repeat:no-repeat; background-position:right bottom; background-size:155px auto; font-size:15px; font-weight:400; }
+#nice thead, #nice tbody, #nice tr { background-color:transparent; }
+#nice th, #nice td { padding:10px 8px; color:#251D21; background-color:transparent; border:none; border-bottom:0.5px solid #C4B296; font-size:15px; font-weight:400; line-height:1.7; text-align:left; vertical-align:top; word-break:break-word; }
+#nice tbody tr:last-child td { border-bottom:none; }
+#nice th { color:#764522; font-weight:600; }
+#nice th p, #nice td p { margin:0; padding:0; color:#251D21; font-size:15px; font-weight:400; line-height:1.7; }
+#nice td code, #nice th code { font-size:0.9em; }
+
+/* 两级无序图案固定在每个条目的第一行；有序列表保留原生数字。 */
+#nice ul, #nice ol { margin:20px 8% 24px; padding:0; }
+#nice ul { list-style-type:none; }
+#nice ol { padding-left:22px; list-style-type:decimal; }
+#nice li { margin:8px 0; padding:0; color:#251D21; font-size:16px; font-weight:400; line-height:1.85; }
+#nice ul > li { padding-left:30px; list-style-type:none; background-image:url("theme-asset://ul-primary"); background-repeat:no-repeat; background-position:left 3px; background-size:22px 22px; }
+#nice li ul > li { padding-left:26px; background-image:url("theme-asset://ul-secondary"); background-size:18px 18px; background-position:left 5px; }
+#nice ol > li { background-image:none; }
+#nice li p { margin:0 0 8px; padding:0; font-size:16px; line-height:1.85; }
+#nice li ul, #nice li ol { margin:8px 0 6px; padding:0; }
+#nice ol ol { list-style-type:decimal; }
+#nice li.wechat-task-item { padding-left:0; list-style-type:none; background-image:none; }
+#nice .wechat-task-marker { display:inline-block; margin-right:7px; color:#B86A2C; font-size:16px; line-height:1.2; vertical-align:middle; }
+#nice .wechat-task-marker.is-checked { color:#68533D; }
+#nice li.wechat-task-item > p.wechat-task-line { margin:0; padding:0; }
+
+#nice img { display:block; max-width:100%; height:auto; margin:22px auto; padding:0; border:none; border-radius:0; }
+#nice > img { max-width:80%; margin:16px auto; padding:5px; border:2px solid #8E6D48; border-radius:3px; background-color:transparent; }
+#nice > p > img { max-width:96%; margin:5px auto; padding:5px; border:2px solid #8E6D48; border-radius:3px; background-color:transparent; }
+#nice [data-wechat-gallery-row] { display:block; width:auto; margin-top:12px; margin-right:8%; margin-bottom:8px; margin-left:8%; padding:6px; border:2px solid #8E6D48; border-radius:3px; background-color:transparent; }
+#nice [data-wechat-gallery-row] > img { margin-top:0!important; margin-bottom:0!important; }
+#nice figure { margin:16px 8% 10px; padding:5px; border:2px solid #8E6D48; border-radius:3px; background-color:transparent; }
+#nice figure img { margin:0 auto; }
+#nice figcaption { margin:8px 0 18px; padding:0; color:#89765B; font-size:14px; line-height:1.65; text-align:center; }
+#nice hr { display:block; width:84%; height:52px; margin:24px 8%; padding:0; border:none; background-color:transparent; background-image:url("theme-asset://divider-thopter"); background-repeat:no-repeat; background-position:center center; background-size:100% auto; }
+#nice a { color:#A45B27; text-decoration:none; border-bottom:0.5px solid #CF9B63; }
+#nice .footnotes { margin:28px 8% 0; padding-top:16px; color:#89765B; border-top:0.5px solid #C6B597; font-size:14px; }
+#nice .footnotes p, #nice .footnotes li { margin-left:0; margin-right:0; color:#89765B; font-size:14px; line-height:1.7; }
+#nice kbd { padding:1px 3px; color:#665443; background-color:#EEE4D2; border:0.5px solid #C6B394; border-radius:0; font-family:Menlo,Consolas,monospace; font-size:0.9em; }
+
+/* 尾版完整呈现卡拉丹画面及两行原句，不叠加品牌小字。 */
+#nice .dune-footer { display:block; width:100%; margin:24px 0 0; padding:0; border:none; background-color:transparent; font-size:0; line-height:0; }
+#nice .dune-footer img { display:block; width:100%; max-width:100%; height:auto; margin:0; padding:0; border:none; border-radius:0; }
