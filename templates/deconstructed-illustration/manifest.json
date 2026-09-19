@@ -1,0 +1,395 @@
+{
+  "schema_version": 3,
+  "theme_id": "deconstructed-illustration",
+  "name": "解构插画",
+  "order": 7,
+  "theme_palette": [
+    "朱红配色｜结构写意"
+  ],
+  "theme_scenes": [
+    "人文随笔",
+    "文化写作",
+    "观点长文"
+  ],
+  "assets": [
+    {
+      "asset_id": "header-palace-a",
+      "file": "透明装饰素材/header-palace-a.png",
+      "alt": "故宫角楼，交错屋檐与护城河倒影"
+    },
+    {
+      "asset_id": "header-lingyin-a",
+      "file": "透明装饰素材/header-lingyin-v3.png",
+      "alt": "灵隐疏林，古树间一角寺檐"
+    },
+    {
+      "asset_id": "quote-garden-v1",
+      "file": "透明装饰素材/quote-garden-v1.png",
+      "alt": "引用左侧的寺檐与古树"
+    },
+    {
+      "asset_id": "lake-shore-v1",
+      "file": "透明装饰素材/lake-shore-v1.png",
+      "alt": "湖面笔触、岸石与芦苇",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPLV1W9FdAxvOT3uZpS8hibMtAiccACIY9EoHnribG6qGWe9UNBH6qEKbfibAd6yayAKvW1u1SnqSNVVRcAI9CibWDELx7pL1jU09k9o/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "brush-line-v1",
+      "file": "透明装饰素材/brush-line-v1.png",
+      "alt": "湖面颜料提取的横向笔触",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPI7DV11pBlQRgOJQ6MdkJVBqbdJFcVJjKptp6oyWPU9iaeIGOw3lTu6mnqz3TjynibIViagjpMCFTvmZPhXbzSic8cibsRdESOEVT1w/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "brush-sides-v1",
+      "file": "透明装饰素材/brush-sides-v1.png",
+      "alt": "可纵向重复的两侧水彩笔触",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJY433RtBYKiaH62vn3fo2XCZQZrHBQADZItW2PIw5y9EiaT6t6j7V9gp8F8pDbsgduCaBNoQ2wPBmHJvchUz4BKymKW5K0icia9tM/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "bullet-santan-v2",
+      "file": "透明装饰素材/bullet-santan-v2.png",
+      "alt": "三潭印月石塔列表标记",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJLVamWS5ZxvZiaBbWngcv5DB1vLiafiasrAFV4N32z3v8C3O75fwFwqY3pCoueWwNfsu3uFz2C9CfXO7icahdwItKk57hIJZYJXqk/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "bullet-bridge-v2",
+      "file": "透明装饰素材/bullet-bridge-v2.png",
+      "alt": "断桥残雪列表标记",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKECbjHXx1VWy6YzfRsC1GvjxUj5PB9CNTqEY2NsG8Lj3shLficw8XtrETDL9caDAyk5w5QOVzhkkZeLzjb52x6GUib5VfVRPToE/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "task-done-v2",
+      "file": "透明装饰素材/task-done-v2.png",
+      "alt": "修复完整的门楼",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPISL5JE53o7YvwAMKn3aNfa1NuLv8ibgBWVsOUsYKBZcWBibmNUdafes4BvWfibmYlZDq7VC0LaoxWniaQvOjREFlCFmMT0r0EfA08/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "divider-watergate-v2",
+      "file": "透明装饰素材/divider-watergate-v2.png",
+      "alt": "水门与横向展开的写意湖水",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJhVw5PeMo0h0gb8dsrZ2KHYglyrnFCKh7AERQdibv55TiafmlIu3HhIMjngOK0L5vWI5EM2icMTnxl0p8Z6q2jyiakiaZAJDYmC3mw/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "table-horizontal-v2",
+      "file": "透明装饰素材/table-horizontal-v2.png",
+      "alt": "表格横向细笔触",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPIwXEibXvkhc7KFxCs4PYS7gC7FbglATdAVoIbfe6Vhf8zmia6tBD942tHsbIebmnLQMXEc9JdOHrcoRRusKkZOmqciaiacWTyNSp4/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "table-sides-v2",
+      "file": "透明装饰素材/table-sides-v2.png",
+      "alt": "表格两侧细笔触",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPK27BaDbb7JbVrQrO7ESpDSvHwB9RZoMgdCQaoy7JyleYibQKfpq0Q7CXDGD73nNaOdJqza5TUWDDQViaJznrIML0aQtmcIcR4FM/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "cell-vertical-v2",
+      "file": "透明装饰素材/cell-vertical-v2.png",
+      "alt": "表格列间竖向细笔触",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPL7BqOOj8k7WKwjAA6ib1CpfcBaSZvm2TaMDjfWNicJs076CdibPLbxtHH4CBrPdVwMo0licqdMpOzDdL3OKNkJrq8ibicm31KMdUxgk/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "image-frame-v2",
+      "file": "透明装饰素材/image-frame-v2.png",
+      "alt": "正文图片的古朴细描框",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJDIDjhlLsAy2XCX0eGJ4OnYTia9e9x7aJViaP1X2eE69mz2iciccPXlspBMtib9bZiaycsysJGrKWeF1HbyV5FKDgVDUgyj8t5oItUE/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "header-drumtower-v3",
+      "file": "透明装饰素材/header-drumtower-v3.png",
+      "alt": "北京鼓楼，朱红城台与空疏石阶"
+    },
+    {
+      "asset_id": "header-zhichunting-v3",
+      "file": "透明装饰素材/header-zhichunting-v3.png",
+      "alt": "知春亭，柳影与湖面"
+    },
+    {
+      "asset_id": "heading-bell-left-v3",
+      "file": "透明装饰素材/heading-bell-left-v3.png",
+      "alt": "标题左侧完整檐铃"
+    },
+    {
+      "asset_id": "heading-bell-right-v3",
+      "file": "透明装饰素材/heading-bell-right-v3.png",
+      "alt": "标题右侧完整檐铃"
+    },
+    {
+      "asset_id": "heading-window-v3",
+      "file": "透明装饰素材/heading-window-v3.png",
+      "alt": "园林漏窗与远檐",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJLonJlX0ENRCzeppGPhJaibWtxMJv869Qq59ibnZtAlEPaw5fqhntK5HhKicOFj8NrakToXEZhQEeibqBFTYvjORUhysBnbevE6x0/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "table-horsewall-watermark-v3",
+      "file": "透明装饰素材/table-horsewall-watermark-v3.png",
+      "alt": "表格右下淡淡马头墙水印",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJlV6k1IAwQy6CVltibVb8iaVYT3KO5HaTx6YufZRTDiaObdtPT50ApYl8SIsEfDic3CCkoPqa74xdsXeHUB61VGZV5ABKPaCNyBco/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "task-open-v3",
+      "file": "透明装饰素材/task-open-v3.png",
+      "alt": "屋顶尚未建好的门楼",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPKwHJYM2EHNeGspBzyuFBpLWNxXPUoMb5ZFzJPqeUWJTqazLGDYXoyRUFW2OH5BQOVXT45HxBu4Mkaic40vEFFyOcbkrhibTHjhE/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "code-trio-v3",
+      "file": "透明装饰素材/code-trio-v3.png",
+      "alt": "红楼、小亭与落成门楼",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJ5grM1FZBUA8ibuZfVlYox1xChziclQRWy8ncsyttfIBuu1u7BI0K7BKSic2nDgNpT6TALQVdibviaQHXIibjIKpFWdGBAfBgPEhcIk/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "footer-watergallery-v3",
+      "file": "透明装饰素材/footer-watergallery-v3.png",
+      "alt": "江南水廊与几笔清波，无字尾图"
+    },
+    {
+      "asset_id": "annotation-ochre-v4",
+      "file": "透明装饰素材/annotation-ochre-v4.png",
+      "alt": "古籍雌黄淡染，高亮短语的自然颜料边缘",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJjia2P1KPz7Eet6W0eI6RQsDQ5yWTb1XlzrB59nCtRhGM8dTXL68tibJuAdHaMQKdgeFdeOH3lCgueY9amXW9SrbIN0xuweAg38/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "header-zhaozhou-v4",
+      "file": "透明装饰素材/header-zhaozhou-v4.png",
+      "alt": "赵州桥影，敞肩石拱与水色"
+    },
+    {
+      "asset_id": "header-yungang-v4",
+      "file": "透明装饰素材/header-yungang-v4.png",
+      "alt": "云冈石韵，现存佛像与山崖"
+    },
+    {
+      "asset_id": "header-taihe-v6",
+      "file": "透明装饰素材/header-taihe-v6.png",
+      "alt": "太和殿影，金瓦朱柱与三层汉白玉台基"
+    },
+    {
+      "asset_id": "header-marbleboat-v6",
+      "file": "透明装饰素材/header-marbleboat-v6.png",
+      "alt": "石舫清波，船楼拱窗与浅水倒影"
+    }
+  ],
+  "wechat_dark_mode": {
+    "strategy": "preserve-illustrated-surfaces",
+    "materialize_decorations": true,
+    "protect_inline_paint": true
+  },
+  "components": [
+    {
+      "component_id": "di-opening",
+      "file": "正文组件结构/opening.html",
+      "slot": "before_article",
+      "asset_ids": [
+        "header-palace-a"
+      ]
+    },
+    {
+      "component_id": "di-ending",
+      "file": "正文组件结构/ending.html",
+      "slot": "after_article",
+      "asset_ids": [
+        "footer-watergallery-v3"
+      ]
+    }
+  ],
+  "article_header": {
+    "component_id": "di-opening",
+    "default_asset_id": "header-palace-a",
+    "presets": [
+      {
+        "asset_id": "header-palace-a",
+        "label": "故宫角楼"
+      },
+      {
+        "asset_id": "header-lingyin-a",
+        "label": "灵隐疏林"
+      },
+      {
+        "asset_id": "header-drumtower-v3",
+        "label": "鼓楼暮色"
+      },
+      {
+        "asset_id": "header-zhichunting-v3",
+        "label": "知春亭影"
+      },
+      {
+        "asset_id": "header-zhaozhou-v4",
+        "label": "赵州桥影"
+      },
+      {
+        "asset_id": "header-yungang-v4",
+        "label": "云冈石韵"
+      },
+      {
+        "asset_id": "header-taihe-v6",
+        "label": "太和殿影"
+      },
+      {
+        "asset_id": "header-marbleboat-v6",
+        "label": "石舫清波"
+      }
+    ]
+  },
+  "fonts": [
+    {
+      "font_id": "huiwen-mincho",
+      "file": "配套字体资源/HuiwenMincho.woff2",
+      "family": "Huiwen-mincho",
+      "sha256": "f190d33a26eb0ea9bfa841d82806135f49580e6637439c01279769bbd5c6b832",
+      "weight": 400,
+      "style": "normal",
+      "coverage_file": "配套字体资源/HuiwenMincho.coverage.json",
+      "license_file": "配套字体资源/HuiwenMincho-LICENSE.txt"
+    },
+    {
+      "font_id": "zhuque-fangsong",
+      "file": "配套字体资源/ZhuqueFangsong.ttf",
+      "family": "Zhuque Fangsong",
+      "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53",
+      "weight": 400,
+      "style": "normal",
+      "coverage_file": "配套字体资源/ZhuqueFangsong.coverage.json",
+      "license_file": "配套字体资源/Zhuque-LICENSE.txt"
+    },
+    {
+      "font_id": "kinghwa-oldsong",
+      "file": "配套字体资源/ZhuqueFangsong.ttf",
+      "family": "Zhuque Fangsong",
+      "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53",
+      "weight": 400,
+      "style": "normal",
+      "coverage_file": "配套字体资源/ZhuqueFangsong.coverage.json",
+      "license_file": "配套字体资源/Zhuque-LICENSE.txt"
+    }
+  ],
+  "heading_images": [
+    {
+      "heading_image_id": "di-h1-huiwen-v3",
+      "heading_levels": [
+        1
+      ],
+      "font_id": "huiwen-mincho",
+      "fallback_font_ids": [
+        "zhuque-fangsong"
+      ],
+      "font_size": 30,
+      "line_height": 1.5,
+      "letter_spacing": 0.5,
+      "color": "#923E32",
+      "max_width": 350,
+      "min_display_width": 240,
+      "min_effective_font_size": 18,
+      "scale": 3,
+      "padding_x": 4,
+      "padding_y": 6,
+      "max_lines": 3,
+      "max_equivalent_characters": 40,
+      "latin_font_family": "Huiwen-mincho",
+      "align": "center",
+      "side_assets": {
+        "left_asset_id": "heading-bell-left-v3",
+        "right_asset_id": "heading-bell-right-v3",
+        "size": 30,
+        "gap": 10
+      }
+    },
+    {
+      "heading_image_id": "di-h2-oldsong-v5",
+      "heading_levels": [
+        2
+      ],
+      "font_id": "kinghwa-oldsong",
+      "fallback_font_ids": [
+        "huiwen-mincho",
+        "zhuque-fangsong"
+      ],
+      "font_size": 23,
+      "line_height": 1.5,
+      "letter_spacing": 0.3,
+      "color": "#3F625E",
+      "max_width": 320,
+      "min_display_width": 240,
+      "min_effective_font_size": 18,
+      "scale": 3,
+      "padding_x": 4,
+      "padding_y": 6,
+      "max_lines": 3,
+      "max_equivalent_characters": 40,
+      "latin_font_family": "KingHwa_OldSong",
+      "align": "left",
+      "side_assets": {
+        "left_asset_id": "heading-window-v3",
+        "size": 28,
+        "gap": 9
+      }
+    }
+  ],
+  "quote_images": {
+    "font_id": "zhuque-fangsong",
+    "fallback_font_ids": [
+      "huiwen-mincho"
+    ],
+    "font_size": 20,
+    "line_height": 1.8,
+    "letter_spacing": 0.3,
+    "color": "#80602F",
+    "max_width": 620,
+    "fallback_width": 150,
+    "scale": 3,
+    "text_paint": {
+      "type": "gilded",
+      "stops": [
+        {
+          "offset": 0,
+          "color": "#6B522D"
+        },
+        {
+          "offset": 0.42,
+          "color": "#BE9955"
+        },
+        {
+          "offset": 0.66,
+          "color": "#957039"
+        },
+        {
+          "offset": 1,
+          "color": "#73582F"
+        }
+      ],
+      "stroke": {
+        "color": "#66502D",
+        "width": 0.45
+      },
+      "highlight": {
+        "color": "#DEC58B",
+        "alpha": 0.2,
+        "width": 0.25,
+        "offset_x": -0.15,
+        "offset_y": -0.2
+      }
+    },
+    "illustration": {
+      "asset_id": "quote-garden-v1",
+      "layout": "table",
+      "width_percent": 44,
+      "gap_percent": 4
+    },
+    "responsive_typography": {
+      "min_width": 390,
+      "max_width": 677,
+      "max_font_size": 30
+    },
+    "inline_code_font": "quote",
+    "replace_native_container": true
+  },
+  "ordered_list_images": {
+    "font_id": "huiwen-mincho",
+    "fallback_font_ids": [
+      "zhuque-fangsong"
+    ],
+    "font_size": 20,
+    "color": "#59614D",
+    "scale": 3,
+    "gap": 6
+  }
+}

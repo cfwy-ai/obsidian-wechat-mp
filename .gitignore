@@ -1,6 +1,5 @@
 node_modules/
-dist/
-out/
+plugin/dist/
+plugin/releases/
 .DS_Store
 *.log
-node_modules

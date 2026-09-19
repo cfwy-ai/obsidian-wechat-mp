@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "themes": [
+    {
+      "theme_id": "monument-valley",
+      "name": "纪念碑谷"
+    },
+    {
+      "theme_id": "cobalt-orbit",
+      "name": "星尘手记"
+    },
+    {
+      "theme_id": "simple-sketch",
+      "name": "简笔手绘"
+    },
+    {
+      "theme_id": "nyx-night",
+      "name": "黑夜女神"
+    },
+    {
+      "theme_id": "crayon-sketch",
+      "name": "蜡笔手绘"
+    },
+    {
+      "theme_id": "cartoon-doodle",
+      "name": "手绘卡通"
+    },
+    {
+      "theme_id": "deconstructed-illustration",
+      "name": "解构插画"
+    },
+    {
+      "theme_id": "feng-guo-shu-ye",
+      "name": "暖瓷像素"
+    },
+    {
+      "theme_id": "dune-echo",
+      "name": "沙丘版画"
+    },
+    {
+      "theme_id": "pencil-impression",
+      "name": "铅笔写意"
+    }
+  ]
+}

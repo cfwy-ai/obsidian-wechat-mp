@@ -1,0 +1,251 @@
+{
+  "schema_version": 3,
+  "theme_id": "nyx-night",
+  "name": "黑夜女神",
+  "order": 4,
+  "wechat_dark_mode": {
+    "strategy": "preserve-backgrounds",
+    "table_border_color": "#C9A45C",
+    "table_frame": {
+      "border_asset_id": "gilded-metal",
+      "surface_asset_id": "night-sky-texture",
+      "border_width": 2,
+      "border_radius": 10,
+      "surface_padding": [
+        6,
+        8,
+        8
+      ]
+    }
+  },
+  "theme_palette": [
+    "黑金配色｜希腊壁画风"
+  ],
+  "theme_scenes": [
+    "人物",
+    "故事",
+    "深度长文"
+  ],
+  "assets": [
+    {
+      "asset_id": "night-sky-texture",
+      "file": "透明装饰素材/night-sky-texture.png",
+      "alt": "深夜星空纸面底纹",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJE8ffGkFBo8RFibV7SjpQ3P5Qib7J1GMblCYKiaFBZVQoAOwCicawyVzkoBY7zIsVicc668zqb2QRezSDBic5DDdXyOUQMRmFmBwk4Q/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "moon-phase-divider",
+      "file": "透明装饰素材/moon-phase-divider-v2.png",
+      "alt": "黑白版画月相章节分割",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKbZ4rD9iblu06Eibia5nJE1oTLRAvfbvB26hiayW4zvq9Q9X9Zaq0GRlyZlB89aGiaIRc6LSnoYF0WyQPjpBvSzQDn8tMZ0iaiarJXJs/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "h1-lunar-phases",
+      "file": "透明装饰素材/h1-lunar-phases-v3.png",
+      "alt": "一级标题左右月相端饰",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPIcmcoPmCibK1zRSS7xM3bqkvAdKiat8fWruh2gLXAtwAvZGumE7qKBOsNnxmZGrBHiaeejEsgMhDdvSRWvj0LpolHibcumH6FNicfs/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "opening-lunar-frieze",
+      "file": "透明装饰素材/banner-moon-flow-v7.png",
+      "alt": "月弦流光：月牙与流动星云"
+    },
+    {
+      "asset_id": "opening-star-atlas",
+      "file": "透明装饰素材/banner-star-atlas-v7.png",
+      "alt": "星图回廊：不对称古典星图"
+    },
+    {
+      "asset_id": "opening-drifting-stars",
+      "file": "透明装饰素材/banner-drifting-stars-v7.png",
+      "alt": "群星渡夜：飘逸星芒与流光"
+    },
+    {
+      "asset_id": "opening-nebula-tide",
+      "file": "透明装饰素材/banner-nebula-tide-v7.png",
+      "alt": "星云潮汐：星云细浪与月影"
+    },
+    {
+      "asset_id": "ending-action-sigils",
+      "file": "透明装饰素材/ending-mural-sigils-v6.png",
+      "alt": "转发、关注、在看"
+    },
+    {
+      "asset_id": "quote-lunar-emblem",
+      "file": "透明装饰素材/quote-abyss-moon-v6.png",
+      "alt": "引用左侧深空月纹与旋转弧线",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPK8Iub2YdRyqepntqia2kEdwian1yUD1jL9h3shtKXb3kQRUVPU7VXyY3T3AZcq5K0lcbiahoKtyRorkiabgIN356q7eytQYA7t9QU/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "h2-crescent",
+      "file": "透明装饰素材/h2-crescent-v5.png",
+      "alt": "二级标题月牙星轨版画标记",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKicXEf5zHJWeR8O9QQouFUc5UOUrLxkHW4Or0Sw3aZOqCicOjREGCo8L8pJibvebLNN9gURcgvDSePtOfwY0a9X1iaBWc83YSOic4E/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "luminous-underline",
+      "file": "透明装饰素材/luminous-underline-v4.png",
+      "alt": "两端渐隐的金色微光下划线",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJicPo9j9UTQpOyibxL6B77h4uR9JbXhiczrOQ18Addlav9NGk8jTKFRKPJZ0KlyBmibdJEDfIrR3LVUNdsibyAU5akdnk5WpH027u4/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "bullet-crescent",
+      "file": "透明装饰素材/bullet-crescent-v6.png",
+      "alt": "一级无序列表弦月",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPIlMzFVc9ylE7tLftAuic5ZzURYic6PWz64RiaS1SWXJnMNDuOh0BbFSfjXhhDObhQoDibRWUrlpibr52B7hgicgQhr4yniao92jmjukI/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "bullet-gibbous",
+      "file": "透明装饰素材/bullet-gibbous-v6.png",
+      "alt": "二级无序列表盈月",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKiaLyibyudibu75HGaLwu4YYjiaKJlwdpcEtxZeGDvRfDPShK2BCv0hfkrWlLM9nnlSu9b96l6VlrIHd9bVaGjeFeTcHxochib8mxg/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "todo-empty",
+      "file": "透明装饰素材/todo-empty-v6.png",
+      "alt": "未完成待办空月环",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKRkLMdqoKtPWdVgsDMb4y4fC1aWP8fO5ShMpibadwrd5eDhg6cd4YQB3rQNliaeDxJvhO0Olb51Z6sO1hRKet43PzocezFWLicrQ/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "todo-done",
+      "file": "透明装饰素材/todo-done-v6.png",
+      "alt": "已完成待办勾选月环",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPLxBd6pg7LMkoEvabEFnNIyIkAhgQJwKbO9n2OITolfWB7hP4C3hmTRdMPKWicH164SDeM6aQ8FhbefLdmpXJLjf5OYicjRnYibKY/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "code-astral-dots",
+      "file": "透明装饰素材/code-astral-dots-v8.png",
+      "alt": "代码框左上角三枚星象刻点",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJO83osGMvQ7T2oZ8ckiafG91E6iclFeexGAIBCEyTka0CZV3CNzbo8ibgQocGWiaGMTwKK8a43wUaHTFVibuUZA5SwkrX72nvibTx0k/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "code-star-watermark",
+      "file": "透明装饰素材/code-star-watermark-v7.png",
+      "alt": "代码框深灰月牙星图淡水印",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJ9OAOSc4tO88xvHGCWenLiaLOYckkbzhcpS9ib8uia3CgIVl9bzgmV6icsz1hweQaY4ibpf5zEPgxiac9Mhl8AH1CDdK1qu7YL8FeJ8/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "gilded-metal",
+      "file": "透明装饰素材/gilded-metal-v8.png",
+      "alt": "代码边框与表格金线的鎏金材质",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKNDibDHKKibcFvDSZyh8PHTZiaicJfRslMDGvjic0mphZCdqJtMwBcsiczLkM7veiblPjCFAOFAzR0KrwEOdDFSicha0wsTPB4Ux3Ofms/640?wx_fmt=png&from=appmsg"
+    }
+  ],
+  "article_header": {
+    "component_id": "nyx-opening-frieze",
+    "default_asset_id": "opening-lunar-frieze",
+    "presets": [
+      {
+        "asset_id": "opening-lunar-frieze",
+        "label": "月弦流光"
+      },
+      {
+        "asset_id": "opening-star-atlas",
+        "label": "星图回廊"
+      },
+      {
+        "asset_id": "opening-drifting-stars",
+        "label": "群星渡夜"
+      },
+      {
+        "asset_id": "opening-nebula-tide",
+        "label": "星云潮汐"
+      }
+    ]
+  },
+  "fonts": [
+    {
+      "font_id": "h1-zhuque-fangsong",
+      "file": "配套字体资源/朱雀仿宋.ttf",
+      "family": "朱雀仿宋",
+      "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53",
+      "weight": 400,
+      "style": "normal",
+      "license_file": "配套字体资源/OFL.txt"
+    }
+  ],
+  "heading_images": [
+    {
+      "heading_image_id": "h1-zhuque-fangsong",
+      "heading_levels": [
+        1
+      ],
+      "font_id": "h1-zhuque-fangsong",
+      "font_size": 28,
+      "line_height": 1.5,
+      "letter_spacing": 1,
+      "color": "#E6CF91",
+      "text_paint": {
+        "type": "gilded",
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#684313"
+          },
+          {
+            "offset": 0.2,
+            "color": "#B77A24"
+          },
+          {
+            "offset": 0.42,
+            "color": "#F2D477"
+          },
+          {
+            "offset": 0.52,
+            "color": "#FFF6D2"
+          },
+          {
+            "offset": 0.66,
+            "color": "#B97820"
+          },
+          {
+            "offset": 0.84,
+            "color": "#E7C363"
+          },
+          {
+            "offset": 1,
+            "color": "#76501A"
+          }
+        ],
+        "stroke": {
+          "color": "#442A0A",
+          "width": 0.7
+        },
+        "highlight": {
+          "color": "#FFFBE8",
+          "alpha": 0.4,
+          "width": 0.35,
+          "offset_x": -0.25,
+          "offset_y": -0.35
+        }
+      },
+      "max_width": 300,
+      "min_display_width": 247,
+      "min_effective_font_size": 23,
+      "scale": 3,
+      "padding_x": 4,
+      "padding_y": 8,
+      "max_lines": 3,
+      "max_equivalent_characters": 36,
+      "latin_font_family": "Avenir Next"
+    }
+  ],
+  "components": [
+    {
+      "component_id": "nyx-opening-frieze",
+      "file": "正文组件结构/opening-frieze.html",
+      "slot": "before_article",
+      "asset_ids": [
+        "opening-lunar-frieze"
+      ]
+    },
+    {
+      "component_id": "nyx-ending-actions",
+      "file": "正文组件结构/ending-actions.html",
+      "slot": "after_article",
+      "asset_ids": [
+        "ending-action-sigils"
+      ]
+    }
+  ]
+}

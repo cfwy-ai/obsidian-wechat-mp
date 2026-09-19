@@ -1,0 +1,243 @@
+{
+  "schema_version": 3,
+  "theme_id": "monument-valley",
+  "name": "纪念碑谷",
+  "order": 1,
+  "theme_palette": [
+    "雾灰配色｜梦幻建筑"
+  ],
+  "theme_scenes": [
+    "人文",
+    "叙事",
+    "思考"
+  ],
+  "assets": [
+    {
+      "asset_id": "mv2-fog",
+      "file": "透明装饰素材/mv2-fog.png",
+      "alt": "灰白与灰绿色的无缝云雾",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPKDqWp7xIRdC7gx8GxuteuqMJ4sLEiaOXFIkmmEkfOkXMuibL4IFEFTfgHvD1ibbtTTYpAOF1tV7Xaia1126yz1MG1JnjQPhtTjULk/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mv2-seal",
+      "file": "透明装饰素材/mv2-seal.png",
+      "alt": "门与眼构成的石刻徽记",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPIqLfGjFM47BgRgTLQcqgakY2WZhDeykiccxb823QBZSZ2FaLgaHXkcM6oP0rzPcibN5u2DODmutL1zvXLHLmyFpKTHicnv4a0mzw/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mv3-list-one",
+      "file": "透明装饰素材/mv3-list-one.png",
+      "alt": "纪念碑谷石刻装饰",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJAcHbeibG907CjgvZE7FQmCXAeHSDoFWApywc4dGT0fKpSnpoZcFKW2nshdaQUWmIxGx425iap8pvheCUa4PC9W5icIeCmWUVaq4/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mv3-list-two",
+      "file": "透明装饰素材/mv3-list-two.png",
+      "alt": "纪念碑谷石刻装饰",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPLibJ0WciaoOfb9cl1kZliajTILQExxLMdF8lickQBS8H5KAiaXvdibbsPvqA8WPricxnLgibRvKW7TFaRfHkRxias9roia3oZafWJo0MLb4/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mv3-task-open",
+      "file": "透明装饰素材/mv3-task-open.png",
+      "alt": "纪念碑谷石刻装饰",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPLNSbHML3mJG17cRa3kPKp5kUicbzCibJrlYQt1x0xTSnXwgwdoN1N1IficibBTCPvV1KezvVw2vb53TibKCUiaWn5yln3wPtaFvpmQI/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mv3-task-done",
+      "file": "透明装饰素材/mv3-task-done.png",
+      "alt": "纪念碑谷石刻装饰",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPIkZoFOO7ScAZlabJ5gVJKBJT1Auo3b1Dt0AibT8dPjcnWCZnOgQHUfT9GS5xgrte1P8D6I7TVwXMbJugBxJIicbsAiavibZr4aSlQ/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mv3-underline",
+      "file": "透明装饰素材/mv3-underline.png",
+      "alt": "纪念碑谷石刻装饰",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPKhibcK7Uv8fT2UCNrk7rl0sJRl8pU83Es2iaF77pVyyJhYBZia0lsPnn3HpuZmafWCtiaHdmcxx4gBoz7AAYl5dQSLMx62Lraf0EY/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mv3-banner-bridge",
+      "file": "透明装饰素材/mv5-banner-a.png",
+      "alt": "雾中长桥完整横向场景"
+    },
+    {
+      "asset_id": "mv3-banner-rings",
+      "file": "透明装饰素材/mv5-banner-b.png",
+      "alt": "空庭回廊完整横向场景"
+    },
+    {
+      "asset_id": "mv3-banner-stairs",
+      "file": "透明装饰素材/mv5-banner-c.png",
+      "alt": "无尽阶梯完整横向场景"
+    },
+    {
+      "asset_id": "mv3-banner-garden",
+      "file": "透明装饰素材/mv5-banner-d.png",
+      "alt": "静水之间完整横向场景"
+    },
+    {
+      "asset_id": "mv4-quote",
+      "file": "透明装饰素材/mv4-quote.png",
+      "alt": "金句旁的轻雾桥阶",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKRl7aRhtG1icCXmFibuibpK6t9eUkc0nibvEdpdwYveyQZ2cgEvRwgomuVbZr8w2l9XDxTHp11VlPyCSDnhTQCf3AAl1rWftWsBD4/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mv4-code-controls",
+      "file": "透明装饰素材/mv4-code-controls.png",
+      "alt": "三枚微型几何控件",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKKwtbcFdDknt4tDLq8ElUFnftQ3NVqcT5UIZtCynxDbwicq7ZQnibcUy3DbJK1acuR9pjZcevE0ib591hOkheVxrBibCH30PfGXCE/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mv4-code-relic",
+      "file": "透明装饰素材/mv4-code-relic.png",
+      "alt": "淡灰绿沙漏水印",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKmQfFvMejeq7Jp06ua3m0Tt9s5IYDVfwrJT2c9LyYnIcXcFe0Dxv5UjbM66sB0ia22nT7uDFqmG6XhV3zsZmrSo6T1FXnhLHgk/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mv4-footer-like",
+      "file": "透明装饰素材/mv4-footer-like.png",
+      "alt": "点赞图文"
+    },
+    {
+      "asset_id": "mv4-footer-read",
+      "file": "透明装饰素材/mv4-footer-read.png",
+      "alt": "在看图文"
+    },
+    {
+      "asset_id": "mv4-footer-share",
+      "file": "透明装饰素材/mv4-footer-share.png",
+      "alt": "转发图文"
+    },
+    {
+      "asset_id": "mv4-h1-top",
+      "file": "透明装饰素材/mv4-h1-top.png",
+      "alt": "对称上刻线"
+    },
+    {
+      "asset_id": "mv4-h1-bottom",
+      "file": "透明装饰素材/mv4-h1-bottom.png",
+      "alt": "对称下刻线"
+    },
+    {
+      "asset_id": "mv5-corridor-divider",
+      "file": "透明装饰素材/mv5-corridor-divider.png",
+      "alt": "阶梯桥面与三道拱廊构成的细长分隔",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPJK0ZYkicvbLXYsB7Kkw9jvZibjKUjIAyvn8h0ZubVeft69PmiaYtnCYZKE2WU1TxA2P3HYG7ZI9mnlykM9UJjmdJgDcE7v292Yb8/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mv4-table-rule",
+      "file": "透明装饰素材/mv4-table-rule.png",
+      "alt": "连续的表格细横线",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPJBzQNpQ8OfSqV13tFeUAf1iceOu5fYZr8CYTcqIUypDCLru4ZTzDicj6kp5fBZ2icfdk10bb6bP1VhyUCMXOhXRjmAv3xMOicTwhM/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "mv5-table-frame",
+      "file": "透明装饰素材/mv5-table-frame.png",
+      "alt": "透明圆角双刻线表头边框",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPKyaepUtYiaibXicneIqyoh7aNVsbwRDkrm8cAU5jlzhGzl4yPoWOzNssdP51pflOacibJE0BSEDurDNKvD9PcwbzuyOSJ5OlGPC8s/640?wx_fmt=png&from=appmsg"
+    }
+  ],
+  "components": [
+    {
+      "component_id": "mv-opening",
+      "file": "正文组件结构/mv-opening.html",
+      "slot": "before_article",
+      "asset_ids": [
+        "mv3-banner-bridge"
+      ]
+    },
+    {
+      "component_id": "mv-h1-top",
+      "file": "正文组件结构/mv-h1-top.html",
+      "slot": "before_heading",
+      "heading_levels": [
+        1
+      ],
+      "asset_ids": [
+        "mv4-h1-top"
+      ]
+    },
+    {
+      "component_id": "mv-h1-bottom",
+      "file": "正文组件结构/mv-h1-bottom.html",
+      "slot": "after_heading",
+      "heading_levels": [
+        1
+      ],
+      "asset_ids": [
+        "mv4-h1-bottom"
+      ]
+    },
+    {
+      "component_id": "mv-ending",
+      "file": "正文组件结构/mv-ending.html",
+      "slot": "after_article",
+      "asset_ids": [
+        "mv4-footer-like",
+        "mv4-footer-read",
+        "mv4-footer-share"
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "font_id": "mv-zhuque",
+      "file": "配套字体资源/朱雀仿宋.ttf",
+      "family": "Zhuque Fangsong (technical preview)",
+      "weight": 400,
+      "style": "normal",
+      "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53",
+      "license_file": "配套字体资源/OFL.txt"
+    }
+  ],
+  "heading_images": [
+    {
+      "heading_image_id": "mv-h1",
+      "heading_levels": [
+        1
+      ],
+      "font_id": "mv-zhuque",
+      "font_size": 30,
+      "min_effective_font_size": 24,
+      "max_width": 300,
+      "min_display_width": 260,
+      "line_height": 1.3,
+      "letter_spacing": 1.7,
+      "color": "#29483B",
+      "align": "center",
+      "scale": 3,
+      "max_lines": 3,
+      "max_equivalent_characters": 36,
+      "padding_x": 6,
+      "padding_y": 6,
+      "latin_font_family": "Georgia"
+    }
+  ],
+  "article_header": {
+    "component_id": "mv-opening",
+    "default_asset_id": "mv3-banner-bridge",
+    "presets": [
+      {
+        "asset_id": "mv3-banner-bridge",
+        "label": "雾中长桥"
+      },
+      {
+        "asset_id": "mv3-banner-rings",
+        "label": "空庭回廊"
+      },
+      {
+        "asset_id": "mv3-banner-stairs",
+        "label": "无尽阶梯"
+      },
+      {
+        "asset_id": "mv3-banner-garden",
+        "label": "静水之间"
+      }
+    ]
+  },
+  "wechat_dark_mode": {
+    "strategy": "preserve-backgrounds",
+    "table_border_color": "#A7B99D",
+    "transparent_code_blocks": true,
+    "native_table_borders": true
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "长风无月-公众号排版",
+      "source_tree_sha256": "86d4c1f5018cb13768060664cca90909db2b1b8655e9df93f349af9b10eec6f0",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 5258,
+          "sha256": "82ab8d14ef9164a5b615aa951f65486e5c442d5608fcb964187753baa6e8c881"
+        },
+        {
+          "path": "evals/evals.json",
+          "bytes": 1792,
+          "sha256": "6e072ce7611f62bcc28c0af96735f163347fa6ce255c93ea13b7ebdcea354a7d"
+        },
+        {
+          "path": "evals/fixtures/已有排版.md",
+          "bytes": 277,
+          "sha256": "4ad59145473bc3403e2b27c593f9666686fecf711ddd37d544f11b3059f2b646"
+        },
+        {
+          "path": "evals/fixtures/技术教程.md",
+          "bytes": 483,
+          "sha256": "1ede960c54cb125490ba911f3f6bdd8cfb38cd2aa67881d13039694878aa9f9b"
+        },
+        {
+          "path": "evals/test_layout_guard.py",
+          "bytes": 8304,
+          "sha256": "0f1c0537955815a39f73bf067ed1f2d768fb22266112b5af50d01c86e38f7331"
+        },
+        {
+          "path": "references/正文排版规则.md",
+          "bytes": 2545,
+          "sha256": "cf949dc947aea3ecbdf1509d26a2bc57b01b1043291a2e436c32abd4542219e4"
+        },
+        {
+          "path": "scripts/layout_guard.py",
+          "bytes": 13773,
+          "sha256": "8104bc6d2ba4088567876486486de36d288e0c5db3647719b9e6ddfbffc7827e"
+        }
+      ]
+    },
+    {
+      "name": "长风无月-公众号配图",
+      "source_tree_sha256": "ef08f49109d9e39ecc01bb5280b7a97d30b0fe426037e9665ab5b8b813c67cfa",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 7129,
+          "sha256": "83f0e6d3260fed84baa4ac843c8585b2a5d717289b96ba13912832c21b1824ed"
+        },
+        {
+          "path": "evals/evals.json",
+          "bytes": 1794,
+          "sha256": "8198b48202653e396a3bdbe51e0f4347d6dc72390f1a115401cf4014daf5e1f9"
+        },
+        {
+          "path": "evals/test_route_theme.py",
+          "bytes": 4387,
+          "sha256": "8577a178fd1f9525b91cbe5454c513693b3139c4b6085db9a43f3d751189ea78"
+        },
+        {
+          "path": "references/theme-catalog.json",
+          "bytes": 827,
+          "sha256": "f79fe0f145bdb162588956c46fac45b5a135de9884f55a4e1456c7ea17dfba64"
+        },
+        {
+          "path": "references/themes/cartoon-doodle.md",
+          "bytes": 1484,
+          "sha256": "85446e4b41ae1c827f412aea4fd92ad3248ae3aea971db8ab5f09591002d3554"
+        },
+        {
+          "path": "references/themes/cobalt-orbit.md",
+          "bytes": 1479,
+          "sha256": "698ba7a744f65b6ae9a6610af84c4b670ea71b6bc66af274106729e283170072"
+        },
+        {
+          "path": "references/themes/crayon-sketch.md",
+          "bytes": 1471,
+          "sha256": "55ea607a315271a4c353e2def3b4312357ef3b1f9d65e364810fc7a717d4da26"
+        },
+        {
+          "path": "references/themes/deconstructed-illustration.md",
+          "bytes": 1478,
+          "sha256": "363d1e8226ffd0797067babeeb196c7a3617233386ac9adc3fce250e2d4c13a4"
+        },
+        {
+          "path": "references/themes/dune-echo.md",
+          "bytes": 1455,
+          "sha256": "b9983330fa86040f6343bd8fb584e4b7d35ea2c7bdf30727adf2605da284fed5"
+        },
+        {
+          "path": "references/themes/feng-guo-shu-ye.md",
+          "bytes": 1442,
+          "sha256": "c238b0c8f10c7b55419e0efbd495965c9d18eb9f683985282de4d925d6f45c10"
+        },
+        {
+          "path": "references/themes/monument-valley.md",
+          "bytes": 1408,
+          "sha256": "65ed5896453e0ed32fc131f0571982286e0664a354293b286d871772dacb562b"
+        },
+        {
+          "path": "references/themes/nyx-night.md",
+          "bytes": 1444,
+          "sha256": "72c841674e88c47ea2b0b0d8a7e18c20e3adead3d9aeed87770d375562b2fa78"
+        },
+        {
+          "path": "references/themes/pencil-impression.md",
+          "bytes": 1434,
+          "sha256": "8c7a2b8dd26e7261b97f76cd1a966d91248cfff051bdfa5fb76c4cbee4e5497d"
+        },
+        {
+          "path": "references/themes/simple-sketch.md",
+          "bytes": 1388,
+          "sha256": "b720a5abfbf0a115c71ebbadedfcdbcdbd32b18b1409860ce91e764fae6527fe"
+        },
+        {
+          "path": "references/完整图文提示结构.md",
+          "bytes": 1574,
+          "sha256": "06b1efc276ff9bbb5649aef32e03bfe21f004f4d2e29418895a5e3315eee7ac6"
+        },
+        {
+          "path": "references/配图规则.md",
+          "bytes": 4471,
+          "sha256": "aea0e7d973f266974930ce9d4f5a5c84831148426c8df01683c47e672ec4d166"
+        },
+        {
+          "path": "scripts/export_theme_guides.py",
+          "bytes": 3107,
+          "sha256": "e7cdc37a90531730c62f48f588a5c182851800f4fc6fdf0bcece0ce6440586f2"
+        },
+        {
+          "path": "scripts/font_reference.py",
+          "bytes": 3148,
+          "sha256": "95a077840942e6f47080cbd709aba879b94fb89e2c674fad5bafa10693ec2889"
+        },
+        {
+          "path": "scripts/route_theme.py",
+          "bytes": 6037,
+          "sha256": "4e64ea396584d899c343bebb75437d33b821cb4088f3762f43e9f1bc10c4de71"
+        }
+      ]
+    }
+  ]
+}

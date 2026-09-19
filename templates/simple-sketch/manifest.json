@@ -1,0 +1,222 @@
+{
+  "schema_version": 3,
+  "theme_id": "simple-sketch",
+  "name": "简笔手绘",
+  "order": 3,
+  "theme_palette": [
+    "黑白配色｜Notion 风格"
+  ],
+  "theme_scenes": [
+    "方法论",
+    "拆解",
+    "随笔"
+  ],
+  "fonts": [
+    {
+      "font_id": "h1-display",
+      "file": "配套字体资源/HarmonyOS_Sans_SC_Black.ttf",
+      "family": "HarmonyOS Sans SC",
+      "sha256": "24db076cc40d8a5d2aa32374e93f1d5b001e8aca7946eba54d81840937d6f6ef",
+      "weight": 900,
+      "style": "normal",
+      "license_file": "配套字体资源/LICENSE_Fonts"
+    }
+  ],
+  "heading_images": [
+    {
+      "heading_image_id": "h1-harmony-black",
+      "heading_levels": [
+        1
+      ],
+      "font_id": "h1-display",
+      "font_size": 27,
+      "line_height": 1.4,
+      "letter_spacing": 0,
+      "color": "#1A1A19",
+      "max_width": 352,
+      "min_display_width": 288,
+      "min_effective_font_size": 22,
+      "scale": 3,
+      "padding_x": 4,
+      "padding_y": 8,
+      "max_lines": 2,
+      "max_equivalent_characters": 22,
+      "latin_font_family": "HarmonyOS Sans",
+      "align": "left",
+      "number_assets": [
+        "sk-num-1",
+        "sk-num-2",
+        "sk-num-3",
+        "sk-num-4",
+        "sk-num-5",
+        "sk-num-6",
+        "sk-num-7",
+        "sk-num-8",
+        "sk-num-9"
+      ],
+      "number_separator": "·",
+      "number_gap": 7
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "page-bg",
+      "file": "透明装饰素材/page-bg.png",
+      "alt": "纯白页面底板",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPIa56YB8YNuRicjnu77tEPXqJMz8miaqPdXKwlq47MReQzr1b0QDW98Oc9S6X2yca6kEwmQ4YJV6nex9j2Xtwk6m4aBA0eshvMHg/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "h2-prefix-v2",
+      "file": "透明装饰素材/h2-prefix-v2.png",
+      "alt": "二级标题开口黄环标记",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPIB64XYWQRA56PFswrdL3ybzIUHTjFm7kqz9blHy34HKryrQ6Z2QW0yJ9PMW8JewNYLC5JdqLYhZLpmriaIsq7dOQqNraw74fPs/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "bullet-v2",
+      "file": "透明装饰素材/bullet-v2.png",
+      "alt": "无序列表手绘短笔标记",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPKdxBra54RMicYt4q99dKXJus8miblReYys1DOhUicIuOGrjq7mWj9EyYoBrZX7VIicqV1OCuf1jrB075ZE8Y00zewVteJGz7jP3PA/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "divider-v4",
+      "file": "透明装饰素材/divider-v4.png",
+      "alt": "长而粗的黑色双遍马克笔分割线",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPLv2fEdibb5ahIQh5pOBYlJHusiaJwaeDR75TqMWic3FueQ5ZzUkab2K9T7CLDeqAeabsdPXoedz1mM7kdVH3aibvx7rM9Q9REFqZw/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "quote-mark",
+      "file": "透明装饰素材/quote-mark.png",
+      "alt": "金句块手绘引号",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPKAM4G21NQRSwVLRC1yWDDk9WvKXv6Txib6OEN0TVfGaItU1o3YM7rEHx9E59WluUjCs9FQcfzvZrklwKEyicA5sEPYdql60mWuY/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "code-dots",
+      "file": "透明装饰素材/code-dots.png",
+      "alt": "代码块左上角三点标记",
+      "wechat_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/psXpOnicXhPK049sE9OBgoDcIuCUP3baNz2pF8eafcX01oTy4YXlT1wZfq0ChKNpyuDe1u4iaMOWPXJh0w2K3gTdvXgYYxzuoHR7o6C4e7pnM/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "sk-num-1",
+      "file": "透明装饰素材/sk-num-1.png",
+      "alt": "手绘数字 1"
+    },
+    {
+      "asset_id": "sk-num-2",
+      "file": "透明装饰素材/sk-num-2.png",
+      "alt": "手绘数字 2"
+    },
+    {
+      "asset_id": "sk-num-3",
+      "file": "透明装饰素材/sk-num-3.png",
+      "alt": "手绘数字 3"
+    },
+    {
+      "asset_id": "sk-num-4",
+      "file": "透明装饰素材/sk-num-4.png",
+      "alt": "手绘数字 4"
+    },
+    {
+      "asset_id": "sk-num-5",
+      "file": "透明装饰素材/sk-num-5.png",
+      "alt": "手绘数字 5"
+    },
+    {
+      "asset_id": "sk-num-6",
+      "file": "透明装饰素材/sk-num-6.png",
+      "alt": "手绘数字 6"
+    },
+    {
+      "asset_id": "sk-num-7",
+      "file": "透明装饰素材/sk-num-7.png",
+      "alt": "手绘数字 7"
+    },
+    {
+      "asset_id": "sk-num-8",
+      "file": "透明装饰素材/sk-num-8.png",
+      "alt": "手绘数字 8"
+    },
+    {
+      "asset_id": "sk-num-9",
+      "file": "透明装饰素材/sk-num-9.png",
+      "alt": "手绘数字 9"
+    },
+    {
+      "asset_id": "sk-num-0",
+      "file": "透明装饰素材/sk-num-0.png",
+      "alt": "手绘数字 0"
+    },
+    {
+      "asset_id": "opening-v6",
+      "file": "透明装饰素材/opening-v6.png",
+      "alt": "创作者借助电脑梳理想法并标注文章草稿"
+    },
+    {
+      "asset_id": "header-knowledge-v1",
+      "file": "透明装饰素材/header-knowledge-v1.png",
+      "alt": "手绘人物整理知识卡片"
+    },
+    {
+      "asset_id": "header-desk-v1",
+      "file": "透明装饰素材/header-desk-v1.png",
+      "alt": "手绘笔记本、书籍与钢笔"
+    },
+    {
+      "asset_id": "header-dialogue-v1",
+      "file": "透明装饰素材/header-dialogue-v1.png",
+      "alt": "两个人围绕笔记交流想法"
+    },
+    {
+      "asset_id": "table-header-v5",
+      "file": "透明装饰素材/table-header-v5.png",
+      "alt": "表头黄色手绘笔刷底",
+      "wechat_url": "https://mmbiz.qpic.cn/mmbiz_png/psXpOnicXhPL9HeO6SiczhAXqccQbpc7GBYAmJtqkibpVpPmO59VAibnqu3a1EXt7Zp1PsibbTibGhKmMqOfQAS7PHSacicCTxM08qcDx8ZplfNicpw/640?wx_fmt=png&from=appmsg"
+    },
+    {
+      "asset_id": "reading-footer-v7",
+      "file": "透明装饰素材/reading-footer-v7.png",
+      "alt": "如果这篇内容对你有用，欢迎一键三连：点赞、在看、转发"
+    }
+  ],
+  "components": [
+    {
+      "component_id": "opening-v6",
+      "file": "正文组件结构/opening.html",
+      "slot": "before_article",
+      "asset_ids": [
+        "opening-v6"
+      ]
+    },
+    {
+      "component_id": "reading-footer-v7",
+      "file": "正文组件结构/reading-footer.html",
+      "slot": "after_article",
+      "asset_ids": [
+        "reading-footer-v7"
+      ]
+    }
+  ],
+  "article_header": {
+    "component_id": "opening-v6",
+    "default_asset_id": "opening-v6",
+    "presets": [
+      {
+        "asset_id": "opening-v6",
+        "label": "主题默认"
+      },
+      {
+        "asset_id": "header-knowledge-v1",
+        "label": "整理知识"
+      },
+      {
+        "asset_id": "header-desk-v1",
+        "label": "思考书桌"
+      },
+      {
+        "asset_id": "header-dialogue-v1",
+        "label": "交流想法"
+      }
+    ]
+  },
+  "showcase_image": "主题展示案例/模板介绍图.png",
+  "showcase_status": "draft"
+}
