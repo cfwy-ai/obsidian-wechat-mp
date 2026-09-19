@@ -1,6 +1,7 @@
 import { Modal, PluginSettingTab, Setting } from 'obsidian';
 import { DEFAULT_SETTINGS } from './constants.mjs';
 import { cleanVaultFolder } from '../src/vault-path.mjs';
+import { loadThemeGallery } from './theme-gallery.mjs';
 
 export class WechatMpSettingTab extends PluginSettingTab {
   constructor(app, plugin) {
@@ -131,17 +132,16 @@ class ThemeGalleryModal extends Modal {
     this.titleEl.setText('模板介绍');
     this.modalEl.addClass('wechat-mp-theme-gallery-modal');
     this.contentEl.createEl('p', { text: '正文样式沿用已完成的模板；标注「视觉样张（待确认）」的介绍图仍在评选。' });
-    const { themes, problems } = await this.plugin.themeResources.discover(this.plugin.settings);
+    const { items, problems } = await loadThemeGallery({
+      resources: this.plugin.themeResources,
+      settings: this.plugin.settings,
+    });
     if (problems.length) this.contentEl.createEl('p', { text: problems.join('；'), cls: 'mod-warning' });
-    for (const theme of themes) {
+    for (const { theme, image, label } of items) {
       const section = this.contentEl.createDiv({ cls: 'wechat-mp-theme-gallery-item' });
       section.createEl('h3', { text: theme.name });
       section.createEl('p', { text: theme.summary || '可在文章预览中查看实际排版。' });
-      const image = theme.showcaseImage ?? theme.previewImage;
       if (image) {
-        const label = theme.showcaseImage
-          ? (theme.showcaseStatus === 'draft' ? '视觉样张（待确认）' : '模板介绍图')
-          : '正文预览 · 介绍图待补充';
         section.createEl('small', { text: label });
         const img = section.createEl('img', { attr: { src: image.url, alt: `${theme.name} · ${label}`, loading: 'lazy' } });
         img.addEventListener('error', () => {

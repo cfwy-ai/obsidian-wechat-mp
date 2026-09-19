@@ -106,8 +106,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 2225,
-      "sha256": "f54e86ae595f69bc048347f33e327b1cfe928ae2aa37a4eadbb6ff53eb3259a9"
+      "bytes": 2219,
+      "sha256": "af53b6ff52799e997371cd7273803eb52ac6de44b0cd2c8c5fcdc8d8551c434c"
     },
     {
       "path": "cartoon-doodle/manifest.json",

@@ -1,7 +1,7 @@
 {
   "id": "changfeng-wechat-mp",
   "name": "长风无月 · 公众号排版",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "minAppVersion": "1.8.0",
   "description": "在 Obsidian 中实时预览微信兼容排版，搜索切换主题，一键复制图文并导出公众号长图。",
   "author": "长风无月",
