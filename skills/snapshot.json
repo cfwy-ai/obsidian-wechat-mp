@@ -44,12 +44,12 @@
     },
     {
       "name": "长风无月-公众号配图",
-      "source_tree_sha256": "ef08f49109d9e39ecc01bb5280b7a97d30b0fe426037e9665ab5b8b813c67cfa",
+      "source_tree_sha256": "15208b8d460377906cfcd4c21f8e5e26e7e3b14099a8a9f604736b9349ea688f",
       "files": [
         {
           "path": "SKILL.md",
-          "bytes": 7129,
-          "sha256": "83f0e6d3260fed84baa4ac843c8585b2a5d717289b96ba13912832c21b1824ed"
+          "bytes": 8299,
+          "sha256": "13cf19690226f5a3a6ad3e0115de4fdc25cfd41ee91800aaa870b06e1e6489cc"
         },
         {
           "path": "evals/evals.json",
@@ -122,9 +122,14 @@
           "sha256": "06b1efc276ff9bbb5649aef32e03bfe21f004f4d2e29418895a5e3315eee7ac6"
         },
         {
+          "path": "references/模板展示规范.md",
+          "bytes": 2386,
+          "sha256": "75f7dd739a0b9e14fcab02a7a70896afc25ac7e2b39a2f82c23e32a2e0100c6f"
+        },
+        {
           "path": "references/配图规则.md",
-          "bytes": 4471,
-          "sha256": "aea0e7d973f266974930ce9d4f5a5c84831148426c8df01683c47e672ec4d166"
+          "bytes": 5719,
+          "sha256": "d613761f832ac57685d2901d3a649669c3e00923d534ff89aaa20112a0082320"
         },
         {
           "path": "scripts/export_theme_guides.py",
