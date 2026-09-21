@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "operation": "reencode-original-outlines",
+  "tool": {
+    "name": "fontTools",
+    "version": "4.65.0"
+  },
+  "source": {
+    "file": "WenxinXileFont.woff2",
+    "sha256": "977dede6dd36112d941f9823d120f77a0481f309045422ee0393ec710a58a3b2"
+  },
+  "output": {
+    "file": "WenxinXileFont.compat.woff2",
+    "sha256": "9ee31f459f6e9d6025866e3d0298c59119f454fb5d74146c08d0f3b54070df91"
+  },
+  "source_coverage": {
+    "file": "WenxinXileFont.coverage.json",
+    "sha256": "ecdc6c6ffa0e2f8496737740004fc46a3214e847c3ba2aea94068af1ee304f72"
+  },
+  "output_coverage": {
+    "file": "WenxinXileFont.coverage.compat.json",
+    "sha256": "6e49a31290a99691c6674c95203de45f864f41fa0cfb2e499c15881fd2c2d1be"
+  },
+  "reencoded_glyphs": [
+    {
+      "character": "喔",
+      "codepoint": 21908,
+      "glyph": "uni5594"
+    },
+    {
+      "character": "检",
+      "codepoint": 26816,
+      "glyph": "uni68C0"
+    },
+    {
+      "character": "版",
+      "codepoint": 29256,
+      "glyph": "uni7248"
+    },
+    {
+      "character": "远",
+      "codepoint": 36828,
+      "glyph": "uni8FDC"
+    }
+  ],
+  "excluded_empty_nonwhitespace_glyphs": [
+    {
+      "character": "/",
+      "codepoint": 47,
+      "glyph": "slash"
+    },
+    {
+      "character": "\\",
+      "codepoint": 92,
+      "glyph": "backslash"
+    },
+    {
+      "character": "「",
+      "codepoint": 12300,
+      "glyph": "uni300C"
+    },
+    {
+      "character": "」",
+      "codepoint": 12301,
+      "glyph": "uni300D"
+    },
+    {
+      "character": "『",
+      "codepoint": 12302,
+      "glyph": "uni300E"
+    },
+    {
+      "character": "』",
+      "codepoint": 12303,
+      "glyph": "uni300F"
+    },
+    {
+      "character": "【",
+      "codepoint": 12304,
+      "glyph": "uni3010"
+    },
+    {
+      "character": "】",
+      "codepoint": 12305,
+      "glyph": "uni3011"
+    },
+    {
+      "character": "〔",
+      "codepoint": 12308,
+      "glyph": "uni3014"
+    },
+    {
+      "character": "〕",
+      "codepoint": 12309,
+      "glyph": "uni3015"
+    },
+    {
+      "character": "〖",
+      "codepoint": 12310,
+      "glyph": "uni3016"
+    },
+    {
+      "character": "〗",
+      "codepoint": 12311,
+      "glyph": "uni3017"
+    },
+    {
+      "character": "霁",
+      "codepoint": 38657,
+      "glyph": "uni9701"
+    },
+    {
+      "character": "＆",
+      "codepoint": 65286,
+      "glyph": "uniFF06"
+    },
+    {
+      "character": "－",
+      "codepoint": 65293,
+      "glyph": "uniFF0D"
+    },
+    {
+      "character": "／",
+      "codepoint": 65295,
+      "glyph": "uniFF0F"
+    },
+    {
+      "character": "［",
+      "codepoint": 65339,
+      "glyph": "uniFF3B"
+    },
+    {
+      "character": "＼",
+      "codepoint": 65340,
+      "glyph": "uniFF3C"
+    },
+    {
+      "character": "］",
+      "codepoint": 65341,
+      "glyph": "uniFF3D"
+    },
+    {
+      "character": "＿",
+      "codepoint": 65343,
+      "glyph": "uniFF3F"
+    },
+    {
+      "character": "｛",
+      "codepoint": 65371,
+      "glyph": "uniFF5B"
+    },
+    {
+      "character": "｝",
+      "codepoint": 65373,
+      "glyph": "uniFF5D"
+    }
+  ],
+  "verification": {
+    "glyphs_compared": 4766,
+    "all_outlines_equal": true,
+    "cmap_equal": true,
+    "advance_widths_equal": true,
+    "names_equal": true
+  }
+}

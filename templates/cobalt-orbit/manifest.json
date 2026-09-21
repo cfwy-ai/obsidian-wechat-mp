@@ -119,12 +119,11 @@
   "fonts": [
     {
       "font_id": "h1-display",
-      "file": "配套字体资源/朱雀仿宋.ttf",
-      "family": "Zhuque Fangsong (technical preview)",
+      "file": "配套字体资源/方正清刻本悦宋简体.TTF",
+      "family": "方正清刻本悦宋简体",
+      "sha256": "80e23be5802f9283f34db0b9fcfb785a2c70666d0a398a62889561cfac4a470c",
       "weight": 400,
-      "style": "normal",
-      "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53",
-      "license_file": "配套字体资源/OFL.txt"
+      "style": "normal"
     }
   ],
   "heading_images": [

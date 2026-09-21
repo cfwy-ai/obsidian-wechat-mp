@@ -218,13 +218,19 @@
     },
     {
       "font_id": "wenxin-xile",
-      "file": "配套字体资源/ZCOOLKuaiLe-Regular.ttf",
-      "family": "ZCOOL KuaiLe",
-      "sha256": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d",
+      "file": "配套字体资源/WenxinXileFont.compat.woff2",
+      "family": "Wenxin Xile Font",
+      "sha256": "9ee31f459f6e9d6025866e3d0298c59119f454fb5d74146c08d0f3b54070df91",
       "weight": 400,
       "style": "normal",
-      "coverage_file": "配套字体资源/ZCOOLKuaiLe.coverage.json",
-      "license_file": "配套字体资源/OFL.txt"
+      "coverage_file": "配套字体资源/WenxinXileFont.coverage.compat.json",
+      "compatibility": {
+        "source_file": "配套字体资源/WenxinXileFont.woff2",
+        "source_sha256": "977dede6dd36112d941f9823d120f77a0481f309045422ee0393ec710a58a3b2",
+        "source_coverage_file": "配套字体资源/WenxinXileFont.coverage.json",
+        "source_coverage_sha256": "ecdc6c6ffa0e2f8496737740004fc46a3214e847c3ba2aea94068af1ee304f72",
+        "report_file": "配套字体资源/WenxinXileFont.compatibility.json"
+      }
     }
   ],
   "heading_images": [

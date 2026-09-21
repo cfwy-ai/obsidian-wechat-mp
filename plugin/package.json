@@ -1,6 +1,6 @@
 {
   "name": "wechat-mp",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "private": true,
   "type": "module",
   "description": "Obsidian 文章 → 微信公众号排版与推送",

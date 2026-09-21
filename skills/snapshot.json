@@ -44,7 +44,7 @@
     },
     {
       "name": "长风无月-公众号配图",
-      "source_tree_sha256": "15208b8d460377906cfcd4c21f8e5e26e7e3b14099a8a9f604736b9349ea688f",
+      "source_tree_sha256": "3fe133c4e8bba6b4ac800dc6f0d038645c7c1cda978495a1587e2e784bdb7053",
       "files": [
         {
           "path": "SKILL.md",
@@ -68,53 +68,53 @@
         },
         {
           "path": "references/themes/cartoon-doodle.md",
-          "bytes": 1484,
-          "sha256": "85446e4b41ae1c827f412aea4fd92ad3248ae3aea971db8ab5f09591002d3554"
+          "bytes": 1475,
+          "sha256": "f7fcf2924e673b0ab974920b5e45b31cbb833fce3a4baff977620cd97dcaf805"
         },
         {
           "path": "references/themes/cobalt-orbit.md",
-          "bytes": 1479,
-          "sha256": "698ba7a744f65b6ae9a6610af84c4b670ea71b6bc66af274106729e283170072"
+          "bytes": 1463,
+          "sha256": "827075a741a3228ff1821e352a45cafe50cdf9044064a2189ebec9ed6bd9a684"
         },
         {
           "path": "references/themes/crayon-sketch.md",
-          "bytes": 1471,
-          "sha256": "55ea607a315271a4c353e2def3b4312357ef3b1f9d65e364810fc7a717d4da26"
+          "bytes": 1434,
+          "sha256": "dd48c1de8f4403e99b648bd9d932b6d0d473fad8297ddc2cdb36b1deb7ff0d12"
         },
         {
           "path": "references/themes/deconstructed-illustration.md",
-          "bytes": 1478,
-          "sha256": "363d1e8226ffd0797067babeeb196c7a3617233386ac9adc3fce250e2d4c13a4"
+          "bytes": 1448,
+          "sha256": "5c879ee4108f0e68276b57e153727dde2dde27996be250635c61200a19e09a19"
         },
         {
           "path": "references/themes/dune-echo.md",
-          "bytes": 1455,
-          "sha256": "b9983330fa86040f6343bd8fb584e4b7d35ea2c7bdf30727adf2605da284fed5"
+          "bytes": 1446,
+          "sha256": "3adbfc45049b85fc8543191c222f8f7ad473189a08b879e4c3a8451a8aa86d0f"
         },
         {
           "path": "references/themes/feng-guo-shu-ye.md",
-          "bytes": 1442,
-          "sha256": "c238b0c8f10c7b55419e0efbd495965c9d18eb9f683985282de4d925d6f45c10"
+          "bytes": 1433,
+          "sha256": "e29a161fd851aec9bd3b15db9bc01a34dc545c5930dd87557ec67d00e753a6e5"
         },
         {
           "path": "references/themes/monument-valley.md",
-          "bytes": 1408,
-          "sha256": "65ed5896453e0ed32fc131f0571982286e0664a354293b286d871772dacb562b"
+          "bytes": 1399,
+          "sha256": "5d8302535fe041eebac5079084ce703c85ac4d984ca4e43bec9b728a0c1e28ce"
         },
         {
           "path": "references/themes/nyx-night.md",
-          "bytes": 1444,
-          "sha256": "72c841674e88c47ea2b0b0d8a7e18c20e3adead3d9aeed87770d375562b2fa78"
+          "bytes": 1435,
+          "sha256": "de44d099a26548daa933e4a2107a5464f567cac851683172a36bbbd849d334dd"
         },
         {
           "path": "references/themes/pencil-impression.md",
-          "bytes": 1434,
-          "sha256": "8c7a2b8dd26e7261b97f76cd1a966d91248cfff051bdfa5fb76c4cbee4e5497d"
+          "bytes": 1425,
+          "sha256": "6397bf8a16847604838b1fcb9613e09d60743ee6dfaa87c59882e225bd708888"
         },
         {
           "path": "references/themes/simple-sketch.md",
-          "bytes": 1388,
-          "sha256": "b720a5abfbf0a115c71ebbadedfcdbcdbd32b18b1409860ce91e764fae6527fe"
+          "bytes": 1379,
+          "sha256": "34f122cfcbd81efe8be5872baeead61f3bba5f61d04d99ae4b622107799e55a4"
         },
         {
           "path": "references/完整图文提示结构.md",

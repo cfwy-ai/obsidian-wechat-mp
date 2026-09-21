@@ -253,13 +253,13 @@
     },
     {
       "font_id": "kinghwa-oldsong",
-      "file": "配套字体资源/ZhuqueFangsong.ttf",
-      "family": "Zhuque Fangsong",
-      "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53",
+      "file": "配套字体资源/KingHwaOldSong-v2.002.ttf",
+      "family": "KingHwa_OldSong",
+      "sha256": "35d92af5ac4e9485e8e7749098e67211da5885d2697d95aea979fe4acd19ee2a",
       "weight": 400,
       "style": "normal",
-      "coverage_file": "配套字体资源/ZhuqueFangsong.coverage.json",
-      "license_file": "配套字体资源/Zhuque-LICENSE.txt"
+      "coverage_file": "配套字体资源/KingHwaOldSong.coverage.json",
+      "max_file_bytes": 41943040
     }
   ],
   "heading_images": [

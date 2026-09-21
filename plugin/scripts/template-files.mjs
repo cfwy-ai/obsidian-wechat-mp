@@ -58,8 +58,29 @@ export async function validateTemplates(root, { expectedCount = 10 } = {}) {
       ...[manifest.previewImage, manifest.showcaseImage].filter(Boolean)];
     for (const file of required) if (!records.has(`${directory}/${file}`)) throw new Error(`${manifest.name} 未打包资源：${file}`);
     for (const font of raw.fonts ?? []) {
-      if (!font.license_file || !records.has(`${directory}/${font.license_file}`)) throw new Error(`${manifest.name} 字体缺少许可：${font.font_id}`);
+      if (font.license_file) {
+        const license = safeThemeRelativePath(font.license_file, `字体 ${font.font_id} 的许可文件`);
+        if (!records.has(`${directory}/${license}`)) throw new Error(`${manifest.name} 未打包已登记的字体许可：${font.font_id}`);
+      }
       if (digest(await readFile(join(root, directory, font.file))) !== font.sha256) throw new Error(`${manifest.name} 字体指纹错误：${font.font_id}`);
+      if (font.compatibility) {
+        const source = font.compatibility;
+        for (const key of ['source_file', 'source_coverage_file', 'report_file']) {
+          const relative = safeThemeRelativePath(source[key], `字体 ${font.font_id} 的兼容来源`);
+          if (!records.has(`${directory}/${relative}`)) throw new Error(`${manifest.name} 未保留字体兼容来源：${font.font_id}/${key}`);
+        }
+        const sourceHash = digest(await readFile(join(root, directory, source.source_file)));
+        const coverageHash = digest(await readFile(join(root, directory, source.source_coverage_file)));
+        const report = JSON.parse(await readFile(join(root, directory, source.report_file), 'utf8'));
+        const resultCoverageHash = digest(await readFile(join(root, directory, font.coverage_file)));
+        if (sourceHash !== source.source_sha256 || coverageHash !== source.source_coverage_sha256
+          || report.source?.sha256 !== sourceHash || report.source_coverage?.sha256 !== coverageHash
+          || report.output?.sha256 !== font.sha256 || report.output_coverage?.sha256 !== resultCoverageHash
+          || report.verification?.all_outlines_equal !== true || report.verification?.cmap_equal !== true
+          || report.verification?.advance_widths_equal !== true || report.verification?.names_equal !== true) {
+          throw new Error(`${manifest.name} 字体兼容来源或验证报告不一致：${font.font_id}`);
+        }
+      }
     }
   }
   return { themes: ids.size, files: records.size, bytes: [...records.values()].reduce((sum, value) => sum + value.bytes, 0) };

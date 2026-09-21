@@ -15,14 +15,7 @@
       "order": 2,
       "directory": "cobalt-orbit",
       "source_manifest_sha256": "04caf0d47981f7735369ca93952d5b9c80da2202bc43d605d71976578b32ac39",
-      "font_changes": [
-        {
-          "font_id": "h1-display",
-          "original_family": "方正清刻本悦宋简体",
-          "reason": "方正清刻本悦宋未附再分发许可，公开版使用朱雀仿宋。",
-          "public_family": "Zhuque Fangsong (technical preview)"
-        }
-      ]
+      "font_changes": []
     },
     {
       "theme_id": "simple-sketch",
@@ -46,14 +39,7 @@
       "order": 5,
       "directory": "crayon-sketch",
       "source_manifest_sha256": "74faa1dba1ba2afcbf0f8ba096f548af2a6121b0954bd54dcbe75b9100f1fedb",
-      "font_changes": [
-        {
-          "font_id": "wenxin-xile",
-          "original_family": "Wenxin Xile Font",
-          "reason": "文心喜乐体仅有本地使用说明，公开版使用站酷快乐体。",
-          "public_family": "ZCOOL KuaiLe"
-        }
-      ]
+      "font_changes": []
     },
     {
       "theme_id": "cartoon-doodle",
@@ -69,14 +55,7 @@
       "order": 7,
       "directory": "deconstructed-illustration",
       "source_manifest_sha256": "662c408b48358238c9c83c148b549e5adecb5e045cb6c900be8fa4670d3d6ad4",
-      "font_changes": [
-        {
-          "font_id": "kinghwa-oldsong",
-          "original_family": "KingHwa_OldSong",
-          "reason": "京华老宋未附作者完整再分发协议，公开版二级标题使用朱雀仿宋。",
-          "public_family": "Zhuque Fangsong"
-        }
-      ]
+      "font_changes": []
     },
     {
       "theme_id": "feng-guo-shu-ye",
@@ -106,8 +85,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 2219,
-      "sha256": "af53b6ff52799e997371cd7273803eb52ac6de44b0cd2c8c5fcdc8d8551c434c"
+      "bytes": 2292,
+      "sha256": "ea7cf61a1132aeb70cb100eda839f24d964d761b6c240fc377d49ffdc4f4c711"
     },
     {
       "path": "cartoon-doodle/manifest.json",
@@ -121,8 +100,8 @@
     },
     {
       "path": "cartoon-doodle/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1484,
-      "sha256": "85446e4b41ae1c827f412aea4fd92ad3248ae3aea971db8ab5f09591002d3554"
+      "bytes": 1475,
+      "sha256": "f7fcf2924e673b0ab974920b5e45b31cbb833fce3a4baff977620cd97dcaf805"
     },
     {
       "path": "cartoon-doodle/主题视觉规范/2. 文章封图规范.md",
@@ -281,8 +260,8 @@
     },
     {
       "path": "cobalt-orbit/manifest.json",
-      "bytes": 7326,
-      "sha256": "16d23ff4600cc00626a50cca39885dafb3062229ef63edf0162672f13027f9c3"
+      "bytes": 7281,
+      "sha256": "e6a7b4efab6751a6ac426a64c31cfaa199fb84331574385dda66c163ab60133e"
     },
     {
       "path": "cobalt-orbit/theme.css",
@@ -291,8 +270,8 @@
     },
     {
       "path": "cobalt-orbit/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1479,
-      "sha256": "698ba7a744f65b6ae9a6610af84c4b670ea71b6bc66af274106729e283170072"
+      "bytes": 1463,
+      "sha256": "827075a741a3228ff1821e352a45cafe50cdf9044064a2189ebec9ed6bd9a684"
     },
     {
       "path": "cobalt-orbit/主题视觉规范/2. 文章封图规范.md",
@@ -410,14 +389,19 @@
       "sha256": "d6cec39519f63e3848da753f071e04cae96322dc92f5834734f9060cc6322104"
     },
     {
+      "path": "cobalt-orbit/配套字体资源/方正清刻本悦宋简体.TTF",
+      "bytes": 3145340,
+      "sha256": "80e23be5802f9283f34db0b9fcfb785a2c70666d0a398a62889561cfac4a470c"
+    },
+    {
       "path": "cobalt-orbit/配套字体资源/朱雀仿宋.ttf",
       "bytes": 4817412,
       "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53"
     },
     {
       "path": "crayon-sketch/manifest.json",
-      "bytes": 11359,
-      "sha256": "ceca09f4df43eed06eb8b8f51967811d3e721c5d0b49d542cd9f90d068011874"
+      "bytes": 11781,
+      "sha256": "7f9c81850e074ab2a182f8ee9ce1b4ea3d5a19bfe7aa89e9955121affc5d5fa1"
     },
     {
       "path": "crayon-sketch/theme.css",
@@ -426,8 +410,8 @@
     },
     {
       "path": "crayon-sketch/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1471,
-      "sha256": "55ea607a315271a4c353e2def3b4312357ef3b1f9d65e364810fc7a717d4da26"
+      "bytes": 1434,
+      "sha256": "dd48c1de8f4403e99b648bd9d932b6d0d473fad8297ddc2cdb36b1deb7ff0d12"
     },
     {
       "path": "crayon-sketch/主题视觉规范/2. 文章封图规范.md",
@@ -595,6 +579,31 @@
       "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d"
     },
     {
+      "path": "crayon-sketch/配套字体资源/WenxinXileFont.compat.woff2",
+      "bytes": 3627036,
+      "sha256": "9ee31f459f6e9d6025866e3d0298c59119f454fb5d74146c08d0f3b54070df91"
+    },
+    {
+      "path": "crayon-sketch/配套字体资源/WenxinXileFont.compatibility.json",
+      "bytes": 3303,
+      "sha256": "61c89b5d4b6b37153c8854ef9ab3e6076f8f98b82e6a0d0f837fdced4963aaf7"
+    },
+    {
+      "path": "crayon-sketch/配套字体资源/WenxinXileFont.coverage.compat.json",
+      "bytes": 32978,
+      "sha256": "6e49a31290a99691c6674c95203de45f864f41fa0cfb2e499c15881fd2c2d1be"
+    },
+    {
+      "path": "crayon-sketch/配套字体资源/WenxinXileFont.coverage.json",
+      "bytes": 33125,
+      "sha256": "ecdc6c6ffa0e2f8496737740004fc46a3214e847c3ba2aea94068af1ee304f72"
+    },
+    {
+      "path": "crayon-sketch/配套字体资源/WenxinXileFont.woff2",
+      "bytes": 3627748,
+      "sha256": "977dede6dd36112d941f9823d120f77a0481f309045422ee0393ec710a58a3b2"
+    },
+    {
       "path": "crayon-sketch/配套字体资源/ZCOOLKuaiLe-Regular.ttf",
       "bytes": 1514968,
       "sha256": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d"
@@ -606,8 +615,8 @@
     },
     {
       "path": "deconstructed-illustration/manifest.json",
-      "bytes": 13398,
-      "sha256": "759926d160ad7853a15c0a0656a36abac14308bc5c5ce42d4078bc02db221a5b"
+      "bytes": 13376,
+      "sha256": "c5e9a95bc6ccce0da446238a1dd075c521e4d9bfb79f241df3325030c17ba36d"
     },
     {
       "path": "deconstructed-illustration/theme.css",
@@ -616,8 +625,8 @@
     },
     {
       "path": "deconstructed-illustration/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1478,
-      "sha256": "363d1e8226ffd0797067babeeb196c7a3617233386ac9adc3fce250e2d4c13a4"
+      "bytes": 1448,
+      "sha256": "5c879ee4108f0e68276b57e153727dde2dde27996be250635c61200a19e09a19"
     },
     {
       "path": "deconstructed-illustration/主题视觉规范/2. 文章封图规范.md",
@@ -795,6 +804,16 @@
       "sha256": "f190d33a26eb0ea9bfa841d82806135f49580e6637439c01279769bbd5c6b832"
     },
     {
+      "path": "deconstructed-illustration/配套字体资源/KingHwaOldSong-v2.002.ttf",
+      "bytes": 36587506,
+      "sha256": "35d92af5ac4e9485e8e7749098e67211da5885d2697d95aea979fe4acd19ee2a"
+    },
+    {
+      "path": "deconstructed-illustration/配套字体资源/KingHwaOldSong.coverage.json",
+      "bytes": 240077,
+      "sha256": "a458a17bb83b6683c197a606a820bdc05e3d405b2bc7f87419fe83b9f311c502"
+    },
+    {
       "path": "deconstructed-illustration/配套字体资源/Zhuque-LICENSE.txt",
       "bytes": 4389,
       "sha256": "66cc01ad4df62fca6936431a426104cb32a52ce8da49de9a7d643e02d7659043"
@@ -826,8 +845,8 @@
     },
     {
       "path": "dune-echo/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1455,
-      "sha256": "b9983330fa86040f6343bd8fb584e4b7d35ea2c7bdf30727adf2605da284fed5"
+      "bytes": 1446,
+      "sha256": "3adbfc45049b85fc8543191c222f8f7ad473189a08b879e4c3a8451a8aa86d0f"
     },
     {
       "path": "dune-echo/主题视觉规范/2. 文章封图规范.md",
@@ -976,8 +995,8 @@
     },
     {
       "path": "feng-guo-shu-ye/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1442,
-      "sha256": "c238b0c8f10c7b55419e0efbd495965c9d18eb9f683985282de4d925d6f45c10"
+      "bytes": 1433,
+      "sha256": "e29a161fd851aec9bd3b15db9bc01a34dc545c5930dd87557ec67d00e753a6e5"
     },
     {
       "path": "feng-guo-shu-ye/主题视觉规范/2. 文章封图规范.md",
@@ -1181,8 +1200,8 @@
     },
     {
       "path": "monument-valley/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1408,
-      "sha256": "65ed5896453e0ed32fc131f0571982286e0664a354293b286d871772dacb562b"
+      "bytes": 1399,
+      "sha256": "5d8302535fe041eebac5079084ce703c85ac4d984ca4e43bec9b728a0c1e28ce"
     },
     {
       "path": "monument-valley/主题视觉规范/2. 文章封图规范.md",
@@ -1346,8 +1365,8 @@
     },
     {
       "path": "nyx-night/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1444,
-      "sha256": "72c841674e88c47ea2b0b0d8a7e18c20e3adead3d9aeed87770d375562b2fa78"
+      "bytes": 1435,
+      "sha256": "de44d099a26548daa933e4a2107a5464f567cac851683172a36bbbd849d334dd"
     },
     {
       "path": "nyx-night/主题视觉规范/2. 文章封图规范.md",
@@ -1481,8 +1500,8 @@
     },
     {
       "path": "pencil-impression/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1434,
-      "sha256": "8c7a2b8dd26e7261b97f76cd1a966d91248cfff051bdfa5fb76c4cbee4e5497d"
+      "bytes": 1425,
+      "sha256": "6397bf8a16847604838b1fcb9613e09d60743ee6dfaa87c59882e225bd708888"
     },
     {
       "path": "pencil-impression/主题视觉规范/2. 文章封图规范.md",
@@ -1841,8 +1860,8 @@
     },
     {
       "path": "simple-sketch/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1388,
-      "sha256": "b720a5abfbf0a115c71ebbadedfcdbcdbd32b18b1409860ce91e764fae6527fe"
+      "bytes": 1379,
+      "sha256": "34f122cfcbd81efe8be5872baeead61f3bba5f61d04d99ae4b622107799e55a4"
     },
     {
       "path": "simple-sketch/主题视觉规范/2. 文章封图规范.md",

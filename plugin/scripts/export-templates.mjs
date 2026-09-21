@@ -2,21 +2,19 @@ import { cp, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
 import { safeThemeRelativePath, parseThemeManifest } from '../src/theme-package.mjs';
 import { createTemplateCatalog, digest, option, validateTemplates } from './template-files.mjs';
+import { prepareFontCompatibility } from './font-compatibility.mjs';
 
-// Explicit allowlist. A new font needs its own redistribution evidence before
-// a release can include it. The developer's editable templates stay unchanged.
-const policies = {
+// Preserve each manifest's chosen font verbatim. These entries only locate
+// existing accompanying notices; they never select or substitute a font.
+const fontNotices = {
   'monument-valley/mv-zhuque': { license: 'OFL.txt' },
-  'cobalt-orbit/h1-display': { replace: 'monument-valley/mv-zhuque', reason: '方正清刻本悦宋未附再分发许可，公开版使用朱雀仿宋。' },
   'simple-sketch/h1-display': { license: 'LICENSE_Fonts' },
   'nyx-night/h1-zhuque-fangsong': { license: 'OFL.txt' },
   'crayon-sketch/zcool-kuaile': { license: 'OFL.txt' },
   'crayon-sketch/crayon-stroke': { license: 'Crayon-OFL.txt', extras: ['Crayon-FONTLOG.txt'] },
-  'crayon-sketch/wenxin-xile': { replace: 'crayon-sketch/zcool-kuaile', reason: '文心喜乐体仅有本地使用说明，公开版使用站酷快乐体。' },
   'cartoon-doodle/maoken-title': { license: 'MaokenAssortedSans-OFL.txt' },
   'deconstructed-illustration/huiwen-mincho': { license: 'HuiwenMincho-LICENSE.txt', licenseTheme: 'pencil-impression' },
   'deconstructed-illustration/zhuque-fangsong': { license: 'Zhuque-LICENSE.txt' },
-  'deconstructed-illustration/kinghwa-oldsong': { replace: 'deconstructed-illustration/zhuque-fangsong', reason: '京华老宋未附作者完整再分发协议，公开版二级标题使用朱雀仿宋。' },
   'feng-guo-shu-ye/h1-fusion-pixel-12px': { license: 'fusion-pixel-12px/OFL.txt', extras: ['fusion-pixel-12px/LICENSE-OFL', 'fusion-pixel-12px/LICENSES'] },
   'dune-echo/chill-duan-song': { license: 'chill-duan-hei-song/OFL.txt' },
   'dune-echo/quote-zhuque-fangsong': { license: 'zhuque/OFL.txt' },
@@ -60,36 +58,28 @@ for (const [id, theme] of [...themes].sort((a, b) => a[1].manifest.order - b[1].
   for (const relative of ['theme.css', ...(manifest.assets ?? []).map(a => a.file), ...(manifest.components ?? []).map(c => c.file)]) {
     await copy(join(theme.path, relative), relative);
   }
-  const changes = [];
   const fonts = [];
   for (const original of manifest.fonts ?? []) {
-    let policy = policies[`${id}/${original.font_id}`];
-    if (!policy) throw new Error(`字体未经分发审核：${id}/${original.font_id}`);
-    let owner = theme;
-    let font = structuredClone(original);
-    if (policy.replace) {
-      changes.push({ font_id: original.font_id, original_family: original.family, reason: policy.reason });
-      const [themeId, fontId] = policy.replace.split('/');
-      owner = themes.get(themeId);
-      font = { ...structuredClone(owner.manifest.fonts.find(f => f.font_id === fontId)), font_id: original.font_id };
-      policy = policies[policy.replace];
-      changes.at(-1).public_family = font.family;
-    }
+    const notices = fontNotices[`${id}/${original.font_id}`] ?? {};
+    const font = structuredClone(original);
     const fontRoot = font.file.split('/')[0];
-    const licenseRelative = `${fontRoot}/${policy.license}`;
-    const licenseOwner = policy.licenseTheme ? themes.get(policy.licenseTheme) : owner;
-    await copy(join(owner.path, font.file), font.file);
-    if (font.coverage_file) await copy(join(owner.path, font.coverage_file), font.coverage_file);
-    await copy(join(licenseOwner.path, licenseRelative), licenseRelative);
-    for (const extra of policy.extras ?? []) await copy(join(owner.path, fontRoot, extra), `${fontRoot}/${extra}`);
-    font.license_file = licenseRelative;
-    font.sha256 = digest(await readFile(join(output, font.file)));
-    fonts.push(font);
+    const sourceBytes = await readFile(join(theme.path, font.file));
+    if (digest(sourceBytes) !== font.sha256) throw new Error(`${id}/${font.font_id} 原字体指纹与 manifest 不一致`);
+    await copy(join(theme.path, font.file), font.file);
+    if (font.coverage_file) await copy(join(theme.path, font.coverage_file), font.coverage_file);
+    const licenseRelative = font.license_file ?? (notices.license ? `${fontRoot}/${notices.license}` : null);
+    if (licenseRelative) {
+      const licenseOwner = !font.license_file && notices.licenseTheme ? themes.get(notices.licenseTheme) : theme;
+      await copy(join(licenseOwner.path, licenseRelative), licenseRelative);
+      font.license_file = licenseRelative;
+    }
+    for (const extra of notices.extras ?? []) await copy(join(theme.path, fontRoot, extra), `${fontRoot}/${extra}`);
+    fonts.push(await prepareFontCompatibility(font, output));
   }
   manifest.fonts = fonts;
   parseThemeManifest(JSON.stringify(manifest));
   await writeFile(join(output, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
-  catalogThemes.push({ theme_id: id, name: manifest.name, order: manifest.order, directory: id, source_manifest_sha256: theme.sourceHash, font_changes: changes });
+  catalogThemes.push({ theme_id: id, name: manifest.name, order: manifest.order, directory: id, source_manifest_sha256: theme.sourceHash, font_changes: [] });
 }
 await writeFile(join(target, 'catalog.json'), JSON.stringify(await createTemplateCatalog(target, catalogThemes), null, 2) + '\n');
 console.log(JSON.stringify(await validateTemplates(target)));

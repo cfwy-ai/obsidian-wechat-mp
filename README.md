@@ -50,5 +50,5 @@
 ## 许可
 
 插件源码采用 [MIT](LICENSE)。
-模板字体遵循各自附带的许可；[公开版字体差异](templates/README.md)有单独说明。
+模板字体遵循各自附带的许可；[字体说明](templates/README.md)有单独说明。
 「简笔手绘」使用 HarmonyOS Sans 字体。
