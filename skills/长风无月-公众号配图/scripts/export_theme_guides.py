@@ -23,7 +23,7 @@ def section_map(text):
 
 
 def compose(question, titles, sections):
-    intro = "本文档只回答一件事：" + question + "。\n\n先读取同目录的 `1. 视觉风格总则.md`，字体文件以当前 `manifest.json` 为准。\n"
+    intro = "本文档只回答一件事：" + question + "。\n\n先按 [信息层级与排版.md](../../_shared/信息层级与排版.md) 组织文字，再读取同目录的 `1. 视觉风格总则.md`；字体文件以当前 `manifest.json` 为准。\n"
     return intro + "".join("\n---\n\n# " + title + "\n\n" + sections[title] + "\n" for title in titles)
 
 
@@ -34,18 +34,24 @@ def main():
     args = parser.parse_args()
     try:
         common = SKILL / "references" / "配图规则.md"
+        hierarchy = SKILL / "references" / "信息层级与排版.md"
         sections = section_map(common.read_text(encoding="utf-8"))
+        hierarchy_text = hierarchy.read_text(encoding="utf-8")
         themes = json.loads((SKILL / "references" / "theme-catalog.json").read_text(encoding="utf-8"))["themes"]
-        files = []
+        shared_path = args.output / "_shared" / "信息层级与排版.md"
+        if shared_path.exists() and not args.overwrite:
+            raise ValueError("已有文件，需明确 --overwrite：" + str(shared_path))
+        files = [(shared_path, hierarchy_text)]
         source_hashes = {str(common.relative_to(SKILL)): hashlib.sha256(common.read_bytes()).hexdigest()}
+        source_hashes[str(hierarchy.relative_to(SKILL))] = hashlib.sha256(hierarchy.read_bytes()).hexdigest()
         for theme in themes:
             source = SKILL / "references" / "themes" / (theme["theme_id"] + ".md")
             source_hashes[str(source.relative_to(SKILL))] = hashlib.sha256(source.read_bytes()).hexdigest()
             target = args.output / theme["theme_id"] / "主题视觉规范"
             content = {
                 "1. 视觉风格总则.md": source.read_text(encoding="utf-8"),
-                "2. 文章封图规范.md": compose("怎样为「" + theme["name"] + "」生成清楚的公众号封面", ["封面", "缩图与遮挡", "字体、画材与事实", "交付", "参数依据"], sections),
-                "3. 正文配图规范.md": compose("怎样为「" + theme["name"] + "」生成有信息层级的正文配图", ["正文图的信息层级", "字体、画材与事实", "交付"], sections),
+                "2. 文章封图规范.md": compose("怎样为「" + theme["name"] + "」生成清楚的文章封图", ["文章封图", "缩图与遮挡", "字体、画材与事实", "交付", "参数依据"], sections),
+                "3. 正文配图规范.md": compose("怎样为「" + theme["name"] + "」生成有信息层级的正文配图", ["从正文选择配图用途", "正文图的信息层级", "字体、画材与事实", "交付"], sections).replace("`信息层级与排版.md`", "[信息层级与排版.md](../../_shared/信息层级与排版.md)").replace("模板介绍的范围另见 `模板展示规范.md`。", "模板介绍范围按单独工作单确认。"),
             }
             for name, body in content.items():
                 path = target / name

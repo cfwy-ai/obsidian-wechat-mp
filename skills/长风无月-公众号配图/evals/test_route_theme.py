@@ -11,14 +11,14 @@ SPEC.loader.exec_module(route)
 
 
 class ThemeRouteTests(unittest.TestCase):
-    def make_theme(self, root, name="03. 简笔手绘 ✅", identity="simple-sketch", family="当前已许可字库"):
+    def make_theme(self, root, name="03. 简笔手绘 ✅", identity="simple-sketch", family="本次模板字库"):
         directory = root / name
         directory.mkdir(parents=True)
         (directory / "fonts").mkdir()
         (directory / "fonts" / "current.ttf").write_bytes(b"font-test-placeholder")
         manifest = {
             "theme_id": identity, "name": "简笔手绘",
-            "fonts": [{"font_id": "h1", "family": family, "file": "fonts/current.ttf"}],
+            "fonts": [{"font_id": "h1", "family": family, "file": "fonts/current.ttf", "weight": 900}],
             "heading_images": [{"heading_levels": [1], "font_id": "h1"}],
         }
         (directory / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False))
@@ -47,8 +47,25 @@ class ThemeRouteTests(unittest.TestCase):
             root = Path(directory)
             self.make_theme(root)
             selected = route.resolve(route.read_themes(root), "simple-sketch", "cover")
-            self.assertEqual(selected["heading_fonts"][0]["family"], "当前已许可字库")
+            self.assertEqual(selected["heading_fonts"][0]["family"], "本次模板字库")
             self.assertTrue(Path(selected["heading_fonts"][0]["file"]).exists())
+            self.assertEqual(selected["heading_fonts"][0]["weight"], 900)
+            self.assertIn("不等于", selected["font_note"])
+
+    def test_shared_hierarchy_and_prompt_references_exist_for_each_theme(self):
+        themes = route.read_themes(None)
+        for data, _ in themes:
+            selected = route.resolve(themes, data["theme_id"], "illustration")
+            self.assertEqual(set(selected["shared_references"]), {"hierarchy_layout", "image_rules", "prompt_structure"})
+            for path in selected["shared_references"].values():
+                self.assertTrue(Path(path).is_file())
+
+    def test_defaults_are_by_task_not_theme_or_historical_example_type(self):
+        themes = route.read_themes(None)
+        self.assertEqual(route.resolve(themes, "simple-sketch", "illustration")["default_aspect_ratios"], ["16:9"])
+        self.assertEqual(route.resolve(themes, "dune-echo", "illustration")["default_aspect_ratios"], ["16:9"])
+        self.assertEqual(route.resolve(themes, "simple-sketch", "cover")["default_aspect_ratios"], ["2.35:1", "1:1"])
+        self.assertEqual(route.resolve(themes, "simple-sketch", None)["default_aspect_ratios"], [])
 
     def test_directory_rename_does_not_change_stable_identity(self):
         with tempfile.TemporaryDirectory() as directory:

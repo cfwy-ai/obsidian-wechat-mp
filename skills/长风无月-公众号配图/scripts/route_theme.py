@@ -90,6 +90,13 @@ def resolve(themes, query, kind):
         "manifest": str(directory / "manifest.json") if directory else None,
         "theme_documents": [],
         "heading_fonts": [],
+        "shared_references": {
+            "hierarchy_layout": str(SKILL / "references" / "信息层级与排版.md"),
+            "image_rules": str(SKILL / "references" / "配图规则.md"),
+            "prompt_structure": str(SKILL / "references" / "完整图文提示结构.md"),
+        },
+        "default_aspect_ratios": {"cover": ["2.35:1", "1:1"], "illustration": ["16:9"]}.get(kind, []),
+        "aspect_ratio_note": "只做用户要求的用途与画幅；正文默认比例可按明确要求或内容需要调整。",
     }
     if not directory:
         result["font_note"] = "仅有字形方向；未读取实际字体文件，不宣称已加载字库。"
@@ -108,9 +115,13 @@ def resolve(themes, query, kind):
         result["heading_fonts"].append({
             "level": level, "font_id": rule.get("font_id"), "family": font.get("family"),
             "file": safe_asset(directory, font.get("file")),
+            "sha256": font.get("sha256"),
+            "weight": font.get("weight", 400),
+            "style": font.get("style", "normal"),
             "fallback_font_ids": rule.get("fallback_font_ids", []),
             "color": rule.get("color"),
         })
+    result["font_note"] = "manifest 和文件供真实字形参照；文件存在不等于生成模型精确调用了字库。"
     return result
 
 
