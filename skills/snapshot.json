@@ -44,22 +44,22 @@
     },
     {
       "name": "长风无月-公众号配图",
-      "source_tree_sha256": "e52e93f775bb29b6b9c2aa5ec5a21d85f717e83a9cff7852944bd6ef1b3de65e",
+      "source_tree_sha256": "1e7f4abd850c656dd8960274759d3af63a46ff7437d9e579dc6167bb38b0b1cb",
       "files": [
         {
           "path": "SKILL.md",
-          "bytes": 5923,
-          "sha256": "5643147d17672e8be94f8a39d4fcc4b79fe9252a144d70f429c0187ecc045d7b"
+          "bytes": 6745,
+          "sha256": "618bff5d54b3baeead4287f8c9cb77ef038299e591a677611b449be3860a12af"
         },
         {
           "path": "evals/evals.json",
-          "bytes": 3287,
-          "sha256": "170cce925580a922385f91e9f7fffa59c271c7d6985f79b7f0ea8267ecfa2bc3"
+          "bytes": 3377,
+          "sha256": "04fffd65eff9821f24d7bbf3dde0f4f15b6cde05f404d2afad60dc9a98cae10b"
         },
         {
           "path": "evals/test_route_theme.py",
-          "bytes": 5570,
-          "sha256": "88a30505e803a5669a2d2895f6de352655e622769f7fbab546db26df9242a280"
+          "bytes": 5855,
+          "sha256": "a8a8ab9e280f3910d2ce506d54e6cf8128fc68a2ba1aa1212f93f202ef7e9e8f"
         },
         {
           "path": "references/theme-catalog.json",
@@ -83,18 +83,18 @@
         },
         {
           "path": "references/themes/deconstructed-illustration.md",
-          "bytes": 876,
-          "sha256": "6939e9516d0b4de427936c0230f439b49fe871c60c1c01c099a251d6a07fa995"
+          "bytes": 2306,
+          "sha256": "10d4716d87332b02b58616a082e2298a16fe68f9ecf099b1cb488ace574138e1"
         },
         {
           "path": "references/themes/dune-echo.md",
-          "bytes": 833,
-          "sha256": "d4f8dc21ce27c2f6b8e4f0957f7b239388d2e817bdd5a4da3bd46472c4df25d4"
+          "bytes": 2280,
+          "sha256": "ffeeae9ad85dba239aa2664ef9b5d5472f49d1f3561a91e8d09b5438f812629f"
         },
         {
           "path": "references/themes/feng-guo-shu-ye.md",
-          "bytes": 826,
-          "sha256": "cfe6aa0496708251c2fb15ad3c29347721148d5fbf14e0aa7418a6ed58ed7101"
+          "bytes": 2417,
+          "sha256": "dc7eafb5b55bcf40461e750b30a279771f0a71ab75e3de2c55fec82e241c1da7"
         },
         {
           "path": "references/themes/monument-valley.md",
@@ -108,8 +108,8 @@
         },
         {
           "path": "references/themes/pencil-impression.md",
-          "bytes": 821,
-          "sha256": "e8f73f9bcd28e5b5f58d4d65d20687b9a1de1099bd2d69381fb056f2fad7c154"
+          "bytes": 2176,
+          "sha256": "69a04a780eeb7f237e77e19ab737fceef424eb30f71b11aa0c4fb5974f00de33"
         },
         {
           "path": "references/themes/simple-sketch.md",
@@ -118,13 +118,13 @@
         },
         {
           "path": "references/信息层级与排版.md",
-          "bytes": 5592,
-          "sha256": "1137a48f8fee2427775b6618e2aedd1830985585f10a521d96352b0bc2559150"
+          "bytes": 5746,
+          "sha256": "84099d04e7e9a934ee3c1dd9a539c4b76dd8582e27f2ffafcbea6c2e25ed2517"
         },
         {
           "path": "references/完整图文提示结构.md",
-          "bytes": 2293,
-          "sha256": "7f295882160854a263a580b86b2c3725f750cce27d6591fff6311f0f1b6631cb"
+          "bytes": 2991,
+          "sha256": "d3c0fade542e78a4f156a9923d88368f8ce8c8eb27e241a851433f55c6a8cfbc"
         },
         {
           "path": "references/模板展示规范.md",
@@ -133,13 +133,13 @@
         },
         {
           "path": "references/配图规则.md",
-          "bytes": 4031,
-          "sha256": "5290e35073f1ef1ff62f1ccf455bfa0fb9b2fc04678e05348626354a10d82563"
+          "bytes": 4064,
+          "sha256": "e4d0bdc625f24183e124956f28e996ee23c07359437d6289a3aabf1c6ca0205b"
         },
         {
           "path": "scripts/export_theme_guides.py",
-          "bytes": 3947,
-          "sha256": "10fef1473d8b75897f73c65f43add2339a9bb8c2b196b96b5d5d03113c3692aa"
+          "bytes": 3919,
+          "sha256": "953d026552bb14fdc41bf0fce8116dd183e58806c3d17284381f1f39adf37715"
         },
         {
           "path": "scripts/font_reference.py",
@@ -148,8 +148,8 @@
         },
         {
           "path": "scripts/route_theme.py",
-          "bytes": 6834,
-          "sha256": "79b03b6417fd7716b8f56ac13bb93e8c3eca76634dd384a94a4a0481a5063c7f"
+          "bytes": 6850,
+          "sha256": "12c614f98d2d010fbb2287f659d36fe58b4fc58e3c18f22372e7c4f1865be449"
         }
       ]
     }

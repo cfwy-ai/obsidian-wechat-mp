@@ -239,5 +239,8 @@
     "table_border_color": "#A7B99D",
     "transparent_code_blocks": true,
     "native_table_borders": true
-  }
+  },
+  "preview_image": "主题展示案例/1. 封面-横版-2.35比1.png",
+  "showcase_image": "主题展示案例/模板介绍图.png",
+  "showcase_status": "approved"
 }

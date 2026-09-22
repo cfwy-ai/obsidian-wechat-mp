@@ -67,6 +67,12 @@ for (const [id, theme] of [...themes].sort((a, b) => a[1].manifest.order - b[1].
     if (digest(sourceBytes) !== font.sha256) throw new Error(`${id}/${font.font_id} 原字体指纹与 manifest 不一致`);
     await copy(join(theme.path, font.file), font.file);
     if (font.coverage_file) await copy(join(theme.path, font.coverage_file), font.coverage_file);
+    if (font.compatibility) {
+      for (const key of ['source_file', 'source_coverage_file', 'report_file']) {
+        const relative = safeThemeRelativePath(font.compatibility[key], `字体 ${font.font_id} 的兼容来源`);
+        await copy(join(theme.path, relative), relative);
+      }
+    }
     const licenseRelative = font.license_file ?? (notices.license ? `${fontRoot}/${notices.license}` : null);
     if (licenseRelative) {
       const licenseOwner = !font.license_file && notices.licenseTheme ? themes.get(notices.licenseTheme) : theme;

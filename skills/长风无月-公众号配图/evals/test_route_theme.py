@@ -66,6 +66,11 @@ class ThemeRouteTests(unittest.TestCase):
         self.assertEqual(route.resolve(themes, "dune-echo", "illustration")["default_aspect_ratios"], ["16:9"])
         self.assertEqual(route.resolve(themes, "simple-sketch", "cover")["default_aspect_ratios"], ["2.35:1", "1:1"])
         self.assertEqual(route.resolve(themes, "simple-sketch", None)["default_aspect_ratios"], [])
+        note = route.resolve(themes, "simple-sketch", "illustration")["aspect_ratio_note"]
+        self.assertIn("16:9", note)
+        self.assertRegex(note, r"(?:仅|只有).*用户明确")
+        self.assertNotIn("内容需要", note)
+        self.assertNotIn("信息密度", note)
 
     def test_directory_rename_does_not_change_stable_identity(self):
         with tempfile.TemporaryDirectory() as directory:

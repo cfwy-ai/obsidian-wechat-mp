@@ -23,6 +23,19 @@ test('导出保留manifest指定原字体、覆盖表与已有许可，不改写
         ...(index === 1 ? { license_file: '配套字体资源/NOTICE.txt' } : {}) };
       await writeFile(join(path, font.file), bytes);
       await writeFile(join(path, font.coverage_file), '[19968]');
+      if (index === 2) {
+        const original = Buffer.from('Original font encoding');
+        const originalCoverage = '[32,19968]';
+        font.compatibility = {source_file:'配套字体资源/source.ttf',source_sha256:digest(original),
+          source_coverage_file:'配套字体资源/source-coverage.json',source_coverage_sha256:digest(originalCoverage),report_file:'配套字体资源/compatibility.json'};
+        await writeFile(join(path,font.compatibility.source_file),original);
+        await writeFile(join(path,font.compatibility.source_coverage_file),originalCoverage);
+        await writeFile(join(path,font.compatibility.report_file),JSON.stringify({
+          source:{sha256:digest(original)},source_coverage:{sha256:digest(originalCoverage)},
+          output:{sha256:font.sha256},output_coverage:{sha256:digest('[19968]')},
+          verification:{all_outlines_equal:true,cmap_equal:true,advance_widths_equal:true,names_equal:true},
+        }));
+      }
       if (font.license_file) await writeFile(join(path, font.license_file), 'Original accompanying notice\n');
       await writeFile(join(path, 'theme.css'), '#nice{color:#222}');
       await writeFile(join(path, 'manifest.json'), JSON.stringify({ schema_version:3, theme_id:themeId, name:'原定字体', order:index, fonts:[font],
@@ -37,6 +50,11 @@ test('导出保留manifest指定原字体、覆盖表与已有许可，不改写
       assert.deepEqual(manifest.fonts, [font]);
       assert.deepEqual(await readFile(join(target, themeId, font.file)), bytes);
       assert.equal(await readFile(join(target, themeId, font.coverage_file), 'utf8'), '[19968]');
+      if (font.compatibility) {
+        for (const key of ['source_file','source_coverage_file','report_file']) {
+          assert.deepEqual(await readFile(join(target,themeId,font.compatibility[key])),await readFile(join(source,themeId,font.compatibility[key])));
+        }
+      }
     }
     assert.equal(await readFile(join(target, 'theme-1/配套字体资源/NOTICE.txt'), 'utf8'), 'Original accompanying notice\n');
     const catalog = JSON.parse(await readFile(join(target, 'catalog.json'), 'utf8'));

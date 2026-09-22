@@ -304,5 +304,8 @@
   },
   "wechat_dark_mode": {
     "strategy": "preserve-illustrated-surfaces"
-  }
+  },
+  "preview_image": "主题展示案例/1. 封面-横版-2.35比1.png",
+  "showcase_image": "主题展示案例/模板介绍图.png",
+  "showcase_status": "approved"
 }

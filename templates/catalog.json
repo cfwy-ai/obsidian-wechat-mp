@@ -6,7 +6,7 @@
       "name": "纪念碑谷",
       "order": 1,
       "directory": "monument-valley",
-      "source_manifest_sha256": "03ca5f28f15b13f571ff4bab7ead563b719b94c0878c8b7d01091fd5d2559a60",
+      "source_manifest_sha256": "945f22b599a30f8f278de66ad9aa965d52943579a0f4349ad6a9cacbcf65693b",
       "font_changes": []
     },
     {
@@ -14,7 +14,7 @@
       "name": "星尘手记",
       "order": 2,
       "directory": "cobalt-orbit",
-      "source_manifest_sha256": "04caf0d47981f7735369ca93952d5b9c80da2202bc43d605d71976578b32ac39",
+      "source_manifest_sha256": "2cc5c01fee62338cc886fffd1bea811441cc9126c997dad99e35121ed15c5b18",
       "font_changes": []
     },
     {
@@ -22,7 +22,7 @@
       "name": "简笔手绘",
       "order": 3,
       "directory": "simple-sketch",
-      "source_manifest_sha256": "ece8ded94035cf7712518ae3ea390abda419fb8ea1cefcfb1a6344801728814e",
+      "source_manifest_sha256": "b0128e378f0d50f1967f7e9662a64875de774b46f93ef3dcd67f238cada40e39",
       "font_changes": []
     },
     {
@@ -30,7 +30,7 @@
       "name": "黑夜女神",
       "order": 4,
       "directory": "nyx-night",
-      "source_manifest_sha256": "e68301e06d74bbe9055ef9e4bad30adf3dfa0470b8f34bcb7b9934449cd12d48",
+      "source_manifest_sha256": "b628252be9751b8afb04c0fe032d6a732a1d37edcab521649d88d2d528d0dd81",
       "font_changes": []
     },
     {
@@ -38,7 +38,7 @@
       "name": "蜡笔手绘",
       "order": 5,
       "directory": "crayon-sketch",
-      "source_manifest_sha256": "74faa1dba1ba2afcbf0f8ba096f548af2a6121b0954bd54dcbe75b9100f1fedb",
+      "source_manifest_sha256": "9c67807fcf77c378c37693046091ac26e3067c079ebbf9f667ef8d9f9f1132fa",
       "font_changes": []
     },
     {
@@ -46,7 +46,7 @@
       "name": "手绘卡通",
       "order": 6,
       "directory": "cartoon-doodle",
-      "source_manifest_sha256": "22e95cb5d075c40cefb16326419adc6bcbad8e1a37bf4f7ab7a4dc75bf8f95f0",
+      "source_manifest_sha256": "c74d552062ac2f7be74970886501f1e21f8a8bb8f5cc6bcc78e6f8439c655af8",
       "font_changes": []
     },
     {
@@ -54,7 +54,7 @@
       "name": "解构插画",
       "order": 7,
       "directory": "deconstructed-illustration",
-      "source_manifest_sha256": "662c408b48358238c9c83c148b549e5adecb5e045cb6c900be8fa4670d3d6ad4",
+      "source_manifest_sha256": "66795c7d022b6c85dd3facc6d8c80ab370b453842ac45d742560369ec57ef531",
       "font_changes": []
     },
     {
@@ -62,7 +62,7 @@
       "name": "暖瓷像素",
       "order": 8,
       "directory": "feng-guo-shu-ye",
-      "source_manifest_sha256": "42dbb21ca75803badfc403b64f614512777c7b5c3a5c61fb1eeb77af5b6093da",
+      "source_manifest_sha256": "a870bb3c873c202f1f9a26699c005f4e03b0e363e52d14dd40d0ffc7fae7412a",
       "font_changes": []
     },
     {
@@ -70,7 +70,7 @@
       "name": "沙丘版画",
       "order": 9,
       "directory": "dune-echo",
-      "source_manifest_sha256": "bd1f3d59c86f43585aa113488da816c82b8a402ce0eb219e0fabf02111b71951",
+      "source_manifest_sha256": "00503e4f59e9f00010be707e282b47c6c98bb5b8ab011a4dc7f3147e0e31150e",
       "font_changes": []
     },
     {
@@ -78,20 +78,20 @@
       "name": "铅笔写意",
       "order": 10,
       "directory": "pencil-impression",
-      "source_manifest_sha256": "dbe47ab88a3812f4be8dd3be778b0ff6c98af9c46f5cb79048e0e69c203dc30e",
+      "source_manifest_sha256": "90edac70732dff3b614903f803fd865c1f397aa3baba4290c02b366e56684ba3",
       "font_changes": []
     }
   ],
   "files": [
     {
       "path": "README.md",
-      "bytes": 2292,
-      "sha256": "ea7cf61a1132aeb70cb100eda839f24d964d761b6c240fc377d49ffdc4f4c711"
+      "bytes": 2590,
+      "sha256": "5255e3be31614f0cd79330af4a5bd4e8e358cb7228ce51196a24feddc4c513aa"
     },
     {
       "path": "cartoon-doodle/manifest.json",
-      "bytes": 8911,
-      "sha256": "4641651785665b74a67922188dd84307cc5224fe23c9e7113eff4dad3c9b0f21"
+      "bytes": 9077,
+      "sha256": "ba5678efcc546844e4f28aafc9d66f4728b1bca6974f45fad88473dffb65aea8"
     },
     {
       "path": "cartoon-doodle/theme.css",
@@ -99,19 +99,59 @@
       "sha256": "565f09237a5bf3861a3772c9e69208405f7a7e56b82173916840fbac7ef951f6"
     },
     {
+      "path": "cartoon-doodle/主题展示案例/0. 案例预览.md",
+      "bytes": 1525,
+      "sha256": "7500f23d3aaa18afa6c5ffe7fd400c3f487b364ea987006d7b134d158dd499c2"
+    },
+    {
+      "path": "cartoon-doodle/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 2045498,
+      "sha256": "6ba39d16e5a10cbc6c36da5e99649d451a102c4656d86c22e0b48517b7611fda"
+    },
+    {
+      "path": "cartoon-doodle/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 2051688,
+      "sha256": "0c41aa71955cb72ce2abcd217ec42332738240821f90e32995dcb87393213687"
+    },
+    {
+      "path": "cartoon-doodle/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 2162662,
+      "sha256": "6efff321b5393895410b048b7b2866aa51ff44265c6b977fbda301f4e2599a4c"
+    },
+    {
+      "path": "cartoon-doodle/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 2101533,
+      "sha256": "655280f2abe542059fd99ed070e8ccf1c456344fad2290ef8ba4258d980a2904"
+    },
+    {
+      "path": "cartoon-doodle/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 2077742,
+      "sha256": "b42882ec16cb555458f4198f610bc2b765a76f9e1d666eec167e0b293a78855d"
+    },
+    {
+      "path": "cartoon-doodle/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1900743,
+      "sha256": "eb8192321547c2ae2066140dbaf2d32717d0735379f68fdb20ff4c992c82b5ae"
+    },
+    {
+      "path": "cartoon-doodle/主题展示案例/模板介绍图.png",
+      "bytes": 9868142,
+      "sha256": "66ffc42cc77910a1a86efa1043591aa0ce5d908ca53c9105e4a3d0bbb2625efb"
+    },
+    {
       "path": "cartoon-doodle/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1475,
-      "sha256": "f7fcf2924e673b0ab974920b5e45b31cbb833fce3a4baff977620cd97dcaf805"
+      "bytes": 829,
+      "sha256": "5ac17f5503aed770c4dbcab8cf8594dd04004c5cf1c462cdf0892fc631dbf5fd"
     },
     {
       "path": "cartoon-doodle/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 3264,
-      "sha256": "fe8bdae44bc252d57d993c1b4a89a819fa2890ddaf6868b5a0f292caa41ad6d4"
+      "bytes": 2838,
+      "sha256": "4540a9f5cef4159a8b29ac8870ca1a115e6e2b1ce4ab195a3a3714f40cc4176e"
     },
     {
       "path": "cartoon-doodle/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2483,
-      "sha256": "ccd94b20d18263ad5593ed02901c11cd3b246400b701d0ab07713680890c9bfb"
+      "bytes": 2652,
+      "sha256": "be1abc5661490c884f0dc1d51c560caf2c93970988c151e5bc1523c6860fcc4c"
     },
     {
       "path": "cartoon-doodle/正文组件结构/ct-code-head.html",
@@ -260,8 +300,8 @@
     },
     {
       "path": "cobalt-orbit/manifest.json",
-      "bytes": 7281,
-      "sha256": "e6a7b4efab6751a6ac426a64c31cfaa199fb84331574385dda66c163ab60133e"
+      "bytes": 7447,
+      "sha256": "cc05cc102fb28f076af73bea595606c4859d5e462579e96515545d3963d120f9"
     },
     {
       "path": "cobalt-orbit/theme.css",
@@ -269,19 +309,59 @@
       "sha256": "623e47996dee630e234164e31906ba9cc933c2f80a2a209b7cb968984d31dc07"
     },
     {
+      "path": "cobalt-orbit/主题展示案例/0. 案例预览.md",
+      "bytes": 1649,
+      "sha256": "cafcad39790eac3b2887f3a0b72e7439e2fca2913b51273e5ed725ab73968900"
+    },
+    {
+      "path": "cobalt-orbit/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 2324829,
+      "sha256": "ca4e3b1f4c9d672c3042d65991f1acebae85b84295147446a121b23c2c39dc72"
+    },
+    {
+      "path": "cobalt-orbit/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 1904927,
+      "sha256": "0d8652388a646bbca8199173542c7df946a4a5ce1af1b0c8d11af5361abd9717"
+    },
+    {
+      "path": "cobalt-orbit/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1643019,
+      "sha256": "3f8dbf09ed571f9ba00f653b54c93a3c058b6bba693ca4e4ff7792e1e2de238d"
+    },
+    {
+      "path": "cobalt-orbit/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 1787742,
+      "sha256": "a1310d0c739ced56a5942c4a4f830aed6700e99e63e66f5d339f5deb3ef1a18a"
+    },
+    {
+      "path": "cobalt-orbit/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 1806776,
+      "sha256": "8fd9a5c286d4beb18fe141da903afe626c423243cbd3cec16164826c1548152a"
+    },
+    {
+      "path": "cobalt-orbit/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1918483,
+      "sha256": "13b96eb276e6ebebd2fbacc70daeb42e1d81c7d7668345b6eb2f6b88be518a05"
+    },
+    {
+      "path": "cobalt-orbit/主题展示案例/模板介绍图.png",
+      "bytes": 8122779,
+      "sha256": "fa267e9649f296204c26532705f2d51bd91c342f24b02fb3e83eda7cb10fc48a"
+    },
+    {
       "path": "cobalt-orbit/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1463,
-      "sha256": "827075a741a3228ff1821e352a45cafe50cdf9044064a2189ebec9ed6bd9a684"
+      "bytes": 871,
+      "sha256": "dbb08837d0cc64bbdfc1cbe2002cf893094efec60154bd50f772e073a17b61ec"
     },
     {
       "path": "cobalt-orbit/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 3264,
-      "sha256": "4d913a76ffdb0f96db90947680eb6d5775485f3d2a37e6b467bc4fb713731979"
+      "bytes": 2838,
+      "sha256": "3e6c3197f01e7f5ad9934cfd0e6fc87ff745dc0e6a4912ac07ca88ba8eb2b40d"
     },
     {
       "path": "cobalt-orbit/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2483,
-      "sha256": "ade67526c95adf9fc4097bf0de904f0053f9afc90b03b2defa5a180cab23b86f"
+      "bytes": 2652,
+      "sha256": "1c223cee494d3a8cdbfedcf6a1f451708052c0f87bde62aaca063ad560935157"
     },
     {
       "path": "cobalt-orbit/正文组件结构/mono-ending-v4.html",
@@ -400,8 +480,8 @@
     },
     {
       "path": "crayon-sketch/manifest.json",
-      "bytes": 11781,
-      "sha256": "7f9c81850e074ab2a182f8ee9ce1b4ea3d5a19bfe7aa89e9955121affc5d5fa1"
+      "bytes": 11947,
+      "sha256": "c3e7372905836569ad7837af69c40acf5816af0206c5b2b8d48664abbfe531b7"
     },
     {
       "path": "crayon-sketch/theme.css",
@@ -409,19 +489,59 @@
       "sha256": "3e131ea07716c76606f39149ed75bd8d8bbbbb22f99a851b3f210032e3394076"
     },
     {
+      "path": "crayon-sketch/主题展示案例/0. 案例预览.md",
+      "bytes": 1539,
+      "sha256": "871f8e670fbb4a7aa1ece1e51f6d7bbf03654067f5cbbd3f9392ed7f6add6143"
+    },
+    {
+      "path": "crayon-sketch/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 2520037,
+      "sha256": "d9284592eb26dc4fd909a1fd12f5bf7c30bf6f4525e35930b87e38c023f25094"
+    },
+    {
+      "path": "crayon-sketch/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 2344831,
+      "sha256": "19b1027c189493c804287aebfbb82048546205b7fc7bd1c2b9e21e99b8397978"
+    },
+    {
+      "path": "crayon-sketch/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 2384783,
+      "sha256": "1e0ebdfe58038edb5cff467ae0e61a5499b34b5575b5f8bde4ec9312b3302722"
+    },
+    {
+      "path": "crayon-sketch/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 2227182,
+      "sha256": "3dafadaf791163f3a62b05841b6e609558941e4b969772a2fb087a3948fc80a2"
+    },
+    {
+      "path": "crayon-sketch/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 2395630,
+      "sha256": "70aeb5501b1cad4f69e06b2aa72a724276f0bd4dadcc24c44bc2caf45f85e68d"
+    },
+    {
+      "path": "crayon-sketch/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 2253031,
+      "sha256": "121215427d807b18277b74dca94183d082bd05a58d9e235d4c361257dc2ea451"
+    },
+    {
+      "path": "crayon-sketch/主题展示案例/模板介绍图.png",
+      "bytes": 10993689,
+      "sha256": "ea3c640b018335cd898ad107abac01d7e8960cc1c9912fd4bd863a8835a04d73"
+    },
+    {
       "path": "crayon-sketch/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1434,
-      "sha256": "dd48c1de8f4403e99b648bd9d932b6d0d473fad8297ddc2cdb36b1deb7ff0d12"
+      "bytes": 820,
+      "sha256": "a9771939df6234f4cd093a8beb32d2bd4ec8fafa3953740e1e60a87e7cf722b8"
     },
     {
       "path": "crayon-sketch/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 3264,
-      "sha256": "ee4d3860a17be3c35273c06b5b7a34497152cf1873670d9dad934e956761592f"
+      "bytes": 2838,
+      "sha256": "52c1fde79916526af895ccee93d70c781c6b820d01fe2c7075689ada7ddb72a4"
     },
     {
       "path": "crayon-sketch/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2483,
-      "sha256": "ec3e6c7b7b606b66d61965e6ce5cd8468fad52c873c6aec6b1907c1c061f24ba"
+      "bytes": 2652,
+      "sha256": "487c8410f2b3254114901851cd716ce18f8e4862d26b7f34252e98c11ff5e106"
     },
     {
       "path": "crayon-sketch/正文组件结构/ending-follow.html",
@@ -615,8 +735,8 @@
     },
     {
       "path": "deconstructed-illustration/manifest.json",
-      "bytes": 13376,
-      "sha256": "c5e9a95bc6ccce0da446238a1dd075c521e4d9bfb79f241df3325030c17ba36d"
+      "bytes": 13542,
+      "sha256": "5077222d773f8c5d11ce428ea3ec641ff4bb3df1ba87b7bd709326f60ced83e9"
     },
     {
       "path": "deconstructed-illustration/theme.css",
@@ -624,19 +744,64 @@
       "sha256": "716c6fb68ac0846759d1481be7a778364ec51aaafe854f0e2b36bc12ce906b05"
     },
     {
+      "path": "deconstructed-illustration/主题展示案例/0. 案例预览.md",
+      "bytes": 1861,
+      "sha256": "f7c86d6391fdd390c3f4001e66402e0244ebde4af7ab647a4a7381c6d52e09b9"
+    },
+    {
+      "path": "deconstructed-illustration/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 1387713,
+      "sha256": "52924d54d1981a3f63d68d3c1ad2635e3e1cfd0330202cd9ceea12cdab7dbe2f"
+    },
+    {
+      "path": "deconstructed-illustration/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 1699494,
+      "sha256": "d1e3234896e78c6d6fd1823dc295da0e2878d8fdd6daa03d6d4eb809707e6dfb"
+    },
+    {
+      "path": "deconstructed-illustration/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1707296,
+      "sha256": "c4bad0bce8c17747c8ab65607ce271f8ccfbb14f9e737b9c1348173d1bfc293a"
+    },
+    {
+      "path": "deconstructed-illustration/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 1487533,
+      "sha256": "30cdc63dea18ac2dd003a90005008c2b187761e2d3eeb806bbd4505908b9283b"
+    },
+    {
+      "path": "deconstructed-illustration/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 1700581,
+      "sha256": "fa298b6609cf51c66012b5d148e0bfac73e951099898ddba7618c934cc07a61d"
+    },
+    {
+      "path": "deconstructed-illustration/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1690039,
+      "sha256": "ae7526009734252bc46d9bfc5a36fe1c054a46c9bf6352f321a73d108a523443"
+    },
+    {
+      "path": "deconstructed-illustration/主题展示案例/模板介绍图.png",
+      "bytes": 6111404,
+      "sha256": "48ac99bd61970143aa14c8341077844a4eeb0b09ff623ab637f6a0bf33353b66"
+    },
+    {
       "path": "deconstructed-illustration/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1448,
-      "sha256": "5c879ee4108f0e68276b57e153727dde2dde27996be250635c61200a19e09a19"
+      "bytes": 2306,
+      "sha256": "10d4716d87332b02b58616a082e2298a16fe68f9ecf099b1cb488ace574138e1"
     },
     {
       "path": "deconstructed-illustration/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 3264,
-      "sha256": "82d185de02c232c93ce0acb71dea57479a5bd220fdffa127842393dfeb45711e"
+      "bytes": 2838,
+      "sha256": "5d8234b7db60fb59ab29864dbe574e52718a11d78f991349324cf1924d3142b1"
     },
     {
       "path": "deconstructed-illustration/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2483,
-      "sha256": "b42dfa2d1fffbb8e9afc7f009bcf2f8a710f0674d69e56c0051f0ad5bfff74fc"
+      "bytes": 2652,
+      "sha256": "744af874d7f4c115eacd4d5ffc796f94785b5e7d8efbe66abe53e6fd8697b7f9"
+    },
+    {
+      "path": "deconstructed-illustration/主题视觉规范/4. 生图方法论.md",
+      "bytes": 5633,
+      "sha256": "2621af9c4e6bc008c81492d0b6ffbdc68d3fbd93a472ba6acad7d9a8af2f8448"
     },
     {
       "path": "deconstructed-illustration/正文组件结构/ending.html",
@@ -830,8 +995,8 @@
     },
     {
       "path": "dune-echo/manifest.json",
-      "bytes": 8577,
-      "sha256": "4bc73c88d0546263ec58d533e877d29be8a2e3dfec660839e09e31b57797f9c2"
+      "bytes": 8651,
+      "sha256": "2093bb09db97a475129fe6799bed48b279eb09c64de44ad10e48ee411abefbaa"
     },
     {
       "path": "dune-echo/theme.css",
@@ -839,24 +1004,64 @@
       "sha256": "687e039ed14e5d9f864d9e7f6853b14257006f2eb16cb9063d29dc41e2dcce7d"
     },
     {
+      "path": "dune-echo/主题展示案例/0. 案例预览.md",
+      "bytes": 1523,
+      "sha256": "3be1f2f71febb69b68785b3d4c3ea50b2b3913cd9e69c56b917203a8b7cfe50b"
+    },
+    {
+      "path": "dune-echo/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 1748265,
+      "sha256": "a3306552fefff7c3ea43c9508e4e451c8954290ecca617ed197061eb3f48ba5d"
+    },
+    {
+      "path": "dune-echo/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 1871864,
+      "sha256": "6159212a7bf018aebf204cd1d622a8816597bf77bb597a8ec04c5824a15229f3"
+    },
+    {
+      "path": "dune-echo/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1942780,
+      "sha256": "6b24ce83094a70fe9066877bbdbc756f6c8bff249bca15bef2d4aa517206f913"
+    },
+    {
+      "path": "dune-echo/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 1756771,
+      "sha256": "f6c9c48a5b0b2885ee42cb1f7bece08ddf461e4df1b10b1089849a92597b2b02"
+    },
+    {
+      "path": "dune-echo/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 1783649,
+      "sha256": "ca90f72bf07a5d4cbc96526fef70eb98a9fc1d76ee21077293dc2103a887cc55"
+    },
+    {
+      "path": "dune-echo/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1757240,
+      "sha256": "f72272a815abd911b518ab849370432ceb688a8e3776af38907e992041403347"
+    },
+    {
       "path": "dune-echo/主题展示案例/模板介绍图.png",
-      "bytes": 4142805,
-      "sha256": "09030232e1eca8046f6a6d71e4b4df668cf7a64a008480559a6ff15e1d811a81"
+      "bytes": 10886115,
+      "sha256": "1c69cf29aae16edfbad22920cc71302a1832c983f0f86bea09e656e54cc68248"
     },
     {
       "path": "dune-echo/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1446,
-      "sha256": "3adbfc45049b85fc8543191c222f8f7ad473189a08b879e4c3a8451a8aa86d0f"
+      "bytes": 2280,
+      "sha256": "ffeeae9ad85dba239aa2664ef9b5d5472f49d1f3561a91e8d09b5438f812629f"
     },
     {
       "path": "dune-echo/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 3264,
-      "sha256": "e531b69e254b30da422999caf4d3c0b97204b10637379e37e43aa8b43c151598"
+      "bytes": 2838,
+      "sha256": "91cab96fea0631c3bea13a99bbbae14177747ef8a2cc7deb3d3bc4ddf07a771b"
     },
     {
       "path": "dune-echo/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2483,
-      "sha256": "c14343f5c428b805e14342c65c25e1059fe0bbf526f0da8322d695b2b5a9447f"
+      "bytes": 2652,
+      "sha256": "44ba26707dd75c4b28b406db2f97563544134f15b5149232b1e597304b697ff0"
+    },
+    {
+      "path": "dune-echo/主题视觉规范/4. 生图方法论.md",
+      "bytes": 5600,
+      "sha256": "53d6181f2ac15c1ff4eef88d618aa941278b99cb15e51771006e737f048a48fd"
     },
     {
       "path": "dune-echo/正文组件结构/dune-footer.html",
@@ -985,8 +1190,8 @@
     },
     {
       "path": "feng-guo-shu-ye/manifest.json",
-      "bytes": 9934,
-      "sha256": "bdab4e93e71e82718b351a6dc82ed0fd236693be22e5bb8ea9b688739d88bcc0"
+      "bytes": 10100,
+      "sha256": "0d9d078118bd7a46abd000cb9c19271e0e4a8ac476d0727d8e770bdfe3a67ee9"
     },
     {
       "path": "feng-guo-shu-ye/theme.css",
@@ -994,19 +1199,64 @@
       "sha256": "408c25939706877685572e073b8d65e93016362950b199c7191c17f976b22a93"
     },
     {
+      "path": "feng-guo-shu-ye/主题展示案例/0. 案例预览.md",
+      "bytes": 1510,
+      "sha256": "496a026c890cd76eb864777ac4c864dd2311cacb5fe016cf6fb45ee898872bf4"
+    },
+    {
+      "path": "feng-guo-shu-ye/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 1594980,
+      "sha256": "2672802f085fd7ed6f3bda6e181e1042914084c51ad663a55142b74e79ccbe4e"
+    },
+    {
+      "path": "feng-guo-shu-ye/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 1803266,
+      "sha256": "f24b4375fe047ef77fa8dc56005fbdaf05b3499afb8f4ab8bf37b7a3b5e2452b"
+    },
+    {
+      "path": "feng-guo-shu-ye/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1737514,
+      "sha256": "84fbf4e690803cbffe6d7b9ee6af112e3065cbc887549e644d9d8403ed4a74fb"
+    },
+    {
+      "path": "feng-guo-shu-ye/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 1480049,
+      "sha256": "695bf0b7d149e1b035e0cfd3843e45e7845cad24920efd400061613b2fdf2434"
+    },
+    {
+      "path": "feng-guo-shu-ye/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 1712972,
+      "sha256": "a4fc43c21a68d7a627a24ac646b329673f92e31c65357f55f12e3c4554166a1d"
+    },
+    {
+      "path": "feng-guo-shu-ye/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1685886,
+      "sha256": "45cb3a73851995194d43c2a2e88afab89f0940f72481de12d61e89b0b7d4e183"
+    },
+    {
+      "path": "feng-guo-shu-ye/主题展示案例/模板介绍图.png",
+      "bytes": 7173729,
+      "sha256": "ca3dda385cb4177e19aba4891fc917561935cf7398b7b43a4f0fe08093ae56d5"
+    },
+    {
       "path": "feng-guo-shu-ye/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1433,
-      "sha256": "e29a161fd851aec9bd3b15db9bc01a34dc545c5930dd87557ec67d00e753a6e5"
+      "bytes": 2417,
+      "sha256": "dc7eafb5b55bcf40461e750b30a279771f0a71ab75e3de2c55fec82e241c1da7"
     },
     {
       "path": "feng-guo-shu-ye/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 3264,
-      "sha256": "9e61c79efa145a3b51b0fa4e2504e8c5492f2752737b9fff75426c018fb6977e"
+      "bytes": 2838,
+      "sha256": "f73171e5504362303e6cbf411f768f6d39e9e036158296e982dfac43b7495e12"
     },
     {
       "path": "feng-guo-shu-ye/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2483,
-      "sha256": "9db7e3c6c41898d6166eb5b08c40272f91c0514cfa31f8908adcc8c7fc0867cc"
+      "bytes": 2652,
+      "sha256": "36b6b1379987f8392748d5c6c15607e6c5293fc2c3b4b9392dadf9d060b32b6b"
+    },
+    {
+      "path": "feng-guo-shu-ye/主题视觉规范/4. 生图方法论.md",
+      "bytes": 5725,
+      "sha256": "3878cc17593ea33eaa1dbd2bbc173fa2e6a660ddaa936f5f995079fd78749bde"
     },
     {
       "path": "feng-guo-shu-ye/正文组件结构/footer.html",
@@ -1190,8 +1440,8 @@
     },
     {
       "path": "monument-valley/manifest.json",
-      "bytes": 8404,
-      "sha256": "9d799c01325bd1c200a5dab0705c22297c4cf26454058f46901d47adccb8db66"
+      "bytes": 8570,
+      "sha256": "6b5295bf4fd7d2485f77a3409d115c989cf294ea1ed84738638c3c4d09b47514"
     },
     {
       "path": "monument-valley/theme.css",
@@ -1199,19 +1449,59 @@
       "sha256": "74d56496dc79319403edaf59b0be04e92395c253c19890367ecbba4d5fb2af5b"
     },
     {
+      "path": "monument-valley/主题展示案例/0. 案例预览.md",
+      "bytes": 1511,
+      "sha256": "3275609f9c6d4ba6108d92d0957a483b41d7f6f9296d1bdbd2a5ad968bc8d299"
+    },
+    {
+      "path": "monument-valley/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 1552144,
+      "sha256": "b98d77d72c1c38ecee441621d1dfdda37e47ffb0fe2a1fd356d6f9fcf2a44b79"
+    },
+    {
+      "path": "monument-valley/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 1652220,
+      "sha256": "e22a75d1f5e46366b09565be84baee4cbdf3ac377476638e37cb0854b5beee1b"
+    },
+    {
+      "path": "monument-valley/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1487460,
+      "sha256": "3ad66800644b2fa46d3b1cf3d3ede75ab30ce6827de2d5007bb87c33e565d10e"
+    },
+    {
+      "path": "monument-valley/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 1719762,
+      "sha256": "7f16075cff352f6922d98951dda168c75b53afcf0450a1e4917092ee2ed9ea0c"
+    },
+    {
+      "path": "monument-valley/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 1581576,
+      "sha256": "cdfe774ab42ec9f79fc97f6502e09ff07da398eb04ce619f49a28e3c8961bd50"
+    },
+    {
+      "path": "monument-valley/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1464230,
+      "sha256": "f909a7477f4b93203050681ec78ce39004379ba5f396d8069b3c13fde5ad2281"
+    },
+    {
+      "path": "monument-valley/主题展示案例/模板介绍图.png",
+      "bytes": 8109499,
+      "sha256": "31e5bc1ae65593a6b16c9384d4a548e7b897cde3dfba6fb8823bd70ca85ab0a7"
+    },
+    {
       "path": "monument-valley/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1399,
-      "sha256": "5d8302535fe041eebac5079084ce703c85ac4d984ca4e43bec9b728a0c1e28ce"
+      "bytes": 780,
+      "sha256": "7dce48871a4cca0a4bdc995abc9e557bacb31a207cdf3c8d2bd8b4b873d96479"
     },
     {
       "path": "monument-valley/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 3264,
-      "sha256": "1684f79aeee6847beca3a3582d219afb8e760ecefe4d82b7e5f5e2adbb625c80"
+      "bytes": 2838,
+      "sha256": "d3eeee244822c8823cd313f7b68e9679bb1ef2b014e5df8e7e9158c3f837e595"
     },
     {
       "path": "monument-valley/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2483,
-      "sha256": "54061cb55a9eb68718f34b1ded24c3ea7bb10477729c679fa4460e15ac185ec6"
+      "bytes": 2652,
+      "sha256": "397b4343776d173413d45fb0781731d7dcc09ec2d46908a959a8e9568db61e35"
     },
     {
       "path": "monument-valley/正文组件结构/mv-ending.html",
@@ -1355,8 +1645,8 @@
     },
     {
       "path": "nyx-night/manifest.json",
-      "bytes": 8723,
-      "sha256": "0dfd343100027777475d03524b6b78d368c3045dea41ae3d389b97cad95036e0"
+      "bytes": 8889,
+      "sha256": "9e71f1638295e4cabb1bb5756fdb973d86dc43e615877fe6cbfea9a615245764"
     },
     {
       "path": "nyx-night/theme.css",
@@ -1364,19 +1654,59 @@
       "sha256": "43796ae8945fcf9d2774d285f2656025ee982fc8f2857e84751d36a33b501318"
     },
     {
+      "path": "nyx-night/主题展示案例/0. 案例预览.md",
+      "bytes": 1547,
+      "sha256": "1b87c126411fa243f808eb032463b82f49c5543fd0f21f8a55b7cf830d959e6a"
+    },
+    {
+      "path": "nyx-night/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 2121383,
+      "sha256": "82e05e41e99798b1eeda0cb4da0125928f272620844bb67d588ba5bed09a613e"
+    },
+    {
+      "path": "nyx-night/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 2221624,
+      "sha256": "5a25a305abf2b813d45bb5e392ec76f08c3ada40f5c9cb4b52e27f9cbeffcde3"
+    },
+    {
+      "path": "nyx-night/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1953896,
+      "sha256": "9028587cde90791412d9ed987dbce83b9e21773d0d398aaea24e181b0156c55c"
+    },
+    {
+      "path": "nyx-night/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 2178059,
+      "sha256": "fe505494192638cc6fd04b4a5550f27ef5742351837c40266bd6e27f9094e477"
+    },
+    {
+      "path": "nyx-night/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 2330191,
+      "sha256": "0060fb067e9838394342cbc1f45b69f38b259e8aba822b6c06e8a2f9d35bd22d"
+    },
+    {
+      "path": "nyx-night/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1963049,
+      "sha256": "3df0712e8345e788eb18e769610c34258db80ae352809c1a037974b2ca653776"
+    },
+    {
+      "path": "nyx-night/主题展示案例/模板介绍图.png",
+      "bytes": 12272110,
+      "sha256": "683608948752d3b832fbc48db14e9e465b2690e774de4c5d9f41b7ed0c653dd5"
+    },
+    {
       "path": "nyx-night/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1435,
-      "sha256": "de44d099a26548daa933e4a2107a5464f567cac851683172a36bbbd849d334dd"
+      "bytes": 837,
+      "sha256": "a8708126d52395138821e85c52812ebe8cbb8fa6ed66708649eb70a6b79351fb"
     },
     {
       "path": "nyx-night/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 3264,
-      "sha256": "97e3330603c46ac63d13bccd36a374e202b5f7562821e7180304ec96e4734e18"
+      "bytes": 2838,
+      "sha256": "b13352df8e5cda9d0619e25be3c73c612b1d695c511daa106af2f50959781e81"
     },
     {
       "path": "nyx-night/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2483,
-      "sha256": "638d6256f682a138906e6f27d13e119dcaad4af9cf51e8afcd2726bf330d4977"
+      "bytes": 2652,
+      "sha256": "7c1a9ca38a70f60904e5dff7fcd36c33d0dd982d4679af9c7677b47408282e81"
     },
     {
       "path": "nyx-night/正文组件结构/ending-actions.html",
@@ -1490,8 +1820,8 @@
     },
     {
       "path": "pencil-impression/manifest.json",
-      "bytes": 21561,
-      "sha256": "ca5d603785632916c8a21d14045e100f312b342875f39c325bc56a6c24b45de8"
+      "bytes": 21727,
+      "sha256": "4c8c883118d561150d2760c906d1c9aa72ff03c0ef13c54f1fe78c6ecd612739"
     },
     {
       "path": "pencil-impression/theme.css",
@@ -1499,19 +1829,64 @@
       "sha256": "89500b175c892fc6ea45d7b1f58b6ec672476e1ffbf0701f9c4b95d038236b29"
     },
     {
+      "path": "pencil-impression/主题展示案例/0. 案例预览.md",
+      "bytes": 1688,
+      "sha256": "cf600f8a65640b377336a4b996db1df6f5551c7e865d6b1ea10a9b501339c98a"
+    },
+    {
+      "path": "pencil-impression/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 1568094,
+      "sha256": "ee7ecacfd08987609d2d27df275cceb285a33b75a59429cddfc6b197ee1bc910"
+    },
+    {
+      "path": "pencil-impression/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 1784250,
+      "sha256": "c8a53959a08402412845992949dab07f2ad9221aee89655f8108ec97edc30c36"
+    },
+    {
+      "path": "pencil-impression/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1606009,
+      "sha256": "428e35458b30b25e5a79df6017d6e85ce40cf5acef1cc52a5ae18c6d99befb7b"
+    },
+    {
+      "path": "pencil-impression/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 1581839,
+      "sha256": "25e36279aa4e7134fce3b053e75c2f6cf7ef356bf7aebd12129e8ab269ad4ac0"
+    },
+    {
+      "path": "pencil-impression/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 1749570,
+      "sha256": "78613115bed21d632e496f3b80edcacb8da0a5ef5600fc9f18a291bbb0db02ce"
+    },
+    {
+      "path": "pencil-impression/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1567671,
+      "sha256": "e999e1239124301ab3bcb0310fd09a65d9443650249c3d9862511e2068990bc7"
+    },
+    {
+      "path": "pencil-impression/主题展示案例/模板介绍图.png",
+      "bytes": 11351416,
+      "sha256": "47b4496eef207d8207b8a90939205327f57c81436c9f77e94da0f9c83316c3ea"
+    },
+    {
       "path": "pencil-impression/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1425,
-      "sha256": "6397bf8a16847604838b1fcb9613e09d60743ee6dfaa87c59882e225bd708888"
+      "bytes": 2176,
+      "sha256": "69a04a780eeb7f237e77e19ab737fceef424eb30f71b11aa0c4fb5974f00de33"
     },
     {
       "path": "pencil-impression/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 3264,
-      "sha256": "48ed14f1014881584151d847e70770f8b5db0309c7ae372b683614ea6b2a7602"
+      "bytes": 2838,
+      "sha256": "2e30926863299677063a62f9a9df1438ac7b624d3d75d32a3c846d2fad85b012"
     },
     {
       "path": "pencil-impression/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2483,
-      "sha256": "3883a7609cbf39d00538e611aca2a16edf9ce59735e59b8a6a97a892d7d9510f"
+      "bytes": 2652,
+      "sha256": "a9c7b0b94e572cc51b2388cdf18154f72b6ee7a5c0a4758c10f235b885baf1ce"
+    },
+    {
+      "path": "pencil-impression/主题视觉规范/4. 生图方法论.md",
+      "bytes": 5484,
+      "sha256": "8417b4cc215173b9cb6bd2783f3dbead79a3d18fe1d589cd56f12733aeaff27c"
     },
     {
       "path": "pencil-impression/正文组件结构/code-desk.html",
@@ -1845,8 +2220,8 @@
     },
     {
       "path": "simple-sketch/manifest.json",
-      "bytes": 6793,
-      "sha256": "ab9b3d912754beafffb16968dfea3872b40ddbde64e8495ceb8d1da2968bd9ec"
+      "bytes": 6867,
+      "sha256": "c3f0d0084526bea0a58250a78df647d2c474ea42f01102962922c7ab4b79d6fa"
     },
     {
       "path": "simple-sketch/theme.css",
@@ -1854,24 +2229,59 @@
       "sha256": "38ad8111c402bdf0c2fb2db56a43781b1f1782f3879e74800b30731cdc45a56b"
     },
     {
+      "path": "simple-sketch/主题展示案例/0. 案例预览.md",
+      "bytes": 1524,
+      "sha256": "b4b6ef0b175ba101ec7594a975a26463a404c5daccef83af30215cbc5a4df854"
+    },
+    {
+      "path": "simple-sketch/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 1098484,
+      "sha256": "630c3d3be129a203f34d434f6dc404b0a7f6789696f762a9bdd16a2e966d1500"
+    },
+    {
+      "path": "simple-sketch/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 1170683,
+      "sha256": "ff93471858c84c5228f99f065b7d1e75c25499beb32d6b585d64f5c7383ff7f8"
+    },
+    {
+      "path": "simple-sketch/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1119226,
+      "sha256": "26243ce4d21695d87f44b858c39224a537db0c2dfdd025330904c9306982b45d"
+    },
+    {
+      "path": "simple-sketch/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 1184336,
+      "sha256": "66f92e66cd0821b0462454927862405a48b1d5b797307cd80375a12246374b5f"
+    },
+    {
+      "path": "simple-sketch/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 1142850,
+      "sha256": "581d3d7fdf11d11a560bc8357c788c4636a1ab945aceabb5d2ad3ad22a44d133"
+    },
+    {
+      "path": "simple-sketch/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1069561,
+      "sha256": "f357fda8abfb418d04f5b271ca96a7137723ea405126d739e8f6cd05202b734b"
+    },
+    {
       "path": "simple-sketch/主题展示案例/模板介绍图.png",
-      "bytes": 937311,
-      "sha256": "7a7fbfb5841073190b69d243f2afa72e430ec6c72f4cfdfb23cca4ea1b5fcbda"
+      "bytes": 3363043,
+      "sha256": "90413c59057cd107e775aebb7349168a5edf31a8815d1a40744a85a31b501542"
     },
     {
       "path": "simple-sketch/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 1379,
-      "sha256": "34f122cfcbd81efe8be5872baeead61f3bba5f61d04d99ae4b622107799e55a4"
+      "bytes": 787,
+      "sha256": "665a30fcdcca69790b12a2a9efbc545502936dcd08c331858227d6c2f7ca3d85"
     },
     {
       "path": "simple-sketch/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 3264,
-      "sha256": "afa7c680d7b11d1b51d28e41b557e110a0cdf2252c9a66cfada2df6da0a14e65"
+      "bytes": 2838,
+      "sha256": "eae4f713d41880418e06b35966ef81af4ccd72aa366c83b686725b471e94f97c"
     },
     {
       "path": "simple-sketch/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2483,
-      "sha256": "a3251a8a735b2169bd17f2f2404d3ac732dddb53f5500781b3ca3d2618e91d32"
+      "bytes": 2652,
+      "sha256": "0098a77d27af079c3ef0de081e4a387dd142a196c5bc81463a76676863bd3766"
     },
     {
       "path": "simple-sketch/正文组件结构/opening.html",
@@ -2002,6 +2412,11 @@
       "path": "simple-sketch/配套字体资源/LICENSE_Fonts",
       "bytes": 3352,
       "sha256": "327e0147d4a3ca2d89e81abce45b210576b0f9fe2b29d900f64b58039f12a102"
+    },
+    {
+      "path": "信息层级与排版.md",
+      "bytes": 5746,
+      "sha256": "84099d04e7e9a934ee3c1dd9a539c4b76dd8582e27f2ffafcbea6c2e25ed2517"
     }
   ]
 }

@@ -27,9 +27,9 @@
 | --- | --- |
 | [plugin](plugin/) | 插件源码、安装与版本发布 |
 | [templates](templates/) | 10 套可分发模板与视觉规范 |
-| [skills](skills/) | 文章排版、封面与配图两个 Agent Skill |
+| [skills](skills/) | 文章排版、文章封图与配图两个 Agent Skill |
 
-[查看两张视觉样张（待确认）](templates/README.md#视觉样张待确认)。
+[查看全部十套模板与完整案例](templates/README.md)。
 
 排版 Skill 保留原文，金句使用引用。
 配图 Skill 先确认模板和图片用途，再生成完整图文。
@@ -38,12 +38,13 @@
 
 ## 模板示例
 
-先展示两套视觉样张，封面、配图与介绍图仍待确认。
-正文来自插件实际渲染。
+十套模板均提供文章封图、正文配图与整体介绍；正文来自插件真实渲染。
 
-| 简笔手绘 | 沙丘版画 |
+| 简笔手绘 | 蜡笔手绘 |
 | --- | --- |
-| [![简笔手绘](templates/simple-sketch/主题展示案例/模板介绍图.png)](templates/simple-sketch/主题展示案例/模板介绍图.png) | [![沙丘版画](templates/dune-echo/主题展示案例/模板介绍图.png)](templates/dune-echo/主题展示案例/模板介绍图.png) |
+| [![简笔手绘](templates/simple-sketch/主题展示案例/模板介绍图.png)](templates/simple-sketch/主题展示案例/模板介绍图.png) | [![蜡笔手绘](templates/crayon-sketch/主题展示案例/模板介绍图.png)](templates/crayon-sketch/主题展示案例/模板介绍图.png) |
+
+[查看全部模板](templates/README.md)。
 
 ---
 

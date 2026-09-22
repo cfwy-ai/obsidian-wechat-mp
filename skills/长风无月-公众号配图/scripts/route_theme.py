@@ -96,7 +96,7 @@ def resolve(themes, query, kind):
             "prompt_structure": str(SKILL / "references" / "完整图文提示结构.md"),
         },
         "default_aspect_ratios": {"cover": ["2.35:1", "1:1"], "illustration": ["16:9"]}.get(kind, []),
-        "aspect_ratio_note": "只做用户要求的用途与画幅；正文默认比例可按明确要求或内容需要调整。",
+        "aspect_ratio_note": "只做用户要求的用途与画幅；正文配图统一16:9，仅用户明确指定其他比例时才可调整。",
     }
     if not directory:
         result["font_note"] = "仅有字形方向；未读取实际字体文件，不宣称已加载字库。"
