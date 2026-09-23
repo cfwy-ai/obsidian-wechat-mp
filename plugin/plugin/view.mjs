@@ -45,7 +45,8 @@ import { renderArticle } from '../src/pipeline.mjs';
 import { documentTitleForDisplay } from '../src/document-title.mjs';
 import { prepareExportTitleTheme } from './export-title-theme.mjs';
 import { createArticleHeaderControls } from './header-controls.mjs';
-import { readArticleHeaderSelection, saveArticleHeaderSelection, uploadArticleHeader } from './article-header-state.mjs';
+import { readArticleHeaderSelection, readArticleFooterSelection, saveArticleHeaderSelection,
+  saveArticleFooterSelection, uploadArticleHeader } from './article-header-state.mjs';
 
 const makeElement = (tag, className, text) => {
   const element = document.createElement(tag);
@@ -207,6 +208,7 @@ export class WechatPreviewView extends ItemView {
     this.headerControls = createArticleHeaderControls({
       getContext: () => this.headerContext,
       applySelection: (selection, context) => saveArticleHeaderSelection(this, selection, context),
+      applyFooter: (enabled, context) => saveArticleFooterSelection(this, enabled, context),
       uploadFile: (file, context) => uploadArticleHeader(this, file, context),
     });
 
@@ -893,6 +895,7 @@ export class WechatPreviewView extends ItemView {
       });
       if (refreshId !== this.refreshId) return;
       const headerState = readArticleHeaderSelection(source, selected.themeId);
+      const footerState = readArticleFooterSelection(source, selected.themeId);
       const renderInput = {
         source,
         themeCss: css,
@@ -903,6 +906,7 @@ export class WechatPreviewView extends ItemView {
         themeDarkMode: wechatDarkMode,
         orderedListImages,
         headerSelection: headerState.selection,
+        footerSelection: footerState.selection,
         referenceComposition,
         layoutWidth: this.getCurrentPreviewLayout().previewWidth,
       };
@@ -963,6 +967,8 @@ export class WechatPreviewView extends ItemView {
         article, articlePath: article.path, themePath: selected.path,
         themeId: selected.themeId, themeName: selected.name,
         definition: articleHeader, assets, selection: headerState.selection ?? {},
+        footerAvailable: components.some((component) => component.slot === 'after_article'),
+        footerEnabled: footerState.selection?.enabled !== false,
         customUrl: customPath ? this.resolveImage(customPath, article)?.url : undefined,
         available: Boolean(articleHeader && !headerState.error),
       };

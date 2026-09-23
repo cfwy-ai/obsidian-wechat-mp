@@ -76,17 +76,23 @@ const harness = () => {
     ] },
     assets: ['default', 'notes', 'writing', 'ideas'].map(id => ({ id, url: `asset://${id}` })),
     selection: {}, available: true,
+    footerAvailable: true, footerEnabled: true,
   };
   let saveHandler;
   let uploadHandler;
   const saves = [];
   const uploads = [];
+  const footerSaves = [];
   const ui = module.exports.createArticleHeaderControls({
     getContext: () => context,
     applySelection: async (selection, captured) => {
       saves.push({ selection, captured });
       if (saveHandler) await saveHandler(selection, captured);
       else context = { ...context, selection: selection ?? {} };
+    },
+    applyFooter: async (enabled, captured) => {
+      footerSaves.push({ enabled, captured });
+      context = { ...context, footerEnabled: enabled };
     },
     uploadFile: async (file, captured) => {
       uploads.push({ file, captured });
@@ -101,21 +107,63 @@ const harness = () => {
     .filter(element => element.className.split(' ').includes(className));
   const trigger = find('wechat-mp-header-trigger');
   const open = () => { trigger.click(); return find('wechat-mp-header-popover'); };
-  return { ui, document, window, notices, saves, uploads, trigger, find, findAll, open,
+  return { ui, document, window, notices, saves, uploads, footerSaves, trigger, find, findAll, open,
     context: () => context, setContext: value => { context = value; },
     onSave: callback => { saveHandler = callback; }, onUpload: callback => { uploadHandler = callback; } };
 };
 
+test('尾图开关随主题有无尾图显隐，点击后只提交开关状态', async () => {
+  const h = harness();
+  h.open();
+  const row = h.find('wechat-mp-footer-visibility');
+  assert.ok(row, '主题有尾图时应出现尾图一行');
+  assert.equal(row.hidden, false);
+  const toggle = row.children.find(child => child.className.includes('wechat-mp-header-switch'));
+  assert.equal(toggle.getAttribute('aria-checked'), 'true');
+  assert.equal(toggle.disabled, false);
+
+  toggle.click();
+  await flush();
+  assert.deepEqual(h.footerSaves.map(item => item.enabled), [false], '第一次点击应请求关闭');
+  h.ui.update();
+  assert.equal(toggle.getAttribute('aria-checked'), 'false');
+  assert.match(row.children[0].children[1].textContent, /已隐藏/);
+
+  toggle.click();
+  await flush();
+  assert.deepEqual(h.footerSaves.map(item => item.enabled), [false, true], '再次点击应请求恢复');
+});
+
+test('主题没有尾图时整行隐藏，只剩头图不影响入口', () => {
+  const h = harness();
+  h.setContext({ ...h.context(), footerAvailable: false });
+  h.open();
+  h.ui.update();
+  assert.equal(h.find('wechat-mp-footer-visibility').hidden, true);
+  assert.equal(h.trigger.disabled, false, '还有头图时入口仍可用');
+});
+
+test('主题只有尾图没有头图时，入口仍可用且头图各段隐藏', () => {
+  const h = harness();
+  h.setContext({ ...h.context(), definition: null });
+  h.ui.update();
+  assert.equal(h.trigger.disabled, false, '只有尾图也应能打开');
+  h.open();
+  assert.equal(h.find('wechat-mp-header-visibility').hidden, true);
+  assert.equal(h.find('wechat-mp-header-presets').hidden, true);
+  assert.equal(h.find('wechat-mp-footer-visibility').hidden, false);
+});
+
 test('头图入口仅在可用文章和主题定义中启用，四个预设以默认项选中', () => {
   const h = harness();
   assert.equal(h.trigger.disabled, false);
-  assert.equal(h.trigger.textContent, '更换头图');
-  assert.equal(h.trigger.title, '点击展开头图选项');
+  assert.equal(h.trigger.textContent, '头图尾图');
+  assert.equal(h.trigger.title, '点击展开页首页尾选项');
   assert.equal(h.trigger.children.length, 0);
   assert.equal(h.trigger.getAttribute('aria-haspopup'), 'dialog');
   const panel = h.open();
   assert.equal(panel.hidden, false);
-  assert.equal(panel.getAttribute('aria-label'), '头图选项');
+  assert.equal(panel.getAttribute('aria-label'), '头图与尾图选项');
   assert.equal(panel.getAttribute('aria-labelledby'), null);
   assert.equal(panel.children[0].className, 'wechat-mp-header-visibility');
   assert.equal(h.find('wechat-mp-header-panel-head'), undefined);
@@ -124,7 +172,8 @@ test('头图入口仅在可用文章和主题定义中启用，四个预设以�
   const presets = h.findAll('wechat-mp-header-preset');
   assert.equal(presets.length, 4);
   assert.equal(presets[0].getAttribute('aria-pressed'), 'true');
-  h.setContext({ ...h.context(), definition: null });
+  // 头图和尾图都没有，入口才该禁用；只少其中一项仍然可用。
+  h.setContext({ ...h.context(), definition: null, footerAvailable: false });
   h.ui.update();
   assert.equal(h.trigger.disabled, true);
   assert.match(h.trigger.title, /未提供/);

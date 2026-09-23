@@ -18,6 +18,19 @@ export function readArticleHeaderSelection(source, themeId) {
   }
 }
 
+export function readArticleFooterSelection(source, themeId) {
+  const yaml = splitFrontmatter(source).frontmatter;
+  if (!yaml) return { selection: undefined, warnings: [] };
+  try {
+    const data = parseYaml(yaml);
+    if (data?.wechat_footers === undefined) return { selection: undefined, warnings: [] };
+    if (!object(data.wechat_footers)) throw Error('wechat_footers 必须是对象');
+    return { selection: data.wechat_footers[themeId], warnings: [] };
+  } catch (error) {
+    return { selection: undefined, warnings: ['文章尾图设置无法读取，已保留主题尾图'], error };
+  }
+}
+
 export function assertHeaderContext(view, context) {
   const file = view.app.vault.getAbstractFileByPath(context.articlePath);
   if (view.closed || !(file instanceof TFile) || file !== context.article
@@ -46,6 +59,19 @@ function applyHeaderSelection(data, selection, themeId) {
   else delete data.wechat_headers;
 }
 
+function applyFooterSelection(data, selection, themeId) {
+  if (!object(data)) throw Error('文章已有的 YAML 属性格式不正确，请先检查属性');
+  if (data.wechat_footers !== undefined && !object(data.wechat_footers)) {
+    throw Error('文章已有的 wechat_footers 格式不正确，请先检查属性');
+  }
+  const settings = data.wechat_footers ? { ...data.wechat_footers } : {};
+  // 展示尾图是主题默认，因此只有关闭时写入；恢复展示就把这一项删掉。
+  if (selection === null || selection.enabled !== false) delete settings[themeId];
+  else settings[themeId] = { enabled: false };
+  if (Object.keys(settings).length) data.wechat_footers = settings;
+  else delete data.wechat_footers;
+}
+
 function assertSourceEditor(view, context, sourceView, editor) {
   assertHeaderContext(view, context);
   if (view.plugin.getCurrentSourceLeaf()?.view !== sourceView
@@ -55,7 +81,7 @@ function assertSourceEditor(view, context, sourceView, editor) {
   }
 }
 
-function headerFrontmatterChange(source, selection, themeId) {
+function frontmatterChange(source, selection, themeId, apply) {
   // Keep the entire body suffix byte-for-byte; splitFrontmatter intentionally
   // normalizes leading blank lines and therefore cannot be used for this edit.
   const match = /^---[ \t]*(\r?\n)([\s\S]*?)^---[ \t]*(?:\r?\n|$)/m.exec(source);
@@ -69,7 +95,7 @@ function headerFrontmatterChange(source, selection, themeId) {
   } catch {
     throw Error('文章 YAML 属性无法解析，请先检查属性');
   }
-  applyHeaderSelection(data, selection, themeId);
+  apply(data, selection, themeId);
   const newline = frontmatter?.[1] ?? (source.includes('\r\n') ? '\r\n' : '\n');
   const yaml = stringifyYaml(data).replace(/\r?\n/g, newline);
   return {
@@ -78,9 +104,10 @@ function headerFrontmatterChange(source, selection, themeId) {
   };
 }
 
-export async function saveArticleHeaderSelection(view, selection, context, owner) {
+/** 头图与尾图共用同一条写入路径，只有落到哪个 YAML 键、提示里叫什么不同。 */
+async function saveSelection(view, selection, context, owner, { apply, noun }) {
   const article = assertHeaderContext(view, context);
-  if (view.headerSaving || (view.headerUploading && owner !== UPLOAD_OWNER)) throw Error('头图正在保存，请稍后再试');
+  if (view.headerSaving || (view.headerUploading && owner !== UPLOAD_OWNER)) throw Error(`${noun}正在保存，请稍后再试`);
   view.headerSaving = true;
   view.updateActionButtons();
   try {
@@ -90,22 +117,22 @@ export async function saveArticleHeaderSelection(view, selection, context, owner
       assertSourceEditor(view, context, sourceView, editor);
       if (typeof editor?.getValue !== 'function' || typeof editor.transaction !== 'function'
           || typeof editor.offsetToPos !== 'function' || typeof sourceView.save !== 'function') {
-        throw Error('当前编辑器无法保存头图设置，请重新打开文章后再试');
+        throw Error(`当前编辑器无法保存${noun}设置，请重新打开文章后再试`);
       }
       const source = editor.getValue();
-      const change = headerFrontmatterChange(source, selection, context.themeId);
+      const change = frontmatterChange(source, selection, context.themeId, apply);
       const to = editor.offsetToPos(change.endOffset);
       assertSourceEditor(view, context, sourceView, editor);
-      if (editor.getValue() !== source) throw Error('文章内容已变化，请重新选择头图');
+      if (editor.getValue() !== source) throw Error(`文章内容已变化，请重新选择${noun}`);
       editor.transaction({ changes: [{ from: { line: 0, ch: 0 }, to, text: change.text }] }, 'wechat-article-header');
       await sourceView.save();
     } else {
       await view.app.fileManager.processFrontMatter(article, data => {
         assertHeaderContext(view, context);
         if (view.plugin.getCurrentSourceLeaf()?.view?.getMode?.() === 'source') {
-          throw Error('文章编辑模式已切换，请重新选择头图');
+          throw Error(`文章编辑模式已切换，请重新选择${noun}`);
         }
-        applyHeaderSelection(data, selection, context.themeId);
+        apply(data, selection, context.themeId);
       });
     }
     assertHeaderContext(view, context);
@@ -119,6 +146,15 @@ export async function saveArticleHeaderSelection(view, selection, context, owner
     view.updateActionButtons();
     view.headerControls?.update();
   }
+}
+
+export function saveArticleHeaderSelection(view, selection, context, owner) {
+  return saveSelection(view, selection, context, owner, { apply: applyHeaderSelection, noun: '头图' });
+}
+
+export function saveArticleFooterSelection(view, enabled, context) {
+  const selection = enabled ? null : { enabled: false };
+  return saveSelection(view, selection, context, undefined, { apply: applyFooterSelection, noun: '尾图' });
 }
 
 export function validateHeaderUpload(bytes, filename) {

@@ -196,10 +196,10 @@ test('操作控件放宽间距并整体下移，不残留图片数量样式', ()
   assert.equal(toolbarMeta, null);
 });
 
-test('更换头图采用纯四字按钮与悬停提示，缩略图保持横图且不裁切', () => {
-  assert.match(headerSource, /wechat-mp-tool-button wechat-mp-header-trigger', '更换头图'/);
+test('头图尾图采用纯四字按钮与悬停提示，缩略图保持横图且不裁切', () => {
+  assert.match(headerSource, /wechat-mp-tool-button wechat-mp-header-trigger', '头图尾图'/);
   assert.doesNotMatch(headerSource, /chevron-down|wechat-mp-header-chevron/);
-  assert.match(headerSource, /点击展开头图选项/);
+  assert.match(headerSource, /点击展开页首页尾选项/);
   assert.match(headerSource, /setAttribute\('aria-haspopup', 'dialog'\)/);
   const headerStyles = postcss.parse(headerStyleSource);
   const rules = new Map();

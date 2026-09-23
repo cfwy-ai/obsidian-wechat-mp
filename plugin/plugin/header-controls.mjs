@@ -16,7 +16,8 @@ const makeButton = (className, label) => {
 };
 
 const contextKey = context => context
-  ? JSON.stringify([context.articlePath, context.themeId, context.definition?.componentId])
+  ? JSON.stringify([context.articlePath, context.themeId, context.definition?.componentId,
+    Boolean(context.footerAvailable)])
   : '';
 
 const copyContext = context => ({
@@ -26,13 +27,15 @@ const copyContext = context => ({
     presets: (context.definition.presets ?? []).map(preset => ({ ...preset })),
   } : null,
   selection: { ...(context.selection ?? {}) },
+  footerAvailable: Boolean(context.footerAvailable),
+  footerEnabled: context.footerEnabled !== false,
   assets: (context.assets ?? []).map(asset => ({ ...asset })),
 });
 
 /** A per-article picker. File persistence and render selection belong to the caller. */
-export function createArticleHeaderControls({ getContext, applySelection, uploadFile }) {
+export function createArticleHeaderControls({ getContext, applySelection, applyFooter, uploadFile }) {
   const element = makeElement('div', 'wechat-mp-header-control');
-  const trigger = makeButton('wechat-mp-tool-button wechat-mp-header-trigger', '更换头图');
+  const trigger = makeButton('wechat-mp-tool-button wechat-mp-header-trigger', '头图尾图');
   trigger.setAttribute('aria-haspopup', 'dialog');
   trigger.setAttribute('aria-expanded', 'false');
 
@@ -41,7 +44,7 @@ export function createArticleHeaderControls({ getContext, applySelection, upload
   panel.id = panelId;
   panel.hidden = true;
   panel.setAttribute('role', 'dialog');
-  panel.setAttribute('aria-label', '头图选项');
+  panel.setAttribute('aria-label', '头图与尾图选项');
   trigger.setAttribute('aria-controls', panelId);
 
   const visibility = makeElement('div', 'wechat-mp-header-visibility');
@@ -76,13 +79,26 @@ export function createArticleHeaderControls({ getContext, applySelection, upload
   fileInput.tabIndex = -1;
   customSection.append(customPreview, uploadButton, uploadHelp, fileInput);
 
+  // 尾图是主题成套设计的一段，只开关不换图，所以与头图并列但没有预设网格。
+  const footerRow = makeElement('div', 'wechat-mp-header-visibility wechat-mp-footer-visibility');
+  const footerCopy = makeElement('div', 'wechat-mp-header-visibility-copy');
+  footerCopy.append(makeElement('span', null, '展示尾图'));
+  const footerDescription = makeElement('small', null, '显示在正文最下方');
+  footerCopy.append(footerDescription);
+  const footerToggle = makeButton('wechat-mp-header-switch', '');
+  footerToggle.setAttribute('role', 'switch');
+  footerToggle.setAttribute('aria-label', '展示文章尾图');
+  footerToggle.setAttribute('aria-checked', 'true');
+  footerToggle.append(makeElement('span', 'wechat-mp-header-switch-thumb'));
+  footerRow.append(footerCopy, footerToggle);
+
   const foot = makeElement('div', 'wechat-mp-header-panel-foot');
   const resetButton = makeButton('wechat-mp-header-reset', '恢复主题默认');
   const status = makeElement('span', 'wechat-mp-header-status');
   status.setAttribute('role', 'status');
   status.setAttribute('aria-live', 'polite');
   foot.append(resetButton, status);
-  panel.append(visibility, presetsTitle, presetGrid, customSection, foot);
+  panel.append(visibility, presetsTitle, presetGrid, customSection, footerRow, foot);
   element.append(trigger);
 
   let currentKey = '';
@@ -94,8 +110,10 @@ export function createArticleHeaderControls({ getContext, applySelection, upload
   let chooserContext = null;
   let positionFrame = null;
 
-  const isAvailable = context => Boolean(context?.articlePath && context?.definition
-    && context.available !== false);
+  const hasHeader = context => Boolean(context?.definition && context.available !== false);
+  const hasFooter = context => Boolean(context?.footerAvailable);
+  const isAvailable = context => Boolean(context?.articlePath)
+    && (hasHeader(context) || hasFooter(context));
 
   const close = ({ restoreFocus = false } = {}) => {
     open = false;
@@ -151,7 +169,7 @@ export function createArticleHeaderControls({ getContext, applySelection, upload
       if (!disposed) status.textContent = contextKey(getContext()) === contextKey(capturedContext) ? '已保存' : '';
     } catch (error) {
       if (!disposed) status.textContent = '未保存';
-      new Notice(`头图设置未完成：${error instanceof Error ? error.message : String(error)}`);
+      new Notice(`设置未完成：${error instanceof Error ? error.message : String(error)}`);
     } finally {
       busy = false;
       if (!disposed) update();
@@ -211,10 +229,18 @@ export function createArticleHeaderControls({ getContext, applySelection, upload
     }
     currentKey = key;
     const available = isAvailable(context);
+    const headerReady = hasHeader(context);
+    const footerReady = hasFooter(context);
     trigger.disabled = busy || !available;
-    trigger.title = available ? '点击展开头图选项'
+    trigger.title = available ? '点击展开页首页尾选项'
       : !context?.articlePath ? '请先打开一篇文章'
-        : context.definition ? '预览正在更新，请稍后再调整头图' : '当前主题未提供可更换的文章头图';
+        : context.definition ? '预览正在更新，请稍后再调整' : '当前主题未提供可调整的头图或尾图';
+    // 主题只有其中一项时，另一块整段隐藏，而不是留个点不动的开关。
+    visibility.hidden = !headerReady;
+    presetsTitle.hidden = !headerReady;
+    presetGrid.hidden = !headerReady;
+    customSection.hidden = !headerReady;
+    footerRow.hidden = !footerReady;
     element.title = trigger.title;
     panel.setAttribute('aria-busy', String(busy));
     if (!available && !busy) close();
@@ -224,14 +250,14 @@ export function createArticleHeaderControls({ getContext, applySelection, upload
     const custom = Boolean(selection.custom_image);
     const presetId = selection.preset || context?.definition?.defaultAssetId;
     visibilityToggle.setAttribute('aria-checked', String(enabled));
-    visibilityToggle.disabled = busy || !available;
+    visibilityToggle.disabled = busy || !headerReady;
     visibilityDescription.textContent = enabled ? '显示在正文最上方' : '已隐藏，重新打开会保留所选图片';
     presetGrid.classList.toggle('is-disabled', !enabled);
     for (const { button, assetId, hasImage } of presetButtons) {
       const selected = !custom && assetId === presetId;
       button.classList.toggle('is-selected', selected);
       button.setAttribute('aria-pressed', String(selected));
-      button.disabled = busy || !available || !enabled || !hasImage;
+      button.disabled = busy || !headerReady || !enabled || !hasImage;
     }
     customPreview.hidden = !custom;
     if (custom && context?.customUrl) {
@@ -242,9 +268,13 @@ export function createArticleHeaderControls({ getContext, applySelection, upload
       customImage.hidden = true;
     }
     uploadButton.textContent = custom ? '更换自定义图片' : '上传自己的图片';
-    uploadButton.disabled = busy || !available || !enabled;
-    fileInput.disabled = busy || !available || !enabled;
-    resetButton.disabled = busy || !available || !Object.keys(selection).length;
+    uploadButton.disabled = busy || !headerReady || !enabled;
+    fileInput.disabled = busy || !headerReady || !enabled;
+    resetButton.disabled = busy || !headerReady || !Object.keys(selection).length;
+    const footerEnabled = context?.footerEnabled !== false;
+    footerToggle.setAttribute('aria-checked', String(footerEnabled));
+    footerToggle.disabled = busy || !footerReady;
+    footerDescription.textContent = footerEnabled ? '显示在正文最下方' : '已隐藏，重新打开即恢复主题尾图';
     schedulePosition();
   }
 
@@ -257,7 +287,7 @@ export function createArticleHeaderControls({ getContext, applySelection, upload
     open = true;
     trigger.setAttribute('aria-expanded', 'true');
     positionPanel();
-    visibilityToggle.focus();
+    (visibility.hidden ? footerToggle : visibilityToggle).focus();
   });
 
   visibilityToggle.addEventListener('click', () => {
@@ -265,6 +295,13 @@ export function createArticleHeaderControls({ getContext, applySelection, upload
     if (!capturedContext) return;
     const selection = { ...capturedContext.selection, enabled: capturedContext.selection.enabled === false };
     void save(() => applySelection(selection, capturedContext), capturedContext);
+  });
+
+  footerToggle.addEventListener('click', () => {
+    const capturedContext = capture();
+    if (!capturedContext || !capturedContext.footerAvailable) return;
+    const next = capturedContext.footerEnabled === false;
+    void save(() => applyFooter(next, capturedContext), capturedContext);
   });
 
   uploadButton.addEventListener('click', () => {

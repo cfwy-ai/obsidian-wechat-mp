@@ -50,6 +50,15 @@
   border-bottom: 1px solid var(--background-modifier-border);
 }
 
+/* 尾图与头图并列但自成一段：上方留分隔线，下方交给面板底栏。 */
+.wechat-mp-footer-visibility {
+  margin-top: 13px;
+  padding-top: 12px;
+  padding-bottom: 0;
+  border-top: 1px solid var(--background-modifier-border);
+  border-bottom: 0;
+}
+
 .wechat-mp-header-visibility-copy {
   display: flex;
   flex-direction: column;

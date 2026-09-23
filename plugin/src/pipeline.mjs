@@ -12,6 +12,7 @@ import { applyThemeComponents, materializeThemeCss } from './theme-package.mjs';
 import { convertEmbeds } from './wikilink.mjs';
 import { filterWechatCompatibleHtml } from './wechat-compat.mjs';
 import { resolveArticleHeader } from './article-header.mjs';
+import { resolveArticleFooter } from './article-footer.mjs';
 import { materializeEmptyTaskMarkers } from './task-markers.mjs';
 import { applyWechatDarkMode } from './dark-mode.mjs';
 import { materializeNestedLists, preserveOrderedListImageSemantics } from './nested-lists.mjs';
@@ -67,6 +68,7 @@ export function renderArticle({
   referenceComposition = null,
   layoutWidth,
   headerSelection,
+  footerSelection,
 }) {
   if (typeof source !== 'string') throw new TypeError('文章原文必须是字符串');
   if (typeof themeCss !== 'string') throw new TypeError('主题 CSS 必须是字符串');
@@ -85,8 +87,10 @@ export function renderArticle({
     definition: themeHeader, selection: headerSelection, components: themeComponents,
     assets: themeAssets, resolveCustom: resolveOnce,
   });
+  // 尾图在头图之后处理：头图可能改写组件，这里只按插槽决定留不留。
+  const footer = resolveArticleFooter({ selection: footerSelection, components: header.components });
   const compositionPlan = planReferenceComposition(rendered, referenceComposition);
-  const themed = applyThemeComponents(compositionPlan.html, header.components, header.assets);
+  const themed = applyThemeComponents(compositionPlan.html, footer.components, header.assets);
   const safe = sanitizeRenderedHtml(preserveOrderedListImageSemantics(
     applyReferenceComposition(themed.html, compositionPlan), orderedListImages,
   ));
@@ -157,6 +161,7 @@ export function renderArticle({
       ...galleries.warnings,
       ...converted.warnings,
       ...header.warnings,
+      ...footer.warnings,
       ...themed.warnings,
       ...themeStyles.warnings,
       ...inlined.warnings,
