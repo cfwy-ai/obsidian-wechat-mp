@@ -45,7 +45,9 @@ for (const entry of await readdir(source, { withFileTypes: true })) {
 if (themes.size !== 10) throw new Error(`预期 10 套主题，实际 ${themes.size}`);
 const catalogThemes = [];
 for (const [id, theme] of [...themes].sort((a, b) => a[1].manifest.order - b[1].manifest.order)) {
-  const output = join(target, id);
+  // 目录名给人看，用序号加中文名；theme_id 仍是稳定身份，定位靠 catalog 的 directory 字段。
+  const directoryName = `${String(theme.manifest.order).padStart(2, '0')}. ${theme.manifest.name}`;
+  const output = join(target, directoryName);
   await mkdir(output, { recursive: true });
   const manifest = structuredClone(theme.manifest);
   delete manifest.preview_image; // Historical showcases can contain private articles.
@@ -85,7 +87,7 @@ for (const [id, theme] of [...themes].sort((a, b) => a[1].manifest.order - b[1].
   manifest.fonts = fonts;
   parseThemeManifest(JSON.stringify(manifest));
   await writeFile(join(output, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
-  catalogThemes.push({ theme_id: id, name: manifest.name, order: manifest.order, directory: id, source_manifest_sha256: theme.sourceHash, font_changes: [] });
+  catalogThemes.push({ theme_id: id, name: manifest.name, order: manifest.order, directory: directoryName, source_manifest_sha256: theme.sourceHash, font_changes: [] });
 }
 await writeFile(join(target, 'catalog.json'), JSON.stringify(await createTemplateCatalog(target, catalogThemes), null, 2) + '\n');
 console.log(JSON.stringify(await validateTemplates(target)));

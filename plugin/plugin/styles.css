@@ -67,6 +67,19 @@
   gap: 8px;
 }
 
+/* 手机预览把正文收窄到 390px 并居中，工具栏框也按同一宽度取值。
+   但按钮是 flex: none 的一整行，装不下就从框的左边一路溢出到右边，
+   于是整条工具栏看起来偏右、和正文对不上中线。
+   宽度足够排成一行时，让工具栏按自身内容取宽再居中，与正文共用中线；
+   窄容器仍走下面的换行布局，不受影响。 */
+@container wechat-mp-view (min-width: 721px) {
+  .wechat-mp-view.is-mobile-preview .wechat-mp-toolbar-frame {
+    width: max-content;
+    max-width: 100%;
+    justify-content: center;
+  }
+}
+
 .wechat-mp-toolbar-controls {
   flex: none;
 }

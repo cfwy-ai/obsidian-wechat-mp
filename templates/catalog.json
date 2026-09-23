@@ -5,7 +5,7 @@
       "theme_id": "monument-valley",
       "name": "纪念碑谷",
       "order": 1,
-      "directory": "monument-valley",
+      "directory": "01. 纪念碑谷",
       "source_manifest_sha256": "945f22b599a30f8f278de66ad9aa965d52943579a0f4349ad6a9cacbcf65693b",
       "font_changes": []
     },
@@ -13,7 +13,7 @@
       "theme_id": "cobalt-orbit",
       "name": "星尘手记",
       "order": 2,
-      "directory": "cobalt-orbit",
+      "directory": "02. 星尘手记",
       "source_manifest_sha256": "2cc5c01fee62338cc886fffd1bea811441cc9126c997dad99e35121ed15c5b18",
       "font_changes": []
     },
@@ -21,7 +21,7 @@
       "theme_id": "simple-sketch",
       "name": "简笔手绘",
       "order": 3,
-      "directory": "simple-sketch",
+      "directory": "03. 简笔手绘",
       "source_manifest_sha256": "b0128e378f0d50f1967f7e9662a64875de774b46f93ef3dcd67f238cada40e39",
       "font_changes": []
     },
@@ -29,7 +29,7 @@
       "theme_id": "nyx-night",
       "name": "黑夜女神",
       "order": 4,
-      "directory": "nyx-night",
+      "directory": "04. 黑夜女神",
       "source_manifest_sha256": "b628252be9751b8afb04c0fe032d6a732a1d37edcab521649d88d2d528d0dd81",
       "font_changes": []
     },
@@ -37,7 +37,7 @@
       "theme_id": "crayon-sketch",
       "name": "蜡笔手绘",
       "order": 5,
-      "directory": "crayon-sketch",
+      "directory": "05. 蜡笔手绘",
       "source_manifest_sha256": "9c67807fcf77c378c37693046091ac26e3067c079ebbf9f667ef8d9f9f1132fa",
       "font_changes": []
     },
@@ -45,7 +45,7 @@
       "theme_id": "cartoon-doodle",
       "name": "手绘卡通",
       "order": 6,
-      "directory": "cartoon-doodle",
+      "directory": "06. 手绘卡通",
       "source_manifest_sha256": "c74d552062ac2f7be74970886501f1e21f8a8bb8f5cc6bcc78e6f8439c655af8",
       "font_changes": []
     },
@@ -53,7 +53,7 @@
       "theme_id": "deconstructed-illustration",
       "name": "解构插画",
       "order": 7,
-      "directory": "deconstructed-illustration",
+      "directory": "07. 解构插画",
       "source_manifest_sha256": "66795c7d022b6c85dd3facc6d8c80ab370b453842ac45d742560369ec57ef531",
       "font_changes": []
     },
@@ -61,7 +61,7 @@
       "theme_id": "feng-guo-shu-ye",
       "name": "暖瓷像素",
       "order": 8,
-      "directory": "feng-guo-shu-ye",
+      "directory": "08. 暖瓷像素",
       "source_manifest_sha256": "a870bb3c873c202f1f9a26699c005f4e03b0e363e52d14dd40d0ffc7fae7412a",
       "font_changes": []
     },
@@ -69,7 +69,7 @@
       "theme_id": "dune-echo",
       "name": "沙丘版画",
       "order": 9,
-      "directory": "dune-echo",
+      "directory": "09. 沙丘版画",
       "source_manifest_sha256": "00503e4f59e9f00010be707e282b47c6c98bb5b8ab011a4dc7f3147e0e31150e",
       "font_changes": []
     },
@@ -77,2341 +77,2341 @@
       "theme_id": "pencil-impression",
       "name": "铅笔写意",
       "order": 10,
-      "directory": "pencil-impression",
+      "directory": "10. 铅笔写意",
       "source_manifest_sha256": "90edac70732dff3b614903f803fd865c1f397aa3baba4290c02b366e56684ba3",
       "font_changes": []
     }
   ],
   "files": [
     {
-      "path": "README.md",
-      "bytes": 2590,
-      "sha256": "5255e3be31614f0cd79330af4a5bd4e8e358cb7228ce51196a24feddc4c513aa"
-    },
-    {
-      "path": "cartoon-doodle/manifest.json",
-      "bytes": 9077,
-      "sha256": "ba5678efcc546844e4f28aafc9d66f4728b1bca6974f45fad88473dffb65aea8"
-    },
-    {
-      "path": "cartoon-doodle/theme.css",
-      "bytes": 9074,
-      "sha256": "565f09237a5bf3861a3772c9e69208405f7a7e56b82173916840fbac7ef951f6"
-    },
-    {
-      "path": "cartoon-doodle/主题展示案例/0. 案例预览.md",
-      "bytes": 1525,
-      "sha256": "7500f23d3aaa18afa6c5ffe7fd400c3f487b364ea987006d7b134d158dd499c2"
-    },
-    {
-      "path": "cartoon-doodle/主题展示案例/1. 封面-横版-2.35比1.png",
-      "bytes": 2045498,
-      "sha256": "6ba39d16e5a10cbc6c36da5e99649d451a102c4656d86c22e0b48517b7611fda"
-    },
-    {
-      "path": "cartoon-doodle/主题展示案例/2. 封面-方版-1比1.png",
-      "bytes": 2051688,
-      "sha256": "0c41aa71955cb72ce2abcd217ec42332738240821f90e32995dcb87393213687"
-    },
-    {
-      "path": "cartoon-doodle/主题展示案例/3. 配图-概念解释-16比9.png",
-      "bytes": 2162662,
-      "sha256": "6efff321b5393895410b048b7b2866aa51ff44265c6b977fbda301f4e2599a4c"
-    },
-    {
-      "path": "cartoon-doodle/主题展示案例/4. 配图-流程讲解-16比9.png",
-      "bytes": 2101533,
-      "sha256": "655280f2abe542059fd99ed070e8ccf1c456344fad2290ef8ba4258d980a2904"
-    },
-    {
-      "path": "cartoon-doodle/主题展示案例/5. 配图-观点对照-16比9.png",
-      "bytes": 2077742,
-      "sha256": "b42882ec16cb555458f4198f610bc2b765a76f9e1d666eec167e0b293a78855d"
-    },
-    {
-      "path": "cartoon-doodle/主题展示案例/6. 配图-总结检查-16比9.png",
-      "bytes": 1900743,
-      "sha256": "eb8192321547c2ae2066140dbaf2d32717d0735379f68fdb20ff4c992c82b5ae"
-    },
-    {
-      "path": "cartoon-doodle/主题展示案例/模板介绍图.png",
-      "bytes": 9868142,
-      "sha256": "66ffc42cc77910a1a86efa1043591aa0ce5d908ca53c9105e4a3d0bbb2625efb"
-    },
-    {
-      "path": "cartoon-doodle/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 829,
-      "sha256": "5ac17f5503aed770c4dbcab8cf8594dd04004c5cf1c462cdf0892fc631dbf5fd"
-    },
-    {
-      "path": "cartoon-doodle/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 2838,
-      "sha256": "4540a9f5cef4159a8b29ac8870ca1a115e6e2b1ce4ab195a3a3714f40cc4176e"
-    },
-    {
-      "path": "cartoon-doodle/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2652,
-      "sha256": "be1abc5661490c884f0dc1d51c560caf2c93970988c151e5bc1523c6860fcc4c"
-    },
-    {
-      "path": "cartoon-doodle/正文组件结构/ct-code-head.html",
-      "bytes": 191,
-      "sha256": "f00ef34d663fc05aaa14c4205012fba47bcf0f07a059f1f8855a88569e152e61"
-    },
-    {
-      "path": "cartoon-doodle/正文组件结构/ct-footer.html",
-      "bytes": 132,
-      "sha256": "bc12e2d9356cdcb8bc78d4d8f3598635186a95f07bbd31c90572daa549076b0d"
-    },
-    {
-      "path": "cartoon-doodle/正文组件结构/ct-opening.html",
-      "bytes": 115,
-      "sha256": "766ae6cae6d7cc9ecbfa4ac920245e4ec12a645568930ce257a3ae758fb63698"
-    },
-    {
-      "path": "cartoon-doodle/正文组件结构/ct-quote-peek.html",
-      "bytes": 204,
-      "sha256": "50f041915b8322cbce032d96d1fc3e3df9e62290ff83a136a113f06931a67cdd"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/banner-fish-roll-v2.png",
-      "bytes": 324214,
-      "sha256": "cb92096893bee2e801986a6cb8acdef688ff40f5c496fc45d11987a08dcbdc09"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/banner-run-v1.png",
-      "bytes": 300968,
-      "sha256": "b4ef788bca5a201655483d3a1c8a5bcecbfeb5c9faec03906906d7efdb8a407c"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/banner-tissue-v3.png",
-      "bytes": 271478,
-      "sha256": "d7ac82debd2c3761a2094053a0a12e5abf4327532658fa572fc74fe05c377f21"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/banner-yarn-v2.png",
-      "bytes": 292994,
-      "sha256": "04e979c03ffaa174c19d07d10423f3ec8177ce77dee76f0f6df981154862ce8f"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/cat-grumpy-v2.png",
-      "bytes": 82747,
-      "sha256": "f174588a22ca2e2edb1a83e3480b2e5cc27f8c4d851ed4f0ff24bc667f73e2e5"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/cat-laugh-v2.png",
-      "bytes": 83731,
-      "sha256": "cff753de48ef3814b738575eeccd4d69a78e754ec9de3c06eefdbd2abb3ed41f"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/cat-wink-v2.png",
-      "bytes": 76065,
-      "sha256": "e387f63cb504ba59b68e8de745f825523d2a4a7b3e8ee36f4b2ed7a5cfe67cfc"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/code-paper-v2.png",
-      "bytes": 27079,
-      "sha256": "5fb7d204defa92991baff8081592ecdfc2217a5c15c8bee684d17f4fa618acf1"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/fish-marker-v1.png",
-      "bytes": 3178,
-      "sha256": "feae18e142c357f439b2c37604dc6bc2db5264f1f394e187448411fe12e4873b"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/footer-follow-v3.png",
-      "bytes": 390565,
-      "sha256": "6883e64a0f5d21df3830f3f14917ef5421c2245038e545d21a6a64db727489c5"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/paper-gray-v2.png",
-      "bytes": 2391048,
-      "sha256": "876b762f8044bd13122cfc0b59ef84def59380ad6672e7431b70114c68cd4f8d"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/paw-marker-v1.png",
-      "bytes": 2686,
-      "sha256": "04e5bada2575dc46dd4f276bc511f803aacdc8910614abd8541dfbe4924bb794"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/paw-quote-corner-v3.png",
-      "bytes": 3166,
-      "sha256": "67980e99935042745a0addf9889f6b382a044a55037284d285ef4ff52a54413c"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/paw-table-inset-v3.png",
-      "bytes": 3843,
-      "sha256": "6d94bbd2647da09dba309e3842950f6eed2f7f2b4052ee84483532b2f5a26ec6"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/paw-title-left-v1.png",
-      "bytes": 5461,
-      "sha256": "69b92583995a96f3de735cbc99aa5d9fc1f8a99296adc089a83013e38078f139"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/paw-title-right-v1.png",
-      "bytes": 5636,
-      "sha256": "fbb4c93b3cf2628fe8a9d399e25f56b2610b4330e3e69e106eb1fd56c2f86bfc"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/paw-watermark-v2.png",
-      "bytes": 1381,
-      "sha256": "8fd98e42175582bd28beef29e74e966dcbc368f3da75ffddddb99a9630132eb7"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/quote-peek-corner-v1.png",
-      "bytes": 122464,
-      "sha256": "69e0ee0cc7f0f44a5cda14836087c881fc532074859f7b97050a8b380694d89c"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/task-cat-done-v1.png",
-      "bytes": 2665,
-      "sha256": "c02bd86f5b5641e76cc23e65bf763fca6b88da17a6d973eeae8d806b78de86bf"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/task-cat-open-v1.png",
-      "bytes": 2054,
-      "sha256": "e81e40a27cd88289d8eb03d05a9226f539db770029edefe6efad4d0c1e823c85"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/treats-trio-v2.png",
-      "bytes": 55084,
-      "sha256": "288d3d626394e9f70163b503d2be84e1f597ecfac461331a25c1cd38d8d49905"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/warm-fade-underline-v3.png",
-      "bytes": 173,
-      "sha256": "e57d04bf407b1996fdd7df38c4879f9c727dd9d7044a96ae96707eecb971a11b"
-    },
-    {
-      "path": "cartoon-doodle/透明装饰素材/yarn-divider-v1.png",
-      "bytes": 46136,
-      "sha256": "de88934b06768c5f358d5647bed18a2eddda7096916dd5357e982afcfd643cf0"
-    },
-    {
-      "path": "cartoon-doodle/配套字体资源/MaokenAssortedSans-Lite.otf",
-      "bytes": 6100640,
-      "sha256": "0a888ebefafa3b325e3327f3250b054aefcb4789aeeb709b1aca9f8d3a5a0759"
-    },
-    {
-      "path": "cartoon-doodle/配套字体资源/MaokenAssortedSans-OFL.txt",
-      "bytes": 4484,
-      "sha256": "a507c0a2b46e599add1543151c25069245c9a8b248e65533b9037f8983843d1e"
-    },
-    {
-      "path": "cobalt-orbit/manifest.json",
-      "bytes": 7447,
-      "sha256": "cc05cc102fb28f076af73bea595606c4859d5e462579e96515545d3963d120f9"
-    },
-    {
-      "path": "cobalt-orbit/theme.css",
-      "bytes": 8286,
-      "sha256": "623e47996dee630e234164e31906ba9cc933c2f80a2a209b7cb968984d31dc07"
-    },
-    {
-      "path": "cobalt-orbit/主题展示案例/0. 案例预览.md",
-      "bytes": 1649,
-      "sha256": "cafcad39790eac3b2887f3a0b72e7439e2fca2913b51273e5ed725ab73968900"
-    },
-    {
-      "path": "cobalt-orbit/主题展示案例/1. 封面-横版-2.35比1.png",
-      "bytes": 2324829,
-      "sha256": "ca4e3b1f4c9d672c3042d65991f1acebae85b84295147446a121b23c2c39dc72"
-    },
-    {
-      "path": "cobalt-orbit/主题展示案例/2. 封面-方版-1比1.png",
-      "bytes": 1904927,
-      "sha256": "0d8652388a646bbca8199173542c7df946a4a5ce1af1b0c8d11af5361abd9717"
-    },
-    {
-      "path": "cobalt-orbit/主题展示案例/3. 配图-概念解释-16比9.png",
-      "bytes": 1643019,
-      "sha256": "3f8dbf09ed571f9ba00f653b54c93a3c058b6bba693ca4e4ff7792e1e2de238d"
-    },
-    {
-      "path": "cobalt-orbit/主题展示案例/4. 配图-流程讲解-16比9.png",
-      "bytes": 1787742,
-      "sha256": "a1310d0c739ced56a5942c4a4f830aed6700e99e63e66f5d339f5deb3ef1a18a"
-    },
-    {
-      "path": "cobalt-orbit/主题展示案例/5. 配图-观点对照-16比9.png",
-      "bytes": 1806776,
-      "sha256": "8fd9a5c286d4beb18fe141da903afe626c423243cbd3cec16164826c1548152a"
-    },
-    {
-      "path": "cobalt-orbit/主题展示案例/6. 配图-总结检查-16比9.png",
-      "bytes": 1918483,
-      "sha256": "13b96eb276e6ebebd2fbacc70daeb42e1d81c7d7668345b6eb2f6b88be518a05"
-    },
-    {
-      "path": "cobalt-orbit/主题展示案例/模板介绍图.png",
-      "bytes": 8122779,
-      "sha256": "fa267e9649f296204c26532705f2d51bd91c342f24b02fb3e83eda7cb10fc48a"
-    },
-    {
-      "path": "cobalt-orbit/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 871,
-      "sha256": "dbb08837d0cc64bbdfc1cbe2002cf893094efec60154bd50f772e073a17b61ec"
-    },
-    {
-      "path": "cobalt-orbit/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 2838,
-      "sha256": "3e6c3197f01e7f5ad9934cfd0e6fc87ff745dc0e6a4912ac07ca88ba8eb2b40d"
-    },
-    {
-      "path": "cobalt-orbit/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2652,
-      "sha256": "1c223cee494d3a8cdbfedcf6a1f451708052c0f87bde62aaca063ad560935157"
-    },
-    {
-      "path": "cobalt-orbit/正文组件结构/mono-ending-v4.html",
-      "bytes": 135,
-      "sha256": "6d8bbba5c058960bba719139bac0ff8d4b06a6243ada46d031337cfa414213ef"
-    },
-    {
-      "path": "cobalt-orbit/正文组件结构/mono-opening-v3.html",
-      "bytes": 117,
-      "sha256": "8c4647fd6cc519ac6a31f615c677ee69c84b7802efd4b52554cae04b4ee926fe"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/header-echo-v3.png",
-      "bytes": 359262,
-      "sha256": "2d9229c8fa51bad0a0c22c3ee1063c8e7727b81cdc4552fd8f2751f3e6efb7d9"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/header-flight-v5.png",
-      "bytes": 379082,
-      "sha256": "8812697a36efecf22e0e0ca6704a0514b1947bab3c47edfb3473b0af154a3154"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/header-galaxy-mist-v6.png",
-      "bytes": 948160,
-      "sha256": "bce2b51f3f6b5f18872def0256fbea2d6a6fb11654b0e78963b7dd829e4567c6"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/header-gravity-v3.png",
-      "bytes": 240093,
-      "sha256": "ae0ded410e0e965d14714016ddda795032925c440304a54c3a7feb85412db0cf"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/header-nebula-v3.png",
-      "bytes": 390225,
-      "sha256": "709a4812cde4a2e193a38e36ba8ed17fe6c2f86bcfc190628c6068a193f691c6"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/header-phases-v3.png",
-      "bytes": 382521,
-      "sha256": "f3417621c2b264d9cbcce2d5a544a4cb899be7fc53fbc12da322f2fbda145baa"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/mono-chapter-seal-v4.png",
-      "bytes": 8271,
-      "sha256": "7b464e3b8f02a2936ffb691e5d58e3d1a7c1cb335cb44b21494697eb46c74227"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/mono-code-controls-v3.png",
-      "bytes": 3777,
-      "sha256": "1017927cf2cfca6c2212047b3789920f856f1d8ac4973dea2c33c2ab10519011"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/mono-code-phases-v4.png",
-      "bytes": 37330,
-      "sha256": "a52e7b3640f8205983c350fb62c65a6b13fb1242e6da0066f11d13c31fa6ba0a"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/mono-diamond-v2.png",
-      "bytes": 2599,
-      "sha256": "178e7d1d661b6800aac3fbc9038011302ae98d17f67bf49aa34d6953be6667cc"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/mono-divider-nebula-v5.png",
-      "bytes": 68652,
-      "sha256": "b175cf17af5e9d1a93cc8dd2d475bec4e54c1c55fa45ee9bb0d8c11ef3b56361"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/mono-film-v2.png",
-      "bytes": 271534,
-      "sha256": "4494c781d4b76c341232a02e9bea52aaedba59936554cb486588f43e41d50d0d"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/mono-footer-v4.png",
-      "bytes": 202348,
-      "sha256": "fcd30117d38d3bb019eab5a6bd7e574450984757eb1c673cc9c10ee18a768683"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/mono-nebula-bullet-v3.png",
-      "bytes": 9371,
-      "sha256": "744c9d0315f4b22c2263a4f5a0c2be16e44c607cf06416f82ec95e379f89aa7e"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/mono-orbit-mark-v2.png",
-      "bytes": 29194,
-      "sha256": "c988b511b50c803409863e29d792cdfa25492e81256a6d0910662d7195d1b144"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/mono-quote-mark-v3.png",
-      "bytes": 8911,
-      "sha256": "b9c7b0aaf99b7ed4844889a5cb749d669e43cd427478cd702b790d84c8654d57"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/mono-shimmer-underline-v3.png",
-      "bytes": 6281,
-      "sha256": "e669356524ce693b06cbdde767bdf7c2b8094643207d042c13fd67f659c5893c"
-    },
-    {
-      "path": "cobalt-orbit/透明装饰素材/mono-table-orbit-v5.png",
-      "bytes": 10908,
-      "sha256": "9f228bf26ff320a033baa7c027bd4df7f316f25d9597c53675e05387e5286332"
-    },
-    {
-      "path": "cobalt-orbit/配套字体资源/OFL.txt",
-      "bytes": 4390,
-      "sha256": "d6cec39519f63e3848da753f071e04cae96322dc92f5834734f9060cc6322104"
-    },
-    {
-      "path": "cobalt-orbit/配套字体资源/方正清刻本悦宋简体.TTF",
-      "bytes": 3145340,
-      "sha256": "80e23be5802f9283f34db0b9fcfb785a2c70666d0a398a62889561cfac4a470c"
-    },
-    {
-      "path": "cobalt-orbit/配套字体资源/朱雀仿宋.ttf",
-      "bytes": 4817412,
-      "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53"
-    },
-    {
-      "path": "crayon-sketch/manifest.json",
-      "bytes": 11947,
-      "sha256": "c3e7372905836569ad7837af69c40acf5816af0206c5b2b8d48664abbfe531b7"
-    },
-    {
-      "path": "crayon-sketch/theme.css",
-      "bytes": 10663,
-      "sha256": "3e131ea07716c76606f39149ed75bd8d8bbbbb22f99a851b3f210032e3394076"
-    },
-    {
-      "path": "crayon-sketch/主题展示案例/0. 案例预览.md",
-      "bytes": 1539,
-      "sha256": "871f8e670fbb4a7aa1ece1e51f6d7bbf03654067f5cbbd3f9392ed7f6add6143"
-    },
-    {
-      "path": "crayon-sketch/主题展示案例/1. 封面-横版-2.35比1.png",
-      "bytes": 2520037,
-      "sha256": "d9284592eb26dc4fd909a1fd12f5bf7c30bf6f4525e35930b87e38c023f25094"
-    },
-    {
-      "path": "crayon-sketch/主题展示案例/2. 封面-方版-1比1.png",
-      "bytes": 2344831,
-      "sha256": "19b1027c189493c804287aebfbb82048546205b7fc7bd1c2b9e21e99b8397978"
-    },
-    {
-      "path": "crayon-sketch/主题展示案例/3. 配图-概念解释-16比9.png",
-      "bytes": 2384783,
-      "sha256": "1e0ebdfe58038edb5cff467ae0e61a5499b34b5575b5f8bde4ec9312b3302722"
-    },
-    {
-      "path": "crayon-sketch/主题展示案例/4. 配图-流程讲解-16比9.png",
-      "bytes": 2227182,
-      "sha256": "3dafadaf791163f3a62b05841b6e609558941e4b969772a2fb087a3948fc80a2"
-    },
-    {
-      "path": "crayon-sketch/主题展示案例/5. 配图-观点对照-16比9.png",
-      "bytes": 2395630,
-      "sha256": "70aeb5501b1cad4f69e06b2aa72a724276f0bd4dadcc24c44bc2caf45f85e68d"
-    },
-    {
-      "path": "crayon-sketch/主题展示案例/6. 配图-总结检查-16比9.png",
-      "bytes": 2253031,
-      "sha256": "121215427d807b18277b74dca94183d082bd05a58d9e235d4c361257dc2ea451"
-    },
-    {
-      "path": "crayon-sketch/主题展示案例/模板介绍图.png",
-      "bytes": 10993689,
-      "sha256": "ea3c640b018335cd898ad107abac01d7e8960cc1c9912fd4bd863a8835a04d73"
-    },
-    {
-      "path": "crayon-sketch/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 820,
-      "sha256": "a9771939df6234f4cd093a8beb32d2bd4ec8fafa3953740e1e60a87e7cf722b8"
-    },
-    {
-      "path": "crayon-sketch/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 2838,
-      "sha256": "52c1fde79916526af895ccee93d70c781c6b820d01fe2c7075689ada7ddb72a4"
-    },
-    {
-      "path": "crayon-sketch/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2652,
-      "sha256": "487c8410f2b3254114901851cd716ce18f8e4862d26b7f34252e98c11ff5e106"
-    },
-    {
-      "path": "crayon-sketch/正文组件结构/ending-follow.html",
-      "bytes": 170,
-      "sha256": "b85514df3bcc81f0624f30cafbf1afd0f2b53c1c03e1ee37c9b767a1f72a2179"
-    },
-    {
-      "path": "crayon-sketch/正文组件结构/opening-orchard.html",
-      "bytes": 144,
-      "sha256": "e11ec5c1da3c433f65e3650fb590a6e998b7d917a00beb24900857a5f0531ed6"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/apricot-marker-v1.png",
-      "bytes": 24229,
-      "sha256": "e0781c522b014d681a4b288f6bb5a5507e93219cd54528a412fc3a9b2b1d8601"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/bullet-flower-v4.png",
-      "bytes": 25045,
-      "sha256": "b31ff4695da8854ccf507fa13f29940a339de280ba89dfdcfe1da04c56804546"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/bullet-leaf-v4.png",
-      "bytes": 16154,
-      "sha256": "53faefbbd18bcc6e4a59f66025c3ae5431dc365e6638f60d99915cad0243b38e"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/code-frame-bottom-v3.png",
-      "bytes": 80868,
-      "sha256": "9acfbe48479d8d6e8411442298559578868092cc1e5e49390f4036658cb41fdf"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/code-frame-sides-v3.png",
-      "bytes": 14079,
-      "sha256": "dad9c2430606d960d0a5136fc9a3f3fa8656b80d3134a7243c7bb66b88b428d0"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/code-frame-top-v3.png",
-      "bytes": 82332,
-      "sha256": "8988190786ca722c5858d204e653ef1fbc6975ab042bdedcd97e56d4878d2e6e"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/code-girl-basket-v6.png",
-      "bytes": 108377,
-      "sha256": "abffc347ea3df02950a77071dffa78f513ef4ae2033d0ff2cbcfdbfd664ff968"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/divider-double-v4.png",
-      "bytes": 58514,
-      "sha256": "2c2971bbec56cd3f9cb41e5b6bd580731211b51b6f1c3ae49d959f348241ba68"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/footer-orchard-v1.png",
-      "bytes": 477455,
-      "sha256": "17700a7f8935326871dbac23a1fd2c0f901132415d90bd3deb47a9d99b405036"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/frame-crayon-v3.png",
-      "bytes": 195327,
-      "sha256": "2123af636e19b4ad1401390e27b30be2a4b8d41bacf8f5229b4d4f8cb48fbda6"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/fruit-trio-v3.png",
-      "bytes": 50295,
-      "sha256": "71b00731c7b3d978f7380d8680e39fa2da954247cdf8f40436c2d65f0f596ef5"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/header-orchard-v1.png",
-      "bytes": 520140,
-      "sha256": "459e61276d8a93e9c0496445df13e6f8f09a6a5575da875d80f6f4b0277ed5de"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/header-picnic-v4.png",
-      "bytes": 650294,
-      "sha256": "6afd30f72060e8a039e8739f5e37c90236854372e6b52ad8f02dbe5cc742680c"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/header-push-v4.png",
-      "bytes": 434540,
-      "sha256": "4a9358fc3d45230d5a9984c9dd6f59bd7f7c0b79a66dd02e072d19fbccd18b56"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/header-reading-v4.png",
-      "bytes": 353139,
-      "sha256": "290abd1b1586ccdf460dbb063a3672d39782fd33d2b1d5c4530f02b298b206da"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/paper-grain-v2.png",
-      "bytes": 228469,
-      "sha256": "7f4a417f3a226522ccfd398e3e043d71f46c945b858cc3d68d16257177020412"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/quote-crayon-v1.png",
-      "bytes": 21762,
-      "sha256": "3547cd589a79bedfa637d9da407f466bbe97ea5415393d26646efa9955fb4194"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/quote-tree-v3.png",
-      "bytes": 103501,
-      "sha256": "a18966e8f7a418ea62832c772da6f53b9bfa4c200d0f17ba301e5c1812d8fb20"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/table-rowline-v4.png",
-      "bytes": 27973,
-      "sha256": "a1f34504ac1195710fb5f186325d1f576bb5d7a0e5d95537a37ab9f505747a45"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/table-watermark-v3.png",
-      "bytes": 80401,
-      "sha256": "488cca1daf7709a24942561033bc65bcc5297591ec9eca346b56721ab3935bf5"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/task-done-v4.png",
-      "bytes": 18218,
-      "sha256": "3ae0af266d5a72bfb86bbbcf6105bbaa8dddb474536320d9adc628475a5b1201"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/task-open-v4.png",
-      "bytes": 12151,
-      "sha256": "0bfc07eb142945a428207f221971ce1d02dc3dc62b343a5bc0f5bff2d1055f9d"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/title-apricot-v3.png",
-      "bytes": 23072,
-      "sha256": "01ea5986c3c0955784b595968f317955e08f08a547074a16050ad3b7117b2c08"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/title-pepino-v3.png",
-      "bytes": 23008,
-      "sha256": "032832547efa401a85f788668d23908f6d9695e076388d570dbbd723c65c42bc"
-    },
-    {
-      "path": "crayon-sketch/透明装饰素材/underline-crayon-v3.png",
-      "bytes": 71223,
-      "sha256": "7c4f46794ce59a6e4de2993a55f7d7f9e699e125a0edfb0ef615c23b1dd6f3fe"
-    },
-    {
-      "path": "crayon-sketch/配套字体资源/ChangfengCrayonStroke-Regular.ttf",
-      "bytes": 3898664,
-      "sha256": "0ea6833cc808f046de78a1017e743ddc4a3453ad9096929241c0c65f90aec45d"
-    },
-    {
-      "path": "crayon-sketch/配套字体资源/Crayon-FONTLOG.txt",
-      "bytes": 1901,
-      "sha256": "fde6f741df51d07cb92add37069becad83d38613ce8fe7b4efc918f48f2e8af1"
-    },
-    {
-      "path": "crayon-sketch/配套字体资源/Crayon-OFL.txt",
-      "bytes": 4398,
-      "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d"
-    },
-    {
-      "path": "crayon-sketch/配套字体资源/OFL.txt",
-      "bytes": 4398,
-      "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d"
-    },
-    {
-      "path": "crayon-sketch/配套字体资源/WenxinXileFont.compat.woff2",
-      "bytes": 3627036,
-      "sha256": "9ee31f459f6e9d6025866e3d0298c59119f454fb5d74146c08d0f3b54070df91"
-    },
-    {
-      "path": "crayon-sketch/配套字体资源/WenxinXileFont.compatibility.json",
-      "bytes": 3303,
-      "sha256": "61c89b5d4b6b37153c8854ef9ab3e6076f8f98b82e6a0d0f837fdced4963aaf7"
-    },
-    {
-      "path": "crayon-sketch/配套字体资源/WenxinXileFont.coverage.compat.json",
-      "bytes": 32978,
-      "sha256": "6e49a31290a99691c6674c95203de45f864f41fa0cfb2e499c15881fd2c2d1be"
-    },
-    {
-      "path": "crayon-sketch/配套字体资源/WenxinXileFont.coverage.json",
-      "bytes": 33125,
-      "sha256": "ecdc6c6ffa0e2f8496737740004fc46a3214e847c3ba2aea94068af1ee304f72"
-    },
-    {
-      "path": "crayon-sketch/配套字体资源/WenxinXileFont.woff2",
-      "bytes": 3627748,
-      "sha256": "977dede6dd36112d941f9823d120f77a0481f309045422ee0393ec710a58a3b2"
-    },
-    {
-      "path": "crayon-sketch/配套字体资源/ZCOOLKuaiLe-Regular.ttf",
-      "bytes": 1514968,
-      "sha256": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d"
-    },
-    {
-      "path": "crayon-sketch/配套字体资源/ZCOOLKuaiLe.coverage.json",
-      "bytes": 49050,
-      "sha256": "c30036fea7ea9f7053010a29710e79072e0ae37a382bb921634bd3a1ab10448d"
-    },
-    {
-      "path": "deconstructed-illustration/manifest.json",
-      "bytes": 13542,
-      "sha256": "5077222d773f8c5d11ce428ea3ec641ff4bb3df1ba87b7bd709326f60ced83e9"
-    },
-    {
-      "path": "deconstructed-illustration/theme.css",
-      "bytes": 10385,
-      "sha256": "716c6fb68ac0846759d1481be7a778364ec51aaafe854f0e2b36bc12ce906b05"
-    },
-    {
-      "path": "deconstructed-illustration/主题展示案例/0. 案例预览.md",
-      "bytes": 1861,
-      "sha256": "f7c86d6391fdd390c3f4001e66402e0244ebde4af7ab647a4a7381c6d52e09b9"
-    },
-    {
-      "path": "deconstructed-illustration/主题展示案例/1. 封面-横版-2.35比1.png",
-      "bytes": 1387713,
-      "sha256": "52924d54d1981a3f63d68d3c1ad2635e3e1cfd0330202cd9ceea12cdab7dbe2f"
-    },
-    {
-      "path": "deconstructed-illustration/主题展示案例/2. 封面-方版-1比1.png",
-      "bytes": 1699494,
-      "sha256": "d1e3234896e78c6d6fd1823dc295da0e2878d8fdd6daa03d6d4eb809707e6dfb"
-    },
-    {
-      "path": "deconstructed-illustration/主题展示案例/3. 配图-概念解释-16比9.png",
-      "bytes": 1707296,
-      "sha256": "c4bad0bce8c17747c8ab65607ce271f8ccfbb14f9e737b9c1348173d1bfc293a"
-    },
-    {
-      "path": "deconstructed-illustration/主题展示案例/4. 配图-流程讲解-16比9.png",
-      "bytes": 1487533,
-      "sha256": "30cdc63dea18ac2dd003a90005008c2b187761e2d3eeb806bbd4505908b9283b"
-    },
-    {
-      "path": "deconstructed-illustration/主题展示案例/5. 配图-观点对照-16比9.png",
-      "bytes": 1700581,
-      "sha256": "fa298b6609cf51c66012b5d148e0bfac73e951099898ddba7618c934cc07a61d"
-    },
-    {
-      "path": "deconstructed-illustration/主题展示案例/6. 配图-总结检查-16比9.png",
-      "bytes": 1690039,
-      "sha256": "ae7526009734252bc46d9bfc5a36fe1c054a46c9bf6352f321a73d108a523443"
-    },
-    {
-      "path": "deconstructed-illustration/主题展示案例/模板介绍图.png",
-      "bytes": 6111404,
-      "sha256": "48ac99bd61970143aa14c8341077844a4eeb0b09ff623ab637f6a0bf33353b66"
-    },
-    {
-      "path": "deconstructed-illustration/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 2306,
-      "sha256": "10d4716d87332b02b58616a082e2298a16fe68f9ecf099b1cb488ace574138e1"
-    },
-    {
-      "path": "deconstructed-illustration/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 2838,
-      "sha256": "5d8234b7db60fb59ab29864dbe574e52718a11d78f991349324cf1924d3142b1"
-    },
-    {
-      "path": "deconstructed-illustration/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2652,
-      "sha256": "744af874d7f4c115eacd4d5ffc796f94785b5e7d8efbe66abe53e6fd8697b7f9"
-    },
-    {
-      "path": "deconstructed-illustration/主题视觉规范/4. 生图方法论.md",
-      "bytes": 5633,
-      "sha256": "2621af9c4e6bc008c81492d0b6ffbdc68d3fbd93a472ba6acad7d9a8af2f8448"
-    },
-    {
-      "path": "deconstructed-illustration/正文组件结构/ending.html",
-      "bytes": 105,
-      "sha256": "fc2b6a31950aa8b7a04df23cb437436b19f4a150c087928cb423f6d0104a4238"
-    },
-    {
-      "path": "deconstructed-illustration/正文组件结构/opening.html",
-      "bytes": 123,
-      "sha256": "6f6b8291ebf424fceb2ecb708d67627b5d6e327840abd191fb8668e1fef21ffd"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/annotation-ochre-v4.png",
-      "bytes": 94948,
-      "sha256": "b5cdaa0d38bd0cbaa70ba95ae727cee7b6529e69f4e89a9e01f5d048cbc5d968"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/brush-line-v1.png",
-      "bytes": 6057,
-      "sha256": "4a22c881c6c8a551e32b72fd1bb2e7082d2fa4a1dc23760fc836a4ea7d337f1b"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/brush-sides-v1.png",
-      "bytes": 2912,
-      "sha256": "44c72db7dda6a015e48f99af63ee38b024b3ace88b73fde544acd0e3b3fafff0"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/bullet-bridge-v2.png",
-      "bytes": 103410,
-      "sha256": "22e6a9a30ab8feaf198d8265169f3191a9148ddb158e3026ec056c33e759c00e"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/bullet-santan-v2.png",
-      "bytes": 78526,
-      "sha256": "9f9096c71dff0f6873c754e4593a50fb76cde5125ddea6383779cfd2fd94cdff"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/cell-vertical-v2.png",
-      "bytes": 3343,
-      "sha256": "7a39517baca55551591c14e244b057df242696c5566d38cb17762a92d7b37a95"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/code-trio-v3.png",
-      "bytes": 248153,
-      "sha256": "28ea93d21d703c6f05ac9b8efb7971e7a53f41e28d1d861c24ce736d8e8e07a3"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/divider-watergate-v2.png",
-      "bytes": 107714,
-      "sha256": "76c1c4c93e5ee2d410f4666f641a8652eb04864a45f341cc484f77d52200981b"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/footer-watergallery-v3.png",
-      "bytes": 246145,
-      "sha256": "0912b444fcd7ab342b075f4fd9173cd63c46bc1630707d8607bb8e53248ee15c"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/header-drumtower-v3.png",
-      "bytes": 213130,
-      "sha256": "d687d34c270fc53f32dda433815f9f2837bf6a20e48cb55b0d08076f102d920f"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/header-lingyin-v3.png",
-      "bytes": 199407,
-      "sha256": "e4d6c5d9ec465f08f50a68b4485e708b8f0183fdd99a7c219aba4133d344ddbb"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/header-marbleboat-v6.png",
-      "bytes": 523911,
-      "sha256": "b4d33d6200bd2eaeed1c8302a3df33a5f5ff727f4d74da6d874010ffe3af2f8d"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/header-palace-a.png",
-      "bytes": 564133,
-      "sha256": "d06a4323c100b310e25cf25b9ea2fe5d6e6da46b1052bf011f360a763c4b5043"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/header-taihe-v6.png",
-      "bytes": 508974,
-      "sha256": "734f81e194673ec5c23b0f9aac8bc8f94961ede24fbf25d4b609f6692d0a5f6f"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/header-yungang-v4.png",
-      "bytes": 355296,
-      "sha256": "6de62c1b6228874044e187d337d23188420025fd2be08ebf11a634f49157ca3e"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/header-zhaozhou-v4.png",
-      "bytes": 267099,
-      "sha256": "a6dc13ed56bcc7480521ec40da4cf1ff5bba44e5728250c4a74563f61f4574e2"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/header-zhichunting-v3.png",
-      "bytes": 213337,
-      "sha256": "9dbb5be4254644d247ada40f8274896d749d4c63f5bffb78f2b434731e2e0bb4"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/heading-bell-left-v3.png",
-      "bytes": 104064,
-      "sha256": "f2336aab09a63bcc0cb5ea479e054002381ad77392253cac7c15ba6f3210d804"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/heading-bell-right-v3.png",
-      "bytes": 103981,
-      "sha256": "482567369b03a7bead2f4dd3e7616a91532c4731043866eca4ba5e4402b01a1a"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/heading-window-v3.png",
-      "bytes": 121673,
-      "sha256": "ecda88c5a6588ec108bd1da360e85495f7bbcc44e45534b88af05584f595cd32"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/image-frame-v2.png",
-      "bytes": 58446,
-      "sha256": "e45479613f71a4e15025a623c94481a6873cd5cdbab41a4e430aa152c557ae34"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/lake-shore-v1.png",
-      "bytes": 83923,
-      "sha256": "4c0901f2dbe4cffe233ac9d03d71ced938a54dcc5df9c6b8152a24cc8b14126c"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/quote-garden-v1.png",
-      "bytes": 372370,
-      "sha256": "f8a7d952930b30d5bf57150dc0a0452a434a42af0d5ea7afcee920b586d9e053"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/table-horizontal-v2.png",
-      "bytes": 14481,
-      "sha256": "0fe6452d58b972897a61bef179cecad9a05ca842ee8912ba71848b0c26c2b801"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/table-horsewall-watermark-v3.png",
-      "bytes": 201552,
-      "sha256": "00d146b866e2321d9bc84ddca4b3b39b005976066fb2727aa78a65be195298ad"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/table-sides-v2.png",
-      "bytes": 11470,
-      "sha256": "71f4b631ad55f9069355fe67215012f2c39e0557b2573a7a7b120b55f11cdbc8"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/task-done-v2.png",
-      "bytes": 125480,
-      "sha256": "789dc05c5c1c1e5ae963c68fcd7205b34bf0995a616585de483f2290f904dcbf"
-    },
-    {
-      "path": "deconstructed-illustration/透明装饰素材/task-open-v3.png",
-      "bytes": 57304,
-      "sha256": "7f6a828c409ab35b42d3f72e81e21eff0fa0482510b43fb1bf6655ed30dafe0e"
-    },
-    {
-      "path": "deconstructed-illustration/配套字体资源/HuiwenMincho-LICENSE.txt",
-      "bytes": 357,
-      "sha256": "ccabb820e5f96389077453e75fe7eb1e1b35d969df070003c177938226d000c3"
-    },
-    {
-      "path": "deconstructed-illustration/配套字体资源/HuiwenMincho.coverage.json",
-      "bytes": 97097,
-      "sha256": "d3dc917b6e9ef6b4a9de32a8a8140326845b77332066c6c67e43fa040b71af76"
-    },
-    {
-      "path": "deconstructed-illustration/配套字体资源/HuiwenMincho.woff2",
-      "bytes": 8020924,
-      "sha256": "f190d33a26eb0ea9bfa841d82806135f49580e6637439c01279769bbd5c6b832"
-    },
-    {
-      "path": "deconstructed-illustration/配套字体资源/KingHwaOldSong-v2.002.ttf",
-      "bytes": 36587506,
-      "sha256": "35d92af5ac4e9485e8e7749098e67211da5885d2697d95aea979fe4acd19ee2a"
-    },
-    {
-      "path": "deconstructed-illustration/配套字体资源/KingHwaOldSong.coverage.json",
-      "bytes": 240077,
-      "sha256": "a458a17bb83b6683c197a606a820bdc05e3d405b2bc7f87419fe83b9f311c502"
-    },
-    {
-      "path": "deconstructed-illustration/配套字体资源/Zhuque-LICENSE.txt",
-      "bytes": 4389,
-      "sha256": "66cc01ad4df62fca6936431a426104cb32a52ce8da49de9a7d643e02d7659043"
-    },
-    {
-      "path": "deconstructed-illustration/配套字体资源/ZhuqueFangsong.coverage.json",
-      "bytes": 54689,
-      "sha256": "c5d2105ea0d952b099f5e853f7989361fda1485422360568a2e1d3625e271f13"
-    },
-    {
-      "path": "deconstructed-illustration/配套字体资源/ZhuqueFangsong.ttf",
-      "bytes": 4817412,
-      "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53"
-    },
-    {
-      "path": "dune-echo/manifest.json",
-      "bytes": 8651,
-      "sha256": "2093bb09db97a475129fe6799bed48b279eb09c64de44ad10e48ee411abefbaa"
-    },
-    {
-      "path": "dune-echo/theme.css",
-      "bytes": 9446,
-      "sha256": "687e039ed14e5d9f864d9e7f6853b14257006f2eb16cb9063d29dc41e2dcce7d"
-    },
-    {
-      "path": "dune-echo/主题展示案例/0. 案例预览.md",
-      "bytes": 1523,
-      "sha256": "3be1f2f71febb69b68785b3d4c3ea50b2b3913cd9e69c56b917203a8b7cfe50b"
-    },
-    {
-      "path": "dune-echo/主题展示案例/1. 封面-横版-2.35比1.png",
-      "bytes": 1748265,
-      "sha256": "a3306552fefff7c3ea43c9508e4e451c8954290ecca617ed197061eb3f48ba5d"
-    },
-    {
-      "path": "dune-echo/主题展示案例/2. 封面-方版-1比1.png",
-      "bytes": 1871864,
-      "sha256": "6159212a7bf018aebf204cd1d622a8816597bf77bb597a8ec04c5824a15229f3"
-    },
-    {
-      "path": "dune-echo/主题展示案例/3. 配图-概念解释-16比9.png",
-      "bytes": 1942780,
-      "sha256": "6b24ce83094a70fe9066877bbdbc756f6c8bff249bca15bef2d4aa517206f913"
-    },
-    {
-      "path": "dune-echo/主题展示案例/4. 配图-流程讲解-16比9.png",
-      "bytes": 1756771,
-      "sha256": "f6c9c48a5b0b2885ee42cb1f7bece08ddf461e4df1b10b1089849a92597b2b02"
-    },
-    {
-      "path": "dune-echo/主题展示案例/5. 配图-观点对照-16比9.png",
-      "bytes": 1783649,
-      "sha256": "ca90f72bf07a5d4cbc96526fef70eb98a9fc1d76ee21077293dc2103a887cc55"
-    },
-    {
-      "path": "dune-echo/主题展示案例/6. 配图-总结检查-16比9.png",
-      "bytes": 1757240,
-      "sha256": "f72272a815abd911b518ab849370432ceb688a8e3776af38907e992041403347"
-    },
-    {
-      "path": "dune-echo/主题展示案例/模板介绍图.png",
-      "bytes": 10886115,
-      "sha256": "1c69cf29aae16edfbad22920cc71302a1832c983f0f86bea09e656e54cc68248"
-    },
-    {
-      "path": "dune-echo/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 2280,
-      "sha256": "ffeeae9ad85dba239aa2664ef9b5d5472f49d1f3561a91e8d09b5438f812629f"
-    },
-    {
-      "path": "dune-echo/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 2838,
-      "sha256": "91cab96fea0631c3bea13a99bbbae14177747ef8a2cc7deb3d3bc4ddf07a771b"
-    },
-    {
-      "path": "dune-echo/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2652,
-      "sha256": "44ba26707dd75c4b28b406db2f97563544134f15b5149232b1e597304b697ff0"
-    },
-    {
-      "path": "dune-echo/主题视觉规范/4. 生图方法论.md",
-      "bytes": 5600,
-      "sha256": "53d6181f2ac15c1ff4eef88d618aa941278b99cb15e51771006e737f048a48fd"
-    },
-    {
-      "path": "dune-echo/正文组件结构/dune-footer.html",
-      "bytes": 112,
-      "sha256": "ecd5ba698bbfae8b7daa18945ebee673d0b9f7ebf51aadd5cca1c3fdb533223d"
-    },
-    {
-      "path": "dune-echo/正文组件结构/dune-opening.html",
-      "bytes": 123,
-      "sha256": "7f1355f3750a84bc8c31e3b95138ad37f0b98786fde323c59e2fc53e2473faa0"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/code-emblems.png",
-      "bytes": 29433,
-      "sha256": "5f83bc81ece954066eca8da841b692ad88b6155bfb1f6fdf905073a8c781180e"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/code-stilltent-watermark.png",
-      "bytes": 251106,
-      "sha256": "ae45a48e02362f449f462d48187d3c0407c8d3989f81d3f3688ae59e2691b462"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/divider-thopter.png",
-      "bytes": 234467,
-      "sha256": "3314e2fd309eb7c32cc8ef8f5182f2dd24721bd006ad9a4a2c87dd7d64147d91"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/footer-caladan.png",
-      "bytes": 444748,
-      "sha256": "ce0eca3b7b3cbf15292163faffe65803997f6a5fc7de717ac6a8bc5e687574ce"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/h1-hawk.png",
-      "bytes": 10543,
-      "sha256": "6b10d54fa312f824b5eb264f1a9b314c949b086db58763cfc3a481add2242638"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/h1-signet.png",
-      "bytes": 19951,
-      "sha256": "f53a784a85195fff0886026fd71b7d430602aa17fcd4b553a049d231e5ad7e5d"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/h2-crysknife.png",
-      "bytes": 16996,
-      "sha256": "59ccd6225643e302e6643cf2be69a6e50f8807d0d441184053f0444e957fc9af"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/header-exile.png",
-      "bytes": 475945,
-      "sha256": "30671ae3a9be54de905fea7a60ae9cbd5621abc408d2ae31f8c6b01b797bc20d"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/header-rescue.png",
-      "bytes": 493038,
-      "sha256": "1fa21b33dfbb07a5264e8fd5da024257c6846f04d2df9c5ea61d5dfdd57cc920"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/header-ride.png",
-      "bytes": 646149,
-      "sha256": "dbcdeb48f24999bd4998c79db0ab1725a2748e17473133f83a59c7d77151657e"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/header-storm.png",
-      "bytes": 819120,
-      "sha256": "4ff0f3fbf51f6ac83fddb1428ac8e01d38198eec774d7e3330da0081df3142e9"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/quote-gom-jabbar.png",
-      "bytes": 254923,
-      "sha256": "8bc0d55e74e4cf2d3f0419bd8400564fb27cb679171ba24d54432f586f55153c"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/reference-sand.png",
-      "bytes": 496032,
-      "sha256": "62e5f5fb3d8e56ba623644f601c67bfccf47035a65dfe64be69baeb8855b9701"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/table-reservoir-watermark.png",
-      "bytes": 224628,
-      "sha256": "ab55c888ca63992878aa4ecf0a31dc376b12046a30678dc59cafadfb6c3d42b3"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/ul-level-1-crysknife.png",
-      "bytes": 5088,
-      "sha256": "555fa52062b4aefacae258ab7bbb72e834d435690b440ccf74ee09dec9f089d4"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/ul-level-2-spice.png",
-      "bytes": 4086,
-      "sha256": "78fab48a3aeb1c5cdaa0530eae5bc65388421754c95d04201d9ddcf2240a5646"
-    },
-    {
-      "path": "dune-echo/透明装饰素材/underline-sand-trace.png",
-      "bytes": 2282,
-      "sha256": "ba48c85a7f76d9224e2c1ea2076899795b19cb305e6cb6e6583c999c08f9c7c1"
-    },
-    {
-      "path": "dune-echo/配套字体资源/chill-duan-hei-song/ChillDuanHeiSongRegular.coverage.json",
-      "bytes": 167637,
-      "sha256": "08e8995a49372215d5ce39c0769e8f56e0283480ebfeaa20fa4df55840f52d9e"
-    },
-    {
-      "path": "dune-echo/配套字体资源/chill-duan-hei-song/ChillDuanHeiSongRegular.woff2",
-      "bytes": 5799568,
-      "sha256": "76b24273587547357f021d277c3ac2671f3ad03fe12d1b6883a4df8fa9787363"
-    },
-    {
-      "path": "dune-echo/配套字体资源/chill-duan-hei-song/OFL.txt",
-      "bytes": 4326,
-      "sha256": "c8b1f37d38b02e3813ce9b7bf60d0dc04646a30bcfe8de2a71ef81bab15e3068"
-    },
-    {
-      "path": "dune-echo/配套字体资源/zhuque/OFL.txt",
-      "bytes": 4389,
-      "sha256": "66cc01ad4df62fca6936431a426104cb32a52ce8da49de9a7d643e02d7659043"
-    },
-    {
-      "path": "dune-echo/配套字体资源/zhuque/ZhuqueFangsong-Regular.coverage.json",
-      "bytes": 88352,
-      "sha256": "a1399b64f02a9d77e01abe72472565cb42716c2e7583a8c4e83a460513710163"
-    },
-    {
-      "path": "dune-echo/配套字体资源/zhuque/ZhuqueFangsong-Regular.woff2",
-      "bytes": 4806488,
-      "sha256": "13dc234bf8769033f7c8350ea07a98dfb80a9b1bc28a854d6611c3f8ba5cc38b"
-    },
-    {
-      "path": "feng-guo-shu-ye/manifest.json",
-      "bytes": 10100,
-      "sha256": "0d9d078118bd7a46abd000cb9c19271e0e4a8ac476d0727d8e770bdfe3a67ee9"
-    },
-    {
-      "path": "feng-guo-shu-ye/theme.css",
-      "bytes": 9016,
-      "sha256": "408c25939706877685572e073b8d65e93016362950b199c7191c17f976b22a93"
-    },
-    {
-      "path": "feng-guo-shu-ye/主题展示案例/0. 案例预览.md",
-      "bytes": 1510,
-      "sha256": "496a026c890cd76eb864777ac4c864dd2311cacb5fe016cf6fb45ee898872bf4"
-    },
-    {
-      "path": "feng-guo-shu-ye/主题展示案例/1. 封面-横版-2.35比1.png",
-      "bytes": 1594980,
-      "sha256": "2672802f085fd7ed6f3bda6e181e1042914084c51ad663a55142b74e79ccbe4e"
-    },
-    {
-      "path": "feng-guo-shu-ye/主题展示案例/2. 封面-方版-1比1.png",
-      "bytes": 1803266,
-      "sha256": "f24b4375fe047ef77fa8dc56005fbdaf05b3499afb8f4ab8bf37b7a3b5e2452b"
-    },
-    {
-      "path": "feng-guo-shu-ye/主题展示案例/3. 配图-概念解释-16比9.png",
-      "bytes": 1737514,
-      "sha256": "84fbf4e690803cbffe6d7b9ee6af112e3065cbc887549e644d9d8403ed4a74fb"
-    },
-    {
-      "path": "feng-guo-shu-ye/主题展示案例/4. 配图-流程讲解-16比9.png",
-      "bytes": 1480049,
-      "sha256": "695bf0b7d149e1b035e0cfd3843e45e7845cad24920efd400061613b2fdf2434"
-    },
-    {
-      "path": "feng-guo-shu-ye/主题展示案例/5. 配图-观点对照-16比9.png",
-      "bytes": 1712972,
-      "sha256": "a4fc43c21a68d7a627a24ac646b329673f92e31c65357f55f12e3c4554166a1d"
-    },
-    {
-      "path": "feng-guo-shu-ye/主题展示案例/6. 配图-总结检查-16比9.png",
-      "bytes": 1685886,
-      "sha256": "45cb3a73851995194d43c2a2e88afab89f0940f72481de12d61e89b0b7d4e183"
-    },
-    {
-      "path": "feng-guo-shu-ye/主题展示案例/模板介绍图.png",
-      "bytes": 7173729,
-      "sha256": "ca3dda385cb4177e19aba4891fc917561935cf7398b7b43a4f0fe08093ae56d5"
-    },
-    {
-      "path": "feng-guo-shu-ye/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 2417,
-      "sha256": "dc7eafb5b55bcf40461e750b30a279771f0a71ab75e3de2c55fec82e241c1da7"
-    },
-    {
-      "path": "feng-guo-shu-ye/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 2838,
-      "sha256": "f73171e5504362303e6cbf411f768f6d39e9e036158296e982dfac43b7495e12"
-    },
-    {
-      "path": "feng-guo-shu-ye/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2652,
-      "sha256": "36b6b1379987f8392748d5c6c15607e6c5293fc2c3b4b9392dadf9d060b32b6b"
-    },
-    {
-      "path": "feng-guo-shu-ye/主题视觉规范/4. 生图方法论.md",
-      "bytes": 5725,
-      "sha256": "3878cc17593ea33eaa1dbd2bbc173fa2e6a660ddaa936f5f995079fd78749bde"
-    },
-    {
-      "path": "feng-guo-shu-ye/正文组件结构/footer.html",
-      "bytes": 538,
-      "sha256": "067d37a1f99689776449ca915dbcf36bd0893b293ca9a32c0292be7650a1f569"
-    },
-    {
-      "path": "feng-guo-shu-ye/正文组件结构/opening.html",
-      "bytes": 102,
-      "sha256": "98290390011e69458b2fd0a01bfba54f03bd6e694397505a54e683e620a937fe"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/banner-bird.png",
-      "bytes": 582543,
-      "sha256": "f6a7608269e0a730d0e7f46a101df66f6d84b638bc50d6a498ba1b5271b6b4f5"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/banner-book.png",
-      "bytes": 600470,
-      "sha256": "6466c47cbc5868e1f039b1f3dec4eadc559a0521b22b664f9c10ed601c0e7a64"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/banner-glass.png",
-      "bytes": 485014,
-      "sha256": "b02ab01ced95784547cea5e185d17ca4d75642b70f38bee69fdf9651cdee7948"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/banner-letter.png",
-      "bytes": 495087,
-      "sha256": "d4e6e6da3a49e733ce37823cf061414142409cc4dc0657270491e83115775a09"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/car.png",
-      "bytes": 29909,
-      "sha256": "71b12b3d51f793eb2d9a641c1a68dd57d25a8a32cd97a86b6f574c13215713ae"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/code-controls.png",
-      "bytes": 239,
-      "sha256": "fd252f03ded8091a887329296d7b8f7ae7c7bda0f5fad392d2a3378175e4efdd"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/code-rim-bottom.png",
-      "bytes": 7117,
-      "sha256": "9a41b54c62123e0667f7797bd817f49b3b943bb936a83f14e845715fb42194c1"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/code-rim-sides.png",
-      "bytes": 3524,
-      "sha256": "734b6a774fdbaf429c8c953392dec8571b10dcec15c68019eb61cd300e90c1a3"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/code-rim-top.png",
-      "bytes": 7357,
-      "sha256": "2539578269ae71587f72a15b5c693cf311ad44a5a1a941942d952bfa1b2a1237"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/follow.png",
-      "bytes": 26505,
-      "sha256": "41478e9cda0f098fa44c0a2aaafe6d15744f7864dd6ae611c52ca2ee252f2662"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/footer-label-follow.png",
-      "bytes": 432,
-      "sha256": "71e2de4835a560fd85c8baeb6edc9a57138db18ce83707aeb334abd82b74ed46"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/footer-label-share.png",
-      "bytes": 532,
-      "sha256": "bf80c69caa7ad9f4963fd4d9340f4397a7abf167c7be59e5ecbdeed03c21e575"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/footer-label-watch.png",
-      "bytes": 398,
-      "sha256": "e830bc0138cf77eac4641295a84c8678db2e2cd8f6ed4decd411a4f57ea61e74"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/footer-rule.png",
-      "bytes": 191,
-      "sha256": "f384d6e059d2ebe77711488c9cb457e7e4aae3d41402ec29c01668643aa3476d"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/list-plane-v2.png",
-      "bytes": 200615,
-      "sha256": "c519923c095d872f4243b2d9b6bb8d6100321b0ce15453c3c8b92fa4e4ef4979"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/monitor.png",
-      "bytes": 42855,
-      "sha256": "ce849f647410942adc286cdcb21efe456dcd7440f92eb617501821b596603408"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/mosaic-underline.png",
-      "bytes": 172,
-      "sha256": "f9385da7d8dc48658db8a1e3842752b05713bff8b558d2ebc51e232dc0feec2a"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/plane-trail.png",
-      "bytes": 127599,
-      "sha256": "32407d71aa72fb8beee3854f055f114768601c847ad51d0c31a589423f367e67"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/pressed-paper.png",
-      "bytes": 199140,
-      "sha256": "aeef6cd07ef21acc53b6f2c0d108afe45aa2c3b289c0dad7868ea9cc4b62a68d"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/quote-computer-v2.png",
-      "bytes": 145580,
-      "sha256": "4f94453bea3af0fee56aaad7f54d0951d55bc1a6c273f84a5762dd9b85099bca"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/rim-tile.png",
-      "bytes": 77333,
-      "sha256": "808abde58fd08b7f9504dacd3d9c7b3fe3d5a4602cf54ed707b15fb3a42b7a46"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/share.png",
-      "bytes": 14459,
-      "sha256": "f950bf2889fc06dbdbd3f61d9f2cad2e5c44b95a3fdba7dc2154a16c4041a69c"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/task-done.png",
-      "bytes": 23833,
-      "sha256": "e3e4b0353e118f75757cdda20b990985dc0b3689ea664e8d143a597022eb652f"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/task-empty.png",
-      "bytes": 17045,
-      "sha256": "3cf01684833c9cd0ea8d0994601348050f6835317747dc01fa1b7ffbafdeaa0e"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/terminal-mosaic.png",
-      "bytes": 1573,
-      "sha256": "d44d8649e7d1ba4feee8f41412ec391760a9091480f645effe958861b4e22f08"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/title-flower-blue.png",
-      "bytes": 8410,
-      "sha256": "a5286e4b730225041484297cf5233f9884c72aff65bd630beb491c13f8225822"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/title-flower-cream.png",
-      "bytes": 7982,
-      "sha256": "dbc41ad2da18027bc412e32c8414305a4e5b1523b1a171f381691ceaf66e0de4"
-    },
-    {
-      "path": "feng-guo-shu-ye/透明装饰素材/watch.png",
-      "bytes": 25208,
-      "sha256": "40a283b8f9349e91c6b52c5e634bbbb488700cddce106ee6ad66681197a5f124"
-    },
-    {
-      "path": "feng-guo-shu-ye/配套字体资源/fusion-pixel-12px/LICENSE-OFL",
-      "bytes": 4418,
-      "sha256": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63"
-    },
-    {
-      "path": "feng-guo-shu-ye/配套字体资源/fusion-pixel-12px/LICENSES/ark-pixel/OFL.txt",
-      "bytes": 4412,
-      "sha256": "3ab41567e68e3988ba1ef16dd2644eca95ca5648ea12e7d46e6287fc0bbe5aee"
-    },
-    {
-      "path": "feng-guo-shu-ye/配套字体资源/fusion-pixel-12px/LICENSES/cubic-11/OFL.txt",
-      "bytes": 5364,
-      "sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188"
-    },
-    {
-      "path": "feng-guo-shu-ye/配套字体资源/fusion-pixel-12px/LICENSES/galmuri/LICENSE.txt",
-      "bytes": 4360,
-      "sha256": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1"
-    },
-    {
-      "path": "feng-guo-shu-ye/配套字体资源/fusion-pixel-12px/OFL.txt",
-      "bytes": 4418,
-      "sha256": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63"
-    },
-    {
-      "path": "feng-guo-shu-ye/配套字体资源/fusion-pixel-12px/fusion-pixel-12px-proportional-zh_hans.otf",
-      "bytes": 4914964,
-      "sha256": "82e05156031524165202ccdae6c284aaeecd798271e32c65cbf0c6568ade8cfa"
-    },
-    {
-      "path": "monument-valley/manifest.json",
+      "path": "01. 纪念碑谷/manifest.json",
       "bytes": 8570,
       "sha256": "6b5295bf4fd7d2485f77a3409d115c989cf294ea1ed84738638c3c4d09b47514"
     },
     {
-      "path": "monument-valley/theme.css",
+      "path": "01. 纪念碑谷/theme.css",
       "bytes": 8521,
       "sha256": "74d56496dc79319403edaf59b0be04e92395c253c19890367ecbba4d5fb2af5b"
     },
     {
-      "path": "monument-valley/主题展示案例/0. 案例预览.md",
+      "path": "01. 纪念碑谷/主题展示案例/0. 案例预览.md",
       "bytes": 1511,
       "sha256": "3275609f9c6d4ba6108d92d0957a483b41d7f6f9296d1bdbd2a5ad968bc8d299"
     },
     {
-      "path": "monument-valley/主题展示案例/1. 封面-横版-2.35比1.png",
+      "path": "01. 纪念碑谷/主题展示案例/1. 封面-横版-2.35比1.png",
       "bytes": 1552144,
       "sha256": "b98d77d72c1c38ecee441621d1dfdda37e47ffb0fe2a1fd356d6f9fcf2a44b79"
     },
     {
-      "path": "monument-valley/主题展示案例/2. 封面-方版-1比1.png",
+      "path": "01. 纪念碑谷/主题展示案例/2. 封面-方版-1比1.png",
       "bytes": 1652220,
       "sha256": "e22a75d1f5e46366b09565be84baee4cbdf3ac377476638e37cb0854b5beee1b"
     },
     {
-      "path": "monument-valley/主题展示案例/3. 配图-概念解释-16比9.png",
+      "path": "01. 纪念碑谷/主题展示案例/3. 配图-概念解释-16比9.png",
       "bytes": 1487460,
       "sha256": "3ad66800644b2fa46d3b1cf3d3ede75ab30ce6827de2d5007bb87c33e565d10e"
     },
     {
-      "path": "monument-valley/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "path": "01. 纪念碑谷/主题展示案例/4. 配图-流程讲解-16比9.png",
       "bytes": 1719762,
       "sha256": "7f16075cff352f6922d98951dda168c75b53afcf0450a1e4917092ee2ed9ea0c"
     },
     {
-      "path": "monument-valley/主题展示案例/5. 配图-观点对照-16比9.png",
+      "path": "01. 纪念碑谷/主题展示案例/5. 配图-观点对照-16比9.png",
       "bytes": 1581576,
       "sha256": "cdfe774ab42ec9f79fc97f6502e09ff07da398eb04ce619f49a28e3c8961bd50"
     },
     {
-      "path": "monument-valley/主题展示案例/6. 配图-总结检查-16比9.png",
+      "path": "01. 纪念碑谷/主题展示案例/6. 配图-总结检查-16比9.png",
       "bytes": 1464230,
       "sha256": "f909a7477f4b93203050681ec78ce39004379ba5f396d8069b3c13fde5ad2281"
     },
     {
-      "path": "monument-valley/主题展示案例/模板介绍图.png",
-      "bytes": 8109499,
-      "sha256": "31e5bc1ae65593a6b16c9384d4a548e7b897cde3dfba6fb8823bd70ca85ab0a7"
+      "path": "01. 纪念碑谷/主题展示案例/模板介绍图.png",
+      "bytes": 8109429,
+      "sha256": "34fde4f4c386db2ad2dfd884e3eb546d48e05564add84ff093dd9a85f5c1199d"
     },
     {
-      "path": "monument-valley/主题视觉规范/1. 视觉风格总则.md",
+      "path": "01. 纪念碑谷/主题视觉规范/1. 视觉风格总则.md",
       "bytes": 780,
       "sha256": "7dce48871a4cca0a4bdc995abc9e557bacb31a207cdf3c8d2bd8b4b873d96479"
     },
     {
-      "path": "monument-valley/主题视觉规范/2. 文章封图规范.md",
+      "path": "01. 纪念碑谷/主题视觉规范/2. 文章封图规范.md",
       "bytes": 2838,
       "sha256": "d3eeee244822c8823cd313f7b68e9679bb1ef2b014e5df8e7e9158c3f837e595"
     },
     {
-      "path": "monument-valley/主题视觉规范/3. 正文配图规范.md",
+      "path": "01. 纪念碑谷/主题视觉规范/3. 正文配图规范.md",
       "bytes": 2652,
       "sha256": "397b4343776d173413d45fb0781731d7dcc09ec2d46908a959a8e9568db61e35"
     },
     {
-      "path": "monument-valley/正文组件结构/mv-ending.html",
+      "path": "01. 纪念碑谷/正文组件结构/mv-ending.html",
       "bytes": 303,
       "sha256": "0d35bd6fb7af7b92017d0318ad91b421d7876577c3dad1bdd92bf26b824e691a"
     },
     {
-      "path": "monument-valley/正文组件结构/mv-h1-bottom.html",
+      "path": "01. 纪念碑谷/正文组件结构/mv-h1-bottom.html",
       "bytes": 106,
       "sha256": "ad5c3789d714bcd23d71045ff651c9a13430a48ebca12bb40cab86f18f3823d2"
     },
     {
-      "path": "monument-valley/正文组件结构/mv-h1-top.html",
+      "path": "01. 纪念碑谷/正文组件结构/mv-h1-top.html",
       "bytes": 100,
       "sha256": "576c749f617244044c0f052a0db6be3f458c907e27345a78673e925ffd82c433"
     },
     {
-      "path": "monument-valley/正文组件结构/mv-opening.html",
+      "path": "01. 纪念碑谷/正文组件结构/mv-opening.html",
       "bytes": 108,
       "sha256": "551fef8dbcb4fadf0638ca17352c613bc1a113b305f15543ec88f44cf8097b88"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv2-fog.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv2-fog.png",
       "bytes": 1373460,
       "sha256": "c3ded1899f95a8beb8d88f022bff7dcae8682e14892062d58ee3cbc3eef1ff33"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv2-seal.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv2-seal.png",
       "bytes": 853696,
       "sha256": "bd8f680612f0c3e65a22679145e4d0aecd1d5c623faa11d53b8364559a437e4e"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv3-list-one.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv3-list-one.png",
       "bytes": 1376121,
       "sha256": "07799cd63b69a3d28c694fec53567e517f0532ca6565f731bca100100bde2802"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv3-list-two.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv3-list-two.png",
       "bytes": 1419770,
       "sha256": "ed165c3cd763f5f168103cba2f1bbc3dc4ff1850817a430444e1eea08e8eb207"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv3-task-done.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv3-task-done.png",
       "bytes": 1911104,
       "sha256": "47262c1cfcb2906d68480d4ce7f14ab17e7e7cf59a83ad8a89dffe1a9e4dff28"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv3-task-open.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv3-task-open.png",
       "bytes": 1524590,
       "sha256": "a91cf052b6165d367766ee89e30a7f305a319722f5477443a99bfb68e6bbc99a"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv3-underline.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv3-underline.png",
       "bytes": 4544,
       "sha256": "e80eecc0febe6c1ba8bb48576950e0d92d89329fabfe11f2fecb0852d851ea28"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv4-code-controls.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv4-code-controls.png",
       "bytes": 4636,
       "sha256": "402ee7b4aa94076128ee585a59ea11932e4e9a18f1ad38e5d1c3251ce03bf421"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv4-code-relic.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv4-code-relic.png",
       "bytes": 2498,
       "sha256": "208b1f19513bede9bea285f3c109504c1ad4e21aa8235af2a0822e3a0977291a"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv4-footer-like.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv4-footer-like.png",
       "bytes": 11900,
       "sha256": "0e8b47639380c4228987c07d2d31c3fc200b00b376158e803ae89b3ea587ec2c"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv4-footer-read.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv4-footer-read.png",
       "bytes": 13861,
       "sha256": "3138f3858a2b9213a4cf9855b76535b3eed0a1db048283538616882c8b6f69a1"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv4-footer-share.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv4-footer-share.png",
       "bytes": 14274,
       "sha256": "66da98bd0706082b0842406dc7f23bdd55125bcd0d612bc44677489f6858932f"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv4-h1-bottom.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv4-h1-bottom.png",
       "bytes": 1582,
       "sha256": "b1ab8658af2e409d5737ce699f800b400e534f25b5184c442d7c0359cb08bea4"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv4-h1-top.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv4-h1-top.png",
       "bytes": 1587,
       "sha256": "b9dda6df67f24ece5933185d2a63987868ea8ce1329a29e447e7d77be52e1962"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv4-quote.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv4-quote.png",
       "bytes": 1309978,
       "sha256": "4137db2e6a407676fcc60fb78b8aace6f53c2e1b165eac11ded0c2e3af2ff106"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv4-table-rule.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv4-table-rule.png",
       "bytes": 408,
       "sha256": "b320b9ad1e6ed446e162023d7e9bab486ca948de97c30bf4f3c8cfed3df7d80b"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv5-banner-a.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv5-banner-a.png",
       "bytes": 1980538,
       "sha256": "25de44d9ea05bd190faa78cf442652897eb2d0bc9a60f00ee97813c55e008539"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv5-banner-b.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv5-banner-b.png",
       "bytes": 2049065,
       "sha256": "894c6e38d3ca93f88f7e9e3b8dc3191a77080eab5ced752e0794bbca021382d9"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv5-banner-c.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv5-banner-c.png",
       "bytes": 2213855,
       "sha256": "e41f4a7425b0b182d43dd2661261efbc54c2d27e3cba1c040d6702606e6f35f1"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv5-banner-d.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv5-banner-d.png",
       "bytes": 1955075,
       "sha256": "b8f82a232d32f341bd73abf69d8d722a3de57674c2d3ad408ced8a288b0b4bc7"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv5-corridor-divider.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv5-corridor-divider.png",
       "bytes": 18887,
       "sha256": "e840b44f1a56034ae01676c711329a397159f2e5ab2d38f4b0399963ccba25b1"
     },
     {
-      "path": "monument-valley/透明装饰素材/mv5-table-frame.png",
+      "path": "01. 纪念碑谷/透明装饰素材/mv5-table-frame.png",
       "bytes": 10658,
       "sha256": "89cf7bb4beca6bdc10b4893930fc8f2c8f5b7f7e6060fb695d94d7a37e014f96"
     },
     {
-      "path": "monument-valley/配套字体资源/OFL.txt",
+      "path": "01. 纪念碑谷/配套字体资源/OFL.txt",
       "bytes": 4390,
       "sha256": "d6cec39519f63e3848da753f071e04cae96322dc92f5834734f9060cc6322104"
     },
     {
-      "path": "monument-valley/配套字体资源/朱雀仿宋.ttf",
+      "path": "01. 纪念碑谷/配套字体资源/朱雀仿宋.ttf",
       "bytes": 4817412,
       "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53"
     },
     {
-      "path": "nyx-night/manifest.json",
-      "bytes": 8889,
-      "sha256": "9e71f1638295e4cabb1bb5756fdb973d86dc43e615877fe6cbfea9a615245764"
+      "path": "02. 星尘手记/manifest.json",
+      "bytes": 7447,
+      "sha256": "cc05cc102fb28f076af73bea595606c4859d5e462579e96515545d3963d120f9"
     },
     {
-      "path": "nyx-night/theme.css",
-      "bytes": 9990,
-      "sha256": "43796ae8945fcf9d2774d285f2656025ee982fc8f2857e84751d36a33b501318"
+      "path": "02. 星尘手记/theme.css",
+      "bytes": 8286,
+      "sha256": "623e47996dee630e234164e31906ba9cc933c2f80a2a209b7cb968984d31dc07"
     },
     {
-      "path": "nyx-night/主题展示案例/0. 案例预览.md",
-      "bytes": 1547,
-      "sha256": "1b87c126411fa243f808eb032463b82f49c5543fd0f21f8a55b7cf830d959e6a"
+      "path": "02. 星尘手记/主题展示案例/0. 案例预览.md",
+      "bytes": 1649,
+      "sha256": "cafcad39790eac3b2887f3a0b72e7439e2fca2913b51273e5ed725ab73968900"
     },
     {
-      "path": "nyx-night/主题展示案例/1. 封面-横版-2.35比1.png",
-      "bytes": 2121383,
-      "sha256": "82e05e41e99798b1eeda0cb4da0125928f272620844bb67d588ba5bed09a613e"
+      "path": "02. 星尘手记/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 2324829,
+      "sha256": "ca4e3b1f4c9d672c3042d65991f1acebae85b84295147446a121b23c2c39dc72"
     },
     {
-      "path": "nyx-night/主题展示案例/2. 封面-方版-1比1.png",
-      "bytes": 2221624,
-      "sha256": "5a25a305abf2b813d45bb5e392ec76f08c3ada40f5c9cb4b52e27f9cbeffcde3"
+      "path": "02. 星尘手记/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 1904927,
+      "sha256": "0d8652388a646bbca8199173542c7df946a4a5ce1af1b0c8d11af5361abd9717"
     },
     {
-      "path": "nyx-night/主题展示案例/3. 配图-概念解释-16比9.png",
-      "bytes": 1953896,
-      "sha256": "9028587cde90791412d9ed987dbce83b9e21773d0d398aaea24e181b0156c55c"
+      "path": "02. 星尘手记/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1643019,
+      "sha256": "3f8dbf09ed571f9ba00f653b54c93a3c058b6bba693ca4e4ff7792e1e2de238d"
     },
     {
-      "path": "nyx-night/主题展示案例/4. 配图-流程讲解-16比9.png",
-      "bytes": 2178059,
-      "sha256": "fe505494192638cc6fd04b4a5550f27ef5742351837c40266bd6e27f9094e477"
+      "path": "02. 星尘手记/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 1787742,
+      "sha256": "a1310d0c739ced56a5942c4a4f830aed6700e99e63e66f5d339f5deb3ef1a18a"
     },
     {
-      "path": "nyx-night/主题展示案例/5. 配图-观点对照-16比9.png",
-      "bytes": 2330191,
-      "sha256": "0060fb067e9838394342cbc1f45b69f38b259e8aba822b6c06e8a2f9d35bd22d"
+      "path": "02. 星尘手记/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 1806776,
+      "sha256": "8fd9a5c286d4beb18fe141da903afe626c423243cbd3cec16164826c1548152a"
     },
     {
-      "path": "nyx-night/主题展示案例/6. 配图-总结检查-16比9.png",
-      "bytes": 1963049,
-      "sha256": "3df0712e8345e788eb18e769610c34258db80ae352809c1a037974b2ca653776"
+      "path": "02. 星尘手记/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1918483,
+      "sha256": "13b96eb276e6ebebd2fbacc70daeb42e1d81c7d7668345b6eb2f6b88be518a05"
     },
     {
-      "path": "nyx-night/主题展示案例/模板介绍图.png",
-      "bytes": 12272110,
-      "sha256": "683608948752d3b832fbc48db14e9e465b2690e774de4c5d9f41b7ed0c653dd5"
+      "path": "02. 星尘手记/主题展示案例/模板介绍图.png",
+      "bytes": 8122718,
+      "sha256": "6da73c224a2dfbc52c2ef413bad8bf3e98bc9c3d01082095a9e3963bc4b38235"
     },
     {
-      "path": "nyx-night/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 837,
-      "sha256": "a8708126d52395138821e85c52812ebe8cbb8fa6ed66708649eb70a6b79351fb"
+      "path": "02. 星尘手记/主题视觉规范/1. 视觉风格总则.md",
+      "bytes": 871,
+      "sha256": "dbb08837d0cc64bbdfc1cbe2002cf893094efec60154bd50f772e073a17b61ec"
     },
     {
-      "path": "nyx-night/主题视觉规范/2. 文章封图规范.md",
+      "path": "02. 星尘手记/主题视觉规范/2. 文章封图规范.md",
       "bytes": 2838,
-      "sha256": "b13352df8e5cda9d0619e25be3c73c612b1d695c511daa106af2f50959781e81"
+      "sha256": "3e6c3197f01e7f5ad9934cfd0e6fc87ff745dc0e6a4912ac07ca88ba8eb2b40d"
     },
     {
-      "path": "nyx-night/主题视觉规范/3. 正文配图规范.md",
+      "path": "02. 星尘手记/主题视觉规范/3. 正文配图规范.md",
       "bytes": 2652,
-      "sha256": "7c1a9ca38a70f60904e5dff7fcd36c33d0dd982d4679af9c7677b47408282e81"
+      "sha256": "1c223cee494d3a8cdbfedcf6a1f451708052c0f87bde62aaca063ad560935157"
     },
     {
-      "path": "nyx-night/正文组件结构/ending-actions.html",
-      "bytes": 171,
-      "sha256": "efa39efcf66f5159d5dfc2a8579f12863105d1d9a21709e191ac9b3ac7e98f73"
+      "path": "02. 星尘手记/正文组件结构/mono-ending-v4.html",
+      "bytes": 135,
+      "sha256": "6d8bbba5c058960bba719139bac0ff8d4b06a6243ada46d031337cfa414213ef"
     },
     {
-      "path": "nyx-night/正文组件结构/opening-frieze.html",
-      "bytes": 132,
-      "sha256": "35978d675e75a41c15fbfce7b737024776b07aa54ba254afe2d9b1b45ace8261"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/banner-drifting-stars-v7.png",
-      "bytes": 651601,
-      "sha256": "dfc123c4d4f1f7db72101472747bd4d4e7c0d681493afe24b91ba69793164e1c"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/banner-moon-flow-v7.png",
-      "bytes": 880301,
-      "sha256": "2f4d51894560b8fc2aaf31702c144ebaa512144bfc2ba7f496a47c66fecf991f"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/banner-nebula-tide-v7.png",
-      "bytes": 1705009,
-      "sha256": "ec8b8ae351008dcf693316ba1bf24d756d37315fc8ada947230f01babe95bfcb"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/banner-star-atlas-v7.png",
-      "bytes": 1389292,
-      "sha256": "44dd45ec261c0c269c5de92409aa1b7f829e60177270b0fc22fa6029816fb10e"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/bullet-crescent-v6.png",
-      "bytes": 440535,
-      "sha256": "e1b147c17859c02d08346214dbfe4a0b134d2efdbe623c433d9212827f67d366"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/bullet-gibbous-v6.png",
-      "bytes": 1141916,
-      "sha256": "1229fd65b88316ae264301cb6eefc79594422b40d1358b8364b522d2af6a657e"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/code-astral-dots-v8.png",
-      "bytes": 1719396,
-      "sha256": "7a256534c3d2ed2217d1c0a7799311eb9e773e8b031db55356a5f6dd2f087e1d"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/code-star-watermark-v7.png",
-      "bytes": 214239,
-      "sha256": "5b966c3b087e87bbdcdfe847471d79f59d3f2546ca0583986046637b4fe7d2e7"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/ending-mural-sigils-v6.png",
-      "bytes": 1138010,
-      "sha256": "cd9f155851b0f16df943e6c2f575bf6b1a0bec3d31699710edceac8e4a4f0501"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/gilded-metal-v8.png",
-      "bytes": 3237687,
-      "sha256": "d7ad855bc7c75dc9351869f2d4cdc05410948fc83b66faf8b849d876628cd7a1"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/h1-lunar-phases-v3.png",
-      "bytes": 198145,
-      "sha256": "f45d997e10661d7df9bb8c157f570311cb8856c70f62f5ddea2b31fc284fb7a3"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/h2-crescent-v5.png",
-      "bytes": 1515017,
-      "sha256": "048182325527cab6587c811e30acbae4660597b8c4e31ffdec9eefe1dce892b4"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/luminous-underline-v4.png",
-      "bytes": 135342,
-      "sha256": "51bd952df57c0b456505b310d643cadffa544ab0b4abaadc605b4b90bbafb948"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/moon-phase-divider-v2.png",
-      "bytes": 378417,
-      "sha256": "6d0ecea6e415984a89b0c0f7a625906b6414287b48faa6452b1dcb087024255e"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/night-sky-texture.png",
-      "bytes": 2106586,
-      "sha256": "7ca9729ff1fc18f5731d4a1b6bf7aea39b648493fb68ec5ed206832506c0f843"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/quote-abyss-moon-v6.png",
-      "bytes": 2596720,
-      "sha256": "1e3d6434542e97cf2b548602f479868e20700075de2390e840871f7549960570"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/todo-done-v6.png",
-      "bytes": 1124899,
-      "sha256": "d6c046daa1885ceaa6fe7c3569a719ae6e21ee1dc6b00ce3baafcaafe0ef9ff5"
-    },
-    {
-      "path": "nyx-night/透明装饰素材/todo-empty-v6.png",
-      "bytes": 711604,
-      "sha256": "86137143c51947b17d588887283024fed7a00cf7b952910f31e056a0efce2b15"
-    },
-    {
-      "path": "nyx-night/配套字体资源/OFL.txt",
-      "bytes": 4390,
-      "sha256": "d6cec39519f63e3848da753f071e04cae96322dc92f5834734f9060cc6322104"
-    },
-    {
-      "path": "nyx-night/配套字体资源/朱雀仿宋.ttf",
-      "bytes": 4817412,
-      "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53"
-    },
-    {
-      "path": "pencil-impression/manifest.json",
-      "bytes": 21727,
-      "sha256": "4c8c883118d561150d2760c906d1c9aa72ff03c0ef13c54f1fe78c6ecd612739"
-    },
-    {
-      "path": "pencil-impression/theme.css",
-      "bytes": 18420,
-      "sha256": "89500b175c892fc6ea45d7b1f58b6ec672476e1ffbf0701f9c4b95d038236b29"
-    },
-    {
-      "path": "pencil-impression/主题展示案例/0. 案例预览.md",
-      "bytes": 1688,
-      "sha256": "cf600f8a65640b377336a4b996db1df6f5551c7e865d6b1ea10a9b501339c98a"
-    },
-    {
-      "path": "pencil-impression/主题展示案例/1. 封面-横版-2.35比1.png",
-      "bytes": 1568094,
-      "sha256": "ee7ecacfd08987609d2d27df275cceb285a33b75a59429cddfc6b197ee1bc910"
-    },
-    {
-      "path": "pencil-impression/主题展示案例/2. 封面-方版-1比1.png",
-      "bytes": 1784250,
-      "sha256": "c8a53959a08402412845992949dab07f2ad9221aee89655f8108ec97edc30c36"
-    },
-    {
-      "path": "pencil-impression/主题展示案例/3. 配图-概念解释-16比9.png",
-      "bytes": 1606009,
-      "sha256": "428e35458b30b25e5a79df6017d6e85ce40cf5acef1cc52a5ae18c6d99befb7b"
-    },
-    {
-      "path": "pencil-impression/主题展示案例/4. 配图-流程讲解-16比9.png",
-      "bytes": 1581839,
-      "sha256": "25e36279aa4e7134fce3b053e75c2f6cf7ef356bf7aebd12129e8ab269ad4ac0"
-    },
-    {
-      "path": "pencil-impression/主题展示案例/5. 配图-观点对照-16比9.png",
-      "bytes": 1749570,
-      "sha256": "78613115bed21d632e496f3b80edcacb8da0a5ef5600fc9f18a291bbb0db02ce"
-    },
-    {
-      "path": "pencil-impression/主题展示案例/6. 配图-总结检查-16比9.png",
-      "bytes": 1567671,
-      "sha256": "e999e1239124301ab3bcb0310fd09a65d9443650249c3d9862511e2068990bc7"
-    },
-    {
-      "path": "pencil-impression/主题展示案例/模板介绍图.png",
-      "bytes": 11351416,
-      "sha256": "47b4496eef207d8207b8a90939205327f57c81436c9f77e94da0f9c83316c3ea"
-    },
-    {
-      "path": "pencil-impression/主题视觉规范/1. 视觉风格总则.md",
-      "bytes": 2176,
-      "sha256": "69a04a780eeb7f237e77e19ab737fceef424eb30f71b11aa0c4fb5974f00de33"
-    },
-    {
-      "path": "pencil-impression/主题视觉规范/2. 文章封图规范.md",
-      "bytes": 2838,
-      "sha256": "2e30926863299677063a62f9a9df1438ac7b624d3d75d32a3c846d2fad85b012"
-    },
-    {
-      "path": "pencil-impression/主题视觉规范/3. 正文配图规范.md",
-      "bytes": 2652,
-      "sha256": "a9c7b0b94e572cc51b2388cdf18154f72b6ee7a5c0a4758c10f235b885baf1ce"
-    },
-    {
-      "path": "pencil-impression/主题视觉规范/4. 生图方法论.md",
-      "bytes": 5484,
-      "sha256": "8417b4cc215173b9cb6bd2783f3dbead79a3d18fe1d589cd56f12733aeaff27c"
-    },
-    {
-      "path": "pencil-impression/正文组件结构/code-desk.html",
-      "bytes": 274,
-      "sha256": "33e0f53499d5d59411f01285e545fe4395da4a2b2ebb4e37b08197fcbcb82d68"
-    },
-    {
-      "path": "pencil-impression/正文组件结构/code-tail.html",
-      "bytes": 150,
-      "sha256": "37495efbdb58ca32dd11e365b007e16a3968b41edd55f56963b25ed3d1c349b6"
-    },
-    {
-      "path": "pencil-impression/正文组件结构/ending.html",
-      "bytes": 234,
-      "sha256": "8364eb81911984b4c55f32cb986c83820fa91568296c7db25198d5c668922fc6"
-    },
-    {
-      "path": "pencil-impression/正文组件结构/opening.html",
+      "path": "02. 星尘手记/正文组件结构/mono-opening-v3.html",
       "bytes": 117,
-      "sha256": "fb91f65a16a2dfa7b15b7b1263fbbfaeb6dd492f32c98f3d9fe14eb6920e1725"
+      "sha256": "8c4647fd6cc519ac6a31f615c677ee69c84b7802efd4b52554cae04b4ee926fe"
     },
     {
-      "path": "pencil-impression/透明装饰素材/article-image-frame-v6.png",
-      "bytes": 948939,
-      "sha256": "3580a693bc9f6b6fc0f14acdfb9e93cdf48f9536fad3191ee1d6372cad445c19"
+      "path": "02. 星尘手记/透明装饰素材/header-echo-v3.png",
+      "bytes": 359262,
+      "sha256": "2d9229c8fa51bad0a0c22c3ee1063c8e7727b81cdc4552fd8f2751f3e6efb7d9"
     },
     {
-      "path": "pencil-impression/透明装饰素材/bullet-double-v5.png",
-      "bytes": 647311,
-      "sha256": "8ce58bcda6dc72855edd6430808194b7a01591a36f6c1f7829224bc6ebd6b1fc"
+      "path": "02. 星尘手记/透明装饰素材/header-flight-v5.png",
+      "bytes": 379082,
+      "sha256": "8812697a36efecf22e0e0ca6704a0514b1947bab3c47edfb3473b0af154a3154"
     },
     {
-      "path": "pencil-impression/透明装饰素材/bullet-single-v5.png",
-      "bytes": 720376,
-      "sha256": "ba207afdcde54c031ebe905d8a66d895991bf077e2a9b1f2fdf30ad8886dcab7"
+      "path": "02. 星尘手记/透明装饰素材/header-galaxy-mist-v6.png",
+      "bytes": 948160,
+      "sha256": "bce2b51f3f6b5f18872def0256fbea2d6a6fb11654b0e78963b7dd829e4567c6"
     },
     {
-      "path": "pencil-impression/透明装饰素材/code-lanting-mark-v13.png",
-      "bytes": 542979,
-      "sha256": "78c1cecc4e515d5a6eb6a094d7e7fc1742da9af1dd3ff081c5d2f599c86f6209"
+      "path": "02. 星尘手记/透明装饰素材/header-gravity-v3.png",
+      "bytes": 240093,
+      "sha256": "ae0ded410e0e965d14714016ddda795032925c440304a54c3a7feb85412db0cf"
     },
     {
-      "path": "pencil-impression/透明装饰素材/code-lanting-v8.png",
-      "bytes": 568270,
-      "sha256": "a851d249c142320fb4774e38f1601190af139fe78e5bb10530db93a329456943"
+      "path": "02. 星尘手记/透明装饰素材/header-nebula-v3.png",
+      "bytes": 390225,
+      "sha256": "709a4812cde4a2e193a38e36ba8ed17fe6c2f86bcfc190628c6068a193f691c6"
     },
     {
-      "path": "pencil-impression/透明装饰素材/code-trio-v5.png",
-      "bytes": 889890,
-      "sha256": "b6cbd30300e48de074c84b8cb96ff3098ca15dfed715850e1e9523e0ad8d7cc1"
+      "path": "02. 星尘手记/透明装饰素材/header-phases-v3.png",
+      "bytes": 382521,
+      "sha256": "f3417621c2b264d9cbcce2d5a544a4cb899be7fc53fbc12da322f2fbda145baa"
     },
     {
-      "path": "pencil-impression/透明装饰素材/ending-selected-v12.png",
-      "bytes": 556564,
-      "sha256": "17cc1a92c18d9f22b9c5b35ae2b0683bb46593b99f5419205e8d296269609a44"
+      "path": "02. 星尘手记/透明装饰素材/mono-chapter-seal-v4.png",
+      "bytes": 8271,
+      "sha256": "7b464e3b8f02a2936ffb691e5d58e3d1a7c1cb335cb44b21494697eb46c74227"
     },
     {
-      "path": "pencil-impression/透明装饰素材/h1-number-01-v6.png",
-      "bytes": 452416,
-      "sha256": "c1a284907c40f671774542addfc1997b713bc0efa8dfede4f2ec885734cfa6e2"
+      "path": "02. 星尘手记/透明装饰素材/mono-code-controls-v3.png",
+      "bytes": 3777,
+      "sha256": "1017927cf2cfca6c2212047b3789920f856f1d8ac4973dea2c33c2ab10519011"
     },
     {
-      "path": "pencil-impression/透明装饰素材/h1-number-02-v6.png",
-      "bytes": 290683,
-      "sha256": "8c02d6380a71b56c256648883b5ab6a87dbdf0951d0ec1ca168dc2ba80358825"
+      "path": "02. 星尘手记/透明装饰素材/mono-code-phases-v4.png",
+      "bytes": 37330,
+      "sha256": "a52e7b3640f8205983c350fb62c65a6b13fb1242e6da0066f11d13c31fa6ba0a"
     },
     {
-      "path": "pencil-impression/透明装饰素材/h1-number-03-v6.png",
-      "bytes": 576020,
-      "sha256": "992acd9565f1d49e28d5f2338d879fd9ec9fc7c7dd32822b77057911b87faf67"
+      "path": "02. 星尘手记/透明装饰素材/mono-diamond-v2.png",
+      "bytes": 2599,
+      "sha256": "178e7d1d661b6800aac3fbc9038011302ae98d17f67bf49aa34d6953be6667cc"
     },
     {
-      "path": "pencil-impression/透明装饰素材/h1-number-04-v6.png",
-      "bytes": 450839,
-      "sha256": "10f2a7475da8c0dbcb53d4f614859e0848b41387f366d18a5e6c00b1538c4d49"
+      "path": "02. 星尘手记/透明装饰素材/mono-divider-nebula-v5.png",
+      "bytes": 68652,
+      "sha256": "b175cf17af5e9d1a93cc8dd2d475bec4e54c1c55fa45ee9bb0d8c11ef3b56361"
     },
     {
-      "path": "pencil-impression/透明装饰素材/h1-watermark-01-v13.png",
-      "bytes": 405126,
-      "sha256": "41430fc42b6c04c253520c47c288b00b5e8cb527b3ef0d773cd28fa9e7f0126e"
+      "path": "02. 星尘手记/透明装饰素材/mono-film-v2.png",
+      "bytes": 271534,
+      "sha256": "4494c781d4b76c341232a02e9bea52aaedba59936554cb486588f43e41d50d0d"
     },
     {
-      "path": "pencil-impression/透明装饰素材/h1-watermark-02-v13.png",
-      "bytes": 253545,
-      "sha256": "c8800e50fc03d7d5ddaf851507b886c8ac6651726fc9d6e08deb5cc4d44ef5ae"
+      "path": "02. 星尘手记/透明装饰素材/mono-footer-v4.png",
+      "bytes": 202348,
+      "sha256": "fcd30117d38d3bb019eab5a6bd7e574450984757eb1c673cc9c10ee18a768683"
     },
     {
-      "path": "pencil-impression/透明装饰素材/h1-watermark-03-v13.png",
-      "bytes": 514488,
-      "sha256": "e41cdb9e6829317c165b5b285b12e0af678940710399347315001da7aa2e779e"
+      "path": "02. 星尘手记/透明装饰素材/mono-nebula-bullet-v3.png",
+      "bytes": 9371,
+      "sha256": "744c9d0315f4b22c2263a4f5a0c2be16e44c607cf06416f82ec95e379f89aa7e"
     },
     {
-      "path": "pencil-impression/透明装饰素材/h1-watermark-04-v13.png",
-      "bytes": 406575,
-      "sha256": "bea39ecd0a921b1778c590138678ca6896ce658aa6a18e54563034b3097c0e2f"
+      "path": "02. 星尘手记/透明装饰素材/mono-orbit-mark-v2.png",
+      "bytes": 29194,
+      "sha256": "c988b511b50c803409863e29d792cdfa25492e81256a6d0910662d7195d1b144"
     },
     {
-      "path": "pencil-impression/透明装饰素材/h2-mountain-mark-v13.png",
-      "bytes": 67597,
-      "sha256": "68d25d143739cf926bd18cbbccdc417f752275ba4535970314daffb0e23cc2dd"
+      "path": "02. 星尘手记/透明装饰素材/mono-quote-mark-v3.png",
+      "bytes": 8911,
+      "sha256": "b9c7b0aaf99b7ed4844889a5cb749d669e43cd427478cd702b790d84c8654d57"
     },
     {
-      "path": "pencil-impression/透明装饰素材/h2-mountain-v6.png",
-      "bytes": 101752,
-      "sha256": "7a585a69546eaf118e12ac549faa6b5e66a59cc9f3925b278764ac9ddcdcbd68"
+      "path": "02. 星尘手记/透明装饰素材/mono-shimmer-underline-v3.png",
+      "bytes": 6281,
+      "sha256": "e669356524ce693b06cbdde767bdf7c2b8094643207d042c13fd67f659c5893c"
     },
     {
-      "path": "pencil-impression/透明装饰素材/header-bodhi-v3.png",
-      "bytes": 380385,
-      "sha256": "d645e290c463e30d10d9a2cc90a378b76823ce011dd58ab619e61cf55a961137"
+      "path": "02. 星尘手记/透明装饰素材/mono-table-orbit-v5.png",
+      "bytes": 10908,
+      "sha256": "9f228bf26ff320a033baa7c027bd4df7f316f25d9597c53675e05387e5286332"
     },
     {
-      "path": "pencil-impression/透明装饰素材/header-dongpo-v3.png",
-      "bytes": 210699,
-      "sha256": "5648df2a67cddb3e04800a183a022201facd019424e7b6769794dae94d137ac6"
+      "path": "02. 星尘手记/配套字体资源/OFL.txt",
+      "bytes": 4390,
+      "sha256": "d6cec39519f63e3848da753f071e04cae96322dc92f5834734f9060cc6322104"
     },
     {
-      "path": "pencil-impression/透明装饰素材/header-lanting-v2.png",
-      "bytes": 478590,
-      "sha256": "e201f122b1c869b5783665c0008e8b9ae4f5247d1715c3e64d0dd2c76a66625f"
+      "path": "02. 星尘手记/配套字体资源/方正清刻本悦宋简体.TTF",
+      "bytes": 3145340,
+      "sha256": "80e23be5802f9283f34db0b9fcfb785a2c70666d0a398a62889561cfac4a470c"
     },
     {
-      "path": "pencil-impression/透明装饰素材/header-qianli-v2.png",
-      "bytes": 511221,
-      "sha256": "a0a6258845cb12f13e7b80f8cca25ddd85fdae977deb011f9944a5eccac2fb68"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/header-xiake-v3.png",
-      "bytes": 383248,
-      "sha256": "2da8a34c075e7f7466c0b86a0af26a363ea866d074e983a09980f13137d00646"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/header-yangming-v3.png",
-      "bytes": 430643,
-      "sha256": "40a001d9a83b5a77f5c9a9b10348e24ebb224782bbe1231cd31c573edcc0f9be"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/highlight-wash-v5.png",
-      "bytes": 1671813,
-      "sha256": "f68cf7197b6d77ee6b071279d486978d038feb328c8100c5be8e09f5c41d3437"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/number-1-v4.png",
-      "bytes": 622766,
-      "sha256": "06761d0314bcc1e7db6014a925c3997e7a97bdd239c13c71fe729fc52014005e"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/number-10-v4.png",
-      "bytes": 1127245,
-      "sha256": "908ab36b620516a57a18eb815c95c60173430f10b3629bdbfe253cdfe1926b88"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/number-2-v4.png",
-      "bytes": 862461,
-      "sha256": "8daf41cc42569ce4ffd35315a1848fc0cb8565b21ee1eb26aea360df741302ee"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/number-3-v4.png",
-      "bytes": 691649,
-      "sha256": "5bb77a953d14c893c42794787bbb34443dc178064081cf4226efefb8fa4f254f"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/number-4-v4.png",
-      "bytes": 761075,
-      "sha256": "344592840548b588dab1a8b9733555057831908468d7ed7a77f2abe08b95a9b3"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/number-5-v4.png",
-      "bytes": 754041,
-      "sha256": "1d868f600a8de3629e773b7a9b11e14d4486d6b85a49bf222aa84b671eb4ed71"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/number-6-v4.png",
-      "bytes": 854636,
-      "sha256": "b47819d8a316723c03d6af77e0d3ba6afa99a5cda4b0529fbdc2114636cfd866"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/number-7-v4.png",
-      "bytes": 645845,
-      "sha256": "364e40f9ae119b8548564a8bf7f78feeaf05ba0a11a40f37aca492849c1b922b"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/number-8-v4.png",
-      "bytes": 991393,
-      "sha256": "168f76558d30df6912e8da36dc8fd28dc49440440d02b419a132572e33992961"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/number-9-v4.png",
-      "bytes": 974355,
-      "sha256": "4b8c40cdb43bfb20e5c123c79cbc42375a72bc1135d7eded1b25770022091070"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/paper-grain.png",
-      "bytes": 2153627,
-      "sha256": "29521b949bbee347d3ecdfbcf117c103a0447aa7bb06d551299df7f904be265f"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/quote-selected-v10.png",
-      "bytes": 401988,
-      "sha256": "78ea10c4885acae36ed8b07904c7af05241e61b787272deadbedfd81035f6684"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/river-divider-v4.png",
-      "bytes": 564005,
-      "sha256": "ba6104f34c9a6fa26feba34f2e087c4ec45822b5e47e0a4dc02603f6249f949d"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/scroll-bottom-joined-v14.png",
-      "bytes": 319029,
-      "sha256": "bbc10fc3a1922b789e873f83bd13c7c4275b8121066b11dbfc8131fce0affd39"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/scroll-bottom-strip-v13.png",
-      "bytes": 335298,
-      "sha256": "903fa0ce222580434f6fa4a39d14c4b9394ddf5a90fec9ef5d6394fdcfb1367e"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/scroll-bottom-v4.png",
-      "bytes": 370750,
-      "sha256": "5d204dad66a90c5db57723fc9b8f4ef80cab2008aa3dc0a2f58b1115950346d7"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/scroll-sides-v4.png",
-      "bytes": 111539,
-      "sha256": "cf5975a1472736b196de70e74394de34899e3cd504d766c21b184bfe764aed21"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/scroll-top-joined-v14.png",
-      "bytes": 424239,
-      "sha256": "ec9bdc073db32a104f74cb44d91cc892ffa7828effcb409aba6e5b0119bf5006"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/scroll-top-strip-v13.png",
-      "bytes": 428406,
-      "sha256": "65bcc7a3e0b7896da2ec4dfdd58e4c27d29f47f8aafd01dd12a2eb4c89505b12"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/scroll-top-v4.png",
-      "bytes": 478011,
-      "sha256": "c1a8bb67ab6b65e770fae99cd1549b4db6e4770ee1b94a825d8f87d08f440d60"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/strike-stroke-v5.png",
-      "bytes": 239889,
-      "sha256": "e34d2a67cdc3bf43beb26dce670b685457992d0e55a53a8e79ffe84ef23f1ad6"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/table-head-rub-v5.png",
-      "bytes": 399277,
-      "sha256": "5cd83bed14d9d17bc7cf5482a7ce144d8f0d5622f24f8e0277f5017e6e48b8a8"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/table-head-rule-v14.png",
-      "bytes": 360981,
-      "sha256": "49be00d6a7c3ec2e94f86da23827291963cae755e67e713adf889028760c6a62"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/table-row-dashes-v5.png",
-      "bytes": 54107,
-      "sha256": "2851fd4324196065ca6e5e59f83df0a27e4641e7c766e05b981b7ceb7e99f80e"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/table-row-rule-v14.png",
-      "bytes": 22293,
-      "sha256": "786e66141608d3aab30bc3abdcf44f0ed0f5922199ea380dad90b4734a9ab141"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/tag-frame-v5.png",
-      "bytes": 273030,
-      "sha256": "bc5bab9f004ce8006e2d61113623ce2fa88af1f3331f262621a35556ba8c6e23"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/task-done-v4.png",
-      "bytes": 835269,
-      "sha256": "dbf11ea89ebfa715939851c75f9fe4b4803658b8655e496725abda4113497eb0"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/task-open-v4.png",
-      "bytes": 406658,
-      "sha256": "3a71c48830427c3a855e55a5af343018df557ca6253ca66a28457b1eada4e942"
-    },
-    {
-      "path": "pencil-impression/透明装饰素材/underline-v4.png",
-      "bytes": 149177,
-      "sha256": "c8127cc65bb683eeed5a7ab1319449cc20fa26270502a1a017ac62b776a33983"
-    },
-    {
-      "path": "pencil-impression/配套字体资源/HuiwenMincho-LICENSE.txt",
-      "bytes": 357,
-      "sha256": "ccabb820e5f96389077453e75fe7eb1e1b35d969df070003c177938226d000c3"
-    },
-    {
-      "path": "pencil-impression/配套字体资源/HuiwenMincho.coverage.json",
-      "bytes": 97097,
-      "sha256": "d3dc917b6e9ef6b4a9de32a8a8140326845b77332066c6c67e43fa040b71af76"
-    },
-    {
-      "path": "pencil-impression/配套字体资源/HuiwenMincho.woff2",
-      "bytes": 8020924,
-      "sha256": "f190d33a26eb0ea9bfa841d82806135f49580e6637439c01279769bbd5c6b832"
-    },
-    {
-      "path": "pencil-impression/配套字体资源/JyunsaiKaai-OFL.txt",
-      "bytes": 4370,
-      "sha256": "d4440527471c359d33dcfc2440deb02f818e07c8cd144159e0688cd6ba18962d"
-    },
-    {
-      "path": "pencil-impression/配套字体资源/JyunsaiKaai-Regular.woff2",
-      "bytes": 4110768,
-      "sha256": "a9232340e05e9d32d9ed9f57b0446a6e94dd292a0ccaf116fb7681dc09fd447d"
-    },
-    {
-      "path": "pencil-impression/配套字体资源/JyunsaiKaai.coverage.json",
-      "bytes": 122743,
-      "sha256": "d42ecfe100907a5217e6efacb1616327e60df84aef1f2defad54ad76626de424"
-    },
-    {
-      "path": "pencil-impression/配套字体资源/Zhuque-LICENSE.txt",
-      "bytes": 4389,
-      "sha256": "66cc01ad4df62fca6936431a426104cb32a52ce8da49de9a7d643e02d7659043"
-    },
-    {
-      "path": "pencil-impression/配套字体资源/ZhuqueFangsong.coverage.json",
-      "bytes": 54689,
-      "sha256": "c5d2105ea0d952b099f5e853f7989361fda1485422360568a2e1d3625e271f13"
-    },
-    {
-      "path": "pencil-impression/配套字体资源/ZhuqueFangsong.ttf",
+      "path": "02. 星尘手记/配套字体资源/朱雀仿宋.ttf",
       "bytes": 4817412,
       "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53"
     },
     {
-      "path": "simple-sketch/manifest.json",
+      "path": "03. 简笔手绘/manifest.json",
       "bytes": 6867,
       "sha256": "c3f0d0084526bea0a58250a78df647d2c474ea42f01102962922c7ab4b79d6fa"
     },
     {
-      "path": "simple-sketch/theme.css",
+      "path": "03. 简笔手绘/theme.css",
       "bytes": 10145,
       "sha256": "38ad8111c402bdf0c2fb2db56a43781b1f1782f3879e74800b30731cdc45a56b"
     },
     {
-      "path": "simple-sketch/主题展示案例/0. 案例预览.md",
+      "path": "03. 简笔手绘/主题展示案例/0. 案例预览.md",
       "bytes": 1524,
       "sha256": "b4b6ef0b175ba101ec7594a975a26463a404c5daccef83af30215cbc5a4df854"
     },
     {
-      "path": "simple-sketch/主题展示案例/1. 封面-横版-2.35比1.png",
+      "path": "03. 简笔手绘/主题展示案例/1. 封面-横版-2.35比1.png",
       "bytes": 1098484,
       "sha256": "630c3d3be129a203f34d434f6dc404b0a7f6789696f762a9bdd16a2e966d1500"
     },
     {
-      "path": "simple-sketch/主题展示案例/2. 封面-方版-1比1.png",
+      "path": "03. 简笔手绘/主题展示案例/2. 封面-方版-1比1.png",
       "bytes": 1170683,
       "sha256": "ff93471858c84c5228f99f065b7d1e75c25499beb32d6b585d64f5c7383ff7f8"
     },
     {
-      "path": "simple-sketch/主题展示案例/3. 配图-概念解释-16比9.png",
+      "path": "03. 简笔手绘/主题展示案例/3. 配图-概念解释-16比9.png",
       "bytes": 1119226,
       "sha256": "26243ce4d21695d87f44b858c39224a537db0c2dfdd025330904c9306982b45d"
     },
     {
-      "path": "simple-sketch/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "path": "03. 简笔手绘/主题展示案例/4. 配图-流程讲解-16比9.png",
       "bytes": 1184336,
       "sha256": "66f92e66cd0821b0462454927862405a48b1d5b797307cd80375a12246374b5f"
     },
     {
-      "path": "simple-sketch/主题展示案例/5. 配图-观点对照-16比9.png",
+      "path": "03. 简笔手绘/主题展示案例/5. 配图-观点对照-16比9.png",
       "bytes": 1142850,
       "sha256": "581d3d7fdf11d11a560bc8357c788c4636a1ab945aceabb5d2ad3ad22a44d133"
     },
     {
-      "path": "simple-sketch/主题展示案例/6. 配图-总结检查-16比9.png",
+      "path": "03. 简笔手绘/主题展示案例/6. 配图-总结检查-16比9.png",
       "bytes": 1069561,
       "sha256": "f357fda8abfb418d04f5b271ca96a7137723ea405126d739e8f6cd05202b734b"
     },
     {
-      "path": "simple-sketch/主题展示案例/模板介绍图.png",
-      "bytes": 3363043,
-      "sha256": "90413c59057cd107e775aebb7349168a5edf31a8815d1a40744a85a31b501542"
+      "path": "03. 简笔手绘/主题展示案例/模板介绍图.png",
+      "bytes": 3362950,
+      "sha256": "dcf9d799525a3a6d67e45b00c3429dc8442663f221e663e3b124886a815d9e30"
     },
     {
-      "path": "simple-sketch/主题视觉规范/1. 视觉风格总则.md",
+      "path": "03. 简笔手绘/主题视觉规范/1. 视觉风格总则.md",
       "bytes": 787,
       "sha256": "665a30fcdcca69790b12a2a9efbc545502936dcd08c331858227d6c2f7ca3d85"
     },
     {
-      "path": "simple-sketch/主题视觉规范/2. 文章封图规范.md",
+      "path": "03. 简笔手绘/主题视觉规范/2. 文章封图规范.md",
       "bytes": 2838,
       "sha256": "eae4f713d41880418e06b35966ef81af4ccd72aa366c83b686725b471e94f97c"
     },
     {
-      "path": "simple-sketch/主题视觉规范/3. 正文配图规范.md",
+      "path": "03. 简笔手绘/主题视觉规范/3. 正文配图规范.md",
       "bytes": 2652,
       "sha256": "0098a77d27af079c3ef0de081e4a387dd142a196c5bc81463a76676863bd3766"
     },
     {
-      "path": "simple-sketch/正文组件结构/opening.html",
+      "path": "03. 简笔手绘/正文组件结构/opening.html",
       "bytes": 112,
       "sha256": "1c56d367e5e7c7599fa9e2b5d8f1c4e5dc8c5b284bb69831173e4c018809281f"
     },
     {
-      "path": "simple-sketch/正文组件结构/reading-footer.html",
+      "path": "03. 简笔手绘/正文组件结构/reading-footer.html",
       "bytes": 180,
       "sha256": "41dd6183b869e221299f5c8d3d5ca7affb12708cbaa50af39719b55adbfc6631"
     },
     {
-      "path": "simple-sketch/透明装饰素材/bullet-v2.png",
+      "path": "03. 简笔手绘/透明装饰素材/bullet-v2.png",
       "bytes": 2552,
       "sha256": "a65f90a23e2735987fc357e175b0c674e9997fafaf6eea4db22428fdc4eb46a1"
     },
     {
-      "path": "simple-sketch/透明装饰素材/code-dots.png",
+      "path": "03. 简笔手绘/透明装饰素材/code-dots.png",
       "bytes": 410,
       "sha256": "36963abd81069bf0dfadae8190efcc1a5832020a644c5043403ef4de59300c96"
     },
     {
-      "path": "simple-sketch/透明装饰素材/divider-v4.png",
+      "path": "03. 简笔手绘/透明装饰素材/divider-v4.png",
       "bytes": 21479,
       "sha256": "45b7c3a1b5d4727c08589c4ef00c749062a852df065e5a97c3a675f0d04fb51b"
     },
     {
-      "path": "simple-sketch/透明装饰素材/h2-prefix-v2.png",
+      "path": "03. 简笔手绘/透明装饰素材/h2-prefix-v2.png",
       "bytes": 5953,
       "sha256": "8df9c9f13f3b5d8693a2a5d5faec7b360ddedce63d92d13e7b8c22a0cabb6ee4"
     },
     {
-      "path": "simple-sketch/透明装饰素材/header-desk-v1.png",
+      "path": "03. 简笔手绘/透明装饰素材/header-desk-v1.png",
       "bytes": 177653,
       "sha256": "4b70a96234d41d8f9eb57a41de87bbf24cffaccd1b4e9e407a1979374fe69a3b"
     },
     {
-      "path": "simple-sketch/透明装饰素材/header-dialogue-v1.png",
+      "path": "03. 简笔手绘/透明装饰素材/header-dialogue-v1.png",
       "bytes": 187089,
       "sha256": "c4d033c5f25aec0eb86a20b27347ac1037c84cc752c1f19fb2c0d1055b7d9061"
     },
     {
-      "path": "simple-sketch/透明装饰素材/header-knowledge-v1.png",
+      "path": "03. 简笔手绘/透明装饰素材/header-knowledge-v1.png",
       "bytes": 188032,
       "sha256": "e20aa0a66564197981a5ceceb1391c612b10e8ae9c2e4c9f2f090d09ea3af6cf"
     },
     {
-      "path": "simple-sketch/透明装饰素材/opening-v6.png",
+      "path": "03. 简笔手绘/透明装饰素材/opening-v6.png",
       "bytes": 188086,
       "sha256": "a24bb20ec1d226881edc067d7007f13d4afe3e34f5c10aec87182e68d3a34c38"
     },
     {
-      "path": "simple-sketch/透明装饰素材/page-bg.png",
+      "path": "03. 简笔手绘/透明装饰素材/page-bg.png",
       "bytes": 253,
       "sha256": "68dfedfac3726a7da3ec4440a7accb0bc98963cbc223da7d4af616cc9156aa77"
     },
     {
-      "path": "simple-sketch/透明装饰素材/quote-mark.png",
+      "path": "03. 简笔手绘/透明装饰素材/quote-mark.png",
       "bytes": 6211,
       "sha256": "a582e3e2e6eb91b5733b5bf4c9e6ecc8d84dfd2c258d298f23b4db76d64ee9ba"
     },
     {
-      "path": "simple-sketch/透明装饰素材/reading-footer-v7.png",
+      "path": "03. 简笔手绘/透明装饰素材/reading-footer-v7.png",
       "bytes": 142788,
       "sha256": "09d7d211299606228ba42643a4f38f5bf42b9c38e4f1644030e719b7dab7006d"
     },
     {
-      "path": "simple-sketch/透明装饰素材/sk-num-0.png",
+      "path": "03. 简笔手绘/透明装饰素材/sk-num-0.png",
       "bytes": 4417,
       "sha256": "aedc88f1dede427d21b43e055727423eec7bcc27a7537fd64bbbeeac20b2c3e5"
     },
     {
-      "path": "simple-sketch/透明装饰素材/sk-num-1.png",
+      "path": "03. 简笔手绘/透明装饰素材/sk-num-1.png",
       "bytes": 2216,
       "sha256": "3119ccc6003d155fe731bc862c8ef1986f994d85abeaa6d713f08adcce66a108"
     },
     {
-      "path": "simple-sketch/透明装饰素材/sk-num-2.png",
+      "path": "03. 简笔手绘/透明装饰素材/sk-num-2.png",
       "bytes": 3899,
       "sha256": "a248bcb5104be1fcfd6e15533e6075685dd0fb2e50343980aedcb1234d149c3c"
     },
     {
-      "path": "simple-sketch/透明装饰素材/sk-num-3.png",
+      "path": "03. 简笔手绘/透明装饰素材/sk-num-3.png",
       "bytes": 4260,
       "sha256": "80fb571e15dcdd134dcece0eda4651095c7c6fb2da6695d7c7e2ff75f81173be"
     },
     {
-      "path": "simple-sketch/透明装饰素材/sk-num-4.png",
+      "path": "03. 简笔手绘/透明装饰素材/sk-num-4.png",
       "bytes": 3660,
       "sha256": "9817a83bf3d8c73dd664524b8c881a99a6bfc8d21239bc9b991dd7db81ee2ee5"
     },
     {
-      "path": "simple-sketch/透明装饰素材/sk-num-5.png",
+      "path": "03. 简笔手绘/透明装饰素材/sk-num-5.png",
       "bytes": 4578,
       "sha256": "b90b8011fc67a8e73ca9297479b6e9ecbef91a49b26f51ab4139ed4c0a25cb42"
     },
     {
-      "path": "simple-sketch/透明装饰素材/sk-num-6.png",
+      "path": "03. 简笔手绘/透明装饰素材/sk-num-6.png",
       "bytes": 4690,
       "sha256": "eeec3aa7787c606506e92ca6a7f8142eeedc647c57bbf296ca6b65b2243082b7"
     },
     {
-      "path": "simple-sketch/透明装饰素材/sk-num-7.png",
+      "path": "03. 简笔手绘/透明装饰素材/sk-num-7.png",
       "bytes": 3365,
       "sha256": "fdf0701f6cb9dc4cdfe623532d2e8da8e3dd64e3f687ce1250f8c57a59556744"
     },
     {
-      "path": "simple-sketch/透明装饰素材/sk-num-8.png",
+      "path": "03. 简笔手绘/透明装饰素材/sk-num-8.png",
       "bytes": 5046,
       "sha256": "0a856f86cff475fac05eda68c71ded0c50ef66c061d7c395599e9767d2b92117"
     },
     {
-      "path": "simple-sketch/透明装饰素材/sk-num-9.png",
+      "path": "03. 简笔手绘/透明装饰素材/sk-num-9.png",
       "bytes": 4390,
       "sha256": "58178db955d6367717f761920a8369a3d6db202bd46dcea870f0ae5f9676abb1"
     },
     {
-      "path": "simple-sketch/透明装饰素材/table-header-v5.png",
+      "path": "03. 简笔手绘/透明装饰素材/table-header-v5.png",
       "bytes": 6150,
       "sha256": "5ed0f513ffb23a89f54642c354ba70c63dee7ad56722ed8bced3908a611cc55b"
     },
     {
-      "path": "simple-sketch/配套字体资源/HarmonyOS_Sans_SC_Black.ttf",
+      "path": "03. 简笔手绘/配套字体资源/HarmonyOS_Sans_SC_Black.ttf",
       "bytes": 8293520,
       "sha256": "24db076cc40d8a5d2aa32374e93f1d5b001e8aca7946eba54d81840937d6f6ef"
     },
     {
-      "path": "simple-sketch/配套字体资源/LICENSE_Fonts",
+      "path": "03. 简笔手绘/配套字体资源/LICENSE_Fonts",
       "bytes": 3352,
       "sha256": "327e0147d4a3ca2d89e81abce45b210576b0f9fe2b29d900f64b58039f12a102"
+    },
+    {
+      "path": "04. 黑夜女神/manifest.json",
+      "bytes": 8889,
+      "sha256": "9e71f1638295e4cabb1bb5756fdb973d86dc43e615877fe6cbfea9a615245764"
+    },
+    {
+      "path": "04. 黑夜女神/theme.css",
+      "bytes": 9990,
+      "sha256": "43796ae8945fcf9d2774d285f2656025ee982fc8f2857e84751d36a33b501318"
+    },
+    {
+      "path": "04. 黑夜女神/主题展示案例/0. 案例预览.md",
+      "bytes": 1547,
+      "sha256": "1b87c126411fa243f808eb032463b82f49c5543fd0f21f8a55b7cf830d959e6a"
+    },
+    {
+      "path": "04. 黑夜女神/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 2121383,
+      "sha256": "82e05e41e99798b1eeda0cb4da0125928f272620844bb67d588ba5bed09a613e"
+    },
+    {
+      "path": "04. 黑夜女神/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 2221624,
+      "sha256": "5a25a305abf2b813d45bb5e392ec76f08c3ada40f5c9cb4b52e27f9cbeffcde3"
+    },
+    {
+      "path": "04. 黑夜女神/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1953896,
+      "sha256": "9028587cde90791412d9ed987dbce83b9e21773d0d398aaea24e181b0156c55c"
+    },
+    {
+      "path": "04. 黑夜女神/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 2178059,
+      "sha256": "fe505494192638cc6fd04b4a5550f27ef5742351837c40266bd6e27f9094e477"
+    },
+    {
+      "path": "04. 黑夜女神/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 2330191,
+      "sha256": "0060fb067e9838394342cbc1f45b69f38b259e8aba822b6c06e8a2f9d35bd22d"
+    },
+    {
+      "path": "04. 黑夜女神/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1963049,
+      "sha256": "3df0712e8345e788eb18e769610c34258db80ae352809c1a037974b2ca653776"
+    },
+    {
+      "path": "04. 黑夜女神/主题展示案例/模板介绍图.png",
+      "bytes": 12270895,
+      "sha256": "d20d3334501839da45ebf698289101e677274d3921dfb2563f9d62a4b7909c6b"
+    },
+    {
+      "path": "04. 黑夜女神/主题视觉规范/1. 视觉风格总则.md",
+      "bytes": 837,
+      "sha256": "a8708126d52395138821e85c52812ebe8cbb8fa6ed66708649eb70a6b79351fb"
+    },
+    {
+      "path": "04. 黑夜女神/主题视觉规范/2. 文章封图规范.md",
+      "bytes": 2838,
+      "sha256": "b13352df8e5cda9d0619e25be3c73c612b1d695c511daa106af2f50959781e81"
+    },
+    {
+      "path": "04. 黑夜女神/主题视觉规范/3. 正文配图规范.md",
+      "bytes": 2652,
+      "sha256": "7c1a9ca38a70f60904e5dff7fcd36c33d0dd982d4679af9c7677b47408282e81"
+    },
+    {
+      "path": "04. 黑夜女神/正文组件结构/ending-actions.html",
+      "bytes": 171,
+      "sha256": "efa39efcf66f5159d5dfc2a8579f12863105d1d9a21709e191ac9b3ac7e98f73"
+    },
+    {
+      "path": "04. 黑夜女神/正文组件结构/opening-frieze.html",
+      "bytes": 132,
+      "sha256": "35978d675e75a41c15fbfce7b737024776b07aa54ba254afe2d9b1b45ace8261"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/banner-drifting-stars-v7.png",
+      "bytes": 651601,
+      "sha256": "dfc123c4d4f1f7db72101472747bd4d4e7c0d681493afe24b91ba69793164e1c"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/banner-moon-flow-v7.png",
+      "bytes": 880301,
+      "sha256": "2f4d51894560b8fc2aaf31702c144ebaa512144bfc2ba7f496a47c66fecf991f"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/banner-nebula-tide-v7.png",
+      "bytes": 1705009,
+      "sha256": "ec8b8ae351008dcf693316ba1bf24d756d37315fc8ada947230f01babe95bfcb"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/banner-star-atlas-v7.png",
+      "bytes": 1389292,
+      "sha256": "44dd45ec261c0c269c5de92409aa1b7f829e60177270b0fc22fa6029816fb10e"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/bullet-crescent-v6.png",
+      "bytes": 440535,
+      "sha256": "e1b147c17859c02d08346214dbfe4a0b134d2efdbe623c433d9212827f67d366"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/bullet-gibbous-v6.png",
+      "bytes": 1141916,
+      "sha256": "1229fd65b88316ae264301cb6eefc79594422b40d1358b8364b522d2af6a657e"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/code-astral-dots-v8.png",
+      "bytes": 1719396,
+      "sha256": "7a256534c3d2ed2217d1c0a7799311eb9e773e8b031db55356a5f6dd2f087e1d"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/code-star-watermark-v7.png",
+      "bytes": 214239,
+      "sha256": "5b966c3b087e87bbdcdfe847471d79f59d3f2546ca0583986046637b4fe7d2e7"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/ending-mural-sigils-v6.png",
+      "bytes": 1138010,
+      "sha256": "cd9f155851b0f16df943e6c2f575bf6b1a0bec3d31699710edceac8e4a4f0501"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/gilded-metal-v8.png",
+      "bytes": 3237687,
+      "sha256": "d7ad855bc7c75dc9351869f2d4cdc05410948fc83b66faf8b849d876628cd7a1"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/h1-lunar-phases-v3.png",
+      "bytes": 198145,
+      "sha256": "f45d997e10661d7df9bb8c157f570311cb8856c70f62f5ddea2b31fc284fb7a3"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/h2-crescent-v5.png",
+      "bytes": 1515017,
+      "sha256": "048182325527cab6587c811e30acbae4660597b8c4e31ffdec9eefe1dce892b4"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/luminous-underline-v4.png",
+      "bytes": 135342,
+      "sha256": "51bd952df57c0b456505b310d643cadffa544ab0b4abaadc605b4b90bbafb948"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/moon-phase-divider-v2.png",
+      "bytes": 378417,
+      "sha256": "6d0ecea6e415984a89b0c0f7a625906b6414287b48faa6452b1dcb087024255e"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/night-sky-texture.png",
+      "bytes": 2106586,
+      "sha256": "7ca9729ff1fc18f5731d4a1b6bf7aea39b648493fb68ec5ed206832506c0f843"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/quote-abyss-moon-v6.png",
+      "bytes": 2596720,
+      "sha256": "1e3d6434542e97cf2b548602f479868e20700075de2390e840871f7549960570"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/todo-done-v6.png",
+      "bytes": 1124899,
+      "sha256": "d6c046daa1885ceaa6fe7c3569a719ae6e21ee1dc6b00ce3baafcaafe0ef9ff5"
+    },
+    {
+      "path": "04. 黑夜女神/透明装饰素材/todo-empty-v6.png",
+      "bytes": 711604,
+      "sha256": "86137143c51947b17d588887283024fed7a00cf7b952910f31e056a0efce2b15"
+    },
+    {
+      "path": "04. 黑夜女神/配套字体资源/OFL.txt",
+      "bytes": 4390,
+      "sha256": "d6cec39519f63e3848da753f071e04cae96322dc92f5834734f9060cc6322104"
+    },
+    {
+      "path": "04. 黑夜女神/配套字体资源/朱雀仿宋.ttf",
+      "bytes": 4817412,
+      "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53"
+    },
+    {
+      "path": "05. 蜡笔手绘/manifest.json",
+      "bytes": 11947,
+      "sha256": "c3e7372905836569ad7837af69c40acf5816af0206c5b2b8d48664abbfe531b7"
+    },
+    {
+      "path": "05. 蜡笔手绘/theme.css",
+      "bytes": 10663,
+      "sha256": "3e131ea07716c76606f39149ed75bd8d8bbbbb22f99a851b3f210032e3394076"
+    },
+    {
+      "path": "05. 蜡笔手绘/主题展示案例/0. 案例预览.md",
+      "bytes": 1539,
+      "sha256": "871f8e670fbb4a7aa1ece1e51f6d7bbf03654067f5cbbd3f9392ed7f6add6143"
+    },
+    {
+      "path": "05. 蜡笔手绘/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 2520037,
+      "sha256": "d9284592eb26dc4fd909a1fd12f5bf7c30bf6f4525e35930b87e38c023f25094"
+    },
+    {
+      "path": "05. 蜡笔手绘/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 2344831,
+      "sha256": "19b1027c189493c804287aebfbb82048546205b7fc7bd1c2b9e21e99b8397978"
+    },
+    {
+      "path": "05. 蜡笔手绘/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 2384783,
+      "sha256": "1e0ebdfe58038edb5cff467ae0e61a5499b34b5575b5f8bde4ec9312b3302722"
+    },
+    {
+      "path": "05. 蜡笔手绘/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 2227182,
+      "sha256": "3dafadaf791163f3a62b05841b6e609558941e4b969772a2fb087a3948fc80a2"
+    },
+    {
+      "path": "05. 蜡笔手绘/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 2395630,
+      "sha256": "70aeb5501b1cad4f69e06b2aa72a724276f0bd4dadcc24c44bc2caf45f85e68d"
+    },
+    {
+      "path": "05. 蜡笔手绘/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 2253031,
+      "sha256": "121215427d807b18277b74dca94183d082bd05a58d9e235d4c361257dc2ea451"
+    },
+    {
+      "path": "05. 蜡笔手绘/主题展示案例/模板介绍图.png",
+      "bytes": 10993760,
+      "sha256": "3471ba502a87437abc778550301568b875a10ce7f3e3e547caab6690d0f670f9"
+    },
+    {
+      "path": "05. 蜡笔手绘/主题视觉规范/1. 视觉风格总则.md",
+      "bytes": 820,
+      "sha256": "a9771939df6234f4cd093a8beb32d2bd4ec8fafa3953740e1e60a87e7cf722b8"
+    },
+    {
+      "path": "05. 蜡笔手绘/主题视觉规范/2. 文章封图规范.md",
+      "bytes": 2838,
+      "sha256": "52c1fde79916526af895ccee93d70c781c6b820d01fe2c7075689ada7ddb72a4"
+    },
+    {
+      "path": "05. 蜡笔手绘/主题视觉规范/3. 正文配图规范.md",
+      "bytes": 2652,
+      "sha256": "487c8410f2b3254114901851cd716ce18f8e4862d26b7f34252e98c11ff5e106"
+    },
+    {
+      "path": "05. 蜡笔手绘/正文组件结构/ending-follow.html",
+      "bytes": 170,
+      "sha256": "b85514df3bcc81f0624f30cafbf1afd0f2b53c1c03e1ee37c9b767a1f72a2179"
+    },
+    {
+      "path": "05. 蜡笔手绘/正文组件结构/opening-orchard.html",
+      "bytes": 144,
+      "sha256": "e11ec5c1da3c433f65e3650fb590a6e998b7d917a00beb24900857a5f0531ed6"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/apricot-marker-v1.png",
+      "bytes": 24229,
+      "sha256": "e0781c522b014d681a4b288f6bb5a5507e93219cd54528a412fc3a9b2b1d8601"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/bullet-flower-v4.png",
+      "bytes": 25045,
+      "sha256": "b31ff4695da8854ccf507fa13f29940a339de280ba89dfdcfe1da04c56804546"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/bullet-leaf-v4.png",
+      "bytes": 16154,
+      "sha256": "53faefbbd18bcc6e4a59f66025c3ae5431dc365e6638f60d99915cad0243b38e"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/code-frame-bottom-v3.png",
+      "bytes": 80868,
+      "sha256": "9acfbe48479d8d6e8411442298559578868092cc1e5e49390f4036658cb41fdf"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/code-frame-sides-v3.png",
+      "bytes": 14079,
+      "sha256": "dad9c2430606d960d0a5136fc9a3f3fa8656b80d3134a7243c7bb66b88b428d0"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/code-frame-top-v3.png",
+      "bytes": 82332,
+      "sha256": "8988190786ca722c5858d204e653ef1fbc6975ab042bdedcd97e56d4878d2e6e"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/code-girl-basket-v6.png",
+      "bytes": 108377,
+      "sha256": "abffc347ea3df02950a77071dffa78f513ef4ae2033d0ff2cbcfdbfd664ff968"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/divider-double-v4.png",
+      "bytes": 58514,
+      "sha256": "2c2971bbec56cd3f9cb41e5b6bd580731211b51b6f1c3ae49d959f348241ba68"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/footer-orchard-v1.png",
+      "bytes": 477455,
+      "sha256": "17700a7f8935326871dbac23a1fd2c0f901132415d90bd3deb47a9d99b405036"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/frame-crayon-v3.png",
+      "bytes": 195327,
+      "sha256": "2123af636e19b4ad1401390e27b30be2a4b8d41bacf8f5229b4d4f8cb48fbda6"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/fruit-trio-v3.png",
+      "bytes": 50295,
+      "sha256": "71b00731c7b3d978f7380d8680e39fa2da954247cdf8f40436c2d65f0f596ef5"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/header-orchard-v1.png",
+      "bytes": 520140,
+      "sha256": "459e61276d8a93e9c0496445df13e6f8f09a6a5575da875d80f6f4b0277ed5de"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/header-picnic-v4.png",
+      "bytes": 650294,
+      "sha256": "6afd30f72060e8a039e8739f5e37c90236854372e6b52ad8f02dbe5cc742680c"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/header-push-v4.png",
+      "bytes": 434540,
+      "sha256": "4a9358fc3d45230d5a9984c9dd6f59bd7f7c0b79a66dd02e072d19fbccd18b56"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/header-reading-v4.png",
+      "bytes": 353139,
+      "sha256": "290abd1b1586ccdf460dbb063a3672d39782fd33d2b1d5c4530f02b298b206da"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/paper-grain-v2.png",
+      "bytes": 228469,
+      "sha256": "7f4a417f3a226522ccfd398e3e043d71f46c945b858cc3d68d16257177020412"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/quote-crayon-v1.png",
+      "bytes": 21762,
+      "sha256": "3547cd589a79bedfa637d9da407f466bbe97ea5415393d26646efa9955fb4194"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/quote-tree-v3.png",
+      "bytes": 103501,
+      "sha256": "a18966e8f7a418ea62832c772da6f53b9bfa4c200d0f17ba301e5c1812d8fb20"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/table-rowline-v4.png",
+      "bytes": 27973,
+      "sha256": "a1f34504ac1195710fb5f186325d1f576bb5d7a0e5d95537a37ab9f505747a45"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/table-watermark-v3.png",
+      "bytes": 80401,
+      "sha256": "488cca1daf7709a24942561033bc65bcc5297591ec9eca346b56721ab3935bf5"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/task-done-v4.png",
+      "bytes": 18218,
+      "sha256": "3ae0af266d5a72bfb86bbbcf6105bbaa8dddb474536320d9adc628475a5b1201"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/task-open-v4.png",
+      "bytes": 12151,
+      "sha256": "0bfc07eb142945a428207f221971ce1d02dc3dc62b343a5bc0f5bff2d1055f9d"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/title-apricot-v3.png",
+      "bytes": 23072,
+      "sha256": "01ea5986c3c0955784b595968f317955e08f08a547074a16050ad3b7117b2c08"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/title-pepino-v3.png",
+      "bytes": 23008,
+      "sha256": "032832547efa401a85f788668d23908f6d9695e076388d570dbbd723c65c42bc"
+    },
+    {
+      "path": "05. 蜡笔手绘/透明装饰素材/underline-crayon-v3.png",
+      "bytes": 71223,
+      "sha256": "7c4f46794ce59a6e4de2993a55f7d7f9e699e125a0edfb0ef615c23b1dd6f3fe"
+    },
+    {
+      "path": "05. 蜡笔手绘/配套字体资源/ChangfengCrayonStroke-Regular.ttf",
+      "bytes": 3898664,
+      "sha256": "0ea6833cc808f046de78a1017e743ddc4a3453ad9096929241c0c65f90aec45d"
+    },
+    {
+      "path": "05. 蜡笔手绘/配套字体资源/Crayon-FONTLOG.txt",
+      "bytes": 1901,
+      "sha256": "fde6f741df51d07cb92add37069becad83d38613ce8fe7b4efc918f48f2e8af1"
+    },
+    {
+      "path": "05. 蜡笔手绘/配套字体资源/Crayon-OFL.txt",
+      "bytes": 4398,
+      "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d"
+    },
+    {
+      "path": "05. 蜡笔手绘/配套字体资源/OFL.txt",
+      "bytes": 4398,
+      "sha256": "538078469839b4a2e7ad22bef4ebe41681a4e53749bb2a072144024f1d6d703d"
+    },
+    {
+      "path": "05. 蜡笔手绘/配套字体资源/WenxinXileFont.compat.woff2",
+      "bytes": 3627036,
+      "sha256": "9ee31f459f6e9d6025866e3d0298c59119f454fb5d74146c08d0f3b54070df91"
+    },
+    {
+      "path": "05. 蜡笔手绘/配套字体资源/WenxinXileFont.compatibility.json",
+      "bytes": 3303,
+      "sha256": "61c89b5d4b6b37153c8854ef9ab3e6076f8f98b82e6a0d0f837fdced4963aaf7"
+    },
+    {
+      "path": "05. 蜡笔手绘/配套字体资源/WenxinXileFont.coverage.compat.json",
+      "bytes": 32978,
+      "sha256": "6e49a31290a99691c6674c95203de45f864f41fa0cfb2e499c15881fd2c2d1be"
+    },
+    {
+      "path": "05. 蜡笔手绘/配套字体资源/WenxinXileFont.coverage.json",
+      "bytes": 33125,
+      "sha256": "ecdc6c6ffa0e2f8496737740004fc46a3214e847c3ba2aea94068af1ee304f72"
+    },
+    {
+      "path": "05. 蜡笔手绘/配套字体资源/WenxinXileFont.woff2",
+      "bytes": 3627748,
+      "sha256": "977dede6dd36112d941f9823d120f77a0481f309045422ee0393ec710a58a3b2"
+    },
+    {
+      "path": "05. 蜡笔手绘/配套字体资源/ZCOOLKuaiLe-Regular.ttf",
+      "bytes": 1514968,
+      "sha256": "812a6fc1fe54b6d73a419245c32dfeba8aa33104d5be90d1cf6af082007cb71d"
+    },
+    {
+      "path": "05. 蜡笔手绘/配套字体资源/ZCOOLKuaiLe.coverage.json",
+      "bytes": 49050,
+      "sha256": "c30036fea7ea9f7053010a29710e79072e0ae37a382bb921634bd3a1ab10448d"
+    },
+    {
+      "path": "06. 手绘卡通/manifest.json",
+      "bytes": 9077,
+      "sha256": "ba5678efcc546844e4f28aafc9d66f4728b1bca6974f45fad88473dffb65aea8"
+    },
+    {
+      "path": "06. 手绘卡通/theme.css",
+      "bytes": 9074,
+      "sha256": "565f09237a5bf3861a3772c9e69208405f7a7e56b82173916840fbac7ef951f6"
+    },
+    {
+      "path": "06. 手绘卡通/主题展示案例/0. 案例预览.md",
+      "bytes": 1525,
+      "sha256": "7500f23d3aaa18afa6c5ffe7fd400c3f487b364ea987006d7b134d158dd499c2"
+    },
+    {
+      "path": "06. 手绘卡通/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 2045498,
+      "sha256": "6ba39d16e5a10cbc6c36da5e99649d451a102c4656d86c22e0b48517b7611fda"
+    },
+    {
+      "path": "06. 手绘卡通/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 2051688,
+      "sha256": "0c41aa71955cb72ce2abcd217ec42332738240821f90e32995dcb87393213687"
+    },
+    {
+      "path": "06. 手绘卡通/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 2162662,
+      "sha256": "6efff321b5393895410b048b7b2866aa51ff44265c6b977fbda301f4e2599a4c"
+    },
+    {
+      "path": "06. 手绘卡通/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 2101533,
+      "sha256": "655280f2abe542059fd99ed070e8ccf1c456344fad2290ef8ba4258d980a2904"
+    },
+    {
+      "path": "06. 手绘卡通/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 2077742,
+      "sha256": "b42882ec16cb555458f4198f610bc2b765a76f9e1d666eec167e0b293a78855d"
+    },
+    {
+      "path": "06. 手绘卡通/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1900743,
+      "sha256": "eb8192321547c2ae2066140dbaf2d32717d0735379f68fdb20ff4c992c82b5ae"
+    },
+    {
+      "path": "06. 手绘卡通/主题展示案例/模板介绍图.png",
+      "bytes": 9866828,
+      "sha256": "344447afd80dc46645be928685dbbdf330638d2cddee2ae8175bd8332dbdf4a7"
+    },
+    {
+      "path": "06. 手绘卡通/主题视觉规范/1. 视觉风格总则.md",
+      "bytes": 829,
+      "sha256": "5ac17f5503aed770c4dbcab8cf8594dd04004c5cf1c462cdf0892fc631dbf5fd"
+    },
+    {
+      "path": "06. 手绘卡通/主题视觉规范/2. 文章封图规范.md",
+      "bytes": 2838,
+      "sha256": "4540a9f5cef4159a8b29ac8870ca1a115e6e2b1ce4ab195a3a3714f40cc4176e"
+    },
+    {
+      "path": "06. 手绘卡通/主题视觉规范/3. 正文配图规范.md",
+      "bytes": 2652,
+      "sha256": "be1abc5661490c884f0dc1d51c560caf2c93970988c151e5bc1523c6860fcc4c"
+    },
+    {
+      "path": "06. 手绘卡通/正文组件结构/ct-code-head.html",
+      "bytes": 191,
+      "sha256": "f00ef34d663fc05aaa14c4205012fba47bcf0f07a059f1f8855a88569e152e61"
+    },
+    {
+      "path": "06. 手绘卡通/正文组件结构/ct-footer.html",
+      "bytes": 132,
+      "sha256": "bc12e2d9356cdcb8bc78d4d8f3598635186a95f07bbd31c90572daa549076b0d"
+    },
+    {
+      "path": "06. 手绘卡通/正文组件结构/ct-opening.html",
+      "bytes": 115,
+      "sha256": "766ae6cae6d7cc9ecbfa4ac920245e4ec12a645568930ce257a3ae758fb63698"
+    },
+    {
+      "path": "06. 手绘卡通/正文组件结构/ct-quote-peek.html",
+      "bytes": 204,
+      "sha256": "50f041915b8322cbce032d96d1fc3e3df9e62290ff83a136a113f06931a67cdd"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/banner-fish-roll-v2.png",
+      "bytes": 324214,
+      "sha256": "cb92096893bee2e801986a6cb8acdef688ff40f5c496fc45d11987a08dcbdc09"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/banner-run-v1.png",
+      "bytes": 300968,
+      "sha256": "b4ef788bca5a201655483d3a1c8a5bcecbfeb5c9faec03906906d7efdb8a407c"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/banner-tissue-v3.png",
+      "bytes": 271478,
+      "sha256": "d7ac82debd2c3761a2094053a0a12e5abf4327532658fa572fc74fe05c377f21"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/banner-yarn-v2.png",
+      "bytes": 292994,
+      "sha256": "04e979c03ffaa174c19d07d10423f3ec8177ce77dee76f0f6df981154862ce8f"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/cat-grumpy-v2.png",
+      "bytes": 82747,
+      "sha256": "f174588a22ca2e2edb1a83e3480b2e5cc27f8c4d851ed4f0ff24bc667f73e2e5"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/cat-laugh-v2.png",
+      "bytes": 83731,
+      "sha256": "cff753de48ef3814b738575eeccd4d69a78e754ec9de3c06eefdbd2abb3ed41f"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/cat-wink-v2.png",
+      "bytes": 76065,
+      "sha256": "e387f63cb504ba59b68e8de745f825523d2a4a7b3e8ee36f4b2ed7a5cfe67cfc"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/code-paper-v2.png",
+      "bytes": 27079,
+      "sha256": "5fb7d204defa92991baff8081592ecdfc2217a5c15c8bee684d17f4fa618acf1"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/fish-marker-v1.png",
+      "bytes": 3178,
+      "sha256": "feae18e142c357f439b2c37604dc6bc2db5264f1f394e187448411fe12e4873b"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/footer-follow-v3.png",
+      "bytes": 390565,
+      "sha256": "6883e64a0f5d21df3830f3f14917ef5421c2245038e545d21a6a64db727489c5"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/paper-gray-v2.png",
+      "bytes": 2391048,
+      "sha256": "876b762f8044bd13122cfc0b59ef84def59380ad6672e7431b70114c68cd4f8d"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/paw-marker-v1.png",
+      "bytes": 2686,
+      "sha256": "04e5bada2575dc46dd4f276bc511f803aacdc8910614abd8541dfbe4924bb794"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/paw-quote-corner-v3.png",
+      "bytes": 3166,
+      "sha256": "67980e99935042745a0addf9889f6b382a044a55037284d285ef4ff52a54413c"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/paw-table-inset-v3.png",
+      "bytes": 3843,
+      "sha256": "6d94bbd2647da09dba309e3842950f6eed2f7f2b4052ee84483532b2f5a26ec6"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/paw-title-left-v1.png",
+      "bytes": 5461,
+      "sha256": "69b92583995a96f3de735cbc99aa5d9fc1f8a99296adc089a83013e38078f139"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/paw-title-right-v1.png",
+      "bytes": 5636,
+      "sha256": "fbb4c93b3cf2628fe8a9d399e25f56b2610b4330e3e69e106eb1fd56c2f86bfc"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/paw-watermark-v2.png",
+      "bytes": 1381,
+      "sha256": "8fd98e42175582bd28beef29e74e966dcbc368f3da75ffddddb99a9630132eb7"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/quote-peek-corner-v1.png",
+      "bytes": 122464,
+      "sha256": "69e0ee0cc7f0f44a5cda14836087c881fc532074859f7b97050a8b380694d89c"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/task-cat-done-v1.png",
+      "bytes": 2665,
+      "sha256": "c02bd86f5b5641e76cc23e65bf763fca6b88da17a6d973eeae8d806b78de86bf"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/task-cat-open-v1.png",
+      "bytes": 2054,
+      "sha256": "e81e40a27cd88289d8eb03d05a9226f539db770029edefe6efad4d0c1e823c85"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/treats-trio-v2.png",
+      "bytes": 55084,
+      "sha256": "288d3d626394e9f70163b503d2be84e1f597ecfac461331a25c1cd38d8d49905"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/warm-fade-underline-v3.png",
+      "bytes": 173,
+      "sha256": "e57d04bf407b1996fdd7df38c4879f9c727dd9d7044a96ae96707eecb971a11b"
+    },
+    {
+      "path": "06. 手绘卡通/透明装饰素材/yarn-divider-v1.png",
+      "bytes": 46136,
+      "sha256": "de88934b06768c5f358d5647bed18a2eddda7096916dd5357e982afcfd643cf0"
+    },
+    {
+      "path": "06. 手绘卡通/配套字体资源/MaokenAssortedSans-Lite.otf",
+      "bytes": 6100640,
+      "sha256": "0a888ebefafa3b325e3327f3250b054aefcb4789aeeb709b1aca9f8d3a5a0759"
+    },
+    {
+      "path": "06. 手绘卡通/配套字体资源/MaokenAssortedSans-OFL.txt",
+      "bytes": 4484,
+      "sha256": "a507c0a2b46e599add1543151c25069245c9a8b248e65533b9037f8983843d1e"
+    },
+    {
+      "path": "07. 解构插画/manifest.json",
+      "bytes": 13542,
+      "sha256": "5077222d773f8c5d11ce428ea3ec641ff4bb3df1ba87b7bd709326f60ced83e9"
+    },
+    {
+      "path": "07. 解构插画/theme.css",
+      "bytes": 10385,
+      "sha256": "716c6fb68ac0846759d1481be7a778364ec51aaafe854f0e2b36bc12ce906b05"
+    },
+    {
+      "path": "07. 解构插画/主题展示案例/0. 案例预览.md",
+      "bytes": 1861,
+      "sha256": "f7c86d6391fdd390c3f4001e66402e0244ebde4af7ab647a4a7381c6d52e09b9"
+    },
+    {
+      "path": "07. 解构插画/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 1387713,
+      "sha256": "52924d54d1981a3f63d68d3c1ad2635e3e1cfd0330202cd9ceea12cdab7dbe2f"
+    },
+    {
+      "path": "07. 解构插画/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 1699494,
+      "sha256": "d1e3234896e78c6d6fd1823dc295da0e2878d8fdd6daa03d6d4eb809707e6dfb"
+    },
+    {
+      "path": "07. 解构插画/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1707296,
+      "sha256": "c4bad0bce8c17747c8ab65607ce271f8ccfbb14f9e737b9c1348173d1bfc293a"
+    },
+    {
+      "path": "07. 解构插画/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 1487533,
+      "sha256": "30cdc63dea18ac2dd003a90005008c2b187761e2d3eeb806bbd4505908b9283b"
+    },
+    {
+      "path": "07. 解构插画/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 1700581,
+      "sha256": "fa298b6609cf51c66012b5d148e0bfac73e951099898ddba7618c934cc07a61d"
+    },
+    {
+      "path": "07. 解构插画/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1690039,
+      "sha256": "ae7526009734252bc46d9bfc5a36fe1c054a46c9bf6352f321a73d108a523443"
+    },
+    {
+      "path": "07. 解构插画/主题展示案例/模板介绍图.png",
+      "bytes": 6111488,
+      "sha256": "4ff51118e989ee8ffa5d7b46c661c130a64a3002016934833f9f65e0c82408d5"
+    },
+    {
+      "path": "07. 解构插画/主题视觉规范/1. 视觉风格总则.md",
+      "bytes": 2306,
+      "sha256": "10d4716d87332b02b58616a082e2298a16fe68f9ecf099b1cb488ace574138e1"
+    },
+    {
+      "path": "07. 解构插画/主题视觉规范/2. 文章封图规范.md",
+      "bytes": 2838,
+      "sha256": "5d8234b7db60fb59ab29864dbe574e52718a11d78f991349324cf1924d3142b1"
+    },
+    {
+      "path": "07. 解构插画/主题视觉规范/3. 正文配图规范.md",
+      "bytes": 2652,
+      "sha256": "744af874d7f4c115eacd4d5ffc796f94785b5e7d8efbe66abe53e6fd8697b7f9"
+    },
+    {
+      "path": "07. 解构插画/主题视觉规范/4. 生图方法论.md",
+      "bytes": 5633,
+      "sha256": "2621af9c4e6bc008c81492d0b6ffbdc68d3fbd93a472ba6acad7d9a8af2f8448"
+    },
+    {
+      "path": "07. 解构插画/正文组件结构/ending.html",
+      "bytes": 105,
+      "sha256": "fc2b6a31950aa8b7a04df23cb437436b19f4a150c087928cb423f6d0104a4238"
+    },
+    {
+      "path": "07. 解构插画/正文组件结构/opening.html",
+      "bytes": 123,
+      "sha256": "6f6b8291ebf424fceb2ecb708d67627b5d6e327840abd191fb8668e1fef21ffd"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/annotation-ochre-v4.png",
+      "bytes": 94948,
+      "sha256": "b5cdaa0d38bd0cbaa70ba95ae727cee7b6529e69f4e89a9e01f5d048cbc5d968"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/brush-line-v1.png",
+      "bytes": 6057,
+      "sha256": "4a22c881c6c8a551e32b72fd1bb2e7082d2fa4a1dc23760fc836a4ea7d337f1b"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/brush-sides-v1.png",
+      "bytes": 2912,
+      "sha256": "44c72db7dda6a015e48f99af63ee38b024b3ace88b73fde544acd0e3b3fafff0"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/bullet-bridge-v2.png",
+      "bytes": 103410,
+      "sha256": "22e6a9a30ab8feaf198d8265169f3191a9148ddb158e3026ec056c33e759c00e"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/bullet-santan-v2.png",
+      "bytes": 78526,
+      "sha256": "9f9096c71dff0f6873c754e4593a50fb76cde5125ddea6383779cfd2fd94cdff"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/cell-vertical-v2.png",
+      "bytes": 3343,
+      "sha256": "7a39517baca55551591c14e244b057df242696c5566d38cb17762a92d7b37a95"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/code-trio-v3.png",
+      "bytes": 248153,
+      "sha256": "28ea93d21d703c6f05ac9b8efb7971e7a53f41e28d1d861c24ce736d8e8e07a3"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/divider-watergate-v2.png",
+      "bytes": 107714,
+      "sha256": "76c1c4c93e5ee2d410f4666f641a8652eb04864a45f341cc484f77d52200981b"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/footer-watergallery-v3.png",
+      "bytes": 246145,
+      "sha256": "0912b444fcd7ab342b075f4fd9173cd63c46bc1630707d8607bb8e53248ee15c"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/header-drumtower-v3.png",
+      "bytes": 213130,
+      "sha256": "d687d34c270fc53f32dda433815f9f2837bf6a20e48cb55b0d08076f102d920f"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/header-lingyin-v3.png",
+      "bytes": 199407,
+      "sha256": "e4d6c5d9ec465f08f50a68b4485e708b8f0183fdd99a7c219aba4133d344ddbb"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/header-marbleboat-v6.png",
+      "bytes": 523911,
+      "sha256": "b4d33d6200bd2eaeed1c8302a3df33a5f5ff727f4d74da6d874010ffe3af2f8d"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/header-palace-a.png",
+      "bytes": 564133,
+      "sha256": "d06a4323c100b310e25cf25b9ea2fe5d6e6da46b1052bf011f360a763c4b5043"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/header-taihe-v6.png",
+      "bytes": 508974,
+      "sha256": "734f81e194673ec5c23b0f9aac8bc8f94961ede24fbf25d4b609f6692d0a5f6f"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/header-yungang-v4.png",
+      "bytes": 355296,
+      "sha256": "6de62c1b6228874044e187d337d23188420025fd2be08ebf11a634f49157ca3e"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/header-zhaozhou-v4.png",
+      "bytes": 267099,
+      "sha256": "a6dc13ed56bcc7480521ec40da4cf1ff5bba44e5728250c4a74563f61f4574e2"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/header-zhichunting-v3.png",
+      "bytes": 213337,
+      "sha256": "9dbb5be4254644d247ada40f8274896d749d4c63f5bffb78f2b434731e2e0bb4"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/heading-bell-left-v3.png",
+      "bytes": 104064,
+      "sha256": "f2336aab09a63bcc0cb5ea479e054002381ad77392253cac7c15ba6f3210d804"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/heading-bell-right-v3.png",
+      "bytes": 103981,
+      "sha256": "482567369b03a7bead2f4dd3e7616a91532c4731043866eca4ba5e4402b01a1a"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/heading-window-v3.png",
+      "bytes": 121673,
+      "sha256": "ecda88c5a6588ec108bd1da360e85495f7bbcc44e45534b88af05584f595cd32"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/image-frame-v2.png",
+      "bytes": 58446,
+      "sha256": "e45479613f71a4e15025a623c94481a6873cd5cdbab41a4e430aa152c557ae34"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/lake-shore-v1.png",
+      "bytes": 83923,
+      "sha256": "4c0901f2dbe4cffe233ac9d03d71ced938a54dcc5df9c6b8152a24cc8b14126c"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/quote-garden-v1.png",
+      "bytes": 372370,
+      "sha256": "f8a7d952930b30d5bf57150dc0a0452a434a42af0d5ea7afcee920b586d9e053"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/table-horizontal-v2.png",
+      "bytes": 14481,
+      "sha256": "0fe6452d58b972897a61bef179cecad9a05ca842ee8912ba71848b0c26c2b801"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/table-horsewall-watermark-v3.png",
+      "bytes": 201552,
+      "sha256": "00d146b866e2321d9bc84ddca4b3b39b005976066fb2727aa78a65be195298ad"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/table-sides-v2.png",
+      "bytes": 11470,
+      "sha256": "71f4b631ad55f9069355fe67215012f2c39e0557b2573a7a7b120b55f11cdbc8"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/task-done-v2.png",
+      "bytes": 125480,
+      "sha256": "789dc05c5c1c1e5ae963c68fcd7205b34bf0995a616585de483f2290f904dcbf"
+    },
+    {
+      "path": "07. 解构插画/透明装饰素材/task-open-v3.png",
+      "bytes": 57304,
+      "sha256": "7f6a828c409ab35b42d3f72e81e21eff0fa0482510b43fb1bf6655ed30dafe0e"
+    },
+    {
+      "path": "07. 解构插画/配套字体资源/HuiwenMincho-LICENSE.txt",
+      "bytes": 357,
+      "sha256": "ccabb820e5f96389077453e75fe7eb1e1b35d969df070003c177938226d000c3"
+    },
+    {
+      "path": "07. 解构插画/配套字体资源/HuiwenMincho.coverage.json",
+      "bytes": 97097,
+      "sha256": "d3dc917b6e9ef6b4a9de32a8a8140326845b77332066c6c67e43fa040b71af76"
+    },
+    {
+      "path": "07. 解构插画/配套字体资源/HuiwenMincho.woff2",
+      "bytes": 8020924,
+      "sha256": "f190d33a26eb0ea9bfa841d82806135f49580e6637439c01279769bbd5c6b832"
+    },
+    {
+      "path": "07. 解构插画/配套字体资源/KingHwaOldSong-v2.002.ttf",
+      "bytes": 36587506,
+      "sha256": "35d92af5ac4e9485e8e7749098e67211da5885d2697d95aea979fe4acd19ee2a"
+    },
+    {
+      "path": "07. 解构插画/配套字体资源/KingHwaOldSong.coverage.json",
+      "bytes": 240077,
+      "sha256": "a458a17bb83b6683c197a606a820bdc05e3d405b2bc7f87419fe83b9f311c502"
+    },
+    {
+      "path": "07. 解构插画/配套字体资源/Zhuque-LICENSE.txt",
+      "bytes": 4389,
+      "sha256": "66cc01ad4df62fca6936431a426104cb32a52ce8da49de9a7d643e02d7659043"
+    },
+    {
+      "path": "07. 解构插画/配套字体资源/ZhuqueFangsong.coverage.json",
+      "bytes": 54689,
+      "sha256": "c5d2105ea0d952b099f5e853f7989361fda1485422360568a2e1d3625e271f13"
+    },
+    {
+      "path": "07. 解构插画/配套字体资源/ZhuqueFangsong.ttf",
+      "bytes": 4817412,
+      "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53"
+    },
+    {
+      "path": "08. 暖瓷像素/manifest.json",
+      "bytes": 10100,
+      "sha256": "0d9d078118bd7a46abd000cb9c19271e0e4a8ac476d0727d8e770bdfe3a67ee9"
+    },
+    {
+      "path": "08. 暖瓷像素/theme.css",
+      "bytes": 9016,
+      "sha256": "408c25939706877685572e073b8d65e93016362950b199c7191c17f976b22a93"
+    },
+    {
+      "path": "08. 暖瓷像素/主题展示案例/0. 案例预览.md",
+      "bytes": 1510,
+      "sha256": "496a026c890cd76eb864777ac4c864dd2311cacb5fe016cf6fb45ee898872bf4"
+    },
+    {
+      "path": "08. 暖瓷像素/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 1594980,
+      "sha256": "2672802f085fd7ed6f3bda6e181e1042914084c51ad663a55142b74e79ccbe4e"
+    },
+    {
+      "path": "08. 暖瓷像素/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 1803266,
+      "sha256": "f24b4375fe047ef77fa8dc56005fbdaf05b3499afb8f4ab8bf37b7a3b5e2452b"
+    },
+    {
+      "path": "08. 暖瓷像素/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1737514,
+      "sha256": "84fbf4e690803cbffe6d7b9ee6af112e3065cbc887549e644d9d8403ed4a74fb"
+    },
+    {
+      "path": "08. 暖瓷像素/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 1480049,
+      "sha256": "695bf0b7d149e1b035e0cfd3843e45e7845cad24920efd400061613b2fdf2434"
+    },
+    {
+      "path": "08. 暖瓷像素/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 1712972,
+      "sha256": "a4fc43c21a68d7a627a24ac646b329673f92e31c65357f55f12e3c4554166a1d"
+    },
+    {
+      "path": "08. 暖瓷像素/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1685886,
+      "sha256": "45cb3a73851995194d43c2a2e88afab89f0940f72481de12d61e89b0b7d4e183"
+    },
+    {
+      "path": "08. 暖瓷像素/主题展示案例/模板介绍图.png",
+      "bytes": 7173774,
+      "sha256": "278b3a19f1f5b198f0653623491652eb2a52f7e5b0921aa75e4dbd260a0011e1"
+    },
+    {
+      "path": "08. 暖瓷像素/主题视觉规范/1. 视觉风格总则.md",
+      "bytes": 2417,
+      "sha256": "dc7eafb5b55bcf40461e750b30a279771f0a71ab75e3de2c55fec82e241c1da7"
+    },
+    {
+      "path": "08. 暖瓷像素/主题视觉规范/2. 文章封图规范.md",
+      "bytes": 2838,
+      "sha256": "f73171e5504362303e6cbf411f768f6d39e9e036158296e982dfac43b7495e12"
+    },
+    {
+      "path": "08. 暖瓷像素/主题视觉规范/3. 正文配图规范.md",
+      "bytes": 2652,
+      "sha256": "36b6b1379987f8392748d5c6c15607e6c5293fc2c3b4b9392dadf9d060b32b6b"
+    },
+    {
+      "path": "08. 暖瓷像素/主题视觉规范/4. 生图方法论.md",
+      "bytes": 5725,
+      "sha256": "3878cc17593ea33eaa1dbd2bbc173fa2e6a660ddaa936f5f995079fd78749bde"
+    },
+    {
+      "path": "08. 暖瓷像素/正文组件结构/footer.html",
+      "bytes": 538,
+      "sha256": "067d37a1f99689776449ca915dbcf36bd0893b293ca9a32c0292be7650a1f569"
+    },
+    {
+      "path": "08. 暖瓷像素/正文组件结构/opening.html",
+      "bytes": 102,
+      "sha256": "98290390011e69458b2fd0a01bfba54f03bd6e694397505a54e683e620a937fe"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/banner-bird.png",
+      "bytes": 582543,
+      "sha256": "f6a7608269e0a730d0e7f46a101df66f6d84b638bc50d6a498ba1b5271b6b4f5"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/banner-book.png",
+      "bytes": 600470,
+      "sha256": "6466c47cbc5868e1f039b1f3dec4eadc559a0521b22b664f9c10ed601c0e7a64"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/banner-glass.png",
+      "bytes": 485014,
+      "sha256": "b02ab01ced95784547cea5e185d17ca4d75642b70f38bee69fdf9651cdee7948"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/banner-letter.png",
+      "bytes": 495087,
+      "sha256": "d4e6e6da3a49e733ce37823cf061414142409cc4dc0657270491e83115775a09"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/car.png",
+      "bytes": 29909,
+      "sha256": "71b12b3d51f793eb2d9a641c1a68dd57d25a8a32cd97a86b6f574c13215713ae"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/code-controls.png",
+      "bytes": 239,
+      "sha256": "fd252f03ded8091a887329296d7b8f7ae7c7bda0f5fad392d2a3378175e4efdd"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/code-rim-bottom.png",
+      "bytes": 7117,
+      "sha256": "9a41b54c62123e0667f7797bd817f49b3b943bb936a83f14e845715fb42194c1"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/code-rim-sides.png",
+      "bytes": 3524,
+      "sha256": "734b6a774fdbaf429c8c953392dec8571b10dcec15c68019eb61cd300e90c1a3"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/code-rim-top.png",
+      "bytes": 7357,
+      "sha256": "2539578269ae71587f72a15b5c693cf311ad44a5a1a941942d952bfa1b2a1237"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/follow.png",
+      "bytes": 26505,
+      "sha256": "41478e9cda0f098fa44c0a2aaafe6d15744f7864dd6ae611c52ca2ee252f2662"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/footer-label-follow.png",
+      "bytes": 432,
+      "sha256": "71e2de4835a560fd85c8baeb6edc9a57138db18ce83707aeb334abd82b74ed46"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/footer-label-share.png",
+      "bytes": 532,
+      "sha256": "bf80c69caa7ad9f4963fd4d9340f4397a7abf167c7be59e5ecbdeed03c21e575"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/footer-label-watch.png",
+      "bytes": 398,
+      "sha256": "e830bc0138cf77eac4641295a84c8678db2e2cd8f6ed4decd411a4f57ea61e74"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/footer-rule.png",
+      "bytes": 191,
+      "sha256": "f384d6e059d2ebe77711488c9cb457e7e4aae3d41402ec29c01668643aa3476d"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/list-plane-v2.png",
+      "bytes": 200615,
+      "sha256": "c519923c095d872f4243b2d9b6bb8d6100321b0ce15453c3c8b92fa4e4ef4979"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/monitor.png",
+      "bytes": 42855,
+      "sha256": "ce849f647410942adc286cdcb21efe456dcd7440f92eb617501821b596603408"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/mosaic-underline.png",
+      "bytes": 172,
+      "sha256": "f9385da7d8dc48658db8a1e3842752b05713bff8b558d2ebc51e232dc0feec2a"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/plane-trail.png",
+      "bytes": 127599,
+      "sha256": "32407d71aa72fb8beee3854f055f114768601c847ad51d0c31a589423f367e67"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/pressed-paper.png",
+      "bytes": 199140,
+      "sha256": "aeef6cd07ef21acc53b6f2c0d108afe45aa2c3b289c0dad7868ea9cc4b62a68d"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/quote-computer-v2.png",
+      "bytes": 145580,
+      "sha256": "4f94453bea3af0fee56aaad7f54d0951d55bc1a6c273f84a5762dd9b85099bca"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/rim-tile.png",
+      "bytes": 77333,
+      "sha256": "808abde58fd08b7f9504dacd3d9c7b3fe3d5a4602cf54ed707b15fb3a42b7a46"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/share.png",
+      "bytes": 14459,
+      "sha256": "f950bf2889fc06dbdbd3f61d9f2cad2e5c44b95a3fdba7dc2154a16c4041a69c"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/task-done.png",
+      "bytes": 23833,
+      "sha256": "e3e4b0353e118f75757cdda20b990985dc0b3689ea664e8d143a597022eb652f"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/task-empty.png",
+      "bytes": 17045,
+      "sha256": "3cf01684833c9cd0ea8d0994601348050f6835317747dc01fa1b7ffbafdeaa0e"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/terminal-mosaic.png",
+      "bytes": 1573,
+      "sha256": "d44d8649e7d1ba4feee8f41412ec391760a9091480f645effe958861b4e22f08"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/title-flower-blue.png",
+      "bytes": 8410,
+      "sha256": "a5286e4b730225041484297cf5233f9884c72aff65bd630beb491c13f8225822"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/title-flower-cream.png",
+      "bytes": 7982,
+      "sha256": "dbc41ad2da18027bc412e32c8414305a4e5b1523b1a171f381691ceaf66e0de4"
+    },
+    {
+      "path": "08. 暖瓷像素/透明装饰素材/watch.png",
+      "bytes": 25208,
+      "sha256": "40a283b8f9349e91c6b52c5e634bbbb488700cddce106ee6ad66681197a5f124"
+    },
+    {
+      "path": "08. 暖瓷像素/配套字体资源/fusion-pixel-12px/LICENSE-OFL",
+      "bytes": 4418,
+      "sha256": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63"
+    },
+    {
+      "path": "08. 暖瓷像素/配套字体资源/fusion-pixel-12px/LICENSES/ark-pixel/OFL.txt",
+      "bytes": 4412,
+      "sha256": "3ab41567e68e3988ba1ef16dd2644eca95ca5648ea12e7d46e6287fc0bbe5aee"
+    },
+    {
+      "path": "08. 暖瓷像素/配套字体资源/fusion-pixel-12px/LICENSES/cubic-11/OFL.txt",
+      "bytes": 5364,
+      "sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188"
+    },
+    {
+      "path": "08. 暖瓷像素/配套字体资源/fusion-pixel-12px/LICENSES/galmuri/LICENSE.txt",
+      "bytes": 4360,
+      "sha256": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1"
+    },
+    {
+      "path": "08. 暖瓷像素/配套字体资源/fusion-pixel-12px/OFL.txt",
+      "bytes": 4418,
+      "sha256": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63"
+    },
+    {
+      "path": "08. 暖瓷像素/配套字体资源/fusion-pixel-12px/fusion-pixel-12px-proportional-zh_hans.otf",
+      "bytes": 4914964,
+      "sha256": "82e05156031524165202ccdae6c284aaeecd798271e32c65cbf0c6568ade8cfa"
+    },
+    {
+      "path": "09. 沙丘版画/manifest.json",
+      "bytes": 8651,
+      "sha256": "2093bb09db97a475129fe6799bed48b279eb09c64de44ad10e48ee411abefbaa"
+    },
+    {
+      "path": "09. 沙丘版画/theme.css",
+      "bytes": 9446,
+      "sha256": "687e039ed14e5d9f864d9e7f6853b14257006f2eb16cb9063d29dc41e2dcce7d"
+    },
+    {
+      "path": "09. 沙丘版画/主题展示案例/0. 案例预览.md",
+      "bytes": 1523,
+      "sha256": "3be1f2f71febb69b68785b3d4c3ea50b2b3913cd9e69c56b917203a8b7cfe50b"
+    },
+    {
+      "path": "09. 沙丘版画/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 1748265,
+      "sha256": "a3306552fefff7c3ea43c9508e4e451c8954290ecca617ed197061eb3f48ba5d"
+    },
+    {
+      "path": "09. 沙丘版画/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 1871864,
+      "sha256": "6159212a7bf018aebf204cd1d622a8816597bf77bb597a8ec04c5824a15229f3"
+    },
+    {
+      "path": "09. 沙丘版画/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1942780,
+      "sha256": "6b24ce83094a70fe9066877bbdbc756f6c8bff249bca15bef2d4aa517206f913"
+    },
+    {
+      "path": "09. 沙丘版画/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 1756771,
+      "sha256": "f6c9c48a5b0b2885ee42cb1f7bece08ddf461e4df1b10b1089849a92597b2b02"
+    },
+    {
+      "path": "09. 沙丘版画/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 1783649,
+      "sha256": "ca90f72bf07a5d4cbc96526fef70eb98a9fc1d76ee21077293dc2103a887cc55"
+    },
+    {
+      "path": "09. 沙丘版画/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1757240,
+      "sha256": "f72272a815abd911b518ab849370432ceb688a8e3776af38907e992041403347"
+    },
+    {
+      "path": "09. 沙丘版画/主题展示案例/模板介绍图.png",
+      "bytes": 10885309,
+      "sha256": "2888ee64e54c729b56e15841fe3c30ceb5f6abbbe639ab0c9912024dce909c7b"
+    },
+    {
+      "path": "09. 沙丘版画/主题视觉规范/1. 视觉风格总则.md",
+      "bytes": 2280,
+      "sha256": "ffeeae9ad85dba239aa2664ef9b5d5472f49d1f3561a91e8d09b5438f812629f"
+    },
+    {
+      "path": "09. 沙丘版画/主题视觉规范/2. 文章封图规范.md",
+      "bytes": 2838,
+      "sha256": "91cab96fea0631c3bea13a99bbbae14177747ef8a2cc7deb3d3bc4ddf07a771b"
+    },
+    {
+      "path": "09. 沙丘版画/主题视觉规范/3. 正文配图规范.md",
+      "bytes": 2652,
+      "sha256": "44ba26707dd75c4b28b406db2f97563544134f15b5149232b1e597304b697ff0"
+    },
+    {
+      "path": "09. 沙丘版画/主题视觉规范/4. 生图方法论.md",
+      "bytes": 5600,
+      "sha256": "53d6181f2ac15c1ff4eef88d618aa941278b99cb15e51771006e737f048a48fd"
+    },
+    {
+      "path": "09. 沙丘版画/正文组件结构/dune-footer.html",
+      "bytes": 112,
+      "sha256": "ecd5ba698bbfae8b7daa18945ebee673d0b9f7ebf51aadd5cca1c3fdb533223d"
+    },
+    {
+      "path": "09. 沙丘版画/正文组件结构/dune-opening.html",
+      "bytes": 123,
+      "sha256": "7f1355f3750a84bc8c31e3b95138ad37f0b98786fde323c59e2fc53e2473faa0"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/code-emblems.png",
+      "bytes": 29433,
+      "sha256": "5f83bc81ece954066eca8da841b692ad88b6155bfb1f6fdf905073a8c781180e"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/code-stilltent-watermark.png",
+      "bytes": 251106,
+      "sha256": "ae45a48e02362f449f462d48187d3c0407c8d3989f81d3f3688ae59e2691b462"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/divider-thopter.png",
+      "bytes": 234467,
+      "sha256": "3314e2fd309eb7c32cc8ef8f5182f2dd24721bd006ad9a4a2c87dd7d64147d91"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/footer-caladan.png",
+      "bytes": 444748,
+      "sha256": "ce0eca3b7b3cbf15292163faffe65803997f6a5fc7de717ac6a8bc5e687574ce"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/h1-hawk.png",
+      "bytes": 10543,
+      "sha256": "6b10d54fa312f824b5eb264f1a9b314c949b086db58763cfc3a481add2242638"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/h1-signet.png",
+      "bytes": 19951,
+      "sha256": "f53a784a85195fff0886026fd71b7d430602aa17fcd4b553a049d231e5ad7e5d"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/h2-crysknife.png",
+      "bytes": 16996,
+      "sha256": "59ccd6225643e302e6643cf2be69a6e50f8807d0d441184053f0444e957fc9af"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/header-exile.png",
+      "bytes": 475945,
+      "sha256": "30671ae3a9be54de905fea7a60ae9cbd5621abc408d2ae31f8c6b01b797bc20d"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/header-rescue.png",
+      "bytes": 493038,
+      "sha256": "1fa21b33dfbb07a5264e8fd5da024257c6846f04d2df9c5ea61d5dfdd57cc920"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/header-ride.png",
+      "bytes": 646149,
+      "sha256": "dbcdeb48f24999bd4998c79db0ab1725a2748e17473133f83a59c7d77151657e"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/header-storm.png",
+      "bytes": 819120,
+      "sha256": "4ff0f3fbf51f6ac83fddb1428ac8e01d38198eec774d7e3330da0081df3142e9"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/quote-gom-jabbar.png",
+      "bytes": 254923,
+      "sha256": "8bc0d55e74e4cf2d3f0419bd8400564fb27cb679171ba24d54432f586f55153c"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/reference-sand.png",
+      "bytes": 496032,
+      "sha256": "62e5f5fb3d8e56ba623644f601c67bfccf47035a65dfe64be69baeb8855b9701"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/table-reservoir-watermark.png",
+      "bytes": 224628,
+      "sha256": "ab55c888ca63992878aa4ecf0a31dc376b12046a30678dc59cafadfb6c3d42b3"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/ul-level-1-crysknife.png",
+      "bytes": 5088,
+      "sha256": "555fa52062b4aefacae258ab7bbb72e834d435690b440ccf74ee09dec9f089d4"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/ul-level-2-spice.png",
+      "bytes": 4086,
+      "sha256": "78fab48a3aeb1c5cdaa0530eae5bc65388421754c95d04201d9ddcf2240a5646"
+    },
+    {
+      "path": "09. 沙丘版画/透明装饰素材/underline-sand-trace.png",
+      "bytes": 2282,
+      "sha256": "ba48c85a7f76d9224e2c1ea2076899795b19cb305e6cb6e6583c999c08f9c7c1"
+    },
+    {
+      "path": "09. 沙丘版画/配套字体资源/chill-duan-hei-song/ChillDuanHeiSongRegular.coverage.json",
+      "bytes": 167637,
+      "sha256": "08e8995a49372215d5ce39c0769e8f56e0283480ebfeaa20fa4df55840f52d9e"
+    },
+    {
+      "path": "09. 沙丘版画/配套字体资源/chill-duan-hei-song/ChillDuanHeiSongRegular.woff2",
+      "bytes": 5799568,
+      "sha256": "76b24273587547357f021d277c3ac2671f3ad03fe12d1b6883a4df8fa9787363"
+    },
+    {
+      "path": "09. 沙丘版画/配套字体资源/chill-duan-hei-song/OFL.txt",
+      "bytes": 4326,
+      "sha256": "c8b1f37d38b02e3813ce9b7bf60d0dc04646a30bcfe8de2a71ef81bab15e3068"
+    },
+    {
+      "path": "09. 沙丘版画/配套字体资源/zhuque/OFL.txt",
+      "bytes": 4389,
+      "sha256": "66cc01ad4df62fca6936431a426104cb32a52ce8da49de9a7d643e02d7659043"
+    },
+    {
+      "path": "09. 沙丘版画/配套字体资源/zhuque/ZhuqueFangsong-Regular.coverage.json",
+      "bytes": 88352,
+      "sha256": "a1399b64f02a9d77e01abe72472565cb42716c2e7583a8c4e83a460513710163"
+    },
+    {
+      "path": "09. 沙丘版画/配套字体资源/zhuque/ZhuqueFangsong-Regular.woff2",
+      "bytes": 4806488,
+      "sha256": "13dc234bf8769033f7c8350ea07a98dfb80a9b1bc28a854d6611c3f8ba5cc38b"
+    },
+    {
+      "path": "10. 铅笔写意/manifest.json",
+      "bytes": 21727,
+      "sha256": "4c8c883118d561150d2760c906d1c9aa72ff03c0ef13c54f1fe78c6ecd612739"
+    },
+    {
+      "path": "10. 铅笔写意/theme.css",
+      "bytes": 18420,
+      "sha256": "89500b175c892fc6ea45d7b1f58b6ec672476e1ffbf0701f9c4b95d038236b29"
+    },
+    {
+      "path": "10. 铅笔写意/主题展示案例/0. 案例预览.md",
+      "bytes": 1688,
+      "sha256": "cf600f8a65640b377336a4b996db1df6f5551c7e865d6b1ea10a9b501339c98a"
+    },
+    {
+      "path": "10. 铅笔写意/主题展示案例/1. 封面-横版-2.35比1.png",
+      "bytes": 1568094,
+      "sha256": "ee7ecacfd08987609d2d27df275cceb285a33b75a59429cddfc6b197ee1bc910"
+    },
+    {
+      "path": "10. 铅笔写意/主题展示案例/2. 封面-方版-1比1.png",
+      "bytes": 1784250,
+      "sha256": "c8a53959a08402412845992949dab07f2ad9221aee89655f8108ec97edc30c36"
+    },
+    {
+      "path": "10. 铅笔写意/主题展示案例/3. 配图-概念解释-16比9.png",
+      "bytes": 1606009,
+      "sha256": "428e35458b30b25e5a79df6017d6e85ce40cf5acef1cc52a5ae18c6d99befb7b"
+    },
+    {
+      "path": "10. 铅笔写意/主题展示案例/4. 配图-流程讲解-16比9.png",
+      "bytes": 1581839,
+      "sha256": "25e36279aa4e7134fce3b053e75c2f6cf7ef356bf7aebd12129e8ab269ad4ac0"
+    },
+    {
+      "path": "10. 铅笔写意/主题展示案例/5. 配图-观点对照-16比9.png",
+      "bytes": 1749570,
+      "sha256": "78613115bed21d632e496f3b80edcacb8da0a5ef5600fc9f18a291bbb0db02ce"
+    },
+    {
+      "path": "10. 铅笔写意/主题展示案例/6. 配图-总结检查-16比9.png",
+      "bytes": 1567671,
+      "sha256": "e999e1239124301ab3bcb0310fd09a65d9443650249c3d9862511e2068990bc7"
+    },
+    {
+      "path": "10. 铅笔写意/主题展示案例/模板介绍图.png",
+      "bytes": 11350716,
+      "sha256": "371b36c3ac0ca189b67fd94be02d00f12fcba76bc883b1c34d6b272b3d7c2744"
+    },
+    {
+      "path": "10. 铅笔写意/主题视觉规范/1. 视觉风格总则.md",
+      "bytes": 2176,
+      "sha256": "69a04a780eeb7f237e77e19ab737fceef424eb30f71b11aa0c4fb5974f00de33"
+    },
+    {
+      "path": "10. 铅笔写意/主题视觉规范/2. 文章封图规范.md",
+      "bytes": 2838,
+      "sha256": "2e30926863299677063a62f9a9df1438ac7b624d3d75d32a3c846d2fad85b012"
+    },
+    {
+      "path": "10. 铅笔写意/主题视觉规范/3. 正文配图规范.md",
+      "bytes": 2652,
+      "sha256": "a9c7b0b94e572cc51b2388cdf18154f72b6ee7a5c0a4758c10f235b885baf1ce"
+    },
+    {
+      "path": "10. 铅笔写意/主题视觉规范/4. 生图方法论.md",
+      "bytes": 5484,
+      "sha256": "8417b4cc215173b9cb6bd2783f3dbead79a3d18fe1d589cd56f12733aeaff27c"
+    },
+    {
+      "path": "10. 铅笔写意/正文组件结构/code-desk.html",
+      "bytes": 274,
+      "sha256": "33e0f53499d5d59411f01285e545fe4395da4a2b2ebb4e37b08197fcbcb82d68"
+    },
+    {
+      "path": "10. 铅笔写意/正文组件结构/code-tail.html",
+      "bytes": 150,
+      "sha256": "37495efbdb58ca32dd11e365b007e16a3968b41edd55f56963b25ed3d1c349b6"
+    },
+    {
+      "path": "10. 铅笔写意/正文组件结构/ending.html",
+      "bytes": 234,
+      "sha256": "8364eb81911984b4c55f32cb986c83820fa91568296c7db25198d5c668922fc6"
+    },
+    {
+      "path": "10. 铅笔写意/正文组件结构/opening.html",
+      "bytes": 117,
+      "sha256": "fb91f65a16a2dfa7b15b7b1263fbbfaeb6dd492f32c98f3d9fe14eb6920e1725"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/article-image-frame-v6.png",
+      "bytes": 948939,
+      "sha256": "3580a693bc9f6b6fc0f14acdfb9e93cdf48f9536fad3191ee1d6372cad445c19"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/bullet-double-v5.png",
+      "bytes": 647311,
+      "sha256": "8ce58bcda6dc72855edd6430808194b7a01591a36f6c1f7829224bc6ebd6b1fc"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/bullet-single-v5.png",
+      "bytes": 720376,
+      "sha256": "ba207afdcde54c031ebe905d8a66d895991bf077e2a9b1f2fdf30ad8886dcab7"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/code-lanting-mark-v13.png",
+      "bytes": 542979,
+      "sha256": "78c1cecc4e515d5a6eb6a094d7e7fc1742da9af1dd3ff081c5d2f599c86f6209"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/code-lanting-v8.png",
+      "bytes": 568270,
+      "sha256": "a851d249c142320fb4774e38f1601190af139fe78e5bb10530db93a329456943"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/code-trio-v5.png",
+      "bytes": 889890,
+      "sha256": "b6cbd30300e48de074c84b8cb96ff3098ca15dfed715850e1e9523e0ad8d7cc1"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/ending-selected-v12.png",
+      "bytes": 556564,
+      "sha256": "17cc1a92c18d9f22b9c5b35ae2b0683bb46593b99f5419205e8d296269609a44"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/h1-number-01-v6.png",
+      "bytes": 452416,
+      "sha256": "c1a284907c40f671774542addfc1997b713bc0efa8dfede4f2ec885734cfa6e2"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/h1-number-02-v6.png",
+      "bytes": 290683,
+      "sha256": "8c02d6380a71b56c256648883b5ab6a87dbdf0951d0ec1ca168dc2ba80358825"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/h1-number-03-v6.png",
+      "bytes": 576020,
+      "sha256": "992acd9565f1d49e28d5f2338d879fd9ec9fc7c7dd32822b77057911b87faf67"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/h1-number-04-v6.png",
+      "bytes": 450839,
+      "sha256": "10f2a7475da8c0dbcb53d4f614859e0848b41387f366d18a5e6c00b1538c4d49"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/h1-watermark-01-v13.png",
+      "bytes": 405126,
+      "sha256": "41430fc42b6c04c253520c47c288b00b5e8cb527b3ef0d773cd28fa9e7f0126e"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/h1-watermark-02-v13.png",
+      "bytes": 253545,
+      "sha256": "c8800e50fc03d7d5ddaf851507b886c8ac6651726fc9d6e08deb5cc4d44ef5ae"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/h1-watermark-03-v13.png",
+      "bytes": 514488,
+      "sha256": "e41cdb9e6829317c165b5b285b12e0af678940710399347315001da7aa2e779e"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/h1-watermark-04-v13.png",
+      "bytes": 406575,
+      "sha256": "bea39ecd0a921b1778c590138678ca6896ce658aa6a18e54563034b3097c0e2f"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/h2-mountain-mark-v13.png",
+      "bytes": 67597,
+      "sha256": "68d25d143739cf926bd18cbbccdc417f752275ba4535970314daffb0e23cc2dd"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/h2-mountain-v6.png",
+      "bytes": 101752,
+      "sha256": "7a585a69546eaf118e12ac549faa6b5e66a59cc9f3925b278764ac9ddcdcbd68"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/header-bodhi-v3.png",
+      "bytes": 380385,
+      "sha256": "d645e290c463e30d10d9a2cc90a378b76823ce011dd58ab619e61cf55a961137"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/header-dongpo-v3.png",
+      "bytes": 210699,
+      "sha256": "5648df2a67cddb3e04800a183a022201facd019424e7b6769794dae94d137ac6"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/header-lanting-v2.png",
+      "bytes": 478590,
+      "sha256": "e201f122b1c869b5783665c0008e8b9ae4f5247d1715c3e64d0dd2c76a66625f"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/header-qianli-v2.png",
+      "bytes": 511221,
+      "sha256": "a0a6258845cb12f13e7b80f8cca25ddd85fdae977deb011f9944a5eccac2fb68"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/header-xiake-v3.png",
+      "bytes": 383248,
+      "sha256": "2da8a34c075e7f7466c0b86a0af26a363ea866d074e983a09980f13137d00646"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/header-yangming-v3.png",
+      "bytes": 430643,
+      "sha256": "40a001d9a83b5a77f5c9a9b10348e24ebb224782bbe1231cd31c573edcc0f9be"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/highlight-wash-v5.png",
+      "bytes": 1671813,
+      "sha256": "f68cf7197b6d77ee6b071279d486978d038feb328c8100c5be8e09f5c41d3437"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/number-1-v4.png",
+      "bytes": 622766,
+      "sha256": "06761d0314bcc1e7db6014a925c3997e7a97bdd239c13c71fe729fc52014005e"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/number-10-v4.png",
+      "bytes": 1127245,
+      "sha256": "908ab36b620516a57a18eb815c95c60173430f10b3629bdbfe253cdfe1926b88"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/number-2-v4.png",
+      "bytes": 862461,
+      "sha256": "8daf41cc42569ce4ffd35315a1848fc0cb8565b21ee1eb26aea360df741302ee"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/number-3-v4.png",
+      "bytes": 691649,
+      "sha256": "5bb77a953d14c893c42794787bbb34443dc178064081cf4226efefb8fa4f254f"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/number-4-v4.png",
+      "bytes": 761075,
+      "sha256": "344592840548b588dab1a8b9733555057831908468d7ed7a77f2abe08b95a9b3"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/number-5-v4.png",
+      "bytes": 754041,
+      "sha256": "1d868f600a8de3629e773b7a9b11e14d4486d6b85a49bf222aa84b671eb4ed71"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/number-6-v4.png",
+      "bytes": 854636,
+      "sha256": "b47819d8a316723c03d6af77e0d3ba6afa99a5cda4b0529fbdc2114636cfd866"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/number-7-v4.png",
+      "bytes": 645845,
+      "sha256": "364e40f9ae119b8548564a8bf7f78feeaf05ba0a11a40f37aca492849c1b922b"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/number-8-v4.png",
+      "bytes": 991393,
+      "sha256": "168f76558d30df6912e8da36dc8fd28dc49440440d02b419a132572e33992961"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/number-9-v4.png",
+      "bytes": 974355,
+      "sha256": "4b8c40cdb43bfb20e5c123c79cbc42375a72bc1135d7eded1b25770022091070"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/paper-grain.png",
+      "bytes": 2153627,
+      "sha256": "29521b949bbee347d3ecdfbcf117c103a0447aa7bb06d551299df7f904be265f"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/quote-selected-v10.png",
+      "bytes": 401988,
+      "sha256": "78ea10c4885acae36ed8b07904c7af05241e61b787272deadbedfd81035f6684"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/river-divider-v4.png",
+      "bytes": 564005,
+      "sha256": "ba6104f34c9a6fa26feba34f2e087c4ec45822b5e47e0a4dc02603f6249f949d"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/scroll-bottom-joined-v14.png",
+      "bytes": 319029,
+      "sha256": "bbc10fc3a1922b789e873f83bd13c7c4275b8121066b11dbfc8131fce0affd39"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/scroll-bottom-strip-v13.png",
+      "bytes": 335298,
+      "sha256": "903fa0ce222580434f6fa4a39d14c4b9394ddf5a90fec9ef5d6394fdcfb1367e"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/scroll-bottom-v4.png",
+      "bytes": 370750,
+      "sha256": "5d204dad66a90c5db57723fc9b8f4ef80cab2008aa3dc0a2f58b1115950346d7"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/scroll-sides-v4.png",
+      "bytes": 111539,
+      "sha256": "cf5975a1472736b196de70e74394de34899e3cd504d766c21b184bfe764aed21"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/scroll-top-joined-v14.png",
+      "bytes": 424239,
+      "sha256": "ec9bdc073db32a104f74cb44d91cc892ffa7828effcb409aba6e5b0119bf5006"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/scroll-top-strip-v13.png",
+      "bytes": 428406,
+      "sha256": "65bcc7a3e0b7896da2ec4dfdd58e4c27d29f47f8aafd01dd12a2eb4c89505b12"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/scroll-top-v4.png",
+      "bytes": 478011,
+      "sha256": "c1a8bb67ab6b65e770fae99cd1549b4db6e4770ee1b94a825d8f87d08f440d60"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/strike-stroke-v5.png",
+      "bytes": 239889,
+      "sha256": "e34d2a67cdc3bf43beb26dce670b685457992d0e55a53a8e79ffe84ef23f1ad6"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/table-head-rub-v5.png",
+      "bytes": 399277,
+      "sha256": "5cd83bed14d9d17bc7cf5482a7ce144d8f0d5622f24f8e0277f5017e6e48b8a8"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/table-head-rule-v14.png",
+      "bytes": 360981,
+      "sha256": "49be00d6a7c3ec2e94f86da23827291963cae755e67e713adf889028760c6a62"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/table-row-dashes-v5.png",
+      "bytes": 54107,
+      "sha256": "2851fd4324196065ca6e5e59f83df0a27e4641e7c766e05b981b7ceb7e99f80e"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/table-row-rule-v14.png",
+      "bytes": 22293,
+      "sha256": "786e66141608d3aab30bc3abdcf44f0ed0f5922199ea380dad90b4734a9ab141"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/tag-frame-v5.png",
+      "bytes": 273030,
+      "sha256": "bc5bab9f004ce8006e2d61113623ce2fa88af1f3331f262621a35556ba8c6e23"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/task-done-v4.png",
+      "bytes": 835269,
+      "sha256": "dbf11ea89ebfa715939851c75f9fe4b4803658b8655e496725abda4113497eb0"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/task-open-v4.png",
+      "bytes": 406658,
+      "sha256": "3a71c48830427c3a855e55a5af343018df557ca6253ca66a28457b1eada4e942"
+    },
+    {
+      "path": "10. 铅笔写意/透明装饰素材/underline-v4.png",
+      "bytes": 149177,
+      "sha256": "c8127cc65bb683eeed5a7ab1319449cc20fa26270502a1a017ac62b776a33983"
+    },
+    {
+      "path": "10. 铅笔写意/配套字体资源/HuiwenMincho-LICENSE.txt",
+      "bytes": 357,
+      "sha256": "ccabb820e5f96389077453e75fe7eb1e1b35d969df070003c177938226d000c3"
+    },
+    {
+      "path": "10. 铅笔写意/配套字体资源/HuiwenMincho.coverage.json",
+      "bytes": 97097,
+      "sha256": "d3dc917b6e9ef6b4a9de32a8a8140326845b77332066c6c67e43fa040b71af76"
+    },
+    {
+      "path": "10. 铅笔写意/配套字体资源/HuiwenMincho.woff2",
+      "bytes": 8020924,
+      "sha256": "f190d33a26eb0ea9bfa841d82806135f49580e6637439c01279769bbd5c6b832"
+    },
+    {
+      "path": "10. 铅笔写意/配套字体资源/JyunsaiKaai-OFL.txt",
+      "bytes": 4370,
+      "sha256": "d4440527471c359d33dcfc2440deb02f818e07c8cd144159e0688cd6ba18962d"
+    },
+    {
+      "path": "10. 铅笔写意/配套字体资源/JyunsaiKaai-Regular.woff2",
+      "bytes": 4110768,
+      "sha256": "a9232340e05e9d32d9ed9f57b0446a6e94dd292a0ccaf116fb7681dc09fd447d"
+    },
+    {
+      "path": "10. 铅笔写意/配套字体资源/JyunsaiKaai.coverage.json",
+      "bytes": 122743,
+      "sha256": "d42ecfe100907a5217e6efacb1616327e60df84aef1f2defad54ad76626de424"
+    },
+    {
+      "path": "10. 铅笔写意/配套字体资源/Zhuque-LICENSE.txt",
+      "bytes": 4389,
+      "sha256": "66cc01ad4df62fca6936431a426104cb32a52ce8da49de9a7d643e02d7659043"
+    },
+    {
+      "path": "10. 铅笔写意/配套字体资源/ZhuqueFangsong.coverage.json",
+      "bytes": 54689,
+      "sha256": "c5d2105ea0d952b099f5e853f7989361fda1485422360568a2e1d3625e271f13"
+    },
+    {
+      "path": "10. 铅笔写意/配套字体资源/ZhuqueFangsong.ttf",
+      "bytes": 4817412,
+      "sha256": "1a53029dc7e1b75f8db7a434be033d6e1682d7e2da1d65bb4e7358f578009d53"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2590,
+      "sha256": "5255e3be31614f0cd79330af4a5bd4e8e358cb7228ce51196a24feddc4c513aa"
     },
     {
       "path": "信息层级与排版.md",

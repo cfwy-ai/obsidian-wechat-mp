@@ -40,29 +40,33 @@ test('导出保留manifest指定原字体、覆盖表与已有许可，不改写
       await writeFile(join(path, 'theme.css'), '#nice{color:#222}');
       await writeFile(join(path, 'manifest.json'), JSON.stringify({ schema_version:3, theme_id:themeId, name:'原定字体', order:index, fonts:[font],
         heading_images:[{heading_image_id:'title', heading_levels:[1], font_id:'display'}] }));
-      expected.push({themeId, font, bytes});
+      expected.push({themeId, directoryName: `${String(index).padStart(2, '0')}. 原定字体`, font, bytes});
     }
     const script = fileURLToPath(new URL('../scripts/export-templates.mjs', import.meta.url));
     const result = spawnSync(process.execPath, [script, '--source', source, '--target', target], { encoding:'utf8' });
     assert.equal(result.status, 0, result.stderr);
-    for (const {themeId, font, bytes} of expected) {
-      const manifest = JSON.parse(await readFile(join(target, themeId, 'manifest.json'), 'utf8'));
+    for (const {themeId, directoryName, font, bytes} of expected) {
+      const manifest = JSON.parse(await readFile(join(target, directoryName, 'manifest.json'), 'utf8'));
+      assert.equal(manifest.theme_id, themeId, '目录名改成中文后 theme_id 仍是身份');
       assert.deepEqual(manifest.fonts, [font]);
-      assert.deepEqual(await readFile(join(target, themeId, font.file)), bytes);
-      assert.equal(await readFile(join(target, themeId, font.coverage_file), 'utf8'), '[19968]');
+      assert.deepEqual(await readFile(join(target, directoryName, font.file)), bytes);
+      assert.equal(await readFile(join(target, directoryName, font.coverage_file), 'utf8'), '[19968]');
       if (font.compatibility) {
         for (const key of ['source_file','source_coverage_file','report_file']) {
-          assert.deepEqual(await readFile(join(target,themeId,font.compatibility[key])),await readFile(join(source,themeId,font.compatibility[key])));
+          assert.deepEqual(await readFile(join(target,directoryName,font.compatibility[key])),await readFile(join(source,themeId,font.compatibility[key])));
         }
       }
     }
-    assert.equal(await readFile(join(target, 'theme-1/配套字体资源/NOTICE.txt'), 'utf8'), 'Original accompanying notice\n');
+    assert.equal(await readFile(join(target, '01. 原定字体/配套字体资源/NOTICE.txt'), 'utf8'), 'Original accompanying notice\n');
     const catalog = JSON.parse(await readFile(join(target, 'catalog.json'), 'utf8'));
     assert.ok(catalog.themes.every(theme => theme.font_changes.length === 0));
+    // 目录名给人看，catalog 的 directory 负责定位，theme_id 不随之改变。
+    assert.deepEqual(catalog.themes.map(theme => theme.directory).sort(),
+      expected.map(item => item.directoryName).sort());
     assert.equal((await validateTemplates(target)).themes, 10);
 
     // A declared notice remains a real resource contract, not a generated claim.
-    const notice = join(target, 'theme-1/配套字体资源/NOTICE.txt');
+    const notice = join(target, '01. 原定字体/配套字体资源/NOTICE.txt');
     await rm(notice);
     await writeFile(join(target, 'catalog.json'), JSON.stringify(await createTemplateCatalog(target, catalog.themes)));
     await assert.rejects(validateTemplates(target), /未打包已登记的字体许可/);
