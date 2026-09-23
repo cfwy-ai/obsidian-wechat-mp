@@ -153,7 +153,7 @@
 #nice ol[start="10"] > li:nth-child(1):not(.wechat-task-item) { list-style-type: none; margin-left: 0; padding-left: 29px; background-image: url("theme-asset://number-10-v4"); background-repeat: no-repeat; background-position: left 4px; background-size: 23px 23px; }
 /* V14：原有笔触与实时正文共存。画轴用真图片，代码纸边与水印在受保护的透明层。 */
 #nice .pencil-desk-body { margin:0; padding:0; background-color:transparent; background-image:url("theme-asset://scroll-sides-v4"); background-size:100% 160px; background-repeat:repeat-y; }
-#nice .pencil-code-desk .pencil-desk-trio { display:block; width:76px; max-width:76px; height:auto; margin:0 0 0 25px; padding:2px 0 0; border:none; background:transparent; }
+#nice .pencil-code-desk .pencil-desk-trio { display:block; width:76px; max-width:76px; height:auto; margin:0 0 0 8%; padding:2px 0 0; border:none; background:transparent; }
 #nice pre { width:100%; max-width:100%; margin:0; padding:0; border:none; border-radius:0; color:#43433B; background-color:transparent; background-image:url("theme-asset://scroll-sides-v4"); background-size:100% 160px; background-repeat:repeat-y; }
 #nice pre code { display:block; padding:5px 8% 14px; border:none; border-radius:0; color:#43433B; background-color:transparent; background-image:url("theme-asset://code-lanting-v8"); background-size:contain; background-repeat:no-repeat; background-position:center bottom; font-family:"SFMono-Regular",Menlo,Consolas,monospace; font-size:13px; line-height:1.8; white-space:pre-wrap; word-break:break-all; }
 #nice .pencil-code-tail { width:100%; max-width:100%; margin:0 0 26px; padding:0; border:none; background:transparent; }
