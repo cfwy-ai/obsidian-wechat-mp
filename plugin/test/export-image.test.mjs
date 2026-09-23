@@ -150,6 +150,9 @@ test('手机端导出页面整体收窄，标题按比例缩小但不低于 24px
   assert.match(desktop, /content="width=677, initial-scale=1"/);
   assert.match(desktop, /html,body\{margin:0;padding:0;width:677px;/);
   assert.match(desktop, /#wechat-long-image-root\{width:677px;/);
+  // Chromium 把「、【」里的开括号收窄成半角，canvas 仍按全角字形绘制，
+  // 开括号的墨迹会压到下一个字上。长图页必须关掉这项收窄。
+  assert.match(desktop, /html\{text-spacing-trim:space-all;\}/);
   assert.match(desktop, /\.wechat-long-image-title\{[^}]*font-size:34px;/);
 
   const mobile = buildExportHtml({

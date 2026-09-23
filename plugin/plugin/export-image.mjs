@@ -163,6 +163,10 @@ export function buildExportHtml({
 <meta name="viewport" content="width=${layout}, initial-scale=1">
 <style>
 ${titleTheme.fontCss ?? ''}
+/* Chromium 会把紧跟在闭标点后的全角开标点（如「、【」）收窄成半角，
+   但 canvas 的 fillText 画的仍是全角字形，开括号的墨迹落进下一个字里。
+   长图靠 html2canvas 逐段绘制，所以这里关掉收窄，让排版宽度与字形宽度一致。 */
+html{text-spacing-trim:space-all;}
 html,body{margin:0;padding:0;width:${layout}px;background:#fff;}
 body{overflow:hidden;color:#222;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;}
 #wechat-long-image-root{width:${layout}px;min-height:1px;overflow:hidden;background:#fff;}
