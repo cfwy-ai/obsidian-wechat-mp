@@ -12,7 +12,9 @@
     "deploy": "npm run build && node scripts/install.mjs",
     "audit:templates": "node scripts/audit-templates.mjs",
     "audit:live": "node tools/audit-live-themes.mjs",
-    "package": "node scripts/package-release.mjs"
+    "package": "node scripts/package-release.mjs",
+    "sync": "node scripts/sync-distribution.mjs",
+    "sync:check": "node scripts/sync-distribution.mjs --check"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
