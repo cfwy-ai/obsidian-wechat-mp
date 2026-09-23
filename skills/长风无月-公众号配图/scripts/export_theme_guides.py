@@ -44,10 +44,11 @@ def main():
         files = [(shared_path, hierarchy_text)]
         source_hashes = {str(common.relative_to(SKILL)): hashlib.sha256(common.read_bytes()).hexdigest()}
         source_hashes[str(hierarchy.relative_to(SKILL))] = hashlib.sha256(hierarchy.read_bytes()).hexdigest()
-        for theme in themes:
+        for index, theme in enumerate(themes, 1):
             source = SKILL / "references" / "themes" / (theme["theme_id"] + ".md")
             source_hashes[str(source.relative_to(SKILL))] = hashlib.sha256(source.read_bytes()).hexdigest()
-            target = args.output / theme["theme_id"] / "主题视觉规范"
+            # 与发布导出同一套目录命名：序号加中文名。
+            target = args.output / f'{index:02d}. {theme["name"]}' / "主题视觉规范"
             content = {
                 "1. 视觉风格总则.md": source.read_text(encoding="utf-8"),
                 "2. 文章封图规范.md": compose("怎样为「" + theme["name"] + "」生成清楚的文章封图", ["文章封图", "缩图与遮挡", "字体、画材与事实", "交付", "参数依据"], sections),
