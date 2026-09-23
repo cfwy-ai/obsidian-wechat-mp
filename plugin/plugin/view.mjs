@@ -45,6 +45,7 @@ import { renderArticle } from '../src/pipeline.mjs';
 import { documentTitleForDisplay } from '../src/document-title.mjs';
 import { prepareExportTitleTheme } from './export-title-theme.mjs';
 import { createArticleHeaderControls } from './header-controls.mjs';
+import { replaceNativeQuoteContainers } from '../src/native-quote.mjs';
 import { readArticleHeaderSelection, readArticleFooterSelection, saveArticleHeaderSelection,
   saveArticleFooterSelection, uploadArticleHeader } from './article-header-state.mjs';
 
@@ -588,16 +589,22 @@ export class WechatPreviewView extends ItemView {
   }
 
   async materializeRenderForLayout(render, layoutWidth) {
+    // 引用图要先做：它按 blockquote 定位，换完容器就找不到了。
+    let materialized = render;
     if (render?.referenceLayoutSource) {
-      return { ...render, ...await replayReferenceLayout({
+      materialized = { ...render, ...await replayReferenceLayout({
         source: render.referenceLayoutSource,
         layoutWidth,
         materialize: (input) => this.headingImageRuntime.materialize(input),
       }) };
+    } else if (render?.quoteImageSource) {
+      const result = await this.headingImageRuntime.materialize({ ...render.quoteImageSource, layoutWidth });
+      materialized = { ...render, html: result.html, images: result.images, imageWarnings: result.warnings };
     }
-    if (!render?.quoteImageSource) return render;
-    const result = await this.headingImageRuntime.materialize({ ...render.quoteImageSource, layoutWidth });
-    return { ...render, html: result.html, images: result.images, imageWarnings: result.warnings };
+    if (typeof materialized?.html !== 'string') return materialized;
+    // 微信会给原生 blockquote 补左侧竖线，内联 border 盖不住；复制和导出前统一换成 section。
+    const quotes = replaceNativeQuoteContainers(materialized.html);
+    return quotes.replaced ? { ...materialized, html: quotes.html } : materialized;
   }
 
   queueScrollSync(source, target) {

@@ -63,6 +63,10 @@ const SAFE_PROPERTIES = new Set([
   'border-left-width',
   'border-left-style',
   'border-left-color',
+  // 单元格圆角只在 border-collapse: separate 下生效，微信会强制合并边框；
+  // 少了这两项，主题就没有任何办法让表格圆角在公众号里留下来。
+  'border-collapse',
+  'border-spacing',
   'border-radius',
   'border-top-left-radius',
   'border-top-right-radius',

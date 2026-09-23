@@ -124,6 +124,9 @@ export function materializeTableSurfaces(html, { policy = null, backgroundImages
             surfaceStyle.append(declaration.clone());
           }
           if (padding(key)) contentStyle.append(declaration.clone());
+          // 微信会给最内层文字容器补自己的 color，继承来的颜色会被盖掉，
+          // 深底表头于是变成深字。颜色显式写到文字容器上，不依赖继承。
+          if (key === 'color') contentStyle.append(declaration.clone());
         }
         const surface = $('<section></section>').attr({[SURFACE]:'cell','data-no-dark':'',style:css(surfaceStyle)});
         const content = $('<section></section>').attr({[CONTENT]:'','data-no-dark':'',style:css(contentStyle)});

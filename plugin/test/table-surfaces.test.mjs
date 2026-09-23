@@ -63,6 +63,20 @@ const cell = ($, selector) => {
   return { native, surface, content };
 };
 
+test('文字容器自带颜色，不靠继承——微信会给叶子节点补 color', () => {
+  const html = wrap("<table><thead><tr><th style='background-color:#303030;color:#F7F7F7;padding:11px 9px'>表头</th></tr></thead>"
+    + "<tbody><tr><td style='color:#414141;padding:11px 9px'>单元格</td></tr></tbody></table>");
+  const $ = load(run(html).html);
+  const head = cell($, 'th');
+  assert.equal(style(head.surface).get('color'), '#F7F7F7', '底色层仍要带颜色');
+  assert.equal(style(head.content).get('color'), '#F7F7F7', '深底表头的文字必须自带浅色，否则微信会盖成深色');
+  const body = cell($, 'td');
+  assert.equal(style(body.content).get('color'), '#414141');
+  // 只补颜色，不把字号行高一并下放，避免改变原有排版。
+  assert.equal(style(head.content).has('font-size'), false);
+  assert.equal(style(head.content).has('line-height'), false);
+});
+
 test('table surfaces: opt-in only; null/default/other strategy return original HTML byte-for-byte', () => {
   const html = `<section id='nice'>\n<table class='probe'><tr><td style='padding:9px;background-color:#e8e8e8'>值 &amp; 内容</td></tr></table>\n</section>`;
   for (const options of [undefined, {}, { policy: null }, { policy: { strategy: 'preserve-backgrounds' } }, { policy: { strategy: 'disabled' } }]) {

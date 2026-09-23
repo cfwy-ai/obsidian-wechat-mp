@@ -134,7 +134,7 @@ async function main() {
     });
     const boardReport = await syncTree({
       label: '', source, target,
-      only: (rel) => rel.split(sep)[0] === '主题展示案例' && !rel.endsWith('.md'),
+      only: (rel) => (rel.split(sep)[0] === '主题展示案例' && !rel.endsWith('.md')) || rel === 'theme.css',
     });
     for (const key of ['same', 'updated']) { assets[key] += assetReport[key]; boards[key] += boardReport[key]; }
     assets.targetOnly.push(...assetReport.targetOnly.map((rel) => `${theme.directory}/${rel}`));
@@ -150,7 +150,7 @@ async function main() {
   console.log(apply ? '同步结果' : '对账结果（--check，未写入）');
   for (const r of results) console.log(line(r));
   console.log(line({ label: '主题素材  →  templates/', ...assets }));
-  console.log(line({ label: '模板展示图  →  templates/', ...boards }));
+  console.log(line({ label: '主题样式与展示图  →  templates/', ...boards }));
 
   const orphans = [...results.flatMap((r) => r.targetOnly.map((rel) => `${r.label.split(' ')[0]}: ${rel}`)), ...assets.targetOnly];
   const unpaired = generated.flatMap((g) => g.missingInSource.map((rel) => `${g.label}/${rel}`));
